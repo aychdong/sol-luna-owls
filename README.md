@@ -8,6 +8,8 @@
 
 **Sol & Luna** 是为 ChatGPT CodeX 桌面版 设计的一对日夜猫头鹰桌宠：白天的 **Sol** 与夜间的 **Luna**。Sol 在拉丁语中是表示太阳的阳性名词，Luna 表示月亮。
 
+在希腊神话中，一只小猫头鹰（纵纹腹小鸮）代表着智慧女神雅典娜以及她在罗马神话中的化身弥涅耳瓦。由于这种联系，这种鸟通常被称为雅典娜的猫头鹰或密涅瓦的猫头鹰。在整个西方世界它成为知识、智慧、敏锐和博学的象征。
+
 角色融合手绘羽毛质感与柔和的立体光影，保留大头、圆身、短腿、灵动眉羽、琥珀眼和金纹披风。日间版使用灰蓝羽毛与太阳主题配饰；夜间版使用深靛蓝羽毛与月亮主题配饰。
 
 ### 下载与安装
@@ -53,6 +55,8 @@
 ## English
 
 **Sol & Luna** are a pair of day-and-night owl companions created for ChatGPT CodeX desktop apps. **Sol** is the masculine Latin noun for the sun; **Luna** means the moon.
+
+In Greek mythology, a little owl (Athene noctua) traditionally represents or accompanies Athena, the virgin goddess of wisdom, or Minerva, her syncretic incarnation in Roman mythology. Because of such association, the bird—often referred to as the "owl of Athena" or the "owl of Minerva"—has been used as a symbol of knowledge, wisdom, perspicacity and erudition throughout the Western world
 
 Their design combines hand-painted feathers with soft dimensional lighting: large expressive heads, rounded bodies, short legs, lively brow feathers, amber eyes, and gold-patterned capes. Sol wears slate-blue plumage and solar accents; Luna wears deep indigo with lunar accents.
 
