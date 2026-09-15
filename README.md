@@ -6,7 +6,7 @@
 
 ## 中文介绍
 
-**Sol & Luna** 是为 O Fortuna 设计的一对日夜猫头鹰桌宠：白天的 **Sol** 与夜间的 **Luna**。Sol 在拉丁语中是表示太阳的阳性名词，Luna 表示月亮。
+**Sol & Luna** 是为 ChatGPT CodeX 桌面版 设计的一对日夜猫头鹰桌宠：白天的 **Sol** 与夜间的 **Luna**。Sol 在拉丁语中是表示太阳的阳性名词，Luna 表示月亮。
 
 角色融合手绘羽毛质感与柔和的立体光影，保留大头、圆身、短腿、灵动眉羽、琥珀眼和金纹披风。日间版使用灰蓝羽毛与太阳主题配饰；夜间版使用深靛蓝羽毛与月亮主题配饰。
 
@@ -52,7 +52,7 @@
 
 ## English
 
-**Sol & Luna** are a pair of day-and-night owl companions created for O Fortuna. **Sol** is the masculine Latin noun for the sun; **Luna** means the moon.
+**Sol & Luna** are a pair of day-and-night owl companions created for ChatGPT CodeX desktop apps. **Sol** is the masculine Latin noun for the sun; **Luna** means the moon.
 
 Their design combines hand-painted feathers with soft dimensional lighting: large expressive heads, rounded bodies, short legs, lively brow feathers, amber eyes, and gold-patterned capes. Sol wears slate-blue plumage and solar accents; Luna wears deep indigo with lunar accents.
 
