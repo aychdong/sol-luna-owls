@@ -1,0 +1,226 @@
+{
+  "version": "2026-09-14-bilingual",
+  "status": "complete",
+  "files": [
+    {
+      "path": "Sol-Luna-安装包.zip",
+      "bytes": 3814874,
+      "sha256": "63eefda3a914d1cb49043a3d0b20059a559f1789a5a76c38516a886863d8de0f"
+    },
+    {
+      "path": "使用说明.txt",
+      "bytes": 3805,
+      "sha256": "6d8e497182cccfe94b171f8fa12b96f5ab685cf07f6d71741a77c8818da65381"
+    },
+    {
+      "path": "制作记录/Luna-动画-prompt.txt",
+      "bytes": 1850,
+      "sha256": "ed7f95beb7882732268caed62c0db71ace46b6353b1e2bae8325c673d0488c93"
+    },
+    {
+      "path": "制作记录/Luna-配色修正-prompt.txt",
+      "bytes": 1267,
+      "sha256": "7f0231b7da80ceaea247471ca65433141a9256b18d0461d17b9f4f52840173a9"
+    },
+    {
+      "path": "制作记录/Sol-动画-prompt.txt",
+      "bytes": 3082,
+      "sha256": "8ed9034e136cd20dd69c7df69a55a649340d2e4ddd3f350bbae6eba689cfe736"
+    },
+    {
+      "path": "制作记录/build_pets.py",
+      "bytes": 10648,
+      "sha256": "fe295af3be7ba96a11914eb25423c038040a713dbcad63c2a9b6d732c62bd593"
+    },
+    {
+      "path": "制作记录/desktop-format.json",
+      "bytes": 1537,
+      "sha256": "8a0798068d7a95d271092606237ef58c03928e1104055f1d631f08672935184a"
+    },
+    {
+      "path": "制作记录/native-loader-validation.json",
+      "bytes": 510,
+      "sha256": "8b53ce68f034af0ba541a6626adc8802307dd84d01e14d7538b7c993d4f966be"
+    },
+    {
+      "path": "制作记录/preview-template.html",
+      "bytes": 13150,
+      "sha256": "552d5459c0ee2a1e52b9fc7233188b6dced31263f913a399caed8ca2ec8c056a"
+    },
+    {
+      "path": "制作记录/validation.json",
+      "bytes": 73745,
+      "sha256": "9e8fad625192bc291e7b6bbacf7def9656f092747292a6fa54cc4c926dfc68c6"
+    },
+    {
+      "path": "制作记录/制作说明.md",
+      "bytes": 2009,
+      "sha256": "5be347cc32792361388fb89fe3480a9d48b74d6fcee3ace6d607ba487a32c8c6"
+    },
+    {
+      "path": "制作记录/原始素材/luna-atlas-final-generated.png",
+      "bytes": 3568604,
+      "sha256": "1049503c12534be69387d9061fbe7e403b8eaf357ae0cbdc688d3b0a72451075"
+    },
+    {
+      "path": "制作记录/原始素材/luna-atlas-generated.png",
+      "bytes": 3553628,
+      "sha256": "3259d72e8ee998dbf33bf511b4a32609a4d85b5076244e498340b20a6e2801ba"
+    },
+    {
+      "path": "制作记录/原始素材/sol-atlas-generated.png",
+      "bytes": 3484846,
+      "sha256": "2641a3e3656bde72dcd5ef3407d39aba7cbc5e1d7179099f502943fa32a01bd9"
+    },
+    {
+      "path": "制作记录/设计定稿-prompt.txt",
+      "bytes": 2868,
+      "sha256": "68ed4c8f331956e55f113a9244450bfb8fd885c1562fb54a1b9bcdbf6b7444ed"
+    },
+    {
+      "path": "可直接安装/luna/pet.json",
+      "bytes": 228,
+      "sha256": "47caa8e3b060e3bd1c7bd43edd73f17ecfa25e95f21d479f564da3bf89048c82"
+    },
+    {
+      "path": "可直接安装/luna/spritesheet.webp",
+      "bytes": 1819008,
+      "sha256": "62ea863236dd59162a9869bd1173de7579c04cd293292c82027a92b915b1d3c2"
+    },
+    {
+      "path": "可直接安装/sol/pet.json",
+      "bytes": 211,
+      "sha256": "05024670865c29a5c43a9b520ac598164753387b614394b39cd1bfa718fc45d2"
+    },
+    {
+      "path": "可直接安装/sol/spritesheet.webp",
+      "bytes": 2000634,
+      "sha256": "80ef6368877251272a7491599108b04108f019592206af506425edb98abcdb34"
+    },
+    {
+      "path": "预览/Sol-Luna-设计定稿.png",
+      "bytes": 2221435,
+      "sha256": "293f55e97c85aba4ef6d5fd6e58fcc0b23bdc30550f1f337e6e8bdfc988d7e64"
+    },
+    {
+      "path": "预览/luna-failed.webp",
+      "bytes": 210162,
+      "sha256": "7ed374aceef9dca20993aea1ffb807fdd8408e46073f2f403cb93e35b32560f6"
+    },
+    {
+      "path": "预览/luna-idle.png",
+      "bytes": 38491,
+      "sha256": "89659ff1d0d13774e9a1a26b2b800b3e9606c389427d731390b933820b065b7b"
+    },
+    {
+      "path": "预览/luna-idle.webp",
+      "bytes": 161716,
+      "sha256": "518a749d84bfd58415bdff63db6191e4a4f75ec65af0cf450da8c133a3a98575"
+    },
+    {
+      "path": "预览/luna-jumping.webp",
+      "bytes": 133352,
+      "sha256": "ac683093d39a4f0237bbaa3ecaa0d8aa48409bf9bdec4454ca6303767f085649"
+    },
+    {
+      "path": "预览/luna-review.webp",
+      "bytes": 164158,
+      "sha256": "9659e58bd04bb37f99411a04d3d077495aa05570108ea4fcb985ee4818bb77b4"
+    },
+    {
+      "path": "预览/luna-running-left.webp",
+      "bytes": 177988,
+      "sha256": "a9a55eb51417f42ad7356fa7a87afb06465d059a3725d1bd8da4838bea11a6de"
+    },
+    {
+      "path": "预览/luna-running-right.webp",
+      "bytes": 175250,
+      "sha256": "31934695067786b6f92e5e3fecd137aac680f62a72b3dd4dd755b2068ca8d3cb"
+    },
+    {
+      "path": "预览/luna-running.webp",
+      "bytes": 158508,
+      "sha256": "1801b0045c567faab08aa105608096d96faef1055bdc3d85f110bb6fb1a5bd5f"
+    },
+    {
+      "path": "预览/luna-waiting.webp",
+      "bytes": 164774,
+      "sha256": "a5760233e2eabe9464b1270e1921bbdb45a964d6e9bc1db506807c515b63d9dc"
+    },
+    {
+      "path": "预览/luna-waving.webp",
+      "bytes": 109862,
+      "sha256": "9e8191c8128873b7d881402bff0769621204393fe2a98fbf76abb48a2f059e1a"
+    },
+    {
+      "path": "预览/luna-全帧检查.jpg",
+      "bytes": 800881,
+      "sha256": "0971c7a06b4ee7221db66fccd5a9e08778bb3431d2914367e2f798dd90f21d1b"
+    },
+    {
+      "path": "预览/sol-failed.webp",
+      "bytes": 232082,
+      "sha256": "45912c806a3fb620f30bab90f3bbe51fb2a1a358ae8487606b5c584748c84480"
+    },
+    {
+      "path": "预览/sol-idle.png",
+      "bytes": 41002,
+      "sha256": "f20d58567d81f74160f8dd988106f8cd62a79d71d8254db20a2718f98d5b83c9"
+    },
+    {
+      "path": "预览/sol-idle.webp",
+      "bytes": 177456,
+      "sha256": "5f4740bbbabef8b04a858743b73e33713074b2a9257da5c36bc905af59503cee"
+    },
+    {
+      "path": "预览/sol-jumping.webp",
+      "bytes": 146764,
+      "sha256": "808ee0ec00d04d099146ab93cf0d5ce00728fe3f0c95e3e2fe8802c456750af1"
+    },
+    {
+      "path": "预览/sol-review.webp",
+      "bytes": 180506,
+      "sha256": "46d5a18958a37f103a51ad0bdd44df50eadb243470746c13c74b27cbe90c1f66"
+    },
+    {
+      "path": "预览/sol-running-left.webp",
+      "bytes": 193758,
+      "sha256": "9d80ac7cb8a121653305752d3fe71cc174dcda96822e41aebc761259d0be00a6"
+    },
+    {
+      "path": "预览/sol-running-right.webp",
+      "bytes": 189666,
+      "sha256": "71d09041f2c549b8e786c4b90c8260669bbc63b3fbbf4a85f07478d724f15edf"
+    },
+    {
+      "path": "预览/sol-running.webp",
+      "bytes": 174596,
+      "sha256": "2f243a830e7e64ab7a281db01a845170478c50855e6b84c7a6351444b39c806d"
+    },
+    {
+      "path": "预览/sol-waiting.webp",
+      "bytes": 182892,
+      "sha256": "5276d09fe0ca529412bc5a88743c7f32e2df37f91207aeeee9a787dcf73d6a1d"
+    },
+    {
+      "path": "预览/sol-waving.webp",
+      "bytes": 121320,
+      "sha256": "48b23e9b12aaefe0f96f00b851aa3d5e5fc9301afaebe8711393a653bfa6f5f5"
+    },
+    {
+      "path": "预览/sol-全帧检查.jpg",
+      "bytes": 822144,
+      "sha256": "4aab9027302482e513deae922a0eb240d04bfac6f2036af529e1717254e04fa8"
+    },
+    {
+      "path": "预览/动画预览.html",
+      "bytes": 5105959,
+      "sha256": "6ce51b492b16c51e59fda26a4c928c3e719e45f921e9b1d5a253245a07ed67e8"
+    },
+    {
+      "path": "预览/实际角色-浅深背景.png",
+      "bytes": 138156,
+      "sha256": "45cd8773dd6ca7f015b84b740b4dcef0bf48c136ec9954c765128655193379f8"
+    }
+  ]
+}

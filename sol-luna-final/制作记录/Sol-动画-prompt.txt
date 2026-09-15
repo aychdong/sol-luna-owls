@@ -1,0 +1,17 @@
+Use case: identity-preserve. Deliver one production game spritesheet of SOL, the LEFT/daytime owl in the reference. Match that EXACT compact round cute character: large round head, sparkling amber eyes, graceful expressive upswept brow feathers, short plump feathered belly, tiny feet with NO exposed long legs. Navy gold-olive embroidered cape, round golden SUN medallion, cream body, gray-blue feathers. Preserve his intelligent gentle personality and rich hand-painted/softly realistic feather rendering IN EVERY FRAME. Never turn him into a generic owl without costume. The cape, sun clasp and brow feathers are required in every pose.
+
+STRICT TECHNICAL LAYOUT: portrait image of exactly1536x2288 pixels, 8 columns by11 rows, all88 cells populated. Each cell192x208. Consistent invisible cell grid, same character scale all cells. Standing feet baseline relative y=188, center x=96, character full height160px including brow feathers, standing width112px, spread wings max174px. Do not crop any wing, brow, cape, tail or toes. No title, text, panels, grid lines, labels, ornaments, background scene or props outside cells. ALL BACKGROUND IS GENUINE TRANSPARENT RGBA ALPHA, not an opaque simulated transparency pattern. No checkerboard or ground shadows, no floating specks. Owl interiors solid opaque.
+
+Animation order, top to bottom (8 frames in EVERY row):
+Row1: IDLE. First6 frames: alert neutral, tiny breathing, slight curious head tilt, tilt3degrees other way, subtle wing settle, alert neutral. Eyes open in all6. Last2 neutral.
+Row2: RUN RIGHT. 8-step seamless run cycle facing screen right, alternating tiny feet with small hop, cape trails left and swings. Same in-place center.
+Row3: RUN LEFT. corresponding8-step run facing screen left; cape trails right.
+Row4: WAVE. First4 frames: neutral, wing lifts, friendly wing wave, wing lowers; remaining4 neutral.
+Row5: JUMP. First5 frames: ready, slight compress, hop airborne with wings spread and toes12px above baseline, gentle landing, ready; remaining3 neutral.
+Row6: FAILED. First8: small head dip, brief quick eye blink, little shake, recover and return to alert. NO anger, tears or lost costume.
+Row7: WAITING. First6: frontal, glance left, neutral, glance right, curious tilt, neutral; remaining2 neutral.
+Row8: WORKING. First6: same small navy laptop each frame, eyes focused, small alternating wing typing motions, cape retained. Last2 neutral without laptop.
+Row9: REVIEWING. First6: same small navy book in wing, glance at pages, small nod, look up. Last2 neutral without book.
+Row10: first8 of16 look directions CLOCKWISE FROM UP in22.5degree steps: up/N, NNE, NE, ENE, E, ESE, SE, SSE. Front facing body remains static, head and pupils track each direction, BOTH eyes visible. No back views.
+Row11: next8: down/S, SSW, SW, WSW, W, WNW, NW, NNW. Both eyes visible, tiny gentle head turns, warm expression.
+Preserve the user's design fully in miniature. No tall leg shafts. No changing body proportions between frames. Exact8columns and11rows aligned edge-to-edge regular cells. Produce the atlas image only.

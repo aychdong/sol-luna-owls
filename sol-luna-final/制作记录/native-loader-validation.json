@@ -1,0 +1,24 @@
+[
+  {
+    "path": "sol-luna-final/可直接安装/sol/spritesheet.webp",
+    "accepted": true,
+    "spriteVersionNumber": 2,
+    "extension": "webp",
+    "dimensions": {
+      "height": 2288,
+      "width": 1536,
+      "mimeType": "image/webp"
+    }
+  },
+  {
+    "path": "sol-luna-final/可直接安装/luna/spritesheet.webp",
+    "accepted": true,
+    "spriteVersionNumber": 2,
+    "extension": "webp",
+    "dimensions": {
+      "height": 2288,
+      "width": 1536,
+      "mimeType": "image/webp"
+    }
+  }
+]

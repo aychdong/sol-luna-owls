@@ -1,0 +1,3938 @@
+{
+  "status": "passed",
+  "scope": "Package format, alpha, cell bounds, lossless encoding, non-empty animation frames",
+  "nativeAppSelectedAndPlayed": false,
+  "appFormatVerifiedVersion": "26.901.51231",
+  "pets": [
+    {
+      "pet": "sol",
+      "status": "passed",
+      "width": 1536,
+      "height": 2288,
+      "mode": "RGBA",
+      "frameCount": 88,
+      "requiredFramesByRow": [
+        6,
+        8,
+        8,
+        4,
+        5,
+        8,
+        6,
+        6,
+        6,
+        8,
+        8
+      ],
+      "sourceToOutputScale": 1.1940298507462686,
+      "webpLosslessPixelRoundtrip": true,
+      "sourceSha256": "2641a3e3656bde72dcd5ef3407d39aba7cbc5e1d7179099f502943fa32a01bd9",
+      "spriteSha256": "80ef6368877251272a7491599108b04108f019592206af506425edb98abcdb34",
+      "frames": [
+        {
+          "row": 0,
+          "column": 0,
+          "alphaBox": [
+            32,
+            25,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6427
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "alphaBox": [
+            30,
+            20,
+            162,
+            190
+          ],
+          "transparentFraction": 0.6462
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "alphaBox": [
+            34,
+            25,
+            158,
+            190
+          ],
+          "transparentFraction": 0.6388
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "alphaBox": [
+            28,
+            21,
+            163,
+            190
+          ],
+          "transparentFraction": 0.6506
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "alphaBox": [
+            34,
+            26,
+            158,
+            190
+          ],
+          "transparentFraction": 0.6321
+        },
+        {
+          "row": 0,
+          "column": 5,
+          "alphaBox": [
+            34,
+            27,
+            157,
+            190
+          ],
+          "transparentFraction": 0.6388
+        },
+        {
+          "row": 0,
+          "column": 6,
+          "alphaBox": [
+            32,
+            25,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6427
+        },
+        {
+          "row": 0,
+          "column": 7,
+          "alphaBox": [
+            32,
+            25,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6427
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "alphaBox": [
+            23,
+            44,
+            169,
+            190
+          ],
+          "transparentFraction": 0.7097
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "alphaBox": [
+            19,
+            46,
+            173,
+            190
+          ],
+          "transparentFraction": 0.7241
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "alphaBox": [
+            19,
+            49,
+            173,
+            190
+          ],
+          "transparentFraction": 0.7129
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "alphaBox": [
+            20,
+            47,
+            172,
+            190
+          ],
+          "transparentFraction": 0.706
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "alphaBox": [
+            20,
+            48,
+            172,
+            190
+          ],
+          "transparentFraction": 0.7184
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "alphaBox": [
+            19,
+            48,
+            173,
+            190
+          ],
+          "transparentFraction": 0.7227
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "alphaBox": [
+            21,
+            46,
+            171,
+            190
+          ],
+          "transparentFraction": 0.7126
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "alphaBox": [
+            20,
+            44,
+            172,
+            190
+          ],
+          "transparentFraction": 0.7188
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "alphaBox": [
+            21,
+            48,
+            171,
+            190
+          ],
+          "transparentFraction": 0.7183
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "alphaBox": [
+            23,
+            47,
+            168,
+            190
+          ],
+          "transparentFraction": 0.7093
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "alphaBox": [
+            23,
+            44,
+            169,
+            190
+          ],
+          "transparentFraction": 0.7094
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "alphaBox": [
+            21,
+            49,
+            170,
+            190
+          ],
+          "transparentFraction": 0.7204
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "alphaBox": [
+            21,
+            45,
+            170,
+            190
+          ],
+          "transparentFraction": 0.7045
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "alphaBox": [
+            22,
+            45,
+            170,
+            190
+          ],
+          "transparentFraction": 0.7117
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "alphaBox": [
+            20,
+            46,
+            171,
+            190
+          ],
+          "transparentFraction": 0.7026
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "alphaBox": [
+            23,
+            44,
+            168,
+            190
+          ],
+          "transparentFraction": 0.7127
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "alphaBox": [
+            33,
+            22,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6372
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "alphaBox": [
+            29,
+            28,
+            162,
+            190
+          ],
+          "transparentFraction": 0.6673
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "alphaBox": [
+            21,
+            27,
+            170,
+            190
+          ],
+          "transparentFraction": 0.5896
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "alphaBox": [
+            20,
+            25,
+            172,
+            190
+          ],
+          "transparentFraction": 0.6307
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "alphaBox": [
+            32,
+            25,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6427
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "alphaBox": [
+            32,
+            25,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6427
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "alphaBox": [
+            32,
+            25,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6427
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "alphaBox": [
+            32,
+            25,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6427
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "alphaBox": [
+            32,
+            25,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6427
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "alphaBox": [
+            29,
+            43,
+            162,
+            190
+          ],
+          "transparentFraction": 0.6843
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "alphaBox": [
+            14,
+            24,
+            177,
+            176
+          ],
+          "transparentFraction": 0.6154
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "alphaBox": [
+            11,
+            31,
+            180,
+            180
+          ],
+          "transparentFraction": 0.6246
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "alphaBox": [
+            32,
+            25,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6427
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "alphaBox": [
+            32,
+            25,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6427
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "alphaBox": [
+            32,
+            25,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6427
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "alphaBox": [
+            32,
+            25,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6427
+        },
+        {
+          "row": 5,
+          "column": 0,
+          "alphaBox": [
+            32,
+            25,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6427
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "alphaBox": [
+            31,
+            32,
+            161,
+            190
+          ],
+          "transparentFraction": 0.6605
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "alphaBox": [
+            32,
+            33,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6602
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "alphaBox": [
+            26,
+            28,
+            166,
+            190
+          ],
+          "transparentFraction": 0.6457
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "alphaBox": [
+            33,
+            28,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6347
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "alphaBox": [
+            34,
+            32,
+            158,
+            190
+          ],
+          "transparentFraction": 0.6384
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "alphaBox": [
+            35,
+            28,
+            156,
+            190
+          ],
+          "transparentFraction": 0.6418
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "alphaBox": [
+            32,
+            25,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6427
+        },
+        {
+          "row": 6,
+          "column": 0,
+          "alphaBox": [
+            31,
+            24,
+            161,
+            190
+          ],
+          "transparentFraction": 0.6268
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "alphaBox": [
+            31,
+            28,
+            160,
+            190
+          ],
+          "transparentFraction": 0.6253
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "alphaBox": [
+            31,
+            24,
+            161,
+            190
+          ],
+          "transparentFraction": 0.6181
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "alphaBox": [
+            30,
+            27,
+            162,
+            190
+          ],
+          "transparentFraction": 0.6211
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "alphaBox": [
+            23,
+            25,
+            168,
+            190
+          ],
+          "transparentFraction": 0.6426
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "alphaBox": [
+            33,
+            24,
+            158,
+            190
+          ],
+          "transparentFraction": 0.6356
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "alphaBox": [
+            32,
+            25,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6427
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "alphaBox": [
+            32,
+            25,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6427
+        },
+        {
+          "row": 7,
+          "column": 0,
+          "alphaBox": [
+            28,
+            27,
+            164,
+            190
+          ],
+          "transparentFraction": 0.6377
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "alphaBox": [
+            24,
+            27,
+            167,
+            190
+          ],
+          "transparentFraction": 0.628
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "alphaBox": [
+            24,
+            27,
+            168,
+            190
+          ],
+          "transparentFraction": 0.6139
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "alphaBox": [
+            26,
+            26,
+            165,
+            190
+          ],
+          "transparentFraction": 0.6329
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "alphaBox": [
+            28,
+            31,
+            164,
+            190
+          ],
+          "transparentFraction": 0.6409
+        },
+        {
+          "row": 7,
+          "column": 5,
+          "alphaBox": [
+            28,
+            33,
+            164,
+            190
+          ],
+          "transparentFraction": 0.6431
+        },
+        {
+          "row": 7,
+          "column": 6,
+          "alphaBox": [
+            32,
+            25,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6427
+        },
+        {
+          "row": 7,
+          "column": 7,
+          "alphaBox": [
+            32,
+            25,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6427
+        },
+        {
+          "row": 8,
+          "column": 0,
+          "alphaBox": [
+            20,
+            30,
+            171,
+            190
+          ],
+          "transparentFraction": 0.6117
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "alphaBox": [
+            29,
+            35,
+            162,
+            190
+          ],
+          "transparentFraction": 0.6389
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "alphaBox": [
+            27,
+            32,
+            164,
+            190
+          ],
+          "transparentFraction": 0.6359
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "alphaBox": [
+            26,
+            29,
+            166,
+            190
+          ],
+          "transparentFraction": 0.6367
+        },
+        {
+          "row": 8,
+          "column": 4,
+          "alphaBox": [
+            28,
+            31,
+            163,
+            190
+          ],
+          "transparentFraction": 0.6385
+        },
+        {
+          "row": 8,
+          "column": 5,
+          "alphaBox": [
+            30,
+            27,
+            161,
+            190
+          ],
+          "transparentFraction": 0.6525
+        },
+        {
+          "row": 8,
+          "column": 6,
+          "alphaBox": [
+            32,
+            25,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6427
+        },
+        {
+          "row": 8,
+          "column": 7,
+          "alphaBox": [
+            32,
+            25,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6427
+        },
+        {
+          "row": 9,
+          "column": 0,
+          "alphaBox": [
+            29,
+            27,
+            162,
+            190
+          ],
+          "transparentFraction": 0.6419
+        },
+        {
+          "row": 9,
+          "column": 1,
+          "alphaBox": [
+            33,
+            36,
+            159,
+            190
+          ],
+          "transparentFraction": 0.643
+        },
+        {
+          "row": 9,
+          "column": 2,
+          "alphaBox": [
+            33,
+            27,
+            158,
+            190
+          ],
+          "transparentFraction": 0.6665
+        },
+        {
+          "row": 9,
+          "column": 3,
+          "alphaBox": [
+            33,
+            27,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6772
+        },
+        {
+          "row": 9,
+          "column": 4,
+          "alphaBox": [
+            33,
+            28,
+            159,
+            190
+          ],
+          "transparentFraction": 0.685
+        },
+        {
+          "row": 9,
+          "column": 5,
+          "alphaBox": [
+            30,
+            28,
+            162,
+            190
+          ],
+          "transparentFraction": 0.6808
+        },
+        {
+          "row": 9,
+          "column": 6,
+          "alphaBox": [
+            29,
+            28,
+            162,
+            190
+          ],
+          "transparentFraction": 0.6798
+        },
+        {
+          "row": 9,
+          "column": 7,
+          "alphaBox": [
+            31,
+            28,
+            160,
+            190
+          ],
+          "transparentFraction": 0.6826
+        },
+        {
+          "row": 10,
+          "column": 0,
+          "alphaBox": [
+            33,
+            21,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6531
+        },
+        {
+          "row": 10,
+          "column": 1,
+          "alphaBox": [
+            33,
+            25,
+            158,
+            190
+          ],
+          "transparentFraction": 0.6635
+        },
+        {
+          "row": 10,
+          "column": 2,
+          "alphaBox": [
+            31,
+            21,
+            161,
+            190
+          ],
+          "transparentFraction": 0.6535
+        },
+        {
+          "row": 10,
+          "column": 3,
+          "alphaBox": [
+            33,
+            21,
+            158,
+            190
+          ],
+          "transparentFraction": 0.6532
+        },
+        {
+          "row": 10,
+          "column": 4,
+          "alphaBox": [
+            32,
+            21,
+            159,
+            190
+          ],
+          "transparentFraction": 0.6437
+        },
+        {
+          "row": 10,
+          "column": 5,
+          "alphaBox": [
+            33,
+            24,
+            158,
+            190
+          ],
+          "transparentFraction": 0.6682
+        },
+        {
+          "row": 10,
+          "column": 6,
+          "alphaBox": [
+            34,
+            24,
+            158,
+            190
+          ],
+          "transparentFraction": 0.6639
+        },
+        {
+          "row": 10,
+          "column": 7,
+          "alphaBox": [
+            31,
+            21,
+            161,
+            190
+          ],
+          "transparentFraction": 0.6442
+        }
+      ],
+      "sourceExtraction": [
+        {
+          "row": 0,
+          "column": 0,
+          "sourceBox": [
+            14,
+            5,
+            124,
+            145
+          ],
+          "opaquePixelCount": 9214
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "sourceBox": [
+            140,
+            2,
+            254,
+            145
+          ],
+          "opaquePixelCount": 9119
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "sourceBox": [
+            269,
+            5,
+            376,
+            145
+          ],
+          "opaquePixelCount": 9276
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "sourceBox": [
+            395,
+            0,
+            511,
+            145
+          ],
+          "opaquePixelCount": 8965
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "sourceBox": [
+            524,
+            6,
+            631,
+            145
+          ],
+          "opaquePixelCount": 9430
+        },
+        {
+          "row": 0,
+          "column": 5,
+          "sourceBox": [
+            652,
+            7,
+            758,
+            145
+          ],
+          "opaquePixelCount": 9214
+        },
+        {
+          "row": 0,
+          "column": 6,
+          "sourceBox": [
+            781,
+            5,
+            885,
+            145
+          ],
+          "opaquePixelCount": 9251
+        },
+        {
+          "row": 0,
+          "column": 7,
+          "sourceBox": [
+            908,
+            5,
+            1012,
+            145
+          ],
+          "opaquePixelCount": 9146
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "sourceBox": [
+            2,
+            145,
+            128,
+            268
+          ],
+          "opaquePixelCount": 7347
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "sourceBox": [
+            125,
+            145,
+            257,
+            267
+          ],
+          "opaquePixelCount": 6961
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "sourceBox": [
+            253,
+            145,
+            385,
+            265
+          ],
+          "opaquePixelCount": 7287
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "sourceBox": [
+            380,
+            145,
+            511,
+            266
+          ],
+          "opaquePixelCount": 7531
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "sourceBox": [
+            510,
+            145,
+            641,
+            266
+          ],
+          "opaquePixelCount": 7205
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "sourceBox": [
+            637,
+            145,
+            769,
+            266
+          ],
+          "opaquePixelCount": 7051
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "sourceBox": [
+            768,
+            145,
+            897,
+            267
+          ],
+          "opaquePixelCount": 7224
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "sourceBox": [
+            893,
+            145,
+            1024,
+            268
+          ],
+          "opaquePixelCount": 7142
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "sourceBox": [
+            8,
+            268,
+            137,
+            389
+          ],
+          "opaquePixelCount": 7192
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "sourceBox": [
+            137,
+            268,
+            262,
+            390
+          ],
+          "opaquePixelCount": 7388
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "sourceBox": [
+            263,
+            268,
+            389,
+            392
+          ],
+          "opaquePixelCount": 7408
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "sourceBox": [
+            390,
+            268,
+            518,
+            389
+          ],
+          "opaquePixelCount": 7118
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "sourceBox": [
+            521,
+            268,
+            649,
+            391
+          ],
+          "opaquePixelCount": 7477
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "sourceBox": [
+            648,
+            268,
+            775,
+            391
+          ],
+          "opaquePixelCount": 7211
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "sourceBox": [
+            774,
+            268,
+            904,
+            392
+          ],
+          "opaquePixelCount": 7602
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "sourceBox": [
+            902,
+            268,
+            1027,
+            392
+          ],
+          "opaquePixelCount": 7296
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "sourceBox": [
+            15,
+            392,
+            124,
+            534
+          ],
+          "opaquePixelCount": 9315
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "sourceBox": [
+            137,
+            397,
+            252,
+            534
+          ],
+          "opaquePixelCount": 8516
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "sourceBox": [
+            251,
+            395,
+            379,
+            534
+          ],
+          "opaquePixelCount": 10553
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "sourceBox": [
+            382,
+            392,
+            513,
+            532
+          ],
+          "opaquePixelCount": 9546
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "sourceBox": [
+            524,
+            392,
+            631,
+            534
+          ],
+          "opaquePixelCount": 9345
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "sourceBox": [
+            647,
+            394,
+            755,
+            534
+          ],
+          "opaquePixelCount": 9228
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "sourceBox": [
+            779,
+            394,
+            884,
+            534
+          ],
+          "opaquePixelCount": 9146
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "sourceBox": [
+            907,
+            394,
+            1012,
+            534
+          ],
+          "opaquePixelCount": 9147
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "sourceBox": [
+            11,
+            540,
+            129,
+            683
+          ],
+          "opaquePixelCount": 9120
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "sourceBox": [
+            139,
+            557,
+            254,
+            683
+          ],
+          "opaquePixelCount": 8117
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "sourceBox": [
+            252,
+            537,
+            392,
+            666
+          ],
+          "opaquePixelCount": 9922
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "sourceBox": [
+            386,
+            537,
+            531,
+            663
+          ],
+          "opaquePixelCount": 9653
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "sourceBox": [
+            525,
+            551,
+            636,
+            683
+          ],
+          "opaquePixelCount": 9179
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "sourceBox": [
+            653,
+            546,
+            759,
+            683
+          ],
+          "opaquePixelCount": 9249
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "sourceBox": [
+            781,
+            542,
+            889,
+            683
+          ],
+          "opaquePixelCount": 9347
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "sourceBox": [
+            907,
+            542,
+            1014,
+            684
+          ],
+          "opaquePixelCount": 9226
+        },
+        {
+          "row": 5,
+          "column": 0,
+          "sourceBox": [
+            15,
+            686,
+            127,
+            822
+          ],
+          "opaquePixelCount": 8708
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "sourceBox": [
+            141,
+            688,
+            251,
+            822
+          ],
+          "opaquePixelCount": 8745
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "sourceBox": [
+            265,
+            685,
+            380,
+            822
+          ],
+          "opaquePixelCount": 9932
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "sourceBox": [
+            390,
+            685,
+            511,
+            822
+          ],
+          "opaquePixelCount": 9096
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "sourceBox": [
+            523,
+            685,
+            632,
+            822
+          ],
+          "opaquePixelCount": 9371
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "sourceBox": [
+            650,
+            688,
+            757,
+            822
+          ],
+          "opaquePixelCount": 9290
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "sourceBox": [
+            780,
+            685,
+            885,
+            822
+          ],
+          "opaquePixelCount": 9213
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "sourceBox": [
+            907,
+            685,
+            1012,
+            822
+          ],
+          "opaquePixelCount": 9053
+        },
+        {
+          "row": 6,
+          "column": 0,
+          "sourceBox": [
+            16,
+            822,
+            128,
+            962
+          ],
+          "opaquePixelCount": 9581
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "sourceBox": [
+            146,
+            825,
+            257,
+            962
+          ],
+          "opaquePixelCount": 9574
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "sourceBox": [
+            271,
+            822,
+            383,
+            962
+          ],
+          "opaquePixelCount": 9835
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "sourceBox": [
+            396,
+            823,
+            510,
+            962
+          ],
+          "opaquePixelCount": 9827
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "sourceBox": [
+            520,
+            822,
+            645,
+            962
+          ],
+          "opaquePixelCount": 9250
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "sourceBox": [
+            653,
+            822,
+            761,
+            963
+          ],
+          "opaquePixelCount": 9415
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "sourceBox": [
+            780,
+            822,
+            887,
+            962
+          ],
+          "opaquePixelCount": 9461
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "sourceBox": [
+            907,
+            822,
+            1013,
+            963
+          ],
+          "opaquePixelCount": 9332
+        },
+        {
+          "row": 7,
+          "column": 0,
+          "sourceBox": [
+            11,
+            963,
+            128,
+            1101
+          ],
+          "opaquePixelCount": 9285
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "sourceBox": [
+            131,
+            963,
+            254,
+            1100
+          ],
+          "opaquePixelCount": 9523
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "sourceBox": [
+            262,
+            963,
+            386,
+            1100
+          ],
+          "opaquePixelCount": 9930
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "sourceBox": [
+            391,
+            963,
+            511,
+            1101
+          ],
+          "opaquePixelCount": 9479
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "sourceBox": [
+            520,
+            964,
+            637,
+            1100
+          ],
+          "opaquePixelCount": 9204
+        },
+        {
+          "row": 7,
+          "column": 5,
+          "sourceBox": [
+            647,
+            967,
+            764,
+            1101
+          ],
+          "opaquePixelCount": 9141
+        },
+        {
+          "row": 7,
+          "column": 6,
+          "sourceBox": [
+            780,
+            963,
+            885,
+            1102
+          ],
+          "opaquePixelCount": 9142
+        },
+        {
+          "row": 7,
+          "column": 7,
+          "sourceBox": [
+            908,
+            966,
+            1012,
+            1102
+          ],
+          "opaquePixelCount": 8990
+        },
+        {
+          "row": 8,
+          "column": 0,
+          "sourceBox": [
+            11,
+            1102,
+            141,
+            1238
+          ],
+          "opaquePixelCount": 10021
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "sourceBox": [
+            143,
+            1105,
+            258,
+            1238
+          ],
+          "opaquePixelCount": 9274
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "sourceBox": [
+            264,
+            1103,
+            382,
+            1238
+          ],
+          "opaquePixelCount": 9336
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "sourceBox": [
+            392,
+            1102,
+            513,
+            1238
+          ],
+          "opaquePixelCount": 9433
+        },
+        {
+          "row": 8,
+          "column": 4,
+          "sourceBox": [
+            522,
+            1103,
+            638,
+            1239
+          ],
+          "opaquePixelCount": 9297
+        },
+        {
+          "row": 8,
+          "column": 5,
+          "sourceBox": [
+            648,
+            1102,
+            761,
+            1239
+          ],
+          "opaquePixelCount": 8852
+        },
+        {
+          "row": 8,
+          "column": 6,
+          "sourceBox": [
+            777,
+            1102,
+            885,
+            1239
+          ],
+          "opaquePixelCount": 9097
+        },
+        {
+          "row": 8,
+          "column": 7,
+          "sourceBox": [
+            904,
+            1102,
+            1012,
+            1239
+          ],
+          "opaquePixelCount": 9081
+        },
+        {
+          "row": 9,
+          "column": 0,
+          "sourceBox": [
+            12,
+            1239,
+            127,
+            1377
+          ],
+          "opaquePixelCount": 9283
+        },
+        {
+          "row": 9,
+          "column": 1,
+          "sourceBox": [
+            143,
+            1245,
+            252,
+            1376
+          ],
+          "opaquePixelCount": 9239
+        },
+        {
+          "row": 9,
+          "column": 2,
+          "sourceBox": [
+            270,
+            1239,
+            378,
+            1376
+          ],
+          "opaquePixelCount": 8578
+        },
+        {
+          "row": 9,
+          "column": 3,
+          "sourceBox": [
+            398,
+            1239,
+            507,
+            1376
+          ],
+          "opaquePixelCount": 8300
+        },
+        {
+          "row": 9,
+          "column": 4,
+          "sourceBox": [
+            524,
+            1239,
+            633,
+            1377
+          ],
+          "opaquePixelCount": 8104
+        },
+        {
+          "row": 9,
+          "column": 5,
+          "sourceBox": [
+            654,
+            1239,
+            768,
+            1377
+          ],
+          "opaquePixelCount": 8214
+        },
+        {
+          "row": 9,
+          "column": 6,
+          "sourceBox": [
+            782,
+            1239,
+            897,
+            1377
+          ],
+          "opaquePixelCount": 8270
+        },
+        {
+          "row": 9,
+          "column": 7,
+          "sourceBox": [
+            907,
+            1239,
+            1018,
+            1376
+          ],
+          "opaquePixelCount": 8115
+        },
+        {
+          "row": 10,
+          "column": 0,
+          "sourceBox": [
+            14,
+            1377,
+            123,
+            1519
+          ],
+          "opaquePixelCount": 8974
+        },
+        {
+          "row": 10,
+          "column": 1,
+          "sourceBox": [
+            142,
+            1379,
+            250,
+            1519
+          ],
+          "opaquePixelCount": 8678
+        },
+        {
+          "row": 10,
+          "column": 2,
+          "sourceBox": [
+            267,
+            1377,
+            379,
+            1519
+          ],
+          "opaquePixelCount": 8922
+        },
+        {
+          "row": 10,
+          "column": 3,
+          "sourceBox": [
+            395,
+            1377,
+            503,
+            1519
+          ],
+          "opaquePixelCount": 8921
+        },
+        {
+          "row": 10,
+          "column": 4,
+          "sourceBox": [
+            524,
+            1377,
+            634,
+            1519
+          ],
+          "opaquePixelCount": 9218
+        },
+        {
+          "row": 10,
+          "column": 5,
+          "sourceBox": [
+            651,
+            1378,
+            759,
+            1519
+          ],
+          "opaquePixelCount": 8579
+        },
+        {
+          "row": 10,
+          "column": 6,
+          "sourceBox": [
+            775,
+            1377,
+            882,
+            1519
+          ],
+          "opaquePixelCount": 8620
+        },
+        {
+          "row": 10,
+          "column": 7,
+          "sourceBox": [
+            900,
+            1377,
+            1012,
+            1519
+          ],
+          "opaquePixelCount": 9142
+        }
+      ]
+    },
+    {
+      "pet": "luna",
+      "status": "passed",
+      "width": 1536,
+      "height": 2288,
+      "mode": "RGBA",
+      "frameCount": 88,
+      "requiredFramesByRow": [
+        6,
+        8,
+        8,
+        4,
+        5,
+        8,
+        6,
+        6,
+        6,
+        8,
+        8
+      ],
+      "sourceToOutputScale": 1.1764705882352942,
+      "webpLosslessPixelRoundtrip": true,
+      "sourceSha256": "1049503c12534be69387d9061fbe7e403b8eaf357ae0cbdc688d3b0a72451075",
+      "spriteSha256": "62ea863236dd59162a9869bd1173de7579c04cd293292c82027a92b915b1d3c2",
+      "frames": [
+        {
+          "row": 0,
+          "column": 0,
+          "alphaBox": [
+            31,
+            26,
+            160,
+            190
+          ],
+          "transparentFraction": 0.648
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "alphaBox": [
+            30,
+            21,
+            162,
+            190
+          ],
+          "transparentFraction": 0.6522
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "alphaBox": [
+            33,
+            27,
+            158,
+            190
+          ],
+          "transparentFraction": 0.6489
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "alphaBox": [
+            28,
+            21,
+            164,
+            190
+          ],
+          "transparentFraction": 0.6587
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "alphaBox": [
+            32,
+            27,
+            159,
+            190
+          ],
+          "transparentFraction": 0.642
+        },
+        {
+          "row": 0,
+          "column": 5,
+          "alphaBox": [
+            33,
+            28,
+            158,
+            190
+          ],
+          "transparentFraction": 0.6521
+        },
+        {
+          "row": 0,
+          "column": 6,
+          "alphaBox": [
+            31,
+            26,
+            160,
+            190
+          ],
+          "transparentFraction": 0.648
+        },
+        {
+          "row": 0,
+          "column": 7,
+          "alphaBox": [
+            31,
+            26,
+            160,
+            190
+          ],
+          "transparentFraction": 0.648
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "alphaBox": [
+            21,
+            46,
+            171,
+            190
+          ],
+          "transparentFraction": 0.7135
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "alphaBox": [
+            20,
+            48,
+            172,
+            190
+          ],
+          "transparentFraction": 0.7266
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "alphaBox": [
+            20,
+            50,
+            172,
+            190
+          ],
+          "transparentFraction": 0.7164
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "alphaBox": [
+            21,
+            48,
+            171,
+            190
+          ],
+          "transparentFraction": 0.7121
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "alphaBox": [
+            21,
+            48,
+            170,
+            190
+          ],
+          "transparentFraction": 0.7236
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "alphaBox": [
+            20,
+            47,
+            172,
+            190
+          ],
+          "transparentFraction": 0.7277
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "alphaBox": [
+            20,
+            47,
+            171,
+            190
+          ],
+          "transparentFraction": 0.7167
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "alphaBox": [
+            20,
+            47,
+            171,
+            190
+          ],
+          "transparentFraction": 0.7245
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "alphaBox": [
+            21,
+            49,
+            170,
+            190
+          ],
+          "transparentFraction": 0.723
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "alphaBox": [
+            22,
+            48,
+            169,
+            190
+          ],
+          "transparentFraction": 0.7133
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "alphaBox": [
+            24,
+            46,
+            168,
+            190
+          ],
+          "transparentFraction": 0.7146
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "alphaBox": [
+            21,
+            48,
+            170,
+            190
+          ],
+          "transparentFraction": 0.7175
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "alphaBox": [
+            21,
+            45,
+            171,
+            190
+          ],
+          "transparentFraction": 0.7095
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "alphaBox": [
+            23,
+            46,
+            168,
+            190
+          ],
+          "transparentFraction": 0.7197
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "alphaBox": [
+            20,
+            48,
+            171,
+            190
+          ],
+          "transparentFraction": 0.7106
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "alphaBox": [
+            23,
+            46,
+            169,
+            190
+          ],
+          "transparentFraction": 0.7202
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "alphaBox": [
+            32,
+            25,
+            160,
+            190
+          ],
+          "transparentFraction": 0.6431
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "alphaBox": [
+            29,
+            29,
+            163,
+            190
+          ],
+          "transparentFraction": 0.6745
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "alphaBox": [
+            22,
+            30,
+            169,
+            190
+          ],
+          "transparentFraction": 0.6068
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "alphaBox": [
+            20,
+            27,
+            171,
+            190
+          ],
+          "transparentFraction": 0.6423
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "alphaBox": [
+            31,
+            26,
+            160,
+            190
+          ],
+          "transparentFraction": 0.648
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "alphaBox": [
+            31,
+            26,
+            160,
+            190
+          ],
+          "transparentFraction": 0.648
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "alphaBox": [
+            31,
+            26,
+            160,
+            190
+          ],
+          "transparentFraction": 0.648
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "alphaBox": [
+            31,
+            26,
+            160,
+            190
+          ],
+          "transparentFraction": 0.648
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "alphaBox": [
+            31,
+            26,
+            160,
+            190
+          ],
+          "transparentFraction": 0.648
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "alphaBox": [
+            29,
+            42,
+            163,
+            190
+          ],
+          "transparentFraction": 0.6906
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "alphaBox": [
+            17,
+            28,
+            174,
+            176
+          ],
+          "transparentFraction": 0.6318
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "alphaBox": [
+            12,
+            32,
+            179,
+            180
+          ],
+          "transparentFraction": 0.6418
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "alphaBox": [
+            31,
+            26,
+            160,
+            190
+          ],
+          "transparentFraction": 0.648
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "alphaBox": [
+            31,
+            26,
+            160,
+            190
+          ],
+          "transparentFraction": 0.648
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "alphaBox": [
+            31,
+            26,
+            160,
+            190
+          ],
+          "transparentFraction": 0.648
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "alphaBox": [
+            31,
+            26,
+            160,
+            190
+          ],
+          "transparentFraction": 0.648
+        },
+        {
+          "row": 5,
+          "column": 0,
+          "alphaBox": [
+            31,
+            26,
+            160,
+            190
+          ],
+          "transparentFraction": 0.648
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "alphaBox": [
+            31,
+            31,
+            161,
+            190
+          ],
+          "transparentFraction": 0.6681
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "alphaBox": [
+            32,
+            34,
+            160,
+            190
+          ],
+          "transparentFraction": 0.6699
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "alphaBox": [
+            25,
+            30,
+            166,
+            190
+          ],
+          "transparentFraction": 0.6576
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "alphaBox": [
+            31,
+            31,
+            160,
+            190
+          ],
+          "transparentFraction": 0.6449
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "alphaBox": [
+            33,
+            33,
+            158,
+            190
+          ],
+          "transparentFraction": 0.6528
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "alphaBox": [
+            34,
+            30,
+            158,
+            190
+          ],
+          "transparentFraction": 0.6558
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "alphaBox": [
+            31,
+            26,
+            160,
+            190
+          ],
+          "transparentFraction": 0.648
+        },
+        {
+          "row": 6,
+          "column": 0,
+          "alphaBox": [
+            30,
+            27,
+            162,
+            190
+          ],
+          "transparentFraction": 0.6389
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "alphaBox": [
+            30,
+            29,
+            162,
+            190
+          ],
+          "transparentFraction": 0.6384
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "alphaBox": [
+            30,
+            27,
+            161,
+            190
+          ],
+          "transparentFraction": 0.6274
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "alphaBox": [
+            28,
+            29,
+            164,
+            190
+          ],
+          "transparentFraction": 0.6286
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "alphaBox": [
+            23,
+            27,
+            168,
+            190
+          ],
+          "transparentFraction": 0.6526
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "alphaBox": [
+            33,
+            26,
+            158,
+            190
+          ],
+          "transparentFraction": 0.6493
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "alphaBox": [
+            31,
+            26,
+            160,
+            190
+          ],
+          "transparentFraction": 0.648
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "alphaBox": [
+            31,
+            26,
+            160,
+            190
+          ],
+          "transparentFraction": 0.648
+        },
+        {
+          "row": 7,
+          "column": 0,
+          "alphaBox": [
+            28,
+            30,
+            164,
+            190
+          ],
+          "transparentFraction": 0.6464
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "alphaBox": [
+            25,
+            30,
+            167,
+            190
+          ],
+          "transparentFraction": 0.6377
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "alphaBox": [
+            24,
+            31,
+            168,
+            190
+          ],
+          "transparentFraction": 0.6253
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "alphaBox": [
+            27,
+            30,
+            165,
+            190
+          ],
+          "transparentFraction": 0.6419
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "alphaBox": [
+            28,
+            35,
+            164,
+            190
+          ],
+          "transparentFraction": 0.6508
+        },
+        {
+          "row": 7,
+          "column": 5,
+          "alphaBox": [
+            27,
+            33,
+            164,
+            190
+          ],
+          "transparentFraction": 0.6552
+        },
+        {
+          "row": 7,
+          "column": 6,
+          "alphaBox": [
+            31,
+            26,
+            160,
+            190
+          ],
+          "transparentFraction": 0.648
+        },
+        {
+          "row": 7,
+          "column": 7,
+          "alphaBox": [
+            31,
+            26,
+            160,
+            190
+          ],
+          "transparentFraction": 0.648
+        },
+        {
+          "row": 8,
+          "column": 0,
+          "alphaBox": [
+            21,
+            32,
+            170,
+            190
+          ],
+          "transparentFraction": 0.6144
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "alphaBox": [
+            28,
+            35,
+            163,
+            190
+          ],
+          "transparentFraction": 0.6468
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "alphaBox": [
+            27,
+            36,
+            165,
+            190
+          ],
+          "transparentFraction": 0.6498
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "alphaBox": [
+            25,
+            31,
+            166,
+            190
+          ],
+          "transparentFraction": 0.6471
+        },
+        {
+          "row": 8,
+          "column": 4,
+          "alphaBox": [
+            28,
+            31,
+            163,
+            190
+          ],
+          "transparentFraction": 0.6517
+        },
+        {
+          "row": 8,
+          "column": 5,
+          "alphaBox": [
+            32,
+            31,
+            160,
+            190
+          ],
+          "transparentFraction": 0.6702
+        },
+        {
+          "row": 8,
+          "column": 6,
+          "alphaBox": [
+            31,
+            26,
+            160,
+            190
+          ],
+          "transparentFraction": 0.648
+        },
+        {
+          "row": 8,
+          "column": 7,
+          "alphaBox": [
+            31,
+            26,
+            160,
+            190
+          ],
+          "transparentFraction": 0.648
+        },
+        {
+          "row": 9,
+          "column": 0,
+          "alphaBox": [
+            28,
+            29,
+            164,
+            190
+          ],
+          "transparentFraction": 0.6468
+        },
+        {
+          "row": 9,
+          "column": 1,
+          "alphaBox": [
+            31,
+            38,
+            161,
+            190
+          ],
+          "transparentFraction": 0.649
+        },
+        {
+          "row": 9,
+          "column": 2,
+          "alphaBox": [
+            31,
+            30,
+            161,
+            190
+          ],
+          "transparentFraction": 0.6726
+        },
+        {
+          "row": 9,
+          "column": 3,
+          "alphaBox": [
+            31,
+            29,
+            161,
+            190
+          ],
+          "transparentFraction": 0.687
+        },
+        {
+          "row": 9,
+          "column": 4,
+          "alphaBox": [
+            32,
+            29,
+            160,
+            190
+          ],
+          "transparentFraction": 0.6928
+        },
+        {
+          "row": 9,
+          "column": 5,
+          "alphaBox": [
+            30,
+            30,
+            162,
+            190
+          ],
+          "transparentFraction": 0.6897
+        },
+        {
+          "row": 9,
+          "column": 6,
+          "alphaBox": [
+            30,
+            30,
+            161,
+            190
+          ],
+          "transparentFraction": 0.6888
+        },
+        {
+          "row": 9,
+          "column": 7,
+          "alphaBox": [
+            32,
+            29,
+            160,
+            190
+          ],
+          "transparentFraction": 0.694
+        },
+        {
+          "row": 10,
+          "column": 0,
+          "alphaBox": [
+            31,
+            25,
+            161,
+            190
+          ],
+          "transparentFraction": 0.6581
+        },
+        {
+          "row": 10,
+          "column": 1,
+          "alphaBox": [
+            33,
+            28,
+            158,
+            190
+          ],
+          "transparentFraction": 0.6753
+        },
+        {
+          "row": 10,
+          "column": 2,
+          "alphaBox": [
+            30,
+            24,
+            162,
+            190
+          ],
+          "transparentFraction": 0.6632
+        },
+        {
+          "row": 10,
+          "column": 3,
+          "alphaBox": [
+            32,
+            25,
+            160,
+            190
+          ],
+          "transparentFraction": 0.6627
+        },
+        {
+          "row": 10,
+          "column": 4,
+          "alphaBox": [
+            32,
+            24,
+            159,
+            190
+          ],
+          "transparentFraction": 0.655
+        },
+        {
+          "row": 10,
+          "column": 5,
+          "alphaBox": [
+            33,
+            25,
+            158,
+            190
+          ],
+          "transparentFraction": 0.6788
+        },
+        {
+          "row": 10,
+          "column": 6,
+          "alphaBox": [
+            33,
+            26,
+            158,
+            190
+          ],
+          "transparentFraction": 0.6752
+        },
+        {
+          "row": 10,
+          "column": 7,
+          "alphaBox": [
+            30,
+            25,
+            161,
+            190
+          ],
+          "transparentFraction": 0.6611
+        }
+      ],
+      "sourceExtraction": [
+        {
+          "row": 0,
+          "column": 0,
+          "sourceBox": [
+            12,
+            4,
+            125,
+            146
+          ],
+          "opaquePixelCount": 9329
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "sourceBox": [
+            138,
+            1,
+            254,
+            146
+          ],
+          "opaquePixelCount": 9235
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "sourceBox": [
+            267,
+            4,
+            377,
+            146
+          ],
+          "opaquePixelCount": 9311
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "sourceBox": [
+            392,
+            0,
+            511,
+            146
+          ],
+          "opaquePixelCount": 9010
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "sourceBox": [
+            520,
+            5,
+            631,
+            146
+          ],
+          "opaquePixelCount": 9455
+        },
+        {
+          "row": 0,
+          "column": 5,
+          "sourceBox": [
+            648,
+            6,
+            758,
+            146
+          ],
+          "opaquePixelCount": 9242
+        },
+        {
+          "row": 0,
+          "column": 6,
+          "sourceBox": [
+            776,
+            5,
+            886,
+            146
+          ],
+          "opaquePixelCount": 9344
+        },
+        {
+          "row": 0,
+          "column": 7,
+          "sourceBox": [
+            904,
+            6,
+            1012,
+            146
+          ],
+          "opaquePixelCount": 9204
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "sourceBox": [
+            0,
+            146,
+            129,
+            269
+          ],
+          "opaquePixelCount": 7438
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "sourceBox": [
+            123,
+            146,
+            256,
+            268
+          ],
+          "opaquePixelCount": 7156
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "sourceBox": [
+            251,
+            146,
+            384,
+            267
+          ],
+          "opaquePixelCount": 7356
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "sourceBox": [
+            378,
+            146,
+            509,
+            268
+          ],
+          "opaquePixelCount": 7548
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "sourceBox": [
+            508,
+            146,
+            638,
+            268
+          ],
+          "opaquePixelCount": 7154
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "sourceBox": [
+            634,
+            146,
+            767,
+            268
+          ],
+          "opaquePixelCount": 7095
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "sourceBox": [
+            763,
+            146,
+            895,
+            269
+          ],
+          "opaquePixelCount": 7369
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "sourceBox": [
+            891,
+            146,
+            1023,
+            269
+          ],
+          "opaquePixelCount": 7205
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "sourceBox": [
+            9,
+            269,
+            139,
+            391
+          ],
+          "opaquePixelCount": 7221
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "sourceBox": [
+            134,
+            269,
+            262,
+            391
+          ],
+          "opaquePixelCount": 7457
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "sourceBox": [
+            262,
+            269,
+            388,
+            394
+          ],
+          "opaquePixelCount": 7516
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "sourceBox": [
+            388,
+            269,
+            518,
+            391
+          ],
+          "opaquePixelCount": 7318
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "sourceBox": [
+            518,
+            269,
+            649,
+            393
+          ],
+          "opaquePixelCount": 7518
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "sourceBox": [
+            646,
+            269,
+            773,
+            394
+          ],
+          "opaquePixelCount": 7274
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "sourceBox": [
+            772,
+            270,
+            904,
+            393
+          ],
+          "opaquePixelCount": 7593
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "sourceBox": [
+            900,
+            270,
+            1027,
+            394
+          ],
+          "opaquePixelCount": 7289
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "sourceBox": [
+            13,
+            394,
+            125,
+            536
+          ],
+          "opaquePixelCount": 9421
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "sourceBox": [
+            135,
+            397,
+            252,
+            536
+          ],
+          "opaquePixelCount": 8531
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "sourceBox": [
+            251,
+            396,
+            379,
+            535
+          ],
+          "opaquePixelCount": 10317
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "sourceBox": [
+            380,
+            394,
+            512,
+            534
+          ],
+          "opaquePixelCount": 9465
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "sourceBox": [
+            520,
+            394,
+            631,
+            536
+          ],
+          "opaquePixelCount": 9270
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "sourceBox": [
+            643,
+            394,
+            755,
+            536
+          ],
+          "opaquePixelCount": 9205
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "sourceBox": [
+            776,
+            395,
+            884,
+            536
+          ],
+          "opaquePixelCount": 9111
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "sourceBox": [
+            904,
+            395,
+            1011,
+            536
+          ],
+          "opaquePixelCount": 9041
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "sourceBox": [
+            10,
+            540,
+            131,
+            685
+          ],
+          "opaquePixelCount": 9170
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "sourceBox": [
+            137,
+            557,
+            254,
+            685
+          ],
+          "opaquePixelCount": 8137
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "sourceBox": [
+            252,
+            539,
+            389,
+            668
+          ],
+          "opaquePixelCount": 9716
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "sourceBox": [
+            385,
+            539,
+            530,
+            666
+          ],
+          "opaquePixelCount": 9392
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "sourceBox": [
+            522,
+            552,
+            635,
+            685
+          ],
+          "opaquePixelCount": 9121
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "sourceBox": [
+            649,
+            546,
+            758,
+            685
+          ],
+          "opaquePixelCount": 9268
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "sourceBox": [
+            778,
+            543,
+            887,
+            685
+          ],
+          "opaquePixelCount": 9277
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "sourceBox": [
+            905,
+            542,
+            1012,
+            685
+          ],
+          "opaquePixelCount": 9200
+        },
+        {
+          "row": 5,
+          "column": 0,
+          "sourceBox": [
+            13,
+            687,
+            127,
+            824
+          ],
+          "opaquePixelCount": 8765
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "sourceBox": [
+            140,
+            689,
+            252,
+            824
+          ],
+          "opaquePixelCount": 8715
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "sourceBox": [
+            262,
+            686,
+            381,
+            824
+          ],
+          "opaquePixelCount": 9962
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "sourceBox": [
+            388,
+            686,
+            511,
+            824
+          ],
+          "opaquePixelCount": 9097
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "sourceBox": [
+            520,
+            687,
+            633,
+            824
+          ],
+          "opaquePixelCount": 9397
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "sourceBox": [
+            647,
+            688,
+            757,
+            824
+          ],
+          "opaquePixelCount": 9229
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "sourceBox": [
+            777,
+            686,
+            886,
+            824
+          ],
+          "opaquePixelCount": 9156
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "sourceBox": [
+            904,
+            686,
+            1012,
+            824
+          ],
+          "opaquePixelCount": 8996
+        },
+        {
+          "row": 6,
+          "column": 0,
+          "sourceBox": [
+            14,
+            824,
+            130,
+            964
+          ],
+          "opaquePixelCount": 9564
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "sourceBox": [
+            143,
+            824,
+            259,
+            964
+          ],
+          "opaquePixelCount": 9612
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "sourceBox": [
+            269,
+            824,
+            384,
+            964
+          ],
+          "opaquePixelCount": 9918
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "sourceBox": [
+            393,
+            824,
+            512,
+            964
+          ],
+          "opaquePixelCount": 9806
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "sourceBox": [
+            517,
+            824,
+            644,
+            964
+          ],
+          "opaquePixelCount": 9214
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "sourceBox": [
+            650,
+            824,
+            760,
+            964
+          ],
+          "opaquePixelCount": 9297
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "sourceBox": [
+            776,
+            824,
+            887,
+            965
+          ],
+          "opaquePixelCount": 9381
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "sourceBox": [
+            904,
+            824,
+            1013,
+            964
+          ],
+          "opaquePixelCount": 9246
+        },
+        {
+          "row": 7,
+          "column": 0,
+          "sourceBox": [
+            11,
+            965,
+            130,
+            1102
+          ],
+          "opaquePixelCount": 9348
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "sourceBox": [
+            130,
+            965,
+            254,
+            1102
+          ],
+          "opaquePixelCount": 9580
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "sourceBox": [
+            261,
+            965,
+            387,
+            1102
+          ],
+          "opaquePixelCount": 10006
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "sourceBox": [
+            390,
+            965,
+            511,
+            1103
+          ],
+          "opaquePixelCount": 9526
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "sourceBox": [
+            518,
+            967,
+            637,
+            1102
+          ],
+          "opaquePixelCount": 9259
+        },
+        {
+          "row": 7,
+          "column": 5,
+          "sourceBox": [
+            644,
+            967,
+            764,
+            1103
+          ],
+          "opaquePixelCount": 9157
+        },
+        {
+          "row": 7,
+          "column": 6,
+          "sourceBox": [
+            778,
+            966,
+            885,
+            1104
+          ],
+          "opaquePixelCount": 9015
+        },
+        {
+          "row": 7,
+          "column": 7,
+          "sourceBox": [
+            904,
+            969,
+            1012,
+            1104
+          ],
+          "opaquePixelCount": 8921
+        },
+        {
+          "row": 8,
+          "column": 0,
+          "sourceBox": [
+            11,
+            1104,
+            141,
+            1240
+          ],
+          "opaquePixelCount": 10215
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "sourceBox": [
+            141,
+            1106,
+            259,
+            1240
+          ],
+          "opaquePixelCount": 9262
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "sourceBox": [
+            262,
+            1105,
+            383,
+            1239
+          ],
+          "opaquePixelCount": 9227
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "sourceBox": [
+            390,
+            1104,
+            513,
+            1241
+          ],
+          "opaquePixelCount": 9352
+        },
+        {
+          "row": 8,
+          "column": 4,
+          "sourceBox": [
+            521,
+            1104,
+            639,
+            1241
+          ],
+          "opaquePixelCount": 9208
+        },
+        {
+          "row": 8,
+          "column": 5,
+          "sourceBox": [
+            647,
+            1104,
+            759,
+            1241
+          ],
+          "opaquePixelCount": 8691
+        },
+        {
+          "row": 8,
+          "column": 6,
+          "sourceBox": [
+            775,
+            1104,
+            886,
+            1241
+          ],
+          "opaquePixelCount": 9000
+        },
+        {
+          "row": 8,
+          "column": 7,
+          "sourceBox": [
+            900,
+            1104,
+            1012,
+            1241
+          ],
+          "opaquePixelCount": 9017
+        },
+        {
+          "row": 9,
+          "column": 0,
+          "sourceBox": [
+            11,
+            1241,
+            130,
+            1379
+          ],
+          "opaquePixelCount": 9429
+        },
+        {
+          "row": 9,
+          "column": 1,
+          "sourceBox": [
+            141,
+            1247,
+            255,
+            1379
+          ],
+          "opaquePixelCount": 9306
+        },
+        {
+          "row": 9,
+          "column": 2,
+          "sourceBox": [
+            266,
+            1241,
+            380,
+            1379
+          ],
+          "opaquePixelCount": 8722
+        },
+        {
+          "row": 9,
+          "column": 3,
+          "sourceBox": [
+            395,
+            1241,
+            509,
+            1379
+          ],
+          "opaquePixelCount": 8368
+        },
+        {
+          "row": 9,
+          "column": 4,
+          "sourceBox": [
+            521,
+            1241,
+            633,
+            1379
+          ],
+          "opaquePixelCount": 8123
+        },
+        {
+          "row": 9,
+          "column": 5,
+          "sourceBox": [
+            651,
+            1241,
+            767,
+            1379
+          ],
+          "opaquePixelCount": 8256
+        },
+        {
+          "row": 9,
+          "column": 6,
+          "sourceBox": [
+            780,
+            1241,
+            895,
+            1379
+          ],
+          "opaquePixelCount": 8297
+        },
+        {
+          "row": 9,
+          "column": 7,
+          "sourceBox": [
+            905,
+            1241,
+            1017,
+            1379
+          ],
+          "opaquePixelCount": 8160
+        },
+        {
+          "row": 10,
+          "column": 0,
+          "sourceBox": [
+            12,
+            1379,
+            126,
+            1521
+          ],
+          "opaquePixelCount": 9134
+        },
+        {
+          "row": 10,
+          "column": 1,
+          "sourceBox": [
+            141,
+            1381,
+            251,
+            1521
+          ],
+          "opaquePixelCount": 8617
+        },
+        {
+          "row": 10,
+          "column": 2,
+          "sourceBox": [
+            265,
+            1379,
+            381,
+            1522
+          ],
+          "opaquePixelCount": 8966
+        },
+        {
+          "row": 10,
+          "column": 3,
+          "sourceBox": [
+            393,
+            1379,
+            505,
+            1521
+          ],
+          "opaquePixelCount": 8944
+        },
+        {
+          "row": 10,
+          "column": 4,
+          "sourceBox": [
+            523,
+            1379,
+            634,
+            1521
+          ],
+          "opaquePixelCount": 9163
+        },
+        {
+          "row": 10,
+          "column": 5,
+          "sourceBox": [
+            649,
+            1380,
+            759,
+            1522
+          ],
+          "opaquePixelCount": 8547
+        },
+        {
+          "row": 10,
+          "column": 6,
+          "sourceBox": [
+            774,
+            1379,
+            884,
+            1521
+          ],
+          "opaquePixelCount": 8641
+        },
+        {
+          "row": 10,
+          "column": 7,
+          "sourceBox": [
+            898,
+            1379,
+            1013,
+            1521
+          ],
+          "opaquePixelCount": 9029
+        }
+      ]
+    }
+  ]
+}
