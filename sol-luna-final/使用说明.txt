@@ -1,68 +1,36 @@
-Sol & Luna · O Fortuna 猫头鹰桌宠
+Sol & Luna · 动作升级版 / Animation update · 2026-09-15
 
-开始使用，只需复制两个文件夹
+安装 / INSTALL
+1. 先备份旧版 sol、luna 文件夹。Back up existing sol and luna folders.
+2. 在 Finder 按 ⌘⇧G，输入 ~/.codex/pets/
+   In Finder, press ⌘⇧G and open ~/.codex/pets/
+3. 复制「可直接安装」里的 sol、luna 两个文件夹进去，不要复制外层目录。
+   Copy the two sol and luna folders from 可直接安装, without their enclosing folder.
+4. 在应用宠物界面刷新并重新选择；未更新时完整退出再打开应用。
+   Refresh and reselect the pet. Fully quit and reopen the app if necessary.
 
-1. 打开「可直接安装」，复制 sol 和 luna 两个文件夹。
-2. 在 Finder 按 Command + Shift + G，粘贴这个路径并回车：
-   ~/.codex/pets/
-3. 将两个文件夹粘贴进去。正确结构应是：
-   pets/sol/pet.json
-   pets/sol/spritesheet.webp
-   pets/luna/pet.json
-   pets/luna/spritesheet.webp
-   不要把外层「可直接安装」一起套进去。
-4. 回到 Codex / ChatGPT 桌面应用 → 设置 → 宠物 → 刷新。
-   选择「Sol · 晨光」或「Luna · 月夜」，再显示/唤醒宠物。
-   也可以在命令菜单选择「显示宠物」，或输入 /pet。
-   如果刷新后仍未出现，完全退出桌面应用再打开。
+每只宠物只有 pet.json 和 spritesheet.webp 两个文件；无需运行脚本。
+Each pet contains pet.json and spritesheet.webp. No scripts are needed.
 
-不需要运行脚本，不需要另外下载组件。
-Sol 与 Luna 是两个独立宠物，白天/夜间手动切换。
-如果已有同名文件夹，先把旧版本移到别处备份，再复制新版本。
-以后想停用，选择其他宠物，再把对应文件夹移出 pets 即可。
+新版 / UPDATED
+Sol：好奇 + 整理披风。Luna：整理披风 + 打盹。
+思考与敲键盘共用工作槽位，电脑全程保留；Thinking 不能单独原生触发。
+等待有问号；受挫时收翼低头后振作；16 个方向保留双侧眉羽。
+飞翔试作的翅膀／披风遮挡不稳定，按要求保留原版左右跑步。
 
-先看效果
-双击「预览/动画预览.html」：可切换动作、大小、速度和浅色/深色背景。
-该文件完全离线，可直接在浏览器打开，不依赖临时预览服务器。
-「预览/Sol-Luna-设计定稿.png」是大头、圆身、短腿的最终设计稿。
-「预览/sol-idle.png」与「luna-idle.png」是安装包中的实际角色帧。
+Sol: curiosity + cape care. Luna: cape care + drowsiness.
+Thinking and typing share the native work slot, with the laptop visible throughout.
+Waiting has a question mark; recovery keeps wings folded. Sixteen gaze directions.
+Original running retained because flight trials had inconsistent wing/cape occlusion.
 
-形象与名称
-• Sol：白天版，琥珀眼、灰蓝羽毛、金纹披风与太阳主题配饰。
-• Luna：夜间版，琥珀眼、深靛蓝羽毛、金纹披风与月亮主题配饰。
-• 保留原概念图的大脑袋、短圆身材和短腿，保留挑起的眉羽与表情。
-• Sol 是拉丁语表示太阳的阳性名词，与 Luna（月亮）构成日夜组合。
+预览 / PREVIEW
+打开「预览/动画预览.html」；顶部可切换中文/English。
+支持逐帧、16 方向、慢速 Thinking、原生时长与持续循环。
+Open 预览/动画预览.html and use 中文/English for language switching.
+Includes frame stepping, 16 directions, slow Thinking and timing controls.
 
-动画内容
-待机、向右跑、向左跑、招手、轻跃、受阻后恢复、等待、工作、检视；
-另有 16 个观察方向帧。披风、电脑和书本随动作显示。
-实际应用控制播放节奏；本地预览为方便检查会持续循环。
-系统开启「减少动态效果」时，桌面应用可能只显示静态帧。
-
-核验结果
-• 两套 pet.json 与透明无损 WebP 均已生成。
-• v2 格式：1536×2288，8列×11行，单格192×208。
-• 每套88格均有内容；检查了透明背景、格内边界和无损编码回读。
-• 直接运行本机应用的精灵图格式校验函数，两套均被接受。
-• 浏览器预览可显示角色与动作控制；未替你选择应用中的宠物。
-详见「制作记录/validation.json」与「native-loader-validation.json」。
-
-制作记录
-内置 imagegen 生成设计和动作；经用户明确同意，用本地 Python 抠图、对齐、打包。
-原始素材、最终提示词、构建脚本均保存在「制作记录」。
-这些文件无需复制进 pets。之前圆头无眉羽版及长腿版未用于本次安装包。
-
-官方操作说明：https://learn.chatgpt.com/zh-Hans/docs/pets
-名称出处：https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionary-entries.atlas_v1:lat.ls.perseus-eng2-n44583/
-
-注意：本包针对桌面 pets 文件夹。网页版宠物上传使用不同的尺寸要求。
-
-English — Quick start
-
-1. Open 可直接安装 (ready-to-install) and copy the sol and luna folders.
-2. In macOS Finder press Command + Shift + G and open ~/.codex/pets/. Paste both folders there.
-3. Open Settings → Pets → Refresh in the desktop app. Select Sol · 晨光 or Luna · 月夜, then show or wake the pet.
-
-Open 预览/动画预览.html for the offline preview. Use the 中文 / English button to change language.
-Back up existing pet folders with the same names. Day/night variants are selected manually.
-No scripts are required for installation.
+限制 / LIMITS
+已核对格式、像素、时长及安装内容；未在原生界面实际选择与触发播放。
+Format, pixels, timing and archive contents checked; native UI triggers untested.
+日夜外观手动切换，待机为合成循环，不随机切换。
+Select day/night manually. Idle activities form one fixed combined loop.

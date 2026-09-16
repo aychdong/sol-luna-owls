@@ -1,16 +1,16 @@
 {
-  "version": "2026-09-14-bilingual",
-  "status": "complete",
+  "version": "2026-09-15-animation-v2",
+  "status": "package-checked-native-ui-unverified",
   "files": [
     {
       "path": "Sol-Luna-安装包.zip",
-      "bytes": 3814874,
-      "sha256": "63eefda3a914d1cb49043a3d0b20059a559f1789a5a76c38516a886863d8de0f"
+      "bytes": 3938974,
+      "sha256": "bb220f1776a608798ff2cfd486984c14171a2e102ee80098225e8708521b5c41"
     },
     {
       "path": "使用说明.txt",
-      "bytes": 3805,
-      "sha256": "6d8e497182cccfe94b171f8fa12b96f5ab685cf07f6d71741a77c8818da65381"
+      "bytes": 2101,
+      "sha256": "9b8925058de41c6b688e6457e7c4fd019092db0d241edc1755065dcc72ca1471"
     },
     {
       "path": "制作记录/Luna-动画-prompt.txt",
@@ -29,33 +29,68 @@
     },
     {
       "path": "制作记录/build_pets.py",
-      "bytes": 10648,
-      "sha256": "fe295af3be7ba96a11914eb25423c038040a713dbcad63c2a9b6d732c62bd593"
+      "bytes": 14425,
+      "sha256": "7cd7588a44ce0094e6a1b5488d0cd5a5488ba525ee08603672e5ddb4cff87dca"
     },
     {
       "path": "制作记录/desktop-format.json",
-      "bytes": 1537,
-      "sha256": "8a0798068d7a95d271092606237ef58c03928e1104055f1d631f08672935184a"
+      "bytes": 1663,
+      "sha256": "b1d0157dedd4fb9d6b910bbf56e9af809c19aed067cc41104430bd94d0177ab9"
     },
     {
       "path": "制作记录/native-loader-validation.json",
-      "bytes": 510,
-      "sha256": "8b53ce68f034af0ba541a6626adc8802307dd84d01e14d7538b7c993d4f966be"
+      "bytes": 1019,
+      "sha256": "10eb48471deb90e5d8e4cf72b7a29cc2d7cc45e363b7117a6e8c5d91ac1027cf"
+    },
+    {
+      "path": "制作记录/preview-script-checks.json",
+      "bytes": 349,
+      "sha256": "844defbc655da9b5e9d2890acd033ec0034fca50d0bdae0d5bcd0144e8678f46"
     },
     {
       "path": "制作记录/preview-template.html",
-      "bytes": 13150,
-      "sha256": "552d5459c0ee2a1e52b9fc7233188b6dced31263f913a399caed8ca2ec8c056a"
+      "bytes": 17194,
+      "sha256": "fcf9868e71795c235fced285220aa712097da6f4883ceab60b403ab844106a90"
+    },
+    {
+      "path": "制作记录/production-prompts.json",
+      "bytes": 20388,
+      "sha256": "2275d76f0f5dfe2acac8c554e8bf3b32de3ceacd43954f078e2f812b347ffadb"
+    },
+    {
+      "path": "制作记录/quality-checks.json",
+      "bytes": 4016,
+      "sha256": "3855ae278af5810d4ea40ac305ed76eb90a2c9f56b0ea19a6fd18698f01411a1"
     },
     {
       "path": "制作记录/validation.json",
-      "bytes": 73745,
-      "sha256": "9e8fad625192bc291e7b6bbacf7def9656f092747292a6fa54cc4c926dfc68c6"
+      "bytes": 127371,
+      "sha256": "3c13536bb6227b210d78e6b376edbec17eb59e2f77a6eaccfa7a5f6c0b65fba8"
     },
     {
       "path": "制作记录/制作说明.md",
-      "bytes": 2009,
-      "sha256": "5be347cc32792361388fb89fe3480a9d48b74d6fcee3ace6d607ba487a32c8c6"
+      "bytes": 3266,
+      "sha256": "13544e00a135c969fbd66bfeec0fdcb171cb8fb2954cf866443dd3eb07e51fdb"
+    },
+    {
+      "path": "制作记录/原始素材/failed.png",
+      "bytes": 2779981,
+      "sha256": "e6205b755b5d4ef0de94841ecddea012f18939c9ef2effc67940e216d8644c9c"
+    },
+    {
+      "path": "制作记录/原始素材/flight.png",
+      "bytes": 3042662,
+      "sha256": "185013a45c4542e580f3f874116d2070fcfd60e1b8e79f72e7bd744bc82dc531"
+    },
+    {
+      "path": "制作记录/原始素材/gaze.png",
+      "bytes": 3126410,
+      "sha256": "c323bf88671713c6ab130b8d91aa582b00856a7f3df45c0d414327f60938d35c"
+    },
+    {
+      "path": "制作记录/原始素材/idle.png",
+      "bytes": 2933918,
+      "sha256": "6165d7131efe079f1c4548fd4eca5d6ec00f324bc4ec953d0cc0b75face010e9"
     },
     {
       "path": "制作记录/原始素材/luna-atlas-final-generated.png",
@@ -68,9 +103,79 @@
       "sha256": "3259d72e8ee998dbf33bf511b4a32609a4d85b5076244e498340b20a6e2801ba"
     },
     {
+      "path": "制作记录/原始素材/original-running-luna.webp",
+      "bytes": 360166,
+      "sha256": "6abf4cb452a8df984a1fcee05c19cc712805b1560d49ef0b9f99eb1bdd25059c"
+    },
+    {
+      "path": "制作记录/原始素材/original-running-sol.webp",
+      "bytes": 386692,
+      "sha256": "ddd95e4ffa281bf7dc6b60e3f9c6a8e0e1ba3f003e0daffcf212435cf43a05d7"
+    },
+    {
+      "path": "制作记录/原始素材/social.png",
+      "bytes": 2969938,
+      "sha256": "be2b0fa5aa74adf5a51e78ea55771013dccb8ca28e132453dac128c391acb22d"
+    },
+    {
       "path": "制作记录/原始素材/sol-atlas-generated.png",
       "bytes": 3484846,
       "sha256": "2641a3e3656bde72dcd5ef3407d39aba7cbc5e1d7179099f502943fa32a01bd9"
+    },
+    {
+      "path": "制作记录/原始素材/waiting.png",
+      "bytes": 3157743,
+      "sha256": "fe9dbab530b59e36bddf0b279f64be57231f6c2c2b11dcffb09a17a310729c45"
+    },
+    {
+      "path": "制作记录/原始素材/work.png",
+      "bytes": 3095614,
+      "sha256": "26393bc720a8dbbc8e86938a0bc12d87625eb24505065632748535f3b4636f1d"
+    },
+    {
+      "path": "制作记录/审阅概念图/01-idle-emotions.png",
+      "bytes": 2419197,
+      "sha256": "2e5144c62b79cf664bf8738df93e187fd6112bf74f60e3ac6bcd8fa88e852708"
+    },
+    {
+      "path": "制作记录/审阅概念图/02-thinking-work.png",
+      "bytes": 2410170,
+      "sha256": "39ce2b7b7539ead609b4f2b9f67bd3ed23c39947480cb64460351610da0c65d1"
+    },
+    {
+      "path": "制作记录/审阅概念图/03-gaze-brows.png",
+      "bytes": 2398735,
+      "sha256": "e1319807086af1c109355b2efbaabd8e34681a88d489153d08e56d593daeb5b9"
+    },
+    {
+      "path": "制作记录/审阅概念图/04-run-flight.png",
+      "bytes": 2049755,
+      "sha256": "2e8dd9d3b47fd8e6e89ed2f1a3b2d787f713d64fbef5b1441a96e4f3ec89ad74"
+    },
+    {
+      "path": "制作记录/旧版-v1/build_pets.py",
+      "bytes": 10648,
+      "sha256": "fe295af3be7ba96a11914eb25423c038040a713dbcad63c2a9b6d732c62bd593"
+    },
+    {
+      "path": "制作记录/旧版-v1/desktop-format.json",
+      "bytes": 1537,
+      "sha256": "8a0798068d7a95d271092606237ef58c03928e1104055f1d631f08672935184a"
+    },
+    {
+      "path": "制作记录/旧版-v1/native-loader-validation.json",
+      "bytes": 510,
+      "sha256": "8b53ce68f034af0ba541a6626adc8802307dd84d01e14d7538b7c993d4f966be"
+    },
+    {
+      "path": "制作记录/旧版-v1/validation.json",
+      "bytes": 73745,
+      "sha256": "9e8fad625192bc291e7b6bbacf7def9656f092747292a6fa54cc4c926dfc68c6"
+    },
+    {
+      "path": "制作记录/旧版-v1/制作说明.md",
+      "bytes": 2009,
+      "sha256": "5be347cc32792361388fb89fe3480a9d48b74d6fcee3ace6d607ba487a32c8c6"
     },
     {
       "path": "制作记录/设计定稿-prompt.txt",
@@ -79,23 +184,23 @@
     },
     {
       "path": "可直接安装/luna/pet.json",
-      "bytes": 228,
-      "sha256": "47caa8e3b060e3bd1c7bd43edd73f17ecfa25e95f21d479f564da3bf89048c82"
+      "bytes": 234,
+      "sha256": "d5caccad7c5e75ecc46de2d2d22f061b2772f0e4f9b14bcd709d40d4a1235d02"
     },
     {
       "path": "可直接安装/luna/spritesheet.webp",
-      "bytes": 1819008,
-      "sha256": "62ea863236dd59162a9869bd1173de7579c04cd293292c82027a92b915b1d3c2"
+      "bytes": 1933534,
+      "sha256": "9a84db3e39ac13b7924b584a357ab1bbc345358d682cadc604f00f2d8c69005b"
     },
     {
       "path": "可直接安装/sol/pet.json",
-      "bytes": 211,
-      "sha256": "05024670865c29a5c43a9b520ac598164753387b614394b39cd1bfa718fc45d2"
+      "bytes": 228,
+      "sha256": "e9c4f981c72170129d4716d7c2aa8cdbacdf0d8622d77a6b71c4acdbb03e0324"
     },
     {
       "path": "可直接安装/sol/spritesheet.webp",
-      "bytes": 2000634,
-      "sha256": "80ef6368877251272a7491599108b04108f019592206af506425edb98abcdb34"
+      "bytes": 2006996,
+      "sha256": "2838fbf9955e611235380867a8e7aba33b16e0007226f3fe0228d3e9c6579512"
     },
     {
       "path": "预览/Sol-Luna-设计定稿.png",
@@ -104,118 +209,128 @@
     },
     {
       "path": "预览/luna-failed.webp",
-      "bytes": 210162,
-      "sha256": "7ed374aceef9dca20993aea1ffb807fdd8408e46073f2f403cb93e35b32560f6"
+      "bytes": 240688,
+      "sha256": "99a6dcc4390203f36680f46c75f604c32a8cc632cffbc962bcb633595338763e"
     },
     {
       "path": "预览/luna-idle.png",
-      "bytes": 38491,
-      "sha256": "89659ff1d0d13774e9a1a26b2b800b3e9606c389427d731390b933820b065b7b"
+      "bytes": 42025,
+      "sha256": "a9b29ae57cbf2e138c6c58cf0b7e76b8acf4eb087e6de5a167c5c7296c416f31"
     },
     {
       "path": "预览/luna-idle.webp",
-      "bytes": 161716,
-      "sha256": "518a749d84bfd58415bdff63db6191e4a4f75ec65af0cf450da8c133a3a98575"
+      "bytes": 188062,
+      "sha256": "8a38a0fda6a99633b371d983964502c9e705e5da21b3bc02d2cbbdfc7ab9d643"
     },
     {
       "path": "预览/luna-jumping.webp",
-      "bytes": 133352,
-      "sha256": "ac683093d39a4f0237bbaa3ecaa0d8aa48409bf9bdec4454ca6303767f085649"
+      "bytes": 154032,
+      "sha256": "a3dbf62a810c4852e56f74712d47c714f129b10098793c9297e7c65279a62d11"
     },
     {
       "path": "预览/luna-review.webp",
-      "bytes": 164158,
-      "sha256": "9659e58bd04bb37f99411a04d3d077495aa05570108ea4fcb985ee4818bb77b4"
+      "bytes": 193690,
+      "sha256": "62673c147da272c1c7c88e1ffe2e69da099b48aa3307b3ef844cfec3203fde76"
     },
     {
       "path": "预览/luna-running-left.webp",
-      "bytes": 177988,
-      "sha256": "a9a55eb51417f42ad7356fa7a87afb06465d059a3725d1bd8da4838bea11a6de"
+      "bytes": 178264,
+      "sha256": "604e2f2819f37133eae7a51fa39e53ad16e0fdcb60f81987ce6f2081e317df6b"
     },
     {
       "path": "预览/luna-running-right.webp",
-      "bytes": 175250,
-      "sha256": "31934695067786b6f92e5e3fecd137aac680f62a72b3dd4dd755b2068ca8d3cb"
+      "bytes": 175330,
+      "sha256": "e883cd3e486976e862a333476c724a1fd72bf7a7b168276754bffc1e73623d75"
     },
     {
       "path": "预览/luna-running.webp",
-      "bytes": 158508,
-      "sha256": "1801b0045c567faab08aa105608096d96faef1055bdc3d85f110bb6fb1a5bd5f"
+      "bytes": 207408,
+      "sha256": "7dc6c9748e6713946fd096ac625c152de63f9c370f0aa9e5d4bac7df255cdd24"
+    },
+    {
+      "path": "预览/luna-thinking.webp",
+      "bytes": 155132,
+      "sha256": "e3c99453bc6a5aef678f0d91a0aee6301c8aceb44d7686ee040672b02d66070a"
     },
     {
       "path": "预览/luna-waiting.webp",
-      "bytes": 164774,
-      "sha256": "a5760233e2eabe9464b1270e1921bbdb45a964d6e9bc1db506807c515b63d9dc"
+      "bytes": 215190,
+      "sha256": "31f2a58355fb9da3e76ed6674bbfe5a321e904969b0e6e3cbb4d808cd2d7f57c"
     },
     {
       "path": "预览/luna-waving.webp",
-      "bytes": 109862,
-      "sha256": "9e8191c8128873b7d881402bff0769621204393fe2a98fbf76abb48a2f059e1a"
+      "bytes": 138182,
+      "sha256": "e73061fa9214f3cda7b6587f559bf7fa669baad67e305a0c0dc084b6bcd793ee"
     },
     {
       "path": "预览/luna-全帧检查.jpg",
-      "bytes": 800881,
-      "sha256": "0971c7a06b4ee7221db66fccd5a9e08778bb3431d2914367e2f798dd90f21d1b"
+      "bytes": 1149242,
+      "sha256": "a07b6a60e9e554f3ca3fc99df32eff45ce9d484ea9a5edf834cd28ed941ab7a3"
     },
     {
       "path": "预览/sol-failed.webp",
-      "bytes": 232082,
-      "sha256": "45912c806a3fb620f30bab90f3bbe51fb2a1a358ae8487606b5c584748c84480"
+      "bytes": 241352,
+      "sha256": "6116aa09c4ad8d91a3c61513936b92676ecc94024fd11960dc35ad10277f033d"
     },
     {
       "path": "预览/sol-idle.png",
-      "bytes": 41002,
-      "sha256": "f20d58567d81f74160f8dd988106f8cd62a79d71d8254db20a2718f98d5b83c9"
+      "bytes": 42807,
+      "sha256": "84d5d5b07fbfe21550ba5a9ef74a77fbc27f92cee1ed38914f88a4180574b49e"
     },
     {
       "path": "预览/sol-idle.webp",
-      "bytes": 177456,
-      "sha256": "5f4740bbbabef8b04a858743b73e33713074b2a9257da5c36bc905af59503cee"
+      "bytes": 193074,
+      "sha256": "a236669c8fa0f6d313a58f1e0e6ec7e8d436f4ca7cbe826b436ba8ab41d52055"
     },
     {
       "path": "预览/sol-jumping.webp",
-      "bytes": 146764,
-      "sha256": "808ee0ec00d04d099146ab93cf0d5ce00728fe3f0c95e3e2fe8802c456750af1"
+      "bytes": 155652,
+      "sha256": "b9753bb5d32dda67777a54f6327bb2778a7d568e33b4752f47fe571015e59d0a"
     },
     {
       "path": "预览/sol-review.webp",
-      "bytes": 180506,
-      "sha256": "46d5a18958a37f103a51ad0bdd44df50eadb243470746c13c74b27cbe90c1f66"
+      "bytes": 201394,
+      "sha256": "3c512a44752b77e7a27c195054ea53de0d87940db6ca0c1285ffd12c2dd6b01c"
     },
     {
       "path": "预览/sol-running-left.webp",
-      "bytes": 193758,
-      "sha256": "9d80ac7cb8a121653305752d3fe71cc174dcda96822e41aebc761259d0be00a6"
+      "bytes": 193582,
+      "sha256": "a16d2cae698e55a3d2dea8146eccd3bb8667118d5b1562ef70685343007d918f"
     },
     {
       "path": "预览/sol-running-right.webp",
-      "bytes": 189666,
-      "sha256": "71d09041f2c549b8e786c4b90c8260669bbc63b3fbbf4a85f07478d724f15edf"
+      "bytes": 189698,
+      "sha256": "7b9ac082c6db80b4c1e8d4e492f37dcd5e2ab20c3a21ea907512655193f5fba5"
     },
     {
       "path": "预览/sol-running.webp",
-      "bytes": 174596,
-      "sha256": "2f243a830e7e64ab7a281db01a845170478c50855e6b84c7a6351444b39c806d"
+      "bytes": 216056,
+      "sha256": "e53b39ee0606fdfd00b1cbb47c354e0a3aa463ea41fcf9511a41faa2df948f30"
+    },
+    {
+      "path": "预览/sol-thinking.webp",
+      "bytes": 162196,
+      "sha256": "a68ddd27076abde8eac166e4fe5c9be65e9b1e5b6221b37bb765c28fac6e77f6"
     },
     {
       "path": "预览/sol-waiting.webp",
-      "bytes": 182892,
-      "sha256": "5276d09fe0ca529412bc5a88743c7f32e2df37f91207aeeee9a787dcf73d6a1d"
+      "bytes": 215984,
+      "sha256": "42ea11cac5d0798744a28aed7a2110bec7e9183040797c1391d8ea729b8af858"
     },
     {
       "path": "预览/sol-waving.webp",
-      "bytes": 121320,
-      "sha256": "48b23e9b12aaefe0f96f00b851aa3d5e5fc9301afaebe8711393a653bfa6f5f5"
+      "bytes": 138348,
+      "sha256": "705556dd79975ad06ab4718dcdaca9c00a6323dc02094194a48c77cb118fe01c"
     },
     {
       "path": "预览/sol-全帧检查.jpg",
-      "bytes": 822144,
-      "sha256": "4aab9027302482e513deae922a0eb240d04bfac6f2036af529e1717254e04fa8"
+      "bytes": 1169553,
+      "sha256": "b200688e26a95218b726a32e24c820b4f26b4d6d8241d142716ac5481487a84c"
     },
     {
       "path": "预览/动画预览.html",
-      "bytes": 5105959,
-      "sha256": "6ce51b492b16c51e59fda26a4c928c3e719e45f921e9b1d5a253245a07ed67e8"
+      "bytes": 5271191,
+      "sha256": "508f1d5bbeb0a8ef64682a15cb1de4e906ff5f9d26e2d187736e78d2aa2419bd"
     },
     {
       "path": "预览/实际角色-浅深背景.png",

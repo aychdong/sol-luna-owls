@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "method": "Node VM DOM harness; browser rendering not exercised",
+  "checks": [
+    "JavaScript syntax",
+    "all bilingual labels",
+    "native three-pass transition",
+    "continuous loop",
+    "paused frame stepping",
+    "thinking preview mapping",
+    "sixteen direction mappings",
+    "theme and size controls"
+  ]
+}

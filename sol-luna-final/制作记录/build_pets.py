@@ -1,209 +1,231 @@
 #!/usr/bin/env python3
-"""Local, reproducible post-production of the approved Sol/Luna assets.
+"""Extract generated artwork, align sequences and build native v2 pet packages.
 
-Requires Pillow and numpy. No network, no changes to source artwork.
-Generates a v2 atlas, lossless WebP, previews, and validation evidence.
+Pillow + NumPy only. Originals are read-only. Connected parts are associated
+with frame regions, so question marks and sleep/stars survive extraction.
 """
 from pathlib import Path
-from collections import deque
-import hashlib, json, math, shutil
+from collections import defaultdict
+import json, hashlib, math, zipfile
 import numpy as np
-from PIL import Image, ImageDraw, ImageFilter, ImageFont
+from PIL import Image, ImageDraw, ImageFilter, ImageOps
 
-ROOT = Path(__file__).resolve().parents[1]
-SOURCES = {
-    'sol': ROOT/'制作记录/原始素材/sol-atlas-generated.png',
-    'luna': ROOT/'制作记录/原始素材/luna-atlas-final-generated.png',
-}
-STATES = ['idle','running-right','running-left','waving','jumping','failed','waiting','running','review']
-COUNTS = [6,8,8,4,5,8,6,6,6,8,8]
-TIMES = [[1680,660,660,840,840,1920],[120]*7+[220],[120]*7+[220],
-         [140]*3+[280],[140]*4+[280],[140]*7+[240],
-         [150]*5+[260],[120]*5+[220],[150]*5+[280]]
+ROOT=Path(__file__).resolve().parents[1]
+SRC=ROOT/'制作记录/原始素材'
+OUT=ROOT/'预览'
+COUNTS=[6,8,8,4,5,8,6,6,6,8,8]
+STATES=['idle','running-right','running-left','waving','jumping','failed','waiting','running','review']
+TIMES=[[1680,660,660,840,840,1920],[120]*7+[220],[120]*7+[220],
+       [140]*3+[280],[140]*4+[280],[140]*7+[240],[150]*5+[260],
+       [120]*5+[220],[150]*5+[280]]
+GRIDS={'idle':(6,2),'work':(6,2),'flight':(8,4),'waiting':(6,2),
+       'failed':(5,3),'social':(6,6),'gaze':(8,4)}
 
-def components(mask, minimum=80):
-    seen = mask.copy()
+def components(mask):
+    """Run-length connected components, avoiding per-pixel Python flood fill."""
+    parents=[];runs=[];previous=[]
+    def root(i):
+        while parents[i]!=i:parents[i]=parents[parents[i]];i=parents[i]
+        return i
+    for y,row in enumerate(mask):
+        edges=np.flatnonzero(np.diff(np.pad(row.astype(np.int8),(1,1))))
+        current=[];j=0
+        for left,right in zip(edges[::2],edges[1::2]):
+            left=int(left);right=int(right);i=len(parents);parents.append(i)
+            while j<len(previous) and previous[j][1]<left:j+=1
+            k=j
+            while k<len(previous) and previous[k][0]<=right:
+                a=root(i);b=root(previous[k][2]);parents[a]=b;k+=1
+            current.append((left,right,i));runs.append((y,left,right,i))
+        previous=current
+    groups=defaultdict(list)
+    for y,l,r,i in runs:groups[root(i)].append((y,l,r))
     result=[]
-    for yy,xx in zip(*np.where(seen)):
-        if not seen[yy,xx]: continue
-        todo=[(int(yy),int(xx))];seen[yy,xx]=False;pixels=[]
-        while todo:
-            y,x=todo.pop();pixels.append((y,x))
-            for dy,dx in ((0,1),(0,-1),(1,0),(-1,0)):
-                ny,nx=y+dy,x+dx
-                if 0<=ny<seen.shape[0] and 0<=nx<seen.shape[1] and seen[ny,nx]:
-                    seen[ny,nx]=False;todo.append((ny,nx))
-        if len(pixels)>=minimum:
-            p=np.asarray(pixels);result.append(p)
-    return sorted(result,key=lambda p:float(p[:,1].mean()))
+    for rr in groups.values():
+        area=sum(r-l for y,l,r in rr)
+        if area<5:continue
+        box=[min(l for y,l,r in rr),min(y for y,l,r in rr),max(r for y,l,r in rr),max(y for y,l,r in rr)+1]
+        result.append({'area':area,'box':box,'runs':rr})
+    return result
 
-def foreground_seed(rgb):
+def mask_from_rgb(rgb,name):
     a=rgb.astype(np.int16)
-    # The model supplied a neutral checkerboard. Feather/cape/gold colors
-    # form closed, chromatic silhouettes around neutral ivory interiors.
-    return ((a.max(2)-a.min(2))>19) | (a.max(2)<130)
+    # Generated checkerboards are near-neutral; ivory interiors are enclosed
+    # by colored feather outlines and recovered with exterior flood fill.
+    # Work sheet has a light checkerboard and low-chroma slate laptop lids.
+    # Its dark threshold preserves the complete lid, not just the gold emblem.
+    seed=((a.max(2)-a.min(2))>20)|(a.max(2)<(150 if name=='work' else 105))
+    im=Image.fromarray(seed.astype('uint8')*255).filter(ImageFilter.MaxFilter(3)).filter(ImageFilter.MinFilter(3))
+    pad=Image.new('L',(im.width+2,im.height+2),0);pad.paste(im,(1,1))
+    ImageDraw.floodfill(pad,(0,0),128)
+    return np.asarray(pad)[1:-1,1:-1]!=128
 
-def row_bands(rgb):
-    active=foreground_seed(rgb).sum(1)>20
-    ranges=[];start=None
-    for y,on in enumerate(active):
-        if on and start is None:start=y
-        if not on and start is not None:
-            if y-start>40:ranges.append((start,y))
-            start=None
-    if start is not None:ranges.append((start,len(active)))
-    assert len(ranges)==11, f'Expected eleven rows, got {ranges}'
-    edges=[0]+[(ranges[i-1][1]+ranges[i][0])//2 for i in range(1,11)]+[rgb.shape[0]]
-    return list(zip(edges[:-1],edges[1:]))
-
-def silhouette(rgb):
-    seed=Image.fromarray(foreground_seed(rgb).astype('uint8')*255)
-    seed=seed.filter(ImageFilter.MaxFilter(3)).filter(ImageFilter.MinFilter(3))
-    # Pad before flood fill so no clipped-edge assumption enters the mask.
-    padded=Image.new('L',(seed.width+2,seed.height+2),0);padded.paste(seed,(1,1))
-    ImageDraw.floodfill(padded,(0,0),128)
-    a=np.asarray(padded)[1:-1,1:-1]
-    return a!=128
-
-def matte_cutout(rgb,mask):
-    """Rebuild clean antialiasing without retaining grey checkerboard fringes."""
+def rgba_cut(rgb,mask):
     hard=Image.fromarray(mask.astype('uint8')*255)
-    alpha=np.asarray(hard.filter(ImageFilter.GaussianBlur(.38))).copy()
-    alpha[alpha<4]=0;alpha[alpha>251]=255
+    alpha=np.asarray(hard.filter(ImageFilter.GaussianBlur(.35))).copy()
+    alpha[alpha<5]=0;alpha[alpha>250]=255
     inside=np.asarray(hard.filter(ImageFilter.MinFilter(5)))>0
-    # Extend nearby solid foreground color through the thin boundary. This
-    # removes checkerboard contamination from the generated outer pixels.
-    sums=np.zeros_like(rgb,dtype=float);weights=np.zeros(mask.shape,dtype=float)
-    colors=rgb.astype(float)
+    colors=rgb.astype(float);sums=np.zeros_like(colors);weights=np.zeros(mask.shape)
     for dy in range(-3,4):
         for dx in range(-3,4):
-            wt=1.0/(1+dx*dx+dy*dy)
-            m=np.roll(inside,(dy,dx),(0,1))
-            sums+=np.roll(colors,(dy,dx),(0,1))*m[:,:,None]*wt
-            weights+=m*wt
-    edge=(alpha>0)&~inside&(weights>0)
-    clean=rgb.copy();clean[edge]=np.clip(sums[edge]/weights[edge,None],0,255).astype('uint8')
-    clean[alpha==0]=0
+            wt=1/(1+dx*dx+dy*dy);m=np.roll(inside,(dy,dx),(0,1))
+            sums+=np.roll(colors,(dy,dx),(0,1))*m[:,:,None]*wt;weights+=m*wt
+    edge=(alpha>0)&~inside&(weights>0);clean=rgb.copy()
+    clean[edge]=np.clip(sums[edge]/weights[edge,None],0,255).astype('uint8');clean[alpha==0]=0
     return Image.fromarray(np.dstack([clean,alpha]))
 
-def source_frames(key):
-    rgb=np.asarray(Image.open(SOURCES[key]).convert('RGB'))
-    guide_rgb=np.asarray(Image.open(SOURCES['sol']).convert('RGB')) if key=='luna' else None
-    guide_bands=row_bands(guide_rgb) if guide_rgb is not None else None
+def extract(name):
+    cols,rows=GRIDS[name];source=Image.open(SRC/(name+'.png')).convert('RGBA');rgb=np.asarray(source)[:,:,:3]
+    genuine_alpha=np.asarray(source)[:,:,3].min()<250
+    mask=np.asarray(source)[:,:,3]>8 if genuine_alpha else mask_from_rgb(rgb,name)
+    cc=components(mask);mains=[c for c in cc if c['area']>1200]
+    print(name,source.size,'large components',len(mains),flush=True)
+    assert len(mains)==cols*rows,(name,len(mains),[(c['area'],c['box']) for c in mains])
+    ys=np.array([(c['box'][1]+c['box'][3])/2 for c in mains]);centers=np.linspace(ys.min(),ys.max(),rows)
+    for _ in range(20):
+        labels=np.abs(ys[:,None]-centers).argmin(1)
+        centers=np.array([np.mean(ys[labels==r]) for r in range(rows)])
+    ordered=[]
+    for row in range(rows):
+        group=sorted([c for c,k in zip(mains,labels) if k==row],key=lambda c:c['box'][0])
+        assert len(group)==cols,(name,row,len(group));ordered+=group
+    extra=[c for c in cc if c['area']<=1200]
+    assigned=defaultdict(list)
+    # Distance to the character rectangle associates disconnected effect parts.
+    for c in extra:
+        x=(c['box'][0]+c['box'][2])/2;y=(c['box'][1]+c['box'][3])/2
+        distances=[]
+        for m in ordered:
+            l,t,r,b=m['box'];dx=max(l-x,0,x-r);dy=max(t-y,0,y-b)
+            distances.append(dx*dx+dy*dy)
+        best=int(np.argmin(distances))
+        if distances[best]<(source.width/cols*.45)**2:assigned[best].append(c)
     frames=[];records=[]
-    for row,(top,bottom) in enumerate(row_bands(rgb)):
-        strip=rgb[top:bottom];mask=silhouette(strip)
-        if guide_rgb is not None:
-            gt,gb=guide_bands[row]
-            # Luna is an identity-preserving edit of the same poses. Use only
-            # an eroded interior from Sol as an opaque-white-region prior;
-            # Luna's own colored silhouette still determines its outer edge.
-            guide=Image.fromarray(silhouette(guide_rgb[gt:gb]).astype('uint8')*255)
-            guide=guide.resize((strip.shape[1],strip.shape[0]),Image.Resampling.NEAREST)
-            guide=guide.filter(ImageFilter.MinFilter(7))
-            mask|=np.asarray(guide)>0
-            padded=Image.new('L',(strip.shape[1]+2,strip.shape[0]+2),0)
-            padded.paste(Image.fromarray(mask.astype('uint8')*255),(1,1))
-            ImageDraw.floodfill(padded,(0,0),128)
-            mask=np.asarray(padded)[1:-1,1:-1]!=128
-        comps=components(mask)
-        print(key,'row',row,'components',[(len(p),int(p[:,1].min()),int(p[:,1].max())) for p in comps],flush=True)
-        assert len(comps)==8, f'{key} row {row}: {len(comps)} components'
-        for col,p in enumerate(comps):
-            one=np.zeros(mask.shape,dtype=bool);one[p[:,0],p[:,1]]=True
-            l=max(0,int(p[:,1].min())-4);r=min(strip.shape[1],int(p[:,1].max())+5)
-            t=max(0,int(p[:,0].min())-4);b=min(strip.shape[0],int(p[:,0].max())+5)
-            rgba=matte_cutout(strip[t:b,l:r],one[t:b,l:r])
-            frames.append(rgba)
-            records.append({'row':row,'column':col,'sourceBox':[l,top+t,r,top+b],
-                            'opaquePixelCount':int(one.sum())})
-    return frames,records
+    for i,m in enumerate(ordered):
+        parts=[m]+assigned[i];allmask=np.zeros(mask.shape,dtype=bool)
+        for c in parts:
+            for y,l,r in c['runs']:allmask[y,l:r]=True
+        nonzero=np.argwhere(allmask);top,left=nonzero.min(0);bottom,right=nonzero.max(0)+1
+        l=max(0,int(left)-5);t=max(0,int(top)-5);r=min(source.width,int(right)+5);b=min(source.height,int(bottom)+5)
+        cut=source.crop((l,t,r,b)) if genuine_alpha else rgba_cut(rgb[t:b,l:r],allmask[t:b,l:r])
+        main=[m['box'][0]-l,m['box'][1]-t,m['box'][2]-l,m['box'][3]-t]
+        frames.append({'image':cut,'main':main,'asset':name,'index':i})
+        records.append({'index':i,'sourceBox':[l,t,r,b],'mainBox':m['box'],'effectComponentCount':len(parts)-1})
+    return frames,{'source':name+'.png','sourceMode':Image.open(SRC/(name+'.png')).mode,'genuineSourceAlpha':bool(genuine_alpha),'frames':records}
 
-def normalize_frames(raw):
-    # One global scale preserves drawing proportions and coherent character size.
-    standing_height=np.median([f.getbbox()[3]-f.getbbox()[1] for f in raw[:8]])
-    scale=160/standing_height
-    frames=[]
-    for i,f in enumerate(raw):
-        row,col=divmod(i,8)
-        scaled=f.resize((round(f.width*scale),round(f.height*scale)),Image.Resampling.LANCZOS)
-        box=scaled.getbbox();obj=scaled.crop(box)
-        if obj.width>174 or obj.height>180:
-            # Only extended-wing extremities may exceed the regular envelope.
-            ratio=min(174/obj.width,180/obj.height)
-            obj=obj.resize((round(obj.width*ratio),round(obj.height*ratio)),Image.Resampling.LANCZOS)
-        cell=Image.new('RGBA',(192,208))
-        y=190-obj.height
-        if row==4 and col in (2,3):y-=14 if col==2 else 10
-        cell.alpha_composite(obj,((192-obj.width)//2,y))
-        frames.append(cell)
-    # Retain a settled pose for first frame / reduced motion. Recover quickly
-    # in setback animation instead of starting with a prolonged closed-eye pose.
-    frames[5*8:6*8]=[frames[0],frames[5*8],frames[5*8+1],frames[5*8+3],
-                     frames[5*8+4],frames[5*8+5],frames[5*8+6],frames[0]]
-    # The five-frame hop must settle before the next repetition.
-    frames[4*8]=frames[0]
-    frames[4*8+4]=frames[0]
-    for row,count in enumerate(COUNTS[:9]):
-        for col in range(count,8):frames[row*8+col]=frames[0]
-    return frames,scale
+def body_anchor(frame):
+    """Find gold chest badge, disambiguated from eyes and cape embroidery."""
+    im=frame['image'];rgb=np.asarray(im)[:,:,:3].astype(float);l,t,r,b=frame['main'];w=r-l;h=b-t
+    gold=(rgb[:,:,0]>145)&(rgb[:,:,1]>85)&(rgb[:,:,0]>rgb[:,:,2]*1.27)&(rgb[:,:,1]>rgb[:,:,2]*1.12)
+    yy,xx=np.indices(gold.shape);cx=l+w*.5;cy=t+h*.63
+    if frame['asset']=='flight':cx=l+w*.79;cy=t+h*.64
+    if frame['asset']=='waiting':cx=l+w*.45
+    if frame['asset']=='work':cx=l+w*.48
+    if frame['asset']=='gaze':cy=t+h*.67
+    region=(abs(xx-cx)<w*.17)&(abs(yy-cy)<h*.13)
+    points=gold&region
+    if points.sum()<8:return cx,cy
+    weights=np.exp(-((xx-cx)/(w*.09))**2-((yy-cy)/(h*.08))**2)*points
+    return float((xx*weights).sum()/weights.sum()),float((yy*weights).sum()/weights.sum())
 
-def make_atlas(frames):
-    atlas=Image.new('RGBA',(1536,2288))
-    for i,frame in enumerate(frames):atlas.alpha_composite(frame,((i%8)*192,(i//8)*208))
-    return atlas
+def align(frames,kind,standing_height=None):
+    heights=[f['main'][3]-f['main'][1] for f in frames]
+    scale=160/(standing_height or max(heights))
+    anchors=[body_anchor(f) for f in frames]
+    if kind=='flight':
+        # Use beak-side body landmark; one scale and one body plane for all phases.
+        # Anchor is the bottom-right body extent for flight, independent of wings.
+        anchors=[]
+        for f in frames:
+            l,t,r,b=f['main'];rgb=np.asarray(f['image'])[:,:,:3];a=np.asarray(f['image'])[:,:,3]
+            # Forward-most 30% contains owl face, not the trailing wing fan.
+            region=np.zeros(a.shape,bool);region[:,round(l+(r-l)*.72):r]=True
+            y,x=np.where((a>128)&region)
+            anchors.append((float(np.max(x)),float(np.median(y))))
+        extents=[(a[0],a[1],f['image'].width-a[0],f['image'].height-a[1]) for f,a in zip(frames,anchors)]
+        left=max(e[0] for e in extents);up=max(e[1] for e in extents);right=max(e[2] for e in extents);down=max(e[3] for e in extents)
+        scale=min(176/(left+right),180/(up+down));target=(8+left*scale,12+up*scale)
+    else:
+        target=(80 if kind=='work' else 96,0)
+        # Keep feet fixed. Never recenter or resize individual extended-wing frames.
+        sx=[]
+        for f,a in zip(frames,anchors):
+            xanchor=f['main'][2] if kind=='work' else a[0]
+            destx=182 if kind=='work' else target[0]
+            sx.append(min((destx-6)/max(xanchor,1),(186-destx)/max(f['image'].width-xanchor,1)))
+        scale=min(scale,min(sx),182/max(f['image'].height for f in frames))
+    result=[];audit=[]
+    for i,(f,a) in enumerate(zip(frames,anchors)):
+        src=f['image'];w=max(1,round(src.width*scale));h=max(1,round(src.height*scale))
+        obj=src.resize((w,h),Image.Resampling.LANCZOS);cell=Image.new('RGBA',(192,208))
+        if kind=='flight':x=round(target[0]-a[0]*scale);y=round(target[1]-a[1]*scale)
+        elif kind=='work':x=round(182-f['main'][2]*scale);y=round(190-f['main'][3]*scale)
+        else:x=round(96-a[0]*scale);y=round(190-f['main'][3]*scale)
+        if kind=='jump' and i==2:y-=13
+        cell.alpha_composite(obj,(x,y));result.append(cell)
+        audit.append({'asset':f['asset'],'sourceIndex':f['index'],'scale':scale,'paste':[x,y],'sourceMainBox':f['main'],'sourceAnchor':list(a)})
+    return result,audit
 
-def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
-
-def validate(key,atlas,frames,scale,records):
-    dest=ROOT/'可直接安装'/key
-    reopened=Image.open(dest/'spritesheet.webp').convert('RGBA')
-    assert reopened.size==(1536,2288)
-    assert np.array_equal(np.asarray(atlas),np.asarray(reopened)), 'Lossless WebP differs'
-    reports=[]
-    for i,f in enumerate(frames):
-        a=np.asarray(f)[:,:,3];box=f.getbbox()
-        assert box and box[0]>=6 and box[1]>=6 and box[2]<=186 and box[3]<=202,(key,i,box)
-        assert (a==0).mean()>.3
-        assert (a==255).sum()>1000
-        reports.append({'row':i//8,'column':i%8,'alphaBox':list(box),
-                        'transparentFraction':round(float((a==0).mean()),4)})
-    for r,count in enumerate(COUNTS):
-        unique=len({hashlib.sha256(f.tobytes()).hexdigest() for f in frames[r*8:r*8+count]})
-        assert unique>=min(count,3),(key,r,unique)
-    return {'pet':key,'status':'passed','width':1536,'height':2288,'mode':'RGBA',
-            'frameCount':88,'requiredFramesByRow':COUNTS,'sourceToOutputScale':scale,
-            'webpLosslessPixelRoundtrip':True,'sourceSha256':sha(SOURCES[key]),
-            'spriteSha256':sha(dest/'spritesheet.webp'),'frames':reports,'sourceExtraction':records}
-
-def make_previews(key,frames):
-    preview=ROOT/'预览'
-    frames[0].save(preview/f'{key}-idle.png')
-    for row,state in enumerate(STATES):
-        seq=frames[row*8:row*8+COUNTS[row]]
-        seq[0].save(preview/f'{key}-{state}.webp',save_all=True,append_images=seq[1:],
-                    duration=TIMES[row],loop=0,lossless=True,method=6)
-    # Technical contact sheet at native dimensions over neutral gray.
-    sheet=Image.new('RGB',(1536,2288),(222,225,230))
-    for i,f in enumerate(frames):sheet.paste(f,((i%8)*192,(i//8)*208),f)
-    sheet.save(preview/f'{key}-全帧检查.jpg',quality=93)
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 
 def main():
-    allreports=[];allframes={}
-    for key in SOURCES:
-        raw,records=source_frames(key);frames,scale=normalize_frames(raw)
-        atlas=make_atlas(frames);dest=ROOT/'可直接安装'/key;dest.mkdir(parents=True,exist_ok=True)
+    OUT.mkdir(parents=True,exist_ok=True);raw={};sources=[]
+    for key in GRIDS:raw[key],rec=extract(key);sources.append(rec)
+    all_reports=[];all_frames={}
+    for pet,p in [('sol',0),('luna',1)]:
+        r={};audit={}
+        idle=raw['idle'][p*6:p*6+6];r['idle'],audit['idle']=align(idle,'idle');r['idle'][-1]=r['idle'][0].copy()
+        # User-approved fallback: flight trial had inconsistent wing/cape occlusion.
+        # Preserve both original running sequences exactly, without mirroring badges.
+        movement=Image.open(SRC/('original-running-'+pet+'.webp')).convert('RGBA')
+        for state,mrow in [('running-right',0),('running-left',1)]:
+            r[state]=[movement.crop((i*192,mrow*208,(i+1)*192,(mrow+1)*208)) for i in range(8)]
+            audit[state]={'source':'original-running-'+pet+'.webp','preservedPixels':True,'flightTrialRejected':'Wing/cape occlusion inconsistent between phases'}
+        social=raw['social'][p*18:p*18+18]
+        r['waving'],audit['waving']=align([social[i] for i in [0,1,2,1]],'wave',social[0]['main'][3]-social[0]['main'][1])
+        r['jumping'],audit['jumping']=align([social[i] for i in [6,7,8,7,6]],'jump',social[6]['main'][3]-social[6]['main'][1])
+        r['jumping'][0]=r['idle'][0].copy();r['jumping'][-1]=r['idle'][0].copy()
+        # Choose the coherent 4-pose segment from the generated failed sheet.
+        fail=raw['failed'][0:4] if p==0 else raw['failed'][10:14]
+        r['failed'],audit['failed']=align([fail[i] for i in [0,1,2,3,3,2,1,0]],'failed',fail[0]['main'][3]-fail[0]['main'][1])
+        r['failed'][0]=r['idle'][0].copy();r['failed'][-1]=r['idle'][0].copy()
+        r['waiting'],audit['waiting']=align(raw['waiting'][p*6:p*6+6],'waiting');r['waiting'][-1]=r['waiting'][0].copy()
+        r['running'],audit['running']=align(raw['work'][p*6:p*6+6],'work')
+        # The generated fifth book pose dropped the book. Never select that frame.
+        book=social[12:18];r['review'],audit['review']=align([book[i] for i in [0,1,2,3,2,1]],'review')
+        look,audit['look']=align(raw['gaze'][p*16:p*16+16],'gaze')
+        frames=[]
+        for state in STATES:
+            frames.extend(r[state]);frames.extend([r['idle'][0].copy()]*(8-len(r[state])))
+        frames+=look
+        atlas=Image.new('RGBA',(1536,2288))
+        for i,f in enumerate(frames):atlas.alpha_composite(f,((i%8)*192,(i//8)*208))
+        dest=ROOT/'可直接安装'/pet;dest.mkdir(parents=True,exist_ok=True)
         atlas.save(dest/'spritesheet.webp',lossless=True,exact=True,method=6)
-        metadata={'id':key,'displayName':('Sol · 晨光' if key=='sol' else 'Luna · 月夜'),
-                  'description':('晨光猫头鹰：琥珀眼、短腿、金纹披风与太阳徽章。' if key=='sol' else '月夜猫头鹰：琥珀眼、短腿、深靛蓝金纹披风与月亮主题配饰。'),
-                  'spriteVersionNumber':2,'spritesheetPath':'spritesheet.webp'}
-        (dest/'pet.json').write_text(json.dumps(metadata,ensure_ascii=False,indent=2)+'\n')
-        make_previews(key,frames)
-        allreports.append(validate(key,atlas,frames,scale,records));allframes[key]=frames
-    summary={'status':'passed','scope':'Package format, alpha, cell bounds, lossless encoding, non-empty animation frames',
-             'nativeAppSelectedAndPlayed':False,'appFormatVerifiedVersion':'26.901.51231',
-             'pets':allreports}
-    (ROOT/'制作记录/validation.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2))
-    print('Validated both pets.',flush=True)
+        meta={'id':pet,'displayName':'Sol · 晨光' if pet=='sol' else 'Luna · 月夜','description':'好奇观察、整理披风与思考工作。Curiosity, cape care and thoughtful work.' if pet=='sol' else '整理披风、深夜犯困与思考工作。Cape care, sleepy nights and thoughtful work.','spriteVersionNumber':2,'spritesheetPath':'spritesheet.webp'}
+        (dest/'pet.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2)+'\n')
+        reopened=Image.open(dest/'spritesheet.webp').convert('RGBA');assert np.array_equal(np.asarray(atlas),np.asarray(reopened))
+        checks=[]
+        for i,f in enumerate(frames):
+            box=f.getbbox();a=np.asarray(f)[:,:,3];assert box,(pet,i)
+            assert box[0]>=3 and box[1]>=3 and box[2]<=189 and box[3]<=204,(pet,i,box)
+            checks.append({'index':i,'box':list(box),'transparentFraction':round(float((a==0).mean()),4)})
+        frames[0].save(OUT/(pet+'-idle.png'))
+        for state,times in zip(STATES,TIMES):
+            seq=r[state];seq[0].save(OUT/(pet+'-'+state+'.webp'),save_all=True,append_images=seq[1:],duration=times,loop=0,lossless=True,method=6)
+        # Thinking-only is an explicitly labeled preview, not an extra native state.
+        think=[r['running'][i] for i in [1,2,3,2]]
+        think[0].save(OUT/(pet+'-thinking.webp'),save_all=True,append_images=think[1:],duration=[500,850,500,650],loop=0,lossless=True)
+        sheet=Image.new('RGB',(1536,2288),(221,224,230))
+        for i,f in enumerate(frames):sheet.paste(f,((i%8)*192,(i//8)*208),f)
+        sheet.save(OUT/(pet+'-全帧检查.jpg'),quality=95)
+        all_reports.append({'pet':pet,'spriteSha256':sha(dest/'spritesheet.webp'),'frameCount':88,'frames':checks,'alignment':audit,'losslessPixelRoundtrip':True})
+        all_frames[pet]=r
+    report={'status':'assembled-awaiting-visual-QA','nativeAppSelectedAndPlayed':False,'format':{'version':2,'width':1536,'height':2288,'counts':COUNTS},'sources':sources,'pets':all_reports,'decisions':{'solIdle':'curious + cape care','lunaIdle':'cape care + drowsy','work':'persistent laptop, think then type','failed':'folded wings, hunched shoulders and recover','movement':'original running; user-authorized fallback from inconsistent flight trial'}}
+    (ROOT/'制作记录/validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+    with zipfile.ZipFile(ROOT/'Sol-Luna-安装包.zip','w',zipfile.ZIP_DEFLATED) as z:
+        for p in sorted((ROOT/'可直接安装').rglob('*')):
+            if p.is_file():z.write(p,p.relative_to(ROOT/'可直接安装'))
+    print('Built both native packages; visual QA still required.',flush=True)
 
 if __name__=='__main__':main()

@@ -1,0 +1,160 @@
+{
+  "status": "passed",
+  "pets": [
+    {
+      "pet": "sol",
+      "spriteSha256": "2838fbf9955e611235380867a8e7aba33b16e0007226f3fe0228d3e9c6579512",
+      "populatedCells": 88,
+      "originalRunningPixelIdentical": true,
+      "seamlessIdleEndpoints": true,
+      "staticFirstFrameMatches": true,
+      "allLaptopInteriorMinAlpha": [
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      "timelines": [
+        {
+          "state": "idle",
+          "nativeFrames": 6,
+          "durationMs": 6600,
+          "previewMatchesAtlas": true
+        },
+        {
+          "state": "running-right",
+          "nativeFrames": 8,
+          "durationMs": 1060,
+          "previewMatchesAtlas": true
+        },
+        {
+          "state": "running-left",
+          "nativeFrames": 8,
+          "durationMs": 1060,
+          "previewMatchesAtlas": true
+        },
+        {
+          "state": "waving",
+          "nativeFrames": 4,
+          "durationMs": 700,
+          "previewMatchesAtlas": true
+        },
+        {
+          "state": "jumping",
+          "nativeFrames": 5,
+          "durationMs": 840,
+          "previewMatchesAtlas": true
+        },
+        {
+          "state": "failed",
+          "nativeFrames": 8,
+          "durationMs": 1220,
+          "previewMatchesAtlas": true
+        },
+        {
+          "state": "waiting",
+          "nativeFrames": 6,
+          "durationMs": 1010,
+          "previewMatchesAtlas": true
+        },
+        {
+          "state": "running",
+          "nativeFrames": 6,
+          "durationMs": 820,
+          "previewMatchesAtlas": true
+        },
+        {
+          "state": "review",
+          "nativeFrames": 6,
+          "durationMs": 1030,
+          "previewMatchesAtlas": true
+        }
+      ]
+    },
+    {
+      "pet": "luna",
+      "spriteSha256": "9a84db3e39ac13b7924b584a357ab1bbc345358d682cadc604f00f2d8c69005b",
+      "populatedCells": 88,
+      "originalRunningPixelIdentical": true,
+      "seamlessIdleEndpoints": true,
+      "staticFirstFrameMatches": true,
+      "allLaptopInteriorMinAlpha": [
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      "timelines": [
+        {
+          "state": "idle",
+          "nativeFrames": 6,
+          "durationMs": 6600,
+          "previewMatchesAtlas": true
+        },
+        {
+          "state": "running-right",
+          "nativeFrames": 8,
+          "durationMs": 1060,
+          "previewMatchesAtlas": true
+        },
+        {
+          "state": "running-left",
+          "nativeFrames": 8,
+          "durationMs": 1060,
+          "previewMatchesAtlas": true
+        },
+        {
+          "state": "waving",
+          "nativeFrames": 4,
+          "durationMs": 700,
+          "previewMatchesAtlas": true
+        },
+        {
+          "state": "jumping",
+          "nativeFrames": 5,
+          "durationMs": 840,
+          "previewMatchesAtlas": true
+        },
+        {
+          "state": "failed",
+          "nativeFrames": 8,
+          "durationMs": 1220,
+          "previewMatchesAtlas": true
+        },
+        {
+          "state": "waiting",
+          "nativeFrames": 6,
+          "durationMs": 1010,
+          "previewMatchesAtlas": true
+        },
+        {
+          "state": "running",
+          "nativeFrames": 6,
+          "durationMs": 820,
+          "previewMatchesAtlas": true
+        },
+        {
+          "state": "review",
+          "nativeFrames": 6,
+          "durationMs": 1030,
+          "previewMatchesAtlas": true
+        }
+      ]
+    }
+  ],
+  "zipExactlyFourInstallFiles": true,
+  "visualReview": {
+    "method": "Frame contact sheets inspected at enlarged and pet-scale sizes",
+    "laptopPresentEveryWorkFrame": true,
+    "questionMarkSleepAndStarsRetained": true,
+    "gazeBrowTuftsRemainBilateral": true,
+    "failedWingsStayFolded": true,
+    "flightRejected": "Inconsistent wing/cape occlusion; original running restored"
+  },
+  "nativeUiExercised": false,
+  "browserRenderingExercised": false
+}

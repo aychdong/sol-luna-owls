@@ -7,17 +7,117 @@ main{max-width:1080px;margin:auto;padding:36px 28px 56px}header{display:flex;jus
 .controls{padding:20px;background:var(--paper);border:1px solid var(--line);border-radius:14px}.states{display:flex;flex-wrap:wrap;gap:8px}.options{display:flex;flex-wrap:wrap;align-items:center;gap:18px;margin-top:20px;padding-top:16px;border-top:1px solid var(--line)}label{display:flex;align-items:center;gap:8px}.range-label{font-size:13px;color:var(--muted)}input[type=range]{width:110px;accent-color:var(--accent)}.hint{font-size:13px;color:var(--muted);margin:12px 0 0}.install{margin-top:27px;padding:22px 24px;border-left:3px solid var(--accent);background:var(--paper)}.install strong{font-size:17px}code{font-family:ui-monospace,monospace;font-size:13px;overflow-wrap:anywhere}.path{padding:8px 11px;background:var(--stage);border-radius:6px;margin:10px 0}details{margin-top:22px;color:var(--muted);font-size:13px}summary{cursor:pointer}footer{margin-top:26px;color:var(--muted);font:13px Georgia,serif;letter-spacing:.04em}
 @media(max-width:650px){main{padding:24px 16px}h1{font-size:34px}.cards{grid-template-columns:1fr}.stage{height:285px}.caption{padding:12px 17px}.options{gap:13px}header{align-items:center}.controls{padding:15px}}
 
-.header-actions{display:flex;gap:8px;flex-wrap:wrap}.caption{gap:12px;flex-wrap:wrap}.tag{max-width:270px}a{color:var(--accent)}.install p{margin:10px 0}</style></head><body><main>
+.header-actions{display:flex;gap:8px;flex-wrap:wrap}.caption{gap:12px;flex-wrap:wrap}.tag{max-width:270px}a{color:var(--accent)}.install p{margin:10px 0}[hidden]{display:none!important}</style></head><body><main>
 <header><div><h1>Sol &amp; Luna</h1><p class="sub" data-i18n="subtitle"></p></div><div class="header-actions"><button id="language" aria-label="Switch language / 切换语言">English</button><button id="theme" aria-pressed="false"></button></div></header>
 <div class="cards"><section class="card"><div class="stage" id="sol-stage"><span class="state-label"></span><div class="sprite" id="sol" role="img"></div></div><div class="caption"><span class="name">Sol</span><span class="tag" data-i18n="solTag"></span></div></section><section class="card"><div class="stage" id="luna-stage"><span class="state-label"></span><div class="sprite" id="luna" role="img"></div></div><div class="caption"><span class="name">Luna</span><span class="tag" data-i18n="lunaTag"></span></div></section></div>
-<section class="controls" id="controls"><div class="states" id="states"></div><div class="options"><button id="pause" aria-pressed="false"></button><label><span data-i18n="size"></span><input id="size" type="range" min="96" max="288" step="24" value="192"><span class="range-label" id="size-value">192 px</span></label><label><span data-i18n="speed"></span><select id="speed"><option value="0.5">0.5×</option><option value="1" selected data-i18n="nativeSpeed"></option><option value="1.5">1.5×</option><option value="2">2×</option></select></label><label><input id="checker" type="checkbox"><span data-i18n="checker"></span></label></div><p class="hint" id="hint"></p></section>
+<section class="controls" id="controls"><div class="states" id="states"></div><div class="options"><button id="pause" aria-pressed="false"></button><label><span data-i18n="size"></span><input id="size" type="range" min="96" max="288" step="24" value="192"><span class="range-label" id="size-value">192 px</span></label><label><span data-i18n="speed"></span><select id="speed"><option value="0.5">0.5×</option><option value="1" selected data-i18n="nativeSpeed"></option><option value="1.5">1.5×</option><option value="2">2×</option></select></label><label><input id="checker" type="checkbox"><span data-i18n="checker"></span></label></div><div class="options"><label><span data-i18n="playMode"></span><select id="play-mode"><option value="native" data-i18n="nativeMode"></option><option value="loop" data-i18n="loopMode"></option></select></label><button id="prev" data-i18n="prev"></button><button id="next" data-i18n="next"></button><span id="frame-counter" class="range-label" aria-live="off"></span><label id="direction-control" hidden><span data-i18n="direction"></span><input id="direction" type="range" min="0" max="15" step="1" value="0"><span id="angle">0° ↑</span></label></div><p class="hint" id="hint"></p><p class="hint" data-i18n="revisionNote"></p></section>
 <div class="install"><strong data-i18n="installTitle"></strong><p data-i18n="installCopy"></p><div class="path"><code>~/.codex/pets/</code></div><p data-i18n="installChoose"></p><p class="hint" data-i18n="installNote"></p></div>
 <details><summary data-i18n="detailsTitle"></summary><p data-i18n="detailsAnimation"></p><p data-i18n="detailsFormat"></p><p data-i18n="detailsCreation"></p><p data-i18n="detailsNames"></p></details>
 <footer data-i18n="footer"></footer></main><script>
 const DATA = ["sol-luna-final/\u53ef\u76f4\u63a5\u5b89\u88c5/sol/spritesheet.webp", "sol-luna-final/\u53ef\u76f4\u63a5\u5b89\u88c5/luna/spritesheet.webp"];
 const TEXT={
-zh:{title:'Sol & Luna · 猫头鹰动画预览',subtitle:'晨光与月夜 · O Fortuna 的小猫头鹰',solTag:'晨光 · 太阳徽章 · 灰蓝羽毛',lunaTag:'月夜 · 月亮主题 · 深靛蓝羽毛',solAlt:'Sol 晨光猫头鹰动画',lunaAlt:'Luna 月夜猫头鹰动画',controls:'动画控制',states:['待机','向右跑','向左跑','招手','轻跃','受阻后恢复','等待','工作','检视','跟随指针'],size:'大小',speed:'速度',nativeSpeed:'1× 应用原速',checker:'透明边缘检查',pause:'暂停',play:'播放',dark:'切换深色背景',light:'切换浅色背景',hint:'选择动作查看循环。待机较慢；其余动作采用应用的帧时长。',lookHint:'将指针绕着角色移动，查看对应的观察方向。',installTitle:'复制两个文件夹，就能安装。',installCopy:'找到「可直接安装」文件夹，复制 sol 和 luna。在 macOS Finder 按 ⌘ ⇧ G，前往：',installChoose:'粘贴后，进入桌面应用「设置 → 宠物 → 刷新」，选择 Sol · 晨光 或 Luna · 月夜，再显示／唤醒宠物。',installNote:'只复制 sol、luna 两个文件夹，勿多套一层目录。日夜版本需手动切换；如果已有同名宠物，先备份旧文件夹。',detailsTitle:'预览和制作说明',detailsAnimation:'包含 9 组动作与 16 个观察方向帧。桌面应用通常播放动作三轮后回到待机；本页为检查方便持续循环。下载后的预览可离线打开。',detailsFormat:'桌面 v2：1536 × 2288，8 × 11 格，每帧 192 × 208。已检查透明度、格内边界、无损编码及本机图像格式校验。未在原生应用中实际选择并播放。',detailsCreation:'图像由 imagegen 生成，经授权使用本地 Python 抠图、对齐并打包。项目保留素材、提示词和构建脚本。',detailsNames:'Sol 是拉丁语中表示太阳的阳性名词；Luna 表示月亮。',footer:'同一份好奇心，更明亮的明天。'},
-en:{title:'Sol & Luna · Owl Animation Preview',subtitle:'Daylight & moonlight · Little owl companions for O Fortuna',solTag:'Daylight · Sun emblem · Slate-blue feathers',lunaTag:'Moonlight · Lunar accents · Deep-indigo feathers',solAlt:'Sol daylight owl animation',lunaAlt:'Luna moonlight owl animation',controls:'Animation controls',states:['Idle','Run right','Run left','Wave','Hop','Recover','Wait','Work','Review','Follow pointer'],size:'Size',speed:'Speed',nativeSpeed:'1× App timing',checker:'Check transparency',pause:'Pause',play:'Play',dark:'Dark background',light:'Light background',hint:'Choose an action to loop it. Idle is slower; other actions use the app’s frame timing.',lookHint:'Move your pointer around either owl to explore its directional poses.',installTitle:'Copy two folders to install.',installCopy:'Locate the 可直接安装 (ready-to-install) folder and copy sol and luna. In macOS Finder, press ⌘ ⇧ G and go to:',installChoose:'Paste the folders, then open the desktop app’s Settings → Pets → Refresh. Select Sol · 晨光 or Luna · 月夜, then show or wake your pet.',installNote:'Copy only sol and luna, without an extra enclosing folder. Switch day/night pets manually. Back up any existing folders with the same names first.',detailsTitle:'Preview and production notes',detailsAnimation:'Includes 9 action sequences and 16 directional frames. The desktop app usually plays an action three times before returning to idle; this page loops it for inspection. The downloaded preview also works offline.',detailsFormat:'Desktop v2: 1536 × 2288 pixels, an 8 × 11 grid, and 192 × 208 cells. Transparency, cell bounds, lossless encoding and the installed app’s image validator were checked. Native pet selection and playback were not exercised.',detailsCreation:'Artwork generated with imagegen; authorized local Python processing handles extraction, alignment and packaging. Source assets, prompts and build scripts are included.',detailsNames:'Sol is the masculine Latin noun for the sun; Luna means the moon.',footer:'Same curiosity. A brighter tomorrow.'}
+  "zh": {
+    "title": "Sol & Luna · 猫头鹰动画预览",
+    "subtitle": "晨光与月夜 · O Fortuna 的小猫头鹰",
+    "solTag": "好奇观察 + 整理披风 · 晨光",
+    "lunaTag": "整理披风 + 深夜犯困 · 月夜",
+    "solAlt": "Sol 晨光猫头鹰动画",
+    "lunaAlt": "Luna 月夜猫头鹰动画",
+    "controls": "动画控制",
+    "states": [
+      "待机",
+      "向右跑",
+      "向左跑",
+      "招手",
+      "轻跃",
+      "受挫后振作",
+      "等待输入",
+      "思考 → 敲键盘",
+      "检视",
+      "16 方向",
+      "Thinking · 仅预览"
+    ],
+    "size": "大小",
+    "speed": "速度",
+    "nativeSpeed": "1× 应用原速",
+    "checker": "透明边缘检查",
+    "pause": "暂停",
+    "play": "播放",
+    "dark": "切换深色背景",
+    "light": "切换浅色背景",
+    "hint": "使用应用原始帧时长；可切换持续循环，或暂停后逐帧检查。",
+    "lookHint": "滑动方向条或将指针绕着角色移动，检查 16 个方向。原生应用按输入位置、电脑操作光标等目标触发，并非普通鼠标移动都会触发。",
+    "installTitle": "复制两个文件夹，就能安装。",
+    "installCopy": "找到「可直接安装」文件夹，复制 sol 和 luna。在 macOS Finder 按 ⌘ ⇧ G，前往：",
+    "installChoose": "粘贴后，在桌面应用的宠物选择界面刷新并重新选择 Sol · 晨光 或 Luna · 月夜；未更新时完整退出再打开应用。",
+    "installNote": "只复制 sol、luna 两个文件夹，勿多套一层目录。日夜版本需手动切换；如果已有同名宠物，先备份旧文件夹。",
+    "detailsTitle": "预览和制作说明",
+    "detailsAnimation": "包含九组原生动作与 16 个方向。Sol 待机结合好奇与整理披风；Luna 整理后犯困并缓缓睁眼。默认模拟三轮动作后回到待机，持续循环用于检查。Thinking 独立按钮只用于预览。",
+    "detailsFormat": "桌面 v2：1536 × 2288，8 × 11 格，每帧 192 × 208。已检查透明度、格内边界、无损编码及实际采用的帧数。原生应用中的实际选择和播放尚未人工验证。",
+    "detailsCreation": "角色素材使用内置 imagegen 生成，本地 Python 完成抠图、独立特效保留、逐组对齐与打包。跑步帧逐像素保留原版；飞翔试作未用于安装包。",
+    "detailsNames": "Sol 是拉丁语中表示太阳的阳性名词；Luna 表示月亮。",
+    "footer": "同一份好奇心，更明亮的明天。",
+    "playMode": "播放方式",
+    "nativeMode": "应用节奏：三轮后待机",
+    "loopMode": "持续循环检查",
+    "prev": "上一帧",
+    "next": "下一帧",
+    "direction": "方向",
+    "frame": "帧",
+    "thinkingHint": "仅供观察托腮动作的慢速预览；原生宠物将思考与敲键盘合并为同一个工作动画，不识别模型内部思考阶段。",
+    "revisionNote": "已修正：电脑全程保留；受挫时双翼收拢，避免撑穿披风。飞翔试作的遮挡关系未达标，正式版保留原来的左右跑步。"
+  },
+  "en": {
+    "title": "Sol & Luna · Owl Animation Preview",
+    "subtitle": "Daylight & moonlight · Little owl companions for O Fortuna",
+    "solTag": "Curiosity + cape care · Daylight",
+    "lunaTag": "Cape care + drowsiness · Moonlight",
+    "solAlt": "Sol daylight owl animation",
+    "lunaAlt": "Luna moonlight owl animation",
+    "controls": "Animation controls",
+    "states": [
+      "Idle",
+      "Run right",
+      "Run left",
+      "Wave",
+      "Hop",
+      "Recover",
+      "Needs input",
+      "Think → type",
+      "Review",
+      "16 directions",
+      "Thinking · preview only"
+    ],
+    "size": "Size",
+    "speed": "Speed",
+    "nativeSpeed": "1× App timing",
+    "checker": "Check transparency",
+    "pause": "Pause",
+    "play": "Play",
+    "dark": "Dark background",
+    "light": "Light background",
+    "hint": "Uses native frame durations. Choose a continuous loop or pause and inspect individual frames.",
+    "lookHint": "Use the direction slider or move around either owl to inspect all 16 directions. Native gaze is driven by targets such as input position or computer-use cursor, not every ordinary pointer movement.",
+    "installTitle": "Copy two folders to install.",
+    "installCopy": "Locate the 可直接安装 (ready-to-install) folder and copy sol and luna. In macOS Finder, press ⌘ ⇧ G and go to:",
+    "installChoose": "Paste the folders, refresh the desktop pet picker and select Sol · 晨光 or Luna · 月夜. Fully quit and reopen the app if needed.",
+    "installNote": "Copy only sol and luna, without an extra enclosing folder. Switch day/night pets manually. Back up any existing folders with the same names first.",
+    "detailsTitle": "Preview and production notes",
+    "detailsAnimation": "Nine native actions and 16 gaze directions. Sol combines curiosity with cape care; Luna tidies, gets drowsy and gently wakes. Default playback simulates three action passes followed by idle; continuous looping is available for inspection. Thinking is a preview-only option.",
+    "detailsFormat": "Desktop v2: 1536 × 2288 pixels, an 8 × 11 grid, 192 × 208 cells. Alpha, bounds, lossless encoding and used frame counts are checked. Native pet selection and playback have not been manually verified.",
+    "detailsCreation": "Artwork generated with built-in imagegen, then locally extracted, aligned and packaged with Python while preserving detached effects. Original running frames are pixel-identical; flight experiments are excluded from installation.",
+    "detailsNames": "Sol is the masculine Latin noun for the sun; Luna means the moon.",
+    "footer": "Same curiosity. A brighter tomorrow.",
+    "playMode": "Playback",
+    "nativeMode": "App timing: three passes, then idle",
+    "loopMode": "Continuous inspection loop",
+    "prev": "Previous frame",
+    "next": "Next frame",
+    "direction": "Direction",
+    "frame": "Frame",
+    "thinkingHint": "A slower thinking-only preview. Native pets combine thinking and typing in the work animation; they do not track the model’s internal reasoning stage.",
+    "revisionNote": "Updated: laptop retained throughout; recovery keeps wings folded to respect cape anatomy. Flight trials had inconsistent occlusion, so the final package retains the original left/right running for consistent anatomy."
+  }
 };
 const counts=[6,8,8,4,5,8,6,6,6];
 const times=[[1680,660,660,840,840,1920],[120,120,120,120,120,120,120,220],[120,120,120,120,120,120,120,220],[140,140,140,280],[140,140,140,140,280],[140,140,140,140,140,140,140,240],[150,150,150,150,150,260],[120,120,120,120,120,220],[150,150,150,150,150,280]];
@@ -25,18 +125,25 @@ const sprites=[document.getElementById('sol'),document.getElementById('luna')];
 sprites.forEach((e,i)=>e.style.backgroundImage='url("'+DATA[i]+'")');
 let language=navigator.language.toLowerCase().startsWith('zh')?'zh':'en';
 try{const saved=localStorage.getItem('sol-luna-language');if(saved==='zh'||saved==='en')language=saved;}catch{}
-let row=0,col=0,paused=matchMedia('(prefers-reduced-motion: reduce)').matches,rate=1,timer;
+let row=0,col=0,pass=0,playMode='native',paused=matchMedia('(prefers-reduced-motion: reduce)').matches,rate=1,timer;
 const controls=document.getElementById('states');
-function render(r,c,target=sprites){target.forEach(e=>e.style.backgroundPosition=(c/7*100)+'% '+(r/10*100)+'%');}
-function tick(){clearTimeout(timer);if(row===9||paused)return;render(row,col);timer=setTimeout(()=>{col=(col+1)%counts[row];tick()},times[row][col]/rate);}
-function translate(){const t=TEXT[language];document.documentElement.lang=language==='zh'?'zh-CN':'en';document.title=t.title;document.querySelectorAll('[data-i18n]').forEach(e=>e.textContent=t[e.dataset.i18n]);document.getElementById('language').textContent=language==='zh'?'English':'中文';document.getElementById('theme').textContent=document.body.classList.contains('dark')?t.light:t.dark;document.getElementById('pause').textContent=paused?t.play:t.pause;document.getElementById('pause').setAttribute('aria-pressed',paused);document.getElementById('controls').setAttribute('aria-label',t.controls);sprites.forEach((e,i)=>e.setAttribute('aria-label',i===0?t.solAlt:t.lunaAlt));[...controls.children].forEach((e,i)=>{e.textContent=t.states[i];e.setAttribute('aria-pressed',row===i);});document.querySelectorAll('.state-label').forEach(e=>e.textContent=t.states[row]);document.getElementById('hint').textContent=row===9?t.lookHint:t.hint;}
-TEXT.en.states.forEach((_,i)=>{const b=document.createElement('button');b.onclick=()=>{row=i;col=0;clearTimeout(timer);render(i===9?9:i,0);translate();tick();};controls.appendChild(b);});
-document.getElementById('language').onclick=()=>{language=language==='zh'?'en':'zh';try{localStorage.setItem('sol-luna-language',language);}catch{}translate();};
-document.getElementById('pause').onclick=()=>{paused=!paused;translate();tick();};
-document.getElementById('speed').onchange=e=>{rate=Number(e.target.value);tick();};
-document.getElementById('size').oninput=e=>{const n=Number(e.target.value);sprites.forEach(s=>{s.style.width=n+'px';s.style.height=(n*208/192)+'px';});document.getElementById('size-value').textContent=n+' px';};
-document.getElementById('theme').onclick=e=>{const on=document.body.classList.toggle('dark');e.target.setAttribute('aria-pressed',on);translate();};
+const THINK_FRAMES=[1,2,3,2],THINK_TIMES=[500,850,500,650];
+function count(){return row===9?16:row===10?4:counts[row]}
+function render(r,c,target=sprites){target.forEach(e=>e.style.backgroundPosition=(c/7*100)+'% '+(r/10*100)+'%')}
+function show(){if(row===9)render(9+Math.floor(col/8),col%8);else if(row===10)render(7,THINK_FRAMES[col]);else render(row,col);document.getElementById('frame-counter').textContent=TEXT[language].frame+' '+(col+1)+' / '+count();if(row===9){document.getElementById('direction').value=col;document.getElementById('angle').textContent=(col*22.5)+'°'}}
+function tick(){clearTimeout(timer);show();if(row===9||paused)return;const duration=row===10?THINK_TIMES[col]:times[row][col];timer=setTimeout(()=>{col++;if(col>=count()){col=0;pass++;if(playMode==='native'&&row>0&&row<9&&pass>=3){row=0;pass=0;translate()}}tick()},duration/rate)}
+function translate(){const t=TEXT[language];document.documentElement.lang=language==='zh'?'zh-CN':'en';document.title=t.title;document.querySelectorAll('[data-i18n]').forEach(e=>e.textContent=t[e.dataset.i18n]);document.getElementById('language').textContent=language==='zh'?'English':'中文';document.getElementById('theme').textContent=document.body.classList.contains('dark')?t.light:t.dark;document.getElementById('pause').textContent=paused?t.play:t.pause;document.getElementById('pause').setAttribute('aria-pressed',paused);document.getElementById('controls').setAttribute('aria-label',t.controls);sprites.forEach((e,i)=>e.setAttribute('aria-label',i===0?t.solAlt:t.lunaAlt));[...controls.children].forEach((e,i)=>{e.textContent=t.states[i];e.setAttribute('aria-pressed',row===i)});document.querySelectorAll('.state-label').forEach(e=>e.textContent=t.states[row]);document.getElementById('hint').textContent=row===9?t.lookHint:row===10?t.thinkingHint:t.hint;document.getElementById('direction-control').hidden=row!==9;show()}
+TEXT.en.states.forEach((_,i)=>{const b=document.createElement('button');b.onclick=()=>{row=i;col=0;pass=0;clearTimeout(timer);translate();tick()};controls.appendChild(b)});
+document.getElementById('language').onclick=()=>{language=language==='zh'?'en':'zh';try{localStorage.setItem('sol-luna-language',language)}catch{}translate()};
+document.getElementById('pause').onclick=()=>{paused=!paused;translate();tick()};
+document.getElementById('play-mode').onchange=e=>{playMode=e.target.value;pass=0;tick()};
+function step(delta){paused=true;clearTimeout(timer);col=(col+delta+count())%count();translate()}
+document.getElementById('prev').onclick=()=>step(-1);document.getElementById('next').onclick=()=>step(1);
+document.getElementById('direction').oninput=e=>{col=Number(e.target.value);show()};
+document.getElementById('speed').onchange=e=>{rate=Number(e.target.value);tick()};
+document.getElementById('size').oninput=e=>{const n=Number(e.target.value);sprites.forEach(s=>{s.style.width=n+'px';s.style.height=(n*208/192)+'px'});document.getElementById('size-value').textContent=n+' px'};
+document.getElementById('theme').onclick=e=>{const on=document.body.classList.toggle('dark');e.target.setAttribute('aria-pressed',on);translate()};
 document.getElementById('checker').onchange=e=>document.querySelectorAll('.stage').forEach(s=>s.classList.toggle('checker',e.target.checked));
-document.querySelectorAll('.stage').forEach(stage=>stage.addEventListener('pointermove',e=>{if(row!==9||paused)return;const pet=stage.querySelector('.sprite'),b=pet.getBoundingClientRect(),dx=e.clientX-b.x-b.width/2,dy=e.clientY-b.y-b.height/2;const angle=(Math.atan2(dx,-dy)*180/Math.PI+360)%360;const ix=Math.round(angle/22.5)%16;render(9+Math.floor(ix/8),ix%8,[pet]);}));
-translate();render(0,0);tick();
+document.querySelectorAll('.stage').forEach(stage=>stage.addEventListener('pointermove',e=>{if(row!==9||paused)return;const pet=stage.querySelector('.sprite'),b=pet.getBoundingClientRect(),dx=e.clientX-b.x-b.width/2,dy=e.clientY-b.y-b.height/2;if(Math.hypot(dx,dy)<=1)return;const angle=(Math.atan2(dx,-dy)*180/Math.PI+360)%360;col=Math.round(angle/22.5)%16;show()}));
+translate();tick();
 </script></body></html>

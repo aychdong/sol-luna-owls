@@ -16,14 +16,14 @@ relative = ['sol-luna-final/可直接安装/' + pet + '/spritesheet.webp' for pe
 (ROOT / 'index.html').write_text(re.sub(pattern, lambda _: 'const DATA = ' + json.dumps(relative) + ';', template))
 with zipfile.ZipFile(PACKAGE / 'Sol-Luna-安装包.zip', 'w', zipfile.ZIP_DEFLATED) as archive:
     for file in sorted((PACKAGE / '可直接安装').rglob('*')):
-        if file.is_file():
+        if file.is_file() and file.name in ('pet.json', 'spritesheet.webp'):
             archive.write(file, file.relative_to(PACKAGE / '可直接安装'))
 files = []
 for f in sorted(PACKAGE.rglob('*')):
-    if f.is_file() and f.name != 'files-manifest.json' and '__pycache__' not in str(f):
+    if f.is_file() and f.name not in ('files-manifest.json', '.DS_Store') and '__pycache__' not in str(f):
         files.append({'path': str(f.relative_to(PACKAGE)), 'bytes': f.stat().st_size,
                       'sha256': hashlib.sha256(f.read_bytes()).hexdigest()})
 (PACKAGE / '制作记录/files-manifest.json').write_text(json.dumps({
-    'version': '2026-09-14-bilingual', 'status': 'complete', 'files': files
+    'version': '2026-09-15-animation-v2', 'status': 'package-checked-native-ui-unverified', 'files': files
 }, ensure_ascii=False, indent=2) + '\n')
 print('Built bilingual previews and installation ZIP; indexed', len(files), 'package files.')

@@ -1,5 +1,5 @@
 {
-  "verifiedAppVersion": "26.901.51231",
+  "verifiedAppVersion": "26.903.61454",
   "source": "Installed desktop application resources: app.asar",
   "spriteVersionNumber": 2,
   "width": 1536,
@@ -110,5 +110,7 @@
       280
     ]
   },
-  "documentation": "https://learn.chatgpt.com/zh-Hans/docs/pets"
+  "documentation": "https://learn.chatgpt.com/zh-Hans/docs/pets",
+  "runtimeUiExercised": false,
+  "animationModuleSha256": "b902c4b42f99529f08bf2719752fb3eb88420d3bef0fff8370dec168524f89f6"
 }

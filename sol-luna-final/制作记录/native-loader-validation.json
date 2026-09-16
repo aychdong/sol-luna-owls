@@ -1,24 +1,32 @@
-[
-  {
-    "path": "sol-luna-final/可直接安装/sol/spritesheet.webp",
-    "accepted": true,
-    "spriteVersionNumber": 2,
-    "extension": "webp",
-    "dimensions": {
-      "height": 2288,
-      "width": 1536,
-      "mimeType": "image/webp"
+{
+  "appVersion": "26.903.61454",
+  "method": "Isolated execution of the installed app image-format validator; native UI not exercised",
+  "moduleSha256": "4cc980cd737b02f999b9fe8d9757c37d2ce86c928043f19f46d56cc52bce8f66",
+  "validatorSha256": "476a5eb2d139e18e874ea6c7afb96901596a7e0cde81be6cf47f142a28e676a3",
+  "files": [
+    {
+      "path": "可直接安装/sol/spritesheet.webp",
+      "sha256": "2838fbf9955e611235380867a8e7aba33b16e0007226f3fe0228d3e9c6579512",
+      "accepted": true,
+      "spriteVersionNumber": 2,
+      "extension": "webp",
+      "dimensions": {
+        "height": 2288,
+        "width": 1536,
+        "mimeType": "image/webp"
+      }
+    },
+    {
+      "path": "可直接安装/luna/spritesheet.webp",
+      "sha256": "9a84db3e39ac13b7924b584a357ab1bbc345358d682cadc604f00f2d8c69005b",
+      "accepted": true,
+      "spriteVersionNumber": 2,
+      "extension": "webp",
+      "dimensions": {
+        "height": 2288,
+        "width": 1536,
+        "mimeType": "image/webp"
+      }
     }
-  },
-  {
-    "path": "sol-luna-final/可直接安装/luna/spritesheet.webp",
-    "accepted": true,
-    "spriteVersionNumber": 2,
-    "extension": "webp",
-    "dimensions": {
-      "height": 2288,
-      "width": 1536,
-      "mimeType": "image/webp"
-    }
-  }
-]
+  ]
+}
