@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "moved_files": 1113,
+  "original_pet_preview_and_download_files_unchanged": 43,
+  "all_archived_file_contents_unchanged": true,
+  "previous_review_shortcuts_resolve": true,
+  "public_readme_local_links_verified": true,
+  "isolated_full_build_passed": true,
+  "rebuilt_install_zip_identical_to_published_zip": true
+}

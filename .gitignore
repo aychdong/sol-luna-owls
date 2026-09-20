@@ -10,3 +10,10 @@ archive/snapshots/
 workbench/*/
 # Unrelated local project; never include in the owl repository.
 思源读书会/
+
+# Local preserved history; release archives retain published copies.
+archive/workbench/
+archive/downloads/
+archive/organization-*/
+workbench/*
+!workbench/README.md

@@ -1,3 +1,5 @@
+> 历史记录：文中相对路径按当时目录保留。当前入口见 [制作与维护](../README.md)。
+
 # v1.1.0 · V1 + R4
 
 - 回到原始 V1，九种动作的所有 72 格保持原样。 / Restore original V1; all 72 action cells per owl remain unchanged.

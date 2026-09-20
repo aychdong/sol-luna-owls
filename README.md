@@ -1,52 +1,88 @@
 # Sol & Luna · 日月猫头鹰
 
-[中文](#中文) · [English](#english) · [交互预览 / Live preview](https://aychdong.github.io/sol-luna-owls/) · [v1.1.0 下载 / Downloads](https://github.com/aychdong/sol-luna-owls/releases/tag/v1.1.0)
+我给 Codex 做了一对猫头鹰桌宠。一个像晨光，一个像月夜，在桌面一角陪你工作。
+
+A pair of owl companions for Codex — a little sunshine, a little moonlight, and company while you work.
+
+[中文](#开始使用) · [English](#english) · **[下载安装包 / Download](https://github.com/aychdong/sol-luna-owls/releases/download/v1.1.0/Sol-Luna-v1.1.0-install.zip)** · [试试看 / Live preview](https://aychdong.github.io/sol-luna-owls/) · [一页图解 / Quick guide](media/sol-luna-quick-guide.png)
+
+![Sol 与 Luna 角色设定：晨光与月夜，两只披着金纹斗篷的猫头鹰](media/sol-luna-character-poster.png)
+
+*角色设定图 / Character concept art. 下面是安装后的实际动画 / Actual pet animations below.*
 
 | Sol · 晨光 | Luna · 月夜 |
 |:---:|:---:|
-| ![Sol](preview/sol-idle.png) | ![Luna](preview/luna-idle.png) |
+| ![Sol 待机动画](preview/sol-idle.webp) | ![Luna 待机动画](preview/luna-idle.webp) |
+| 暖灰羽毛，太阳徽章，金色月桂纹 | 冷色羽毛，月亮饰件，点点星纹 |
+| Warm gray feathers · sun medallion · golden laurels | Cool feathers · crescent clasp · embroidered stars |
 
-## 中文
+## 开始使用
 
-当前正式版 **v1.1.0 = 原始 V1 + 已批准的 R4 视线修复**。Sol 保留 V1 暖灰羽色，Luna 保留 V1 深冷蓝羽色，两只均沿用原版形态与饰件。待机、左右侧跑、招手、轻跃、受挫、等待、工作和检视全部保留 V1 像素，不采用中间 V6–V10 的改版动作。
+适用于支持自定义宠物的 **Codex macOS 桌面版**。安装后，它会浮在桌面上；你可以任选一只、拖到喜欢的位置。
 
-视线修复包含：向上、向下的双侧眉羽；向下看的近圆形眼睛；明确区分第 10、11、12 帧的左下角度和第 14、15 帧的左上角度。本次 R4 审阅通过后直接发布，未再重画。
+1. **下载并解压**上方安装包，得到 `sol` 和 `luna` 两个文件夹。
+2. **放入宠物目录。** Finder 按 **⌘ ⇧ G**，输入 `~/.codex/pets/`，把两个文件夹复制进去。目录不存在时，先进入 `~/.codex/`，新建 `pets` 文件夹。
+3. **选择并唤醒。** 打开 Codex **设置 → 宠物**，刷新列表，选择 **Sol · 晨光** 或 **Luna · 月夜**，再点击唤醒／显示宠物。
 
-### 安装
+无需运行代码。已有同名宠物时，先将旧文件夹移到别处备份。[详细安装、更新与卸载说明](docs/INSTALL.md)。
 
-1. 下载 [Sol-Luna-v1.1.0-install.zip](https://github.com/aychdong/sol-luna-owls/releases/download/v1.1.0/Sol-Luna-v1.1.0-install.zip) 并解压。
-2. 先备份已有的同名宠物文件夹。Finder 按 **⌘ ⇧ G**，输入 `~/.codex/pets/`。
-3. 把 **sol、luna 两个文件夹**复制进去，重新选择宠物；仍显示旧图时完整退出应用再打开。
+## 它会做什么？
 
-每个文件夹直接包含 `pet.json` 和 `spritesheet.webp`，不需要运行脚本。[安装与回退说明](docs/INSTALL.md)。
+| 你在做什么 | 小猫头鹰的反应 |
+|---|---|
+| 暂时没有任务 | 安静待机，转头陪伴 |
+| 鼠标悬停在它身上 | 扑翅轻跃 |
+| 向左或向右拖动它 | 朝对应方向跑步 |
+| Codex 正在工作 | 敲电脑 |
+| 任务需要你回应 | 等候 |
 
-### 预览与下载
+还有招手、受挫、拿书审阅和不同方向的视线。可以在[在线预览](https://aychdong.github.io/sol-luna-owls/)中查看全部动作。实际播放由应用状态与设置决定；网页中选择一个动作，不会控制桌面上的宠物。
 
-- [在线交互预览](https://aychdong.github.io/sol-luna-owls/)：中英双语、全部 V1 动作、16 方向、R3/R4 对照、逐帧、慢放、96px/放大、深浅背景。
-- [单文件离线预览](https://github.com/aychdong/sol-luna-owls/releases/download/v1.1.0/Sol-Luna-v1.1.0-offline-preview.html)：下载后直接打开。
-- [完整交付包](https://github.com/aychdong/sol-luna-owls/releases/download/v1.1.0/Sol-Luna-v1.1.0-delivery.zip)：安装文件、离线预览和操作说明。
-- [Release 附件](https://github.com/aychdong/sol-luna-owls/releases/tag/v1.1.0)：原始 V1、R3 回退包、完整历史素材及 SHA-256 校验清单。
+| 扑翅轻跃 | 朝右跑步 | 敲电脑 | 拿书审阅 |
+|:---:|:---:|:---:|:---:|
+| ![Sol 扑翅](preview/sol-jumping.webp) | ![Luna 跑步](preview/luna-running-right.webp) | ![Sol 工作](preview/sol-running.webp) | ![Luna 审阅](preview/luna-review.webp) |
 
-### 验证与素材
+## FAQ
 
-两只各使用 **1536 × 2288** 的透明无损 WebP，8 × 11 格，每格 192 × 208。正式包的四个文件与批准的 R4 完全一致；每只前九行动作的 **72 格与 V1 一致**；相对 R3 只替换五个视线格，其余 **83 格一致**。安装 ZIP、动画时长及预览控件已检查。原生应用事件触发本轮未重新实测；网页方向循环是审阅工具。
+**下载哪一个文件？** 只想安装，选择上方的 `Sol-Luna-v1.1.0-install.zip` 即可，不需要下载整个仓库。想先看看，打开在线预览或[一页图解](media/sol-luna-quick-guide.png)。
 
-`pets/` 为当前安装版；`assets/approved/` 为不可变的批准输入，`assets/sources/` 与 `assets/prompts/` 保留相关修图素材和提示词；`docs/` 记录流程，`reports/` 记录校验。完整试作、快照和旧版本保存在 Release 的历史 ZIP，未删除。[项目结构与重建](docs/PROJECT.md) · [验证报告](reports/package-validation.json)。
+**复制后找不到 Sol / Luna？** 检查是否多套了一层文件夹：正确位置是 `~/.codex/pets/sol/pet.json`，旁边有 `spritesheet.webp`。刷新宠物列表；仍不显示时，完整退出 Codex 后重开。若设置中没有宠物入口，请先检查应用更新。
+
+**能同时显示两只，或自动日夜切换吗？** 这是一套可供选择的两只宠物。本项目不提供同时显示或自动切换功能，请在应用中手动选择。
+
+**为什么没见到某个动作，或者眼神没有跟着光标？** 动作触发由应用控制，随版本和任务状态可能不同。预览页能展示全部素材，但不保证每种动作都会在你的使用场景中出现。启用“减少动态效果”也可能让动画显示为静态。
+
+**如何更新、回退或卸载？** 更新时先备份旧的 `sol`、`luna`，再复制新版。需要回退时，用自己的备份或[发布页中的回退包](https://github.com/aychdong/sol-luna-owls/releases/tag/v1.1.0)替换。卸载时先切换其他宠物，再移走这两个文件夹即可。
+
+**网页版或 Windows 能用吗？** 这里提供的是桌面宠物文件夹，安装说明已按 macOS 整理。网页上传宠物的方式和格式不同，请勿直接套用；Windows 的安装过程暂未在本项目中验证。
 
 ## English
 
-**v1.1.0 is original V1 plus the approved R4 gaze repairs.** Sol retains the warm-gray V1 palette; Luna retains the deep cool-blue V1 palette, with their original proportions and ornaments. Idle, left/right side-running, wave, hop, failure, waiting, work and book review preserve the original V1 pixels. Intermediate V6–V10 action redesigns are not used.
+**Sol** wears warm gray feathers, a sun medallion and golden laurels. **Luna** wears cool feathers, a crescent clasp and embroidered stars. Choose one to float beside your work in the **Codex macOS desktop app with custom-pet support**.
 
-Repairs restore paired brow plumes for up/down gaze, near-round eyes for downward gaze, three distinct down-left poses (10–12) and two up-left poses (14–15). The approved R4 artwork is published directly without further generation.
+### Install in three steps
 
-### Install
+1. Download and extract the [install ZIP](https://github.com/aychdong/sol-luna-owls/releases/download/v1.1.0/Sol-Luna-v1.1.0-install.zip).
+2. In Finder, press **⌘ ⇧ G**, open `~/.codex/pets/`, and copy in **sol** and **luna**. If the directory is missing, open `~/.codex/` and create a `pets` folder. Back up any existing folders with those names first.
+3. In **Settings → Pets**, refresh, select **Sol** or **Luna**, then **Wake / Show pet**.
 
-Download the [install ZIP](https://github.com/aychdong/sol-luna-owls/releases/download/v1.1.0/Sol-Luna-v1.1.0-install.zip). Back up existing pet folders. In Finder, press **⌘ ⇧ G**, open `~/.codex/pets/`, and copy in the extracted **sol** and **luna** folders. Each contains `pet.json` and `spritesheet.webp`. Select the pet again; fully quit and reopen the app if cached artwork persists. No scripts are required. [Installation and rollback](docs/INSTALL.md).
+No scripts are needed. [Detailed installation, updates and removal](docs/INSTALL.md#english).
 
-The [bilingual preview](https://aychdong.github.io/sol-luna-owls/) includes all V1 actions, 16 directions, R3/R4 comparisons, frame stepping, slow playback, desktop-size/enlarged views and light/dark backgrounds. [Release downloads](https://github.com/aychdong/sol-luna-owls/releases/tag/v1.1.0) include the standalone offline preview, full delivery, original V1 and R3 rollbacks, complete historical materials, and checksums.
+### Meet your companion
 
-Both transparent lossless atlases are 1536 × 2288, with 88 cells of 192 × 208. The four install files are byte-identical to approved R4. All 72 action cells per owl match original V1; only five gaze cells differ from R3, leaving 83 cells unchanged. Package contents, animation timing and preview controls are checked. Native application event triggers have not been retested in this release; the web direction loop is a review tool.
+Hover to see a little wing-flapping hop; drag left or right to see it run. It types while Codex works and waits when a task needs your response. The artwork also includes waving, book review, setbacks and different gaze directions. Explore them in the [interactive preview](https://aychdong.github.io/sol-luna-owls/). The app decides which animations to trigger; preview controls do not control your installed pet.
 
-`pets/` is the current installable release; `assets/approved/` is its immutable input. `assets/sources/` and `assets/prompts/` retain generation materials. Complete historical trials and snapshots are preserved in the Release source-history ZIP. [Project workflow](docs/PROJECT.md) · [Validation](reports/package-validation.json).
+### FAQ
 
-Personal artwork, not an official OpenAI product. No open-source license has been granted. / 本项目是个人艺术创作，并非 OpenAI 官方产品；尚未授予开源许可。
+- **Which download?** Choose `Sol-Luna-v1.1.0-install.zip`. You do not need the whole repository.
+- **Not appearing?** Make sure `pet.json` and `spritesheet.webp` are directly inside `~/.codex/pets/sol/` and `luna/`. Refresh, then fully quit and reopen the app if needed. Check for app updates if Pets is absent from Settings.
+- **Both at once, or automatic day/night switching?** This project supplies two selectable pets, not those additional features. Switch manually in the app.
+- **Missing an animation or cursor tracking?** Triggers depend on the app version, task state and motion settings. The preview displays the available artwork; not every animation is guaranteed to trigger in every situation.
+- **Update, roll back or remove?** Back up before replacing the two folders. Restore your backup or a rollback package from the [release page](https://github.com/aychdong/sol-luna-owls/releases/tag/v1.1.0). To remove them, choose another pet, then move the two folders out.
+- **Web or Windows?** These are desktop pet folders with macOS instructions. Web uploads use a different workflow and format; Windows installation has not been verified for this project.
+
+---
+
+个人艺术创作，非 OpenAI 官方产品。当前版本 **v1.1.0**；尚未授予开源许可。
+
+Personal artwork, not an official OpenAI product. Current version: **v1.1.0**. No open-source license has been granted.

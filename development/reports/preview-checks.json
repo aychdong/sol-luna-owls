@@ -11,6 +11,6 @@
     "bilingual labels",
     "96 px size",
     "dark background control",
-    "9 local asset and download links"
+    "all local asset paths resolve (remote links verified separately)"
   ]
 }

@@ -1,5 +1,7 @@
-# 试作 / Workbench
+# 新试作入口 / Workbench
 
-`v1-gaze-fix-r4` 已通过审阅并提升为 **v1.1.0**。后续试作先放独立子目录，明确基线和修改范围，再审阅与提升。完整工作区素材随 Release 的历史 ZIP 保留，不作为大量 Git 二进制文件重复提交。
+当前正式版为 **v1.1.0 / V1 + R4**。已完成的试作和海报源文件移动到 `archive/workbench/`；这里保留本地快捷路径，便于继续打开之前的审阅网址。
 
-`v1-gaze-fix-r4` is approved and promoted to **v1.1.0**. New work belongs in separate review folders. Complete workbench materials are preserved in the Release history ZIP, including rejected trials.
+后续修改请新建独立目录，先记录基线、修改范围、原图与提示词，再审阅。不要直接改当前安装包。
+
+Completed trials and sharing-poster sources have moved to `archive/workbench/`. Local shortcuts preserve previous review URLs. Start each new experiment in a separate folder with its baseline and scope recorded; only promote artwork after review.

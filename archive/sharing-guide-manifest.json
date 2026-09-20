@@ -1,0 +1,648 @@
+{
+  "archive": "Sol-Luna-sharing-guide-sources-2026-09-19.zip",
+  "sha256": "64d359b365d108a487e809143c2ad6c6b5f5c18d0a2b48e189f03323772503ab",
+  "bytes": 42590398,
+  "files": [
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/artwork/a-generated.png",
+      "bytes": 1951041,
+      "sha256": "4cf5f59940ef7416abf0c0cf2590eb92719a316eff08f63034982943362c9292"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/artwork/b-generated.png",
+      "bytes": 1920796,
+      "sha256": "0134b049a9d3e29cd0732d7ac8a763cfb64669bf94b3ceb9a4bc1a0e47cfb93e"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/artwork/c-generated.png",
+      "bytes": 1901691,
+      "sha256": "7d49023dde437a59a2259d3187f961cb92f1c601c6b2ee0d1ed924a53d8e516e"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/assets/fonts/LXGWWenKai-Regular.ttf",
+      "bytes": 25575676,
+      "sha256": "39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/assets/fonts/OFL.txt",
+      "bytes": 5171,
+      "sha256": "1a25e35da1031c6c3436fde545bb9cb5aca954e9873afe510c834b8b79bd21a0"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/assets/luna-0-0.png",
+      "bytes": 37688,
+      "sha256": "949b821ad65f816791ca06936a544634b53b84a2af9fd3031aebba28e9ee45af"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/assets/luna-1-1.png",
+      "bytes": 29385,
+      "sha256": "bffd958073ba973090e428e3553942af2a2f7f5f77b7c89a5daa52fe1fe41564"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/assets/luna-6-1.png",
+      "bytes": 37987,
+      "sha256": "b6979d351338e56b13e5a862e3648491ee35c3e8622af2101a5c6391509f53ce"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/assets/repo-qr.png",
+      "bytes": 790,
+      "sha256": "e17957106895fa4b50b7bbf87a129de178b4951e74933660b2eaf740b8738bcf"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/assets/sol-0-0.png",
+      "bytes": 40155,
+      "sha256": "b4120f87e2094c2a8ac696512abcb6236cf24b7b31a8bf3651fa3aa3f10331ab"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/assets/sol-4-2.png",
+      "bytes": 42822,
+      "sha256": "e091fb74b7b87d8f155e5e89f465debf50fa647e4bd2895e1faed0fd8b980378"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/assets/sol-7-2.png",
+      "bytes": 40791,
+      "sha256": "90fc28ad8232f3c54463b3d448bc3bdba393f329dbb8c37cacd2a333851c286a"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/checks/a-compressed-1080.jpg",
+      "bytes": 223422,
+      "sha256": "4b2bfeabaec2ad9b75c297328ca7ec8aa7dab0b77ebc8b83e71b9dc337e01ca3"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/checks/a-phone-375.png",
+      "bytes": 308371,
+      "sha256": "734e2753ad1e66cd626b352c221a5e4efb06d526e73f759383d988cf7553189f"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/checks/a-text-layout.json",
+      "bytes": 3571,
+      "sha256": "4007b83cf857a5062aa29254758c2cb88b1963770dcf6888efff99e3c0f962ce"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/checks/b-compressed-1080.jpg",
+      "bytes": 221715,
+      "sha256": "d035f2881ca625da1663a91383e32222c7e872c99efccf7e683c991f730a3137"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/checks/b-phone-375.png",
+      "bytes": 309600,
+      "sha256": "ccae353022c8cbf24cf1c44be3e9e608c2cada72e1bcdf0e9a7b5d56c20d9ccd"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/checks/b-text-layout.json",
+      "bytes": 3706,
+      "sha256": "0195d6fa83543e323e38690c4a75651494828c034b37e8fb2f52c01b7c105e25"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/checks/c-compressed-1080.jpg",
+      "bytes": 224124,
+      "sha256": "6e4f6450c4e878a4fb282155d34faeb02f604cc39b8a28ad6ceffdc510224fcc"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/checks/c-phone-375.png",
+      "bytes": 299585,
+      "sha256": "cabe6c087f0dbdb4a2fe32619882e64631fc4bd8a6350e65d8610514a23e0bc7"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/checks/c-text-layout.json",
+      "bytes": 3681,
+      "sha256": "32b0a8bfd3fc377a707a9cd2b7815e2b99ab328d596d686f81597dc1a90ee334"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/checks/provenance.json",
+      "bytes": 3139,
+      "sha256": "967dfe14ea92a6e1b143546dce9625f341fe7c2e00425fefac6bd9cc5d3dffb8"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/checks/qr-generation.json",
+      "bytes": 138,
+      "sha256": "ed519ac82e9a4d61a459fea8960dfbf67b66b2a88ccd9ec009082e021f003ec3"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/checks/qr-validation.json",
+      "bytes": 2258,
+      "sha256": "fe21136d3fba28903c3f7d09ecc5c70b8398f635f1b383d831744b9159872724"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/checks/validation.json",
+      "bytes": 3028,
+      "sha256": "dde9a1268a3ccc421996e9401ec3683bc9aaa918492dbf2910da69376ddd4760"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/index.html",
+      "bytes": 2225,
+      "sha256": "d048b220bd0a459aae1b65d20163a86cff02d86479657a3d0d8ee285751cd9b0"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/output/Sol-Luna-A-中央双主角.jpg",
+      "bytes": 940763,
+      "sha256": "55d2fae7164c9cc976aee1f9708b6a2ba081e999d42fc5ea9f208e77ff3e6e23"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/output/Sol-Luna-A-中央双主角.png",
+      "bytes": 3029873,
+      "sha256": "aad95ee6b294ac8195e8d0763d1d00023e6f6ccefbc96b1fe2f2b44fd2f29ec7"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/output/Sol-Luna-B-图鉴式穿插.jpg",
+      "bytes": 937539,
+      "sha256": "9a44e1308ca8d22014393930801379d137566f030bdd6bfb4086e0fec5619c6c"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/output/Sol-Luna-B-图鉴式穿插.png",
+      "bytes": 3005978,
+      "sha256": "d4ed220f5132de50a87d1d6f6368119640ea03813b51bc69bb89045666f0bebb"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/output/Sol-Luna-C-日月双页.jpg",
+      "bytes": 913691,
+      "sha256": "307aeaf3ce36b34c93449b1de927d96a0a2ce7444e8527dc3ba3c78c4fd0249b"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/output/Sol-Luna-C-日月双页.png",
+      "bytes": 2870073,
+      "sha256": "3a8502c7c069a03da4475b66fcf42d2e6df0da00bb4407f641187ce2beb1c82f"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/output/三版并排对照.jpg",
+      "bytes": 572163,
+      "sha256": "2c0ac05794c71a6de43df0618f2d6014b5ce06c7764f33835535606b687f2b6e"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v2/Sol-Luna-日月双页-霞鹜文楷-v2.jpg",
+      "bytes": 899269,
+      "sha256": "1bfba84461ae7ac7d4c1b3aaf8d27842f222d3926f64a135ca9f650fb6a8761c"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v2/Sol-Luna-日月双页-霞鹜文楷-v2.png",
+      "bytes": 2891579,
+      "sha256": "317b9b043a0c4401885e5d3541ebaa163590794792d2029c37d474831067e300"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v2/assets/luna-0-0.png",
+      "bytes": 37688,
+      "sha256": "949b821ad65f816791ca06936a544634b53b84a2af9fd3031aebba28e9ee45af"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v2/assets/luna-1-1.png",
+      "bytes": 29385,
+      "sha256": "bffd958073ba973090e428e3553942af2a2f7f5f77b7c89a5daa52fe1fe41564"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v2/assets/luna-6-1.png",
+      "bytes": 37987,
+      "sha256": "b6979d351338e56b13e5a862e3648491ee35c3e8622af2101a5c6391509f53ce"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v2/assets/luna-8-2.png",
+      "bytes": 37634,
+      "sha256": "589186ca955fcd359dc147efffdd8a6a0f0a05980ea610e957b5eb71fbb10d4d"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v2/assets/repo-qr.png",
+      "bytes": 790,
+      "sha256": "e17957106895fa4b50b7bbf87a129de178b4951e74933660b2eaf740b8738bcf"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v2/assets/sol-0-0.png",
+      "bytes": 40155,
+      "sha256": "b4120f87e2094c2a8ac696512abcb6236cf24b7b31a8bf3651fa3aa3f10331ab"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v2/assets/sol-4-2.png",
+      "bytes": 42822,
+      "sha256": "e091fb74b7b87d8f155e5e89f465debf50fa647e4bd2895e1faed0fd8b980378"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v2/assets/sol-7-2.png",
+      "bytes": 40791,
+      "sha256": "90fc28ad8232f3c54463b3d448bc3bdba393f329dbb8c37cacd2a333851c286a"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v2/checks/c-compressed-1080.jpg",
+      "bytes": 219587,
+      "sha256": "f8264fff549cb392177ca38afa35e46956c940994fa5d49e52bda8716d0e5c6e"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v2/checks/c-phone-375.png",
+      "bytes": 295975,
+      "sha256": "4bc68f6436184bb1cc8889f9a064f64a09f14f3d2adb8749549a3aa0e1cca445"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v2/checks/c-text-layout.json",
+      "bytes": 3557,
+      "sha256": "b51e8d77cb3c8b85c640e5d8016e7e550df5eb692779543f22189ad9eea6a724"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v2/checks/provenance.json",
+      "bytes": 2356,
+      "sha256": "8c644665931807111ce151e90e192450c0eadb6ed43458ae271435bf0fe924db"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v2/checks/validation.json",
+      "bytes": 827,
+      "sha256": "db0821d4c7d318ecbc9f43def16e5c362041ce9bb2c6837a78bd47439cd8baf1"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v2/index.html",
+      "bytes": 1057,
+      "sha256": "961e10ba8cbbf01fc61e1a944a77b31035fb1ad016e9e1af654698425d1cff7a"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v2/修改记录.md",
+      "bytes": 653,
+      "sha256": "5a5f81af191abb365375cd38bd17c379b67587e091548737359eaf5d3c238a6b"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v3/Sol-Luna-日月双页-霞鹜文楷-v3.jpg",
+      "bytes": 894452,
+      "sha256": "44b9002f2220a0b64d805f517ec45d9856bda16fa7fac4d92beffbe71947544c"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v3/Sol-Luna-日月双页-霞鹜文楷-v3.png",
+      "bytes": 2880253,
+      "sha256": "2c253c6e8e8633720321b4f501cec1d296c2bab103875e880a4fa4e051583c30"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v3/assets/luna-0-0.png",
+      "bytes": 37688,
+      "sha256": "949b821ad65f816791ca06936a544634b53b84a2af9fd3031aebba28e9ee45af"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v3/assets/luna-1-1.png",
+      "bytes": 29385,
+      "sha256": "bffd958073ba973090e428e3553942af2a2f7f5f77b7c89a5daa52fe1fe41564"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v3/assets/luna-6-1.png",
+      "bytes": 37987,
+      "sha256": "b6979d351338e56b13e5a862e3648491ee35c3e8622af2101a5c6391509f53ce"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v3/assets/luna-8-2.png",
+      "bytes": 37634,
+      "sha256": "589186ca955fcd359dc147efffdd8a6a0f0a05980ea610e957b5eb71fbb10d4d"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v3/assets/repo-qr.png",
+      "bytes": 790,
+      "sha256": "e17957106895fa4b50b7bbf87a129de178b4951e74933660b2eaf740b8738bcf"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v3/assets/sol-0-0.png",
+      "bytes": 40155,
+      "sha256": "b4120f87e2094c2a8ac696512abcb6236cf24b7b31a8bf3651fa3aa3f10331ab"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v3/assets/sol-4-2.png",
+      "bytes": 42822,
+      "sha256": "e091fb74b7b87d8f155e5e89f465debf50fa647e4bd2895e1faed0fd8b980378"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v3/assets/sol-7-2.png",
+      "bytes": 40791,
+      "sha256": "90fc28ad8232f3c54463b3d448bc3bdba393f329dbb8c37cacd2a333851c286a"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v3/checks/c-compressed-1080.jpg",
+      "bytes": 217080,
+      "sha256": "42ea8ff09831b267f3c7db986b65c7eb2fbddcec1286669023b9f1fec9d4c606"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v3/checks/c-phone-375.png",
+      "bytes": 294219,
+      "sha256": "96388ba063d8a1893223fa8593bb77dd5560390b4788283f607eb5e569917438"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v3/checks/c-text-layout.json",
+      "bytes": 4118,
+      "sha256": "018c4303f7a36fde4651e888e0a9000372daadae3187fdd43d4030c28d81ca5c"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v3/checks/provenance.json",
+      "bytes": 2435,
+      "sha256": "b074f93ca7a329b8b16b60365044feacb08357f27ff808e1d705edae979056a5"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v3/checks/validation.json",
+      "bytes": 595,
+      "sha256": "cfa6ec23346c24f7937f3040d84783755554972df80b5218cf2348ca368f00d7"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v3/index.html",
+      "bytes": 941,
+      "sha256": "46174c7e467b8ad921645133f1a02e4a8c59fae27becfa7781cef679e7713d53"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/selected-c-v3/修改记录.md",
+      "bytes": 419,
+      "sha256": "a11f58c48131c2787c5aebd2a0e0383f94e1baa7132e888c0457dc511140beb1"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/build_posters.py",
+      "bytes": 10699,
+      "sha256": "8d2085e3f439968a5be8ea27932592ec78c3391a0fb4c3aed2d9d6f710b0d48f"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/build_selected_c.py",
+      "bytes": 9641,
+      "sha256": "ab0658bd747bb979d0fb55cec1c8cdb12f66f141b3e51496f1138a5cc2998f2d"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/build_selected_c_v3.py",
+      "bytes": 9843,
+      "sha256": "90f29c68d0cf423cbab4e4a77495eeb13eb75f9529c90a08b01f6aaa2771aced"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/prompt-a.txt",
+      "bytes": 1746,
+      "sha256": "460ea7232033aea5c1585f9cc22384983448f52cfbdd8699fafbbce11ec519f6"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/prompt-b.txt",
+      "bytes": 1635,
+      "sha256": "e6f34770b16a2d780d2e472d1e7afc479b0340d10c24cbb7c36e30a28461eafd"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/prompt-c.txt",
+      "bytes": 1702,
+      "sha256": "d6777b644db6de751672a5d6d5b432a7ca2a08b7aa874323a886bad51704cf38"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/qr.swift",
+      "bytes": 2014,
+      "sha256": "64da97c3795fd3d96c8899e346173a043cef181482897ecfeebff6f39ee04797"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/validate_posters.py",
+      "bytes": 2029,
+      "sha256": "b77bc050dc6c57cbd6a166faea0203ac74c1c8b4661ceaa27bd391daf89a3e77"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/bin/qr",
+      "bytes": 247,
+      "sha256": "fdf1ccda60c647d1a7cd5e25b37bc78094862de8e2732d8878b939045cbaacf1"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/LUT.py",
+      "bytes": 3599,
+      "sha256": "3635ca3df1d24c56282e51a45e11637f6394abf1060fa9ab772607206ddd35c9"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/__init__.py",
+      "bytes": 645,
+      "sha256": "d02f23c778031d2278cb27651cdd35cadca2a4d876a4c3b75584bd0e4fa6e285"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/base.py",
+      "bytes": 7288,
+      "sha256": "f49ff52f29c5e5d5c92b5e00cecf17c87258eba15f4e5b9827ae85f198de4ad6"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/compat/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/compat/etree.py",
+      "bytes": 152,
+      "sha256": "ac4c96440f5032c545bdaffdace76d877440911a453a6905e7d736110338e201"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/compat/png.py",
+      "bytes": 171,
+      "sha256": "3827b95acba24c8fd44ea9b256a2db70996849b66f80260974c0b39cabcc0823"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/console_scripts.py",
+      "bytes": 5558,
+      "sha256": "9fe6d0e6fa4ab5c8c6df49758e443fab6d874d5e17f8910cc242d17499e8f2f7"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/constants.py",
+      "bytes": 106,
+      "sha256": "d02b1af1861d790f0d685ad19ade3799a560d763bcf5dfa82a088a01520edace"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/exceptions.py",
+      "bytes": 45,
+      "sha256": "2f67d9b9838ab1cbdd9fbdab6bec05f06c2caf6641f5e4595aba757f4203c781"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/image/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/image/base.py",
+      "bytes": 4965,
+      "sha256": "8c2adbb78503d597ce0bc8cc1632b77a565f81427b33f16c1ca44c56f8def811"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/image/pil.py",
+      "bytes": 1589,
+      "sha256": "cb96b7b7a541e209efb132b8792474e181153ff424f36893d4d5cbea314fd634"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/image/pure.py",
+      "bytes": 1525,
+      "sha256": "07c3c900dbc01cfc9dd43681b400bcdc2b1bdb129b67e7cfe12496bb0d4d36f5"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/image/styledpil.py",
+      "bytes": 4951,
+      "sha256": "442ec9a034be5337b3da737e236c7078fb065f7a980de1e0f187a94f615b3bf3"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/image/styles/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/image/styles/colormasks.py",
+      "bytes": 7936,
+      "sha256": "87c6ac22f40a31346eaba6c5cef6a2660172a1afb6b6abc86ff841e47e57c0cd"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/image/styles/moduledrawers/__init__.py",
+      "bytes": 430,
+      "sha256": "324970e528d88866ecd80ca6dfc8f0c2b2add299491b3c0856067efa388e5417"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/image/styles/moduledrawers/base.py",
+      "bytes": 1019,
+      "sha256": "80b16adb4a74eed0449ac15f8ab10cd7d5d9b2162c68d3f65abd54340909abdd"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/image/styles/moduledrawers/pil.py",
+      "bytes": 9773,
+      "sha256": "9644fc23cabc3d407f4dd601acfe4397328df14b505be5d0118aa85c15a40fb6"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/image/styles/moduledrawers/svg.py",
+      "bytes": 3936,
+      "sha256": "f969e012f645f0bc2d4e95a649db74b4367a74ab58ccb72d603358f8c8bb72b7"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/image/svg.py",
+      "bytes": 5188,
+      "sha256": "1b6766bb26d53f77f0920cab145e517d04f776958309897cd0e29ed976a5f205"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/main.py",
+      "bytes": 16869,
+      "sha256": "385eee1c3033d938a1a5ee857ed79fe9f8951f6b69a152797a42c2206e25c890"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/release.py",
+      "bytes": 1080,
+      "sha256": "c098d51249569c04d487c094f3c1c42b285481953d873a65fff499632c8d519a"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/tests/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/tests/consts.py",
+      "bytes": 96,
+      "sha256": "4e7d806c8f734c48bf2a2022b21e9fef801b056ad983c03e26cf234eb37fbc5d"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/tests/test_example.py",
+      "bytes": 244,
+      "sha256": "cf9a794e7ba69e3d045ac2a8e98278bee51033b2a38acbe02f06c9b7cc13006d"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/tests/test_qrcode.py",
+      "bytes": 6461,
+      "sha256": "14f8df7662c05dad25adbb294176ed0f5c0f28c82008e3cdfcee2d4fe8cb26e8"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/tests/test_qrcode_pil.py",
+      "bytes": 5148,
+      "sha256": "9b5d927c89a77e0ab3bca99d47898c4024956fd1b2367349e04771c239bbb6eb"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/tests/test_qrcode_pypng.py",
+      "bytes": 944,
+      "sha256": "7e04ebefcbd7d53fdc1f4de64bf8a41c982821328b535d5b24c5c4774526e720"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/tests/test_qrcode_svg.py",
+      "bytes": 1296,
+      "sha256": "db57a79598d73549b433f6682bf00ca74504e2610ba02788584e94bde42c2709"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/tests/test_release.py",
+      "bytes": 1341,
+      "sha256": "495097531e0178dcff777a2c6c135d5b6377aecb5b12b1af63937657f907ae17"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/tests/test_script.py",
+      "bytes": 2908,
+      "sha256": "d60721a647bf0ca64b121b4de5c6490594d3dbc7e16e3bd77c03edb6fbcce6d0"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/tests/test_util.py",
+      "bytes": 207,
+      "sha256": "3e09e9d434457b8e18447f5d791f7ff4d6fdcc7fac91aeb5088624556c2ecbd0"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode/util.py",
+      "bytes": 17103,
+      "sha256": "54e1b846b27a4243ecd1f2da6647de330c70c5d2292ac4479ba757be3a3d625e"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode-8.2.dist-info/INSTALLER",
+      "bytes": 4,
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode-8.2.dist-info/LICENSE",
+      "bytes": 2143,
+      "sha256": "40dfb903c94ee3f789500131311186548ecba5cefd3557623d7700e2522ab994"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode-8.2.dist-info/METADATA",
+      "bytes": 17686,
+      "sha256": "3a8f1be6da9428b97806292d05e3148264b9053c22e79894918b670e930afc36"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode-8.2.dist-info/RECORD",
+      "bytes": 5263,
+      "sha256": "561b3c5922d0fb810900e40d9196c730dcd8a34d9fdc4d9472bb018515d930e9"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode-8.2.dist-info/REQUESTED",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode-8.2.dist-info/WHEEL",
+      "bytes": 88,
+      "sha256": "b0ff78e83ee31421de373e48ab87cbe0bbbe3eb5ab16c81f2d76db91c8886708"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/qrcode-8.2.dist-info/entry_points.txt",
+      "bytes": 50,
+      "sha256": "8e891806b519fd27f56ceec5704e77888847627d4227dfdae52a214c86b238ff"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/zxing_cpp-3.1.1.dist-info/INSTALLER",
+      "bytes": 4,
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/zxing_cpp-3.1.1.dist-info/METADATA",
+      "bytes": 2322,
+      "sha256": "1f2642f835a20c70376e540b348591825363be469ae8458a5ab69dfab4c13d7a"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/zxing_cpp-3.1.1.dist-info/RECORD",
+      "bytes": 861,
+      "sha256": "7f4980adbe80af7c6360d0355c5409fc8dca85a00aebc262297d8463b7b12a64"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/zxing_cpp-3.1.1.dist-info/REQUESTED",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/zxing_cpp-3.1.1.dist-info/WHEEL",
+      "bytes": 139,
+      "sha256": "3399033f793b7af2b8a763895e1453976667d0782e2bf2c7bc66cc8f5330d3f5"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/zxing_cpp-3.1.1.dist-info/licenses/LICENSE",
+      "bytes": 11358,
+      "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/zxingcpp/__init__.py",
+      "bytes": 190,
+      "sha256": "b1e625cf2cc1bb9e0ebe62d7ee1646fe2b4c9575b4c566f6eb1421a4202e3646"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/zxingcpp/py.typed",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/zxingcpp/zxingcpp.abi3.so",
+      "bytes": 1474944,
+      "sha256": "1f0f117c6bc35092f9e1cd42d6d6fb0ed7f0fcf52faebecf996713a8e6179f6b"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/source/vendor/zxingcpp/zxingcpp.pyi",
+      "bytes": 20122,
+      "sha256": "929b7d18433d89e57067e2583b22ec00430eddf13b83267e2635deee601e4069"
+    },
+    {
+      "path": "archive/workbench/share-guide-v1.1.0/制作记录.md",
+      "bytes": 3056,
+      "sha256": "7661f95ab58bb854903d0e53a954ddf4ab493bfcbed2882a194e3ab0b9e1442e"
+    }
+  ],
+  "zip_entries_verified": true
+}
