@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "baseline_files_hash_verified": {
+    "snapshot": 56,
+    "live_r3": 56
+  },
+  "r3_zip_crc_verified": true
+}

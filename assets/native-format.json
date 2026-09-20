@@ -1,0 +1,118 @@
+{
+  "verifiedAppVersion": "26.908.70816",
+  "source": "Installed desktop application resources: app.asar",
+  "spriteVersionNumber": 2,
+  "width": 1536,
+  "height": 2288,
+  "columns": 8,
+  "rows": 11,
+  "cellWidth": 192,
+  "cellHeight": 208,
+  "requiredFramesByRow": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6,
+    8,
+    8
+  ],
+  "animations": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "lookDirections": "Rows 9 and 10, clockwise from up in 22.5 degree steps; index 0-15",
+  "animationTimingMs": {
+    "idle": [
+      1680,
+      660,
+      660,
+      840,
+      840,
+      1920
+    ],
+    "running-right": [
+      120,
+      120,
+      120,
+      120,
+      120,
+      120,
+      120,
+      220
+    ],
+    "running-left": [
+      120,
+      120,
+      120,
+      120,
+      120,
+      120,
+      120,
+      220
+    ],
+    "waving": [
+      140,
+      140,
+      140,
+      280
+    ],
+    "jumping": [
+      140,
+      140,
+      140,
+      140,
+      280
+    ],
+    "failed": [
+      140,
+      140,
+      140,
+      140,
+      140,
+      140,
+      140,
+      240
+    ],
+    "waiting": [
+      150,
+      150,
+      150,
+      150,
+      150,
+      260
+    ],
+    "running": [
+      120,
+      120,
+      120,
+      120,
+      120,
+      220
+    ],
+    "review": [
+      150,
+      150,
+      150,
+      150,
+      150,
+      280
+    ]
+  },
+  "documentation": "https://learn.chatgpt.com/zh-Hans/docs/pets",
+  "runtimeUiExercised": false,
+  "animationModuleSha256": "5dcf4a29db25b086f9bd11d053eec60cf0c50bfd988494969cec452e03f19245",
+  "previousVerifiedAppVersion": "26.903.61454",
+  "lastVerifiedDate": "2026-09-18"
+}

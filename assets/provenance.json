@@ -1,0 +1,22 @@
+[
+  {
+    "path": "assets/approved/luna/pet.json",
+    "sha256": "47caa8e3b060e3bd1c7bd43edd73f17ecfa25e95f21d479f564da3bf89048c82",
+    "review": "V1 gaze repair R4; user approved before publication"
+  },
+  {
+    "path": "assets/approved/luna/spritesheet.webp",
+    "sha256": "1e0952b2309ad3b3a64c164f22e72e6e1ab7396b2ddd554a9a698905e62140ba",
+    "review": "V1 gaze repair R4; user approved before publication"
+  },
+  {
+    "path": "assets/approved/sol/pet.json",
+    "sha256": "05024670865c29a5c43a9b520ac598164753387b614394b39cd1bfa718fc45d2",
+    "review": "V1 gaze repair R4; user approved before publication"
+  },
+  {
+    "path": "assets/approved/sol/spritesheet.webp",
+    "sha256": "f7e1f6fbf6773f299b8ac9ba16067b02d1dfef7f8296b143adeed2c70ffd2e3f",
+    "review": "V1 gaze repair R4; user approved before publication"
+  }
+]

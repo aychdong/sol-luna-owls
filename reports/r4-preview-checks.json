@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "method": "Node VM control checks and local file checks; no browser/native UI test",
+  "checks": [
+    "10 V1 state choices",
+    "16 direction mappings",
+    "native frame durations",
+    "loop wrap",
+    "slow playback",
+    "paused stepping",
+    "bilingual labels",
+    "96 px size",
+    "dark background control",
+    "8 local asset and download links"
+  ]
+}

@@ -1,0 +1,15 @@
+Use case: precise-object-edit.
+Asset type: one replacement 16-direction desktop-pet sprite per call.
+
+Image 1 is the edit target: the exact current V1/R3 sprite cell for the specified direction, enlarged 4x from 192x208. Image 2 is an adjacent direction from the same owl and is an identity, scale and anatomy anchor. Render one complete owl together; do not paste a new head onto a fixed body.
+
+Replace only the pose and gaze direction required below. Keep the exact same owl identity, chibi proportions, large near-circular amber eyes, paired lateral eyebrow feather plumes, tufted ears, small gold beak, short feet, mantle/cape, medallion, feather texture, lighting, color, contrast, camera distance, cell framing and foot baseline from the target. The head, neck, shoulders and torso remain naturally connected and the body keeps the same size and position. The cape stays attached to the shoulders and does not become a wing.
+
+Direction requirements (screen coordinates, clockwise from screen-up):
+- Direction 10, 202.5 degrees, down-left steep: nearly front-facing with only a small turn toward screen-left; head pitches down clearly; both eyes aim together toward the lower-left target.
+- Direction 11, 225 degrees, down-left: a natural mild three-quarter turn toward screen-left; head pitches down moderately; both eyes aim toward lower-left, with the far eye naturally smaller/partly occluded.
+- Direction 12, 247.5 degrees, left-down shallow: mostly turned toward screen-left but still a readable three-quarter owl, with a small downward pitch; visible eye aims slightly down-left.
+- Direction 14, 292.5 degrees, left-up shallow: mostly screen-left with a small upward pitch; visible eye aims slightly up-left; keep the face from becoming flat or stretched.
+- Direction 15, 315 degrees, up-left: a natural three-quarter turn toward screen-left with a moderate upward pitch; visible eye aims up-left; this must bridge smoothly toward the established direction 16.
+
+The five calls are separate: produce exactly the requested direction and no contact sheet, no text, no arrows, no labels, no extra owl. Do not mirror a frame. Do not make the body walk, fly or rotate independently. Do not widen, flatten, inflate or shrink the head; preserve the idle head width-to-height ratio. Preserve the two eyebrow plumes; never merge them into a central crest. Preserve Sol and Luna as separate characters and never transfer colors, ornaments or facial markings between them. Genuine transparent RGBA background, full body, nothing cropped.

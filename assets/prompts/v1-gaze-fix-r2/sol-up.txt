@@ -1,0 +1,6 @@
+Use case: precise-object-edit.
+Image 1 is the EDIT TARGET, an original V1 owl sprite looking straight UP. Image 2 is the SAME owl in idle, showing the correct long, tapered, leaf-like eyebrow feather plumes.
+Repair ONLY the two eyebrow plumes and adjacent upper crown in Image 1. Remove the solitary central crown spike. Restore TWO clearly separated long elegant leaf-shaped feather brows, one rooted at the outer left eyebrow, one at the outer right eyebrow. They sweep outward and up with the same FULL LENGTH and thickness as the idle reference, about one third of the face width each. Not short triangular ears or tiny stubs. Both remain visible even with this upward head tilt. The middle of the crown is smooth and rounded, never a third tuft.
+Keep the upward head pose, upward pupils, eyes, beak, facial outline, neck, body, cape, clasp, feet and original palette EXACTLY unchanged from Image 1. Match the same soft low-resolution V1 painted-sprite texture, not a new high-detail design.
+Same 768x832 canvas and exact same body scale, center and foot baseline. Genuine transparent background. One full owl only. No text, no shadow.
+This is SOL: preserve its V1 warm grey/taupe feathers, warm golden highlights, cream face/chest and slate embroidered cape. No Luna colors.

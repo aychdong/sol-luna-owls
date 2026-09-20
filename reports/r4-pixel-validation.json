@@ -1,0 +1,313 @@
+{
+  "baseline": "V1 gaze fix R3",
+  "scope": [
+    10,
+    11,
+    12,
+    14,
+    15
+  ],
+  "method": "Independent built-in imagegen whole-owl edits; alpha cleanup, uniform whole-character scaling and translation only. No head compositing, local warping, mirroring or recoloring.",
+  "native_app_tested": false,
+  "review_only": false,
+  "install_zip_rebuilt": false,
+  "pets": {
+    "sol": {
+      "input_sha256": "1e597ed21f3470bedaf58ee8a1e92fc0baa841889eec99d689936bedc87d6f63",
+      "output_sha256": "f7e1f6fbf6773f299b8ac9ba16067b02d1dfef7f8296b143adeed2c70ffd2e3f",
+      "changed_cells_1_based": [
+        [
+          11,
+          2
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          11,
+          4
+        ],
+        [
+          11,
+          6
+        ],
+        [
+          11,
+          7
+        ]
+      ],
+      "other_83_cells_pixel_identical_to_r3": true,
+      "pet_json_byte_identical": true,
+      "lossless_webp_decode_verified": true,
+      "frames": [
+        {
+          "direction": 10,
+          "source": "sources/sol-gaze-10-generated.png",
+          "source_sha256": "94ade42bb3191f5a16583143b489aa82461c3f56cb88c55cf6d0d2d81011f4b2",
+          "uniform_scale": 0.15535444947209653,
+          "translation": [
+            2.209653092006036,
+            6.633484162895911
+          ],
+          "source_visible_bbox": [
+            219,
+            206,
+            981,
+            1161
+          ],
+          "target_foot_baseline": 187,
+          "output_visible_bbox": [
+            37,
+            39,
+            154,
+            187
+          ]
+        },
+        {
+          "direction": 11,
+          "source": "sources/sol-gaze-11-generated.png",
+          "source_sha256": "59abdb6430b42575b0e6a1757916d5e0e92f88987ccad070e1a8a009ba4559cc",
+          "uniform_scale": 0.1625,
+          "translation": [
+            -1.4750000000000085,
+            -4.262500000000017
+          ],
+          "source_visible_bbox": [
+            245,
+            244,
+            972,
+            1177
+          ],
+          "target_foot_baseline": 187,
+          "output_visible_bbox": [
+            38,
+            35,
+            156,
+            187
+          ]
+        },
+        {
+          "direction": 12,
+          "source": "sources/sol-gaze-12-generated.png",
+          "source_sha256": "c545dd14c98d6751e25603fd063def0f51965cf78ed76c4e355e2b93b36b1156",
+          "uniform_scale": 0.16062992125984252,
+          "translation": [
+            -1.1007874015748058,
+            0.508661417322827
+          ],
+          "source_visible_bbox": [
+            241,
+            208,
+            977,
+            1161
+          ],
+          "target_foot_baseline": 187,
+          "output_visible_bbox": [
+            38,
+            34,
+            156,
+            187
+          ]
+        },
+        {
+          "direction": 14,
+          "source": "sources/sol-gaze-14-generated.png",
+          "source_sha256": "6d7158ea6ec2d74fd0974eecd2be2dddf3809190291be589ffd9676e62e5d786",
+          "uniform_scale": 0.15789473684210525,
+          "translation": [
+            -1.3157894736842053,
+            8.42105263157896
+          ],
+          "source_visible_bbox": [
+            234,
+            157,
+            987,
+            1131
+          ],
+          "target_foot_baseline": 187,
+          "output_visible_bbox": [
+            36,
+            34,
+            154,
+            187
+          ]
+        },
+        {
+          "direction": 15,
+          "source": "sources/sol-gaze-15-generated.png",
+          "source_sha256": "0c9901f8d01b823c9d0a882f3dac785b85339e69d24bb31c47e1ad619c7f3dae",
+          "uniform_scale": 0.15165165165165165,
+          "translation": [
+            4.205705705705711,
+            15.87537537537537
+          ],
+          "source_visible_bbox": [
+            221,
+            211,
+            984,
+            1135
+          ],
+          "target_foot_baseline": 188,
+          "output_visible_bbox": [
+            38,
+            48,
+            153,
+            188
+          ]
+        }
+      ]
+    },
+    "luna": {
+      "input_sha256": "b03eb525993bca71a0bf82a7080a9d33e46614a8bcfe0c5485800d76288ac09b",
+      "output_sha256": "1e0952b2309ad3b3a64c164f22e72e6e1ab7396b2ddd554a9a698905e62140ba",
+      "changed_cells_1_based": [
+        [
+          11,
+          2
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          11,
+          4
+        ],
+        [
+          11,
+          6
+        ],
+        [
+          11,
+          7
+        ]
+      ],
+      "other_83_cells_pixel_identical_to_r3": true,
+      "pet_json_byte_identical": true,
+      "lossless_webp_decode_verified": true,
+      "frames": [
+        {
+          "direction": 10,
+          "source": "sources/luna-gaze-10-generated.png",
+          "source_sha256": "472ffbb78649c84bcf23e98982f3081c75f32dcac681588aa81d25de16b0a1af",
+          "uniform_scale": 0.1568627450980392,
+          "translation": [
+            0.49019607843136725,
+            2.8431372549019613
+          ],
+          "source_visible_bbox": [
+            221,
+            233,
+            992,
+            1174
+          ],
+          "target_foot_baseline": 187,
+          "output_visible_bbox": [
+            36,
+            39,
+            156,
+            187
+          ]
+        },
+        {
+          "direction": 11,
+          "source": "sources/luna-gaze-11-generated.png",
+          "source_sha256": "7b3451045b3fa528fb5e085935e56026b492bd90e2fa59fa0e8ff17af1bb260c",
+          "uniform_scale": 0.16203703703703703,
+          "translation": [
+            -0.7222222222222143,
+            2.4398148148148096
+          ],
+          "source_visible_bbox": [
+            230,
+            222,
+            977,
+            1139
+          ],
+          "target_foot_baseline": 187,
+          "output_visible_bbox": [
+            37,
+            39,
+            158,
+            187
+          ]
+        },
+        {
+          "direction": 12,
+          "source": "sources/luna-gaze-12-generated.png",
+          "source_sha256": "617612ec53554d05c7eb3e8cd0c5ade5128592c5d3c23f4ddfadda60423a816f",
+          "uniform_scale": 0.15716486902927582,
+          "translation": [
+            0.5223420647149482,
+            8.989214175654837
+          ],
+          "source_visible_bbox": [
+            240,
+            163,
+            990,
+            1139
+          ],
+          "target_foot_baseline": 188,
+          "output_visible_bbox": [
+            38,
+            35,
+            156,
+            188
+          ]
+        },
+        {
+          "direction": 14,
+          "source": "sources/luna-gaze-14-generated.png",
+          "source_sha256": "416ca690e34d88403dc5cc7355417f618280b2e029c7ff18db97775c62c5ce39",
+          "uniform_scale": 0.15501519756838905,
+          "translation": [
+            1.6808510638297918,
+            10.282674772036472
+          ],
+          "source_visible_bbox": [
+            223,
+            155,
+            991,
+            1140
+          ],
+          "target_foot_baseline": 187,
+          "output_visible_bbox": [
+            36,
+            34,
+            155,
+            187
+          ]
+        },
+        {
+          "direction": 15,
+          "source": "sources/luna-gaze-15-generated.png",
+          "source_sha256": "71deb918da5525defff4e57eb685790080409e1a73a92dca0aa9119f19a56e9b",
+          "uniform_scale": 0.1515601783060921,
+          "translation": [
+            3.139673105497778,
+            11.644873699851416
+          ],
+          "source_visible_bbox": [
+            212,
+            210,
+            996,
+            1157
+          ],
+          "target_foot_baseline": 187,
+          "output_visible_bbox": [
+            35,
+            44,
+            154,
+            187
+          ]
+        }
+      ]
+    }
+  },
+  "atlas_size": [
+    1536,
+    2288
+  ],
+  "user_approved": true
+}

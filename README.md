@@ -1,137 +1,52 @@
 # Sol & Luna · 日月猫头鹰
 
-[中文](#中文介绍) · [English](#english)
+[中文](#中文) · [English](#english) · [交互预览 / Live preview](https://aychdong.github.io/sol-luna-owls/) · [v1.1.0 下载 / Downloads](https://github.com/aychdong/sol-luna-owls/releases/tag/v1.1.0)
 
-![Sol and Luna character designs](sol-luna-final/预览/Sol-Luna-设计定稿.png)
+| Sol · 晨光 | Luna · 月夜 |
+|:---:|:---:|
+| ![Sol](preview/sol-idle.png) | ![Luna](preview/luna-idle.png) |
 
-## 中文介绍
+## 中文
 
-**Sol & Luna** 是为 ChatGPT CodeX 桌面版 设计的一对日夜猫头鹰桌宠：白天的 **Sol** 与夜间的 **Luna**。Sol 在拉丁语中是表示太阳的阳性名词，Luna 表示月亮。
+当前正式版 **v1.1.0 = 原始 V1 + 已批准的 R4 视线修复**。Sol 保留 V1 暖灰羽色，Luna 保留 V1 深冷蓝羽色，两只均沿用原版形态与饰件。待机、左右侧跑、招手、轻跃、受挫、等待、工作和检视全部保留 V1 像素，不采用中间 V6–V10 的改版动作。
 
-在希腊神话中，一只小猫头鹰（纵纹腹小鸮）代表着智慧女神雅典娜以及她在罗马神话中的化身弥涅耳瓦。由于这种联系，这种鸟通常被称为雅典娜的猫头鹰或密涅瓦的猫头鹰。在整个西方世界它成为知识、智慧、敏锐和博学的象征。
+视线修复包含：向上、向下的双侧眉羽；向下看的近圆形眼睛；明确区分第 10、11、12 帧的左下角度和第 14、15 帧的左上角度。本次 R4 审阅通过后直接发布，未再重画。
 
-角色保留大头、圆身、短腿、琥珀眼、双侧眉羽和金纹披风，融合手绘羽毛与柔和的立体光影。
+### 安装
 
-### 本次动作升级
+1. 下载 [Sol-Luna-v1.1.0-install.zip](https://github.com/aychdong/sol-luna-owls/releases/download/v1.1.0/Sol-Luna-v1.1.0-install.zip) 并解压。
+2. 先备份已有的同名宠物文件夹。Finder 按 **⌘ ⇧ G**，输入 `~/.codex/pets/`。
+3. 把 **sol、luna 两个文件夹**复制进去，重新选择宠物；仍显示旧图时完整退出应用再打开。
 
-| 动作 | 表现 |
-| --- | --- |
-| Sol 待机 | 好奇观察 → 整理披风 → 抬眼陪伴 |
-| Luna 待机 | 整理披风 → 闭眼打盹与小小 z → 慢慢醒来 |
-| 思考 → 工作 | 电脑始终在场，目光从屏幕游离、翼尖托腮，再回到敲键盘 |
-| 等待输入 | 摊翼邀请，头顶金色问号 |
-| 受挫后振作 | 睁大眼、缩肩低头、短暂星点，再恢复精神；双翼收拢 |
-| 互动 | 招手、轻跃与持书检视 |
-| 视线 | 16 个屏幕方向，保留双侧眉羽 |
-| 左右移动 | 保留原版跑步；飞翔试作因翅膀与披风的遮挡不稳定而弃用 |
+每个文件夹直接包含 `pet.json` 和 `spritesheet.webp`，不需要运行脚本。[安装与回退说明](docs/INSTALL.md)。
 
-原生应用提供固定的九组动作槽位。**Thinking 与敲键盘共用工作动画，不能随模型内部思考单独触发**；两种待机活动合成一个循环，不随机选择。日夜外观需手动切换。
+### 预览与下载
 
-### 下载与安装
+- [在线交互预览](https://aychdong.github.io/sol-luna-owls/)：中英双语、全部 V1 动作、16 方向、R3/R4 对照、逐帧、慢放、96px/放大、深浅背景。
+- [单文件离线预览](https://github.com/aychdong/sol-luna-owls/releases/download/v1.1.0/Sol-Luna-v1.1.0-offline-preview.html)：下载后直接打开。
+- [完整交付包](https://github.com/aychdong/sol-luna-owls/releases/download/v1.1.0/Sol-Luna-v1.1.0-delivery.zip)：安装文件、离线预览和操作说明。
+- [Release 附件](https://github.com/aychdong/sol-luna-owls/releases/tag/v1.1.0)：原始 V1、R3 回退包、完整历史素材及 SHA-256 校验清单。
 
-1. 下载并解压 [安装包 ZIP](sol-luna-final/Sol-Luna-安装包.zip)。
-2. 如果已经安装旧版，先把 `~/.codex/pets/sol` 和 `luna` 两个文件夹移到备份位置。
-3. 在 macOS Finder 按 **⌘ ⇧ G**，输入 `~/.codex/pets/`，复制新版 `sol`、`luna` 两个文件夹进去。
-4. 在桌面应用的宠物选择界面刷新并重新选择 **Sol · 晨光** 或 **Luna · 月夜**。若未更新，完整退出并重新打开应用。
+### 验证与素材
 
-```text
-~/.codex/pets/
-├── sol/
-│   ├── pet.json
-│   └── spritesheet.webp
-└── luna/
-    ├── pet.json
-    └── spritesheet.webp
-```
+两只各使用 **1536 × 2288** 的透明无损 WebP，8 × 11 格，每格 192 × 208。正式包的四个文件与批准的 R4 完全一致；每只前九行动作的 **72 格与 V1 一致**；相对 R3 只替换五个视线格，其余 **83 格一致**。安装 ZIP、动画时长及预览控件已检查。原生应用事件触发本轮未重新实测；网页方向循环是审阅工具。
 
-无需运行代码，也不需要复制外层文件夹。[旧版安装包](releases/v1/Sol-Luna-安装包.zip) 保留用于回退。
-
-### 双语动画展示
-
-下载项目后打开根目录 **index.html**，或下载 [独立离线预览 HTML](sol-luna-final/预览/动画预览.html)。右上角 **中文 / English** 切换全部界面文字。
-
-展示页支持应用原速、三轮后待机、持续循环、暂停、上一帧／下一帧、16 方向滑块、大小与速度调整、浅深背景和透明边缘检查。单独的 **Thinking** 按钮用于慢速观察托腮细节。页面鼠标跟随仅为检查方向帧；原生应用由输入位置或电脑操作光标等目标驱动，普通鼠标移动不保证触发。
-
-页面无需网络、外部字体或追踪服务。GitHub 文件页显示 HTML 源码，下载后用浏览器打开即可。
-
-### 规格与检查
-
-透明无损 WebP，**1536 × 2288**，**8 × 11** 网格，每格 **192 × 208**。动作行有效帧数为 `6 / 8 / 8 / 4 / 5 / 8 / 6 / 6 / 6`，末两行存放 16 个方向帧。
-
-检查包括逐帧图、格内边界、透明度、无损回读、完整电脑与独立符号、原版跑步像素一致性、ZIP 内容和文件校验清单。帧数、时长和图像格式校验来自本机应用 **26.903.61454**。原生界面的实际选择、事件触发和播放尚未人工验证，不能把展示页的模拟视为原生触发测试。
-
-素材由内置 imagegen 生成，经用户授权使用本地 Python、Pillow 和 NumPy 抠图、对齐与打包。生成原图、审阅概念图、提示词、弃用飞翔稿及检查记录均保留；历史概念图中的抱头或飞翔动作不代表最终安装效果。
+`pets/` 为当前安装版；`assets/approved/` 为不可变的批准输入，`assets/sources/` 与 `assets/prompts/` 保留相关修图素材和提示词；`docs/` 记录流程，`reports/` 记录校验。完整试作、快照和旧版本保存在 Release 的历史 ZIP，未删除。[项目结构与重建](docs/PROJECT.md) · [验证报告](reports/package-validation.json)。
 
 ## English
 
-**Sol & Luna** are a pair of day-and-night owl companions created for ChatGPT CodeX desktop apps. **Sol** is the masculine Latin noun for the sun; **Luna** means the moon.
+**v1.1.0 is original V1 plus the approved R4 gaze repairs.** Sol retains the warm-gray V1 palette; Luna retains the deep cool-blue V1 palette, with their original proportions and ornaments. Idle, left/right side-running, wave, hop, failure, waiting, work and book review preserve the original V1 pixels. Intermediate V6–V10 action redesigns are not used.
 
-In Greek mythology, a little owl (Athene noctua) traditionally represents or accompanies Athena, the virgin goddess of wisdom, or Minerva, her syncretic incarnation in Roman mythology. Because of such association, the bird—often referred to as the "owl of Athena" or the "owl of Minerva"—has been used as a symbol of knowledge, wisdom, perspicacity and erudition throughout the Western world
+Repairs restore paired brow plumes for up/down gaze, near-round eyes for downward gaze, three distinct down-left poses (10–12) and two up-left poses (14–15). The approved R4 artwork is published directly without further generation.
 
-They combine hand-painted feathers and soft dimensional lighting with large heads, rounded bodies, short legs, amber eyes, paired brow feathers and embroidered capes.
+### Install
 
-### Animation update
+Download the [install ZIP](https://github.com/aychdong/sol-luna-owls/releases/download/v1.1.0/Sol-Luna-v1.1.0-install.zip). Back up existing pet folders. In Finder, press **⌘ ⇧ G**, open `~/.codex/pets/`, and copy in the extracted **sol** and **luna** folders. Each contains `pet.json` and `spritesheet.webp`. Select the pet again; fully quit and reopen the app if cached artwork persists. No scripts are required. [Installation and rollback](docs/INSTALL.md).
 
-| Action | Performance |
-| --- | --- |
-| Sol idle | Curious observation → cape care → attentive company |
-| Luna idle | Cape care → a brief nap with a tiny z → gently waking |
-| Think → type | The laptop stays visible as the owl looks away, rests a wing on its cheek and returns to typing |
-| Needs input | An inviting wing and a gold question mark |
-| Setback → recovery | Wide eyes, hunched shoulders, a lowered head and small stars, then recovery; wings stay folded |
-| Interaction | Wave, small hop and book review |
-| Gaze | Sixteen screen directions with paired brow feathers |
-| Movement | Original left/right running retained; flight trials rejected because wing/cape occlusion was inconsistent |
+The [bilingual preview](https://aychdong.github.io/sol-luna-owls/) includes all V1 actions, 16 directions, R3/R4 comparisons, frame stepping, slow playback, desktop-size/enlarged views and light/dark backgrounds. [Release downloads](https://github.com/aychdong/sol-luna-owls/releases/tag/v1.1.0) include the standalone offline preview, full delivery, original V1 and R3 rollbacks, complete historical materials, and checksums.
 
-The native app has nine fixed action slots. **Thinking shares the work animation with typing; it does not track the model’s internal reasoning phase.** Each owl has one combined idle sequence, without random variant selection. Day/night appearances are selected manually.
+Both transparent lossless atlases are 1536 × 2288, with 88 cells of 192 × 208. The four install files are byte-identical to approved R4. All 72 action cells per owl match original V1; only five gaze cells differ from R3, leaving 83 cells unchanged. Package contents, animation timing and preview controls are checked. Native application event triggers have not been retested in this release; the web direction loop is a review tool.
 
-### Download and install
+`pets/` is the current installable release; `assets/approved/` is its immutable input. `assets/sources/` and `assets/prompts/` retain generation materials. Complete historical trials and snapshots are preserved in the Release source-history ZIP. [Project workflow](docs/PROJECT.md) · [Validation](reports/package-validation.json).
 
-1. Download and extract the [installation ZIP](sol-luna-final/Sol-Luna-安装包.zip).
-2. Back up existing `~/.codex/pets/sol` and `luna` folders before upgrading.
-3. In macOS Finder, press **⌘ ⇧ G**, enter `~/.codex/pets/`, and copy in the new `sol` and `luna` folders.
-4. Refresh the pet picker in the desktop app and select **Sol · 晨光** or **Luna · 月夜**. If the files remain cached, fully quit and reopen the app.
-
-Each folder directly contains `pet.json` and `spritesheet.webp`. No code needs to run. The [previous installation ZIP](releases/v1/Sol-Luna-安装包.zip) remains available for rollback.
-
-### Bilingual preview
-
-Download the repository and open **index.html**, or download the [standalone offline HTML](sol-luna-final/预览/动画预览.html). Use **中文 / English** to change the interface language.
-
-Controls include native frame timing, three passes followed by idle, continuous loops, pause, previous/next frame, a sixteen-direction slider, size, speed, light/dark backgrounds and transparency inspection. **Thinking** is a separate, slower preview of the cheek-resting poses. Pointer-following in the preview demonstrates the atlas; native gaze uses targets such as input position or the computer-use cursor and is not guaranteed to follow every ordinary pointer movement.
-
-The page works offline with no external fonts or analytics. GitHub displays HTML as source; download the file and open it in a browser.
-
-### Format and verification
-
-Transparent lossless WebP: **1536 × 2288 pixels**, **8 × 11 cells**, **192 × 208 pixels per cell**. The nine action rows use `6 / 8 / 8 / 4 / 5 / 8 / 6 / 6 / 6` frames; the final two rows contain sixteen gaze poses.
-
-Checks cover frame contact sheets, cell bounds, transparency, lossless decoding, persistent laptops and detached symbols, pixel-identical original running, ZIP contents and checksums. Counts, timing and the image-format validator come from installed app **26.903.61454**. Native selection, event triggers and playback have not been manually exercised; preview simulation is not a native integration test.
-
-Built-in imagegen produced the artwork. Authorized local Python, Pillow and NumPy processing handles extraction, alignment and packaging. Generated sources, reviewed concepts, prompts, rejected flight experiments and validation records are retained. Historical concept art may contain poses that were subsequently replaced.
-
-### Project files / 项目文件
-
-| Path | Contents / 内容 |
-| --- | --- |
-| `index.html` | Bilingual showcase / 双语展示 |
-| `sol-luna-final/可直接安装/` | Ready-to-copy pet packages / 直接复制安装 |
-| `sol-luna-final/预览/` | Animated WebPs, frame sheets, offline HTML / 动画、逐帧图、离线网页 |
-| `sol-luna-final/制作记录/` | Sources, concepts, prompts, scripts, reports / 素材、概念图、提示词、脚本、报告 |
-| `releases/v1/` | Previous installation ZIP / 旧版回退包 |
-| `scripts/` | Preview build and package checks / 展示构建与检查 |
-
-### Rebuild / 重新构建
-
-Python 3 with Pillow and NumPy / 需要 Python 3、Pillow、NumPy：
-
-```sh
-python3 -m pip install pillow numpy
-python3 sol-luna-final/制作记录/build_pets.py
-python3 scripts/validate_package.py
-python3 scripts/build_preview.py
-```
-
-The last command refreshes the offline preview, ZIP and file checksums. / 最后一条命令更新离线预览、ZIP 与文件校验清单。
-
-This is a personal art project, not an official OpenAI product. No open-source license has been granted. / 这是个人艺术项目，并非 OpenAI 官方产品；本仓库尚未授予开源许可。
+Personal artwork, not an official OpenAI product. No open-source license has been granted. / 本项目是个人艺术创作，并非 OpenAI 官方产品；尚未授予开源许可。

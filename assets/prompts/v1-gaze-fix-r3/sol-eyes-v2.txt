@@ -1,0 +1,10 @@
+Use case: precise-object-edit.
+Image 1 is the AUTHORITATIVE EYE DESIGN: this owl's original idle. Observe that the large nearly circular black pupil and amber iris FILL the visible eye opening; the cream white surrounding it is FACIAL FEATHERS, not a white eyeball.
+Image 2 is the EDIT TARGET: keep this bowed-head owl EXACTLY as it is, and replace ONLY its two incorrect eyes with the eye design from Image 1.
+
+Critical correction: NO VISIBLE WHITE SCLERA BAND OR CRESCENT ABOVE THE IRIS. None. The round amber iris fills the whole eye opening, reaching the upper eyelid. The upper eyelid may slightly overlap the top of the amber iris. The iris and large dark pupil are near-circular, NOT horizontally squashed, NOT slanted almonds, NOT pointed at the corners. Make both eye openings gently rounded with relaxed smooth rims, matching Image 1's affectionate open expression. No angry diagonal eyelid or squint. Do not preserve Image 2's existing eye design.
+Use the existing downward bowed HEAD to convey looking down; the pupils may shift downward only a tiny amount WITHIN the huge amber irises. DO NOT show white eyeballs to convey the downward gaze. The two round eyes look softly toward the ground below, no sideways gaze or cross eyes.
+
+INVARIANTS FROM IMAGE 2: same exact head outline, long left and right feather brows, forehead proportions, beak, neck, body, feathers, cape, medallion, feet, colors, lighting and low-resolution original V1 painted texture. Only change the two eyes and their immediate soft eyelid rims. Do not create a new owl, do not upgrade the illustration style.
+Same exact 768x832 canvas, character position and scale as Image 2. Genuine transparent background. One full owl. No text or other objects.
+SOL only: preserve the exact warm grey/taupe and gold original colors in these two images.

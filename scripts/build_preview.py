@@ -1,29 +1,13 @@
-"""Build the offline preview, repository index, and checksum manifest."""
+"""Build the bilingual release page and embedded offline copy."""
 from pathlib import Path
-import base64, hashlib, json, re, zipfile
-
-ROOT = Path(__file__).resolve().parents[1]
-PACKAGE = ROOT / 'sol-luna-final'
-template = (PACKAGE / '制作记录/preview-template.html').read_text()
-pattern = r'const DATA = /\* PET_DATA \*/ .*?;'
-assert len(re.findall(pattern, template)) == 1
-embedded = ['data:image/webp;base64,' + base64.b64encode(
-    (PACKAGE / '可直接安装' / pet / 'spritesheet.webp').read_bytes()).decode()
-    for pet in ('sol', 'luna')]
-offline = re.sub(pattern, lambda _: 'const DATA = ' + json.dumps(embedded) + ';', template)
-(PACKAGE / '预览/动画预览.html').write_text(offline)
-relative = ['sol-luna-final/可直接安装/' + pet + '/spritesheet.webp' for pet in ('sol', 'luna')]
-(ROOT / 'index.html').write_text(re.sub(pattern, lambda _: 'const DATA = ' + json.dumps(relative) + ';', template))
-with zipfile.ZipFile(PACKAGE / 'Sol-Luna-安装包.zip', 'w', zipfile.ZIP_DEFLATED) as archive:
-    for file in sorted((PACKAGE / '可直接安装').rglob('*')):
-        if file.is_file() and file.name in ('pet.json', 'spritesheet.webp'):
-            archive.write(file, file.relative_to(PACKAGE / '可直接安装'))
-files = []
-for f in sorted(PACKAGE.rglob('*')):
-    if f.is_file() and f.name not in ('files-manifest.json', '.DS_Store') and '__pycache__' not in str(f):
-        files.append({'path': str(f.relative_to(PACKAGE)), 'bytes': f.stat().st_size,
-                      'sha256': hashlib.sha256(f.read_bytes()).hexdigest()})
-(PACKAGE / '制作记录/files-manifest.json').write_text(json.dumps({
-    'version': '2026-09-15-animation-v2', 'status': 'package-checked-native-ui-unverified', 'files': files
-}, ensure_ascii=False, indent=2) + '\n')
-print('Built bilingual previews and installation ZIP; indexed', len(files), 'package files.')
+import re,base64
+R=Path(__file__).resolve().parents[1];V=(R/'VERSION').read_text().strip()
+html=(R/'templates/preview.html').read_text().replace('{{VERSION}}',V);(R/'index.html').write_text(html)
+offline=html
+for ref in set(re.findall(r"url\('([^']+)'\)|<img src=\"([^\"]+)\"",html)):
+ name=ref[0] or ref[1];p=R/name;mime='image/webp' if p.suffix=='.webp' else 'image/png'
+ offline=offline.replace(name,f'data:{mime};base64,'+base64.b64encode(p.read_bytes()).decode())
+for path in ['README.md','docs/INSTALL.md','reports/package-validation.json']:
+ offline=offline.replace('href="'+path+'"','href="https://github.com/aychdong/sol-luna-owls/blob/v'+V+'/'+path+'"')
+(R/'dist'/f'Sol-Luna-v{V}-offline-preview.html').write_text(offline)
+print('Built bilingual online and self-contained offline previews.')

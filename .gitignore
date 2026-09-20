@@ -2,7 +2,11 @@
 __pycache__/
 *.pyc
 .venv/
-owl-design-revision/
-owl-pets-delivery/
-sol-luna-v2/
-sol-luna-review-v2/
+# Generated release downloads (attached to GitHub Releases).
+dist/
+# Full local history is preserved and published as a versioned source archive.
+archive/history/
+archive/snapshots/
+workbench/*/
+# Unrelated local project; never include in the owl repository.
+思源读书会/

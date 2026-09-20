@@ -1,0 +1,4916 @@
+{
+  "files": [
+    {
+      "path": "owl-design-revision/当前进度.txt",
+      "bytes": 1807,
+      "sha256": "085778831a7bfc7351cc0d2698eea830c22e1d5349d933bf8df8cfacf1275949"
+    },
+    {
+      "path": "owl-design-revision/01-设计稿/用户原始参考图.png",
+      "bytes": 2085781,
+      "sha256": "8c35ae2e305ea6917b0d74f8f540626ddb9175d2222956352b3a10f22e27526c"
+    },
+    {
+      "path": "owl-design-revision/01-设计稿/Athena-Luna-修订设计图.png",
+      "bytes": 2320165,
+      "sha256": "bcd4e9fe88c1881eba6c9988f7ebf1d339e8b950d4d20022f1358a06ea13d4f3"
+    },
+    {
+      "path": "owl-design-revision/制作记录/设计修订.md",
+      "bytes": 925,
+      "sha256": "2a6c7c7dc397765a8add98e339f60d1b15adb98d9480c0f778cfa63fc52c7975"
+    },
+    {
+      "path": "owl-design-revision/制作记录/设计稿生成提示词.txt",
+      "bytes": 3386,
+      "sha256": "cc87ac3a16d310ac8d8c3bebfdc79251bf9a27d64ea0b562ce7a781d625e0f0f"
+    },
+    {
+      "path": "owl-design-revision/制作记录/动画帧提示词-尚未生成.txt",
+      "bytes": 3392,
+      "sha256": "0bb655714e66da0392f1d289a70f89ab0d906296f541ff53aa23a522a13d3043"
+    },
+    {
+      "path": "owl-design-revision/制作记录/files-manifest.json",
+      "bytes": 1507,
+      "sha256": "84e1696ef45861627f1160369caea5d35ad208cfdbc1b8f3ea7f6ae9158215fa"
+    },
+    {
+      "path": "owl-design-revision/制作记录/已核对的桌面格式.json",
+      "bytes": 1014,
+      "sha256": "36a1db65924e8cd9964a56e1fd7dded1e74efdd746a7f14c3d939d72b0eff538"
+    },
+    {
+      "path": "owl-pets-delivery/使用说明.txt",
+      "bytes": 2254,
+      "sha256": "1652fa317f1c54a68bdf19f794bca6c3f723694f9754cbcbf19ea0ba215eb0de"
+    },
+    {
+      "path": "owl-pets-delivery/制作记录/设计修订.md",
+      "bytes": 925,
+      "sha256": "2a6c7c7dc397765a8add98e339f60d1b15adb98d9480c0f778cfa63fc52c7975"
+    },
+    {
+      "path": "owl-pets-delivery/制作记录/revised-concept-prompt.txt",
+      "bytes": 3386,
+      "sha256": "cc87ac3a16d310ac8d8c3bebfdc79251bf9a27d64ea0b562ce7a781d625e0f0f"
+    },
+    {
+      "path": "owl-pets-delivery/制作记录/luna-prompt.txt",
+      "bytes": 1601,
+      "sha256": "53493a1e087af6358578ce0298717bc9bf4a86aad01c450bac31e48294f68a0b"
+    },
+    {
+      "path": "owl-pets-delivery/制作记录/athena-prompt.txt",
+      "bytes": 3315,
+      "sha256": "476bc32c1c6a86cfa5cc9ff136632efce380b422532204ccfa700dbd75a6fa37"
+    },
+    {
+      "path": "owl-pets-delivery/制作记录/luna-alpha-prompt.txt",
+      "bytes": 730,
+      "sha256": "f7012c41c569147991f5109c2f2e318570f4a484a8613aee043a15051bff6e43"
+    },
+    {
+      "path": "owl-pets-delivery/制作记录/desktop-format.json",
+      "bytes": 1014,
+      "sha256": "36a1db65924e8cd9964a56e1fd7dded1e74efdd746a7f14c3d939d72b0eff538"
+    },
+    {
+      "path": "owl-pets-delivery/可直接安装/luna/pet.json",
+      "bytes": 247,
+      "sha256": "d2ec6b575d6108548054b8e6a3f6350519f5c6b8b77dc31aad0e379a18c57509"
+    },
+    {
+      "path": "owl-pets-delivery/可直接安装/athena/pet.json",
+      "bytes": 260,
+      "sha256": "1bbc451b93854de3457c5e5cc7f8572f2e23e069d31b1d22b9a08bd95cc99a47"
+    },
+    {
+      "path": "sol-luna-final/使用说明.txt",
+      "bytes": 2101,
+      "sha256": "9b8925058de41c6b688e6457e7c4fd019092db0d241edc1755065dcc72ca1471"
+    },
+    {
+      "path": "sol-luna-final/Sol-Luna-安装包.zip",
+      "bytes": 3938974,
+      "sha256": "bb220f1776a608798ff2cfd486984c14171a2e102ee80098225e8708521b5c41"
+    },
+    {
+      "path": "sol-luna-final/制作记录/制作说明.md",
+      "bytes": 3266,
+      "sha256": "13544e00a135c969fbd66bfeec0fdcb171cb8fb2954cf866443dd3eb07e51fdb"
+    },
+    {
+      "path": "sol-luna-final/制作记录/preview-script-checks.json",
+      "bytes": 349,
+      "sha256": "844defbc655da9b5e9d2890acd033ec0034fca50d0bdae0d5bcd0144e8678f46"
+    },
+    {
+      "path": "sol-luna-final/制作记录/设计定稿-prompt.txt",
+      "bytes": 2868,
+      "sha256": "68ed4c8f331956e55f113a9244450bfb8fd885c1562fb54a1b9bcdbf6b7444ed"
+    },
+    {
+      "path": "sol-luna-final/制作记录/native-loader-validation.json",
+      "bytes": 1019,
+      "sha256": "10eb48471deb90e5d8e4cf72b7a29cc2d7cc45e363b7117a6e8c5d91ac1027cf"
+    },
+    {
+      "path": "sol-luna-final/制作记录/preview-template.html",
+      "bytes": 17194,
+      "sha256": "fcf9868e71795c235fced285220aa712097da6f4883ceab60b403ab844106a90"
+    },
+    {
+      "path": "sol-luna-final/制作记录/quality-checks.json",
+      "bytes": 4016,
+      "sha256": "3855ae278af5810d4ea40ac305ed76eb90a2c9f56b0ea19a6fd18698f01411a1"
+    },
+    {
+      "path": "sol-luna-final/制作记录/Luna-配色修正-prompt.txt",
+      "bytes": 1267,
+      "sha256": "7f0231b7da80ceaea247471ca65433141a9256b18d0461d17b9f4f52840173a9"
+    },
+    {
+      "path": "sol-luna-final/制作记录/files-manifest.json",
+      "bytes": 11451,
+      "sha256": "6b1a371b34d1f34378e54d2e8d8c91440b0e1b05761237dff2bce3ca30f8a814"
+    },
+    {
+      "path": "sol-luna-final/制作记录/production-prompts.json",
+      "bytes": 20388,
+      "sha256": "2275d76f0f5dfe2acac8c554e8bf3b32de3ceacd43954f078e2f812b347ffadb"
+    },
+    {
+      "path": "sol-luna-final/制作记录/validation.json",
+      "bytes": 127371,
+      "sha256": "3c13536bb6227b210d78e6b376edbec17eb59e2f77a6eaccfa7a5f6c0b65fba8"
+    },
+    {
+      "path": "sol-luna-final/制作记录/build_pets.py",
+      "bytes": 14425,
+      "sha256": "7cd7588a44ce0094e6a1b5488d0cd5a5488ba525ee08603672e5ddb4cff87dca"
+    },
+    {
+      "path": "sol-luna-final/制作记录/Sol-动画-prompt.txt",
+      "bytes": 3082,
+      "sha256": "8ed9034e136cd20dd69c7df69a55a649340d2e4ddd3f350bbae6eba689cfe736"
+    },
+    {
+      "path": "sol-luna-final/制作记录/desktop-format.json",
+      "bytes": 1663,
+      "sha256": "b1d0157dedd4fb9d6b910bbf56e9af809c19aed067cc41104430bd94d0177ab9"
+    },
+    {
+      "path": "sol-luna-final/制作记录/Luna-动画-prompt.txt",
+      "bytes": 1850,
+      "sha256": "ed7f95beb7882732268caed62c0db71ace46b6353b1e2bae8325c673d0488c93"
+    },
+    {
+      "path": "sol-luna-final/预览/luna-thinking.webp",
+      "bytes": 155132,
+      "sha256": "e3c99453bc6a5aef678f0d91a0aee6301c8aceb44d7686ee040672b02d66070a"
+    },
+    {
+      "path": "sol-luna-final/预览/luna-jumping.webp",
+      "bytes": 154032,
+      "sha256": "a3dbf62a810c4852e56f74712d47c714f129b10098793c9297e7c65279a62d11"
+    },
+    {
+      "path": "sol-luna-final/预览/luna-全帧检查.jpg",
+      "bytes": 1149242,
+      "sha256": "a07b6a60e9e554f3ca3fc99df32eff45ce9d484ea9a5edf834cd28ed941ab7a3"
+    },
+    {
+      "path": "sol-luna-final/预览/luna-running.webp",
+      "bytes": 207408,
+      "sha256": "7dc6c9748e6713946fd096ac625c152de63f9c370f0aa9e5d4bac7df255cdd24"
+    },
+    {
+      "path": "sol-luna-final/预览/sol-waving.webp",
+      "bytes": 138348,
+      "sha256": "705556dd79975ad06ab4718dcdaca9c00a6323dc02094194a48c77cb118fe01c"
+    },
+    {
+      "path": "sol-luna-final/预览/luna-failed.webp",
+      "bytes": 240688,
+      "sha256": "99a6dcc4390203f36680f46c75f604c32a8cc632cffbc962bcb633595338763e"
+    },
+    {
+      "path": "sol-luna-final/预览/sol-thinking.webp",
+      "bytes": 162196,
+      "sha256": "a68ddd27076abde8eac166e4fe5c9be65e9b1e5b6221b37bb765c28fac6e77f6"
+    },
+    {
+      "path": "sol-luna-final/预览/sol-review.webp",
+      "bytes": 201394,
+      "sha256": "3c512a44752b77e7a27c195054ea53de0d87940db6ca0c1285ffd12c2dd6b01c"
+    },
+    {
+      "path": "sol-luna-final/预览/sol-全帧检查.jpg",
+      "bytes": 1169553,
+      "sha256": "b200688e26a95218b726a32e24c820b4f26b4d6d8241d142716ac5481487a84c"
+    },
+    {
+      "path": "sol-luna-final/预览/动画预览.html",
+      "bytes": 5271191,
+      "sha256": "508f1d5bbeb0a8ef64682a15cb1de4e906ff5f9d26e2d187736e78d2aa2419bd"
+    },
+    {
+      "path": "sol-luna-final/预览/sol-failed.webp",
+      "bytes": 241352,
+      "sha256": "6116aa09c4ad8d91a3c61513936b92676ecc94024fd11960dc35ad10277f033d"
+    },
+    {
+      "path": "sol-luna-final/预览/luna-waving.webp",
+      "bytes": 138182,
+      "sha256": "e73061fa9214f3cda7b6587f559bf7fa669baad67e305a0c0dc084b6bcd793ee"
+    },
+    {
+      "path": "sol-luna-final/预览/sol-running-right.webp",
+      "bytes": 189698,
+      "sha256": "7b9ac082c6db80b4c1e8d4e492f37dcd5e2ab20c3a21ea907512655193f5fba5"
+    },
+    {
+      "path": "sol-luna-final/预览/luna-review.webp",
+      "bytes": 193690,
+      "sha256": "62673c147da272c1c7c88e1ffe2e69da099b48aa3307b3ef844cfec3203fde76"
+    },
+    {
+      "path": "sol-luna-final/预览/sol-running-left.webp",
+      "bytes": 193582,
+      "sha256": "a16d2cae698e55a3d2dea8146eccd3bb8667118d5b1562ef70685343007d918f"
+    },
+    {
+      "path": "sol-luna-final/预览/sol-jumping.webp",
+      "bytes": 155652,
+      "sha256": "b9753bb5d32dda67777a54f6327bb2778a7d568e33b4752f47fe571015e59d0a"
+    },
+    {
+      "path": "sol-luna-final/预览/sol-running.webp",
+      "bytes": 216056,
+      "sha256": "e53b39ee0606fdfd00b1cbb47c354e0a3aa463ea41fcf9511a41faa2df948f30"
+    },
+    {
+      "path": "sol-luna-final/预览/luna-idle.png",
+      "bytes": 42025,
+      "sha256": "a9b29ae57cbf2e138c6c58cf0b7e76b8acf4eb087e6de5a167c5c7296c416f31"
+    },
+    {
+      "path": "sol-luna-final/预览/luna-idle.webp",
+      "bytes": 188062,
+      "sha256": "8a38a0fda6a99633b371d983964502c9e705e5da21b3bc02d2cbbdfc7ab9d643"
+    },
+    {
+      "path": "sol-luna-final/预览/luna-running-right.webp",
+      "bytes": 175330,
+      "sha256": "e883cd3e486976e862a333476c724a1fd72bf7a7b168276754bffc1e73623d75"
+    },
+    {
+      "path": "sol-luna-final/预览/luna-waiting.webp",
+      "bytes": 215190,
+      "sha256": "31f2a58355fb9da3e76ed6674bbfe5a321e904969b0e6e3cbb4d808cd2d7f57c"
+    },
+    {
+      "path": "sol-luna-final/预览/sol-idle.png",
+      "bytes": 42807,
+      "sha256": "84d5d5b07fbfe21550ba5a9ef74a77fbc27f92cee1ed38914f88a4180574b49e"
+    },
+    {
+      "path": "sol-luna-final/预览/Sol-Luna-设计定稿.png",
+      "bytes": 2221435,
+      "sha256": "293f55e97c85aba4ef6d5fd6e58fcc0b23bdc30550f1f337e6e8bdfc988d7e64"
+    },
+    {
+      "path": "sol-luna-final/预览/sol-waiting.webp",
+      "bytes": 215984,
+      "sha256": "42ea11cac5d0798744a28aed7a2110bec7e9183040797c1391d8ea729b8af858"
+    },
+    {
+      "path": "sol-luna-final/预览/实际角色-浅深背景.png",
+      "bytes": 138156,
+      "sha256": "45cd8773dd6ca7f015b84b740b4dcef0bf48c136ec9954c765128655193379f8"
+    },
+    {
+      "path": "sol-luna-final/预览/sol-idle.webp",
+      "bytes": 193074,
+      "sha256": "a236669c8fa0f6d313a58f1e0e6ec7e8d436f4ca7cbe826b436ba8ab41d52055"
+    },
+    {
+      "path": "sol-luna-final/预览/luna-running-left.webp",
+      "bytes": 178264,
+      "sha256": "604e2f2819f37133eae7a51fa39e53ad16e0fdcb60f81987ce6f2081e317df6b"
+    },
+    {
+      "path": "sol-luna-final/制作记录/原始素材/work.png",
+      "bytes": 3095614,
+      "sha256": "26393bc720a8dbbc8e86938a0bc12d87625eb24505065632748535f3b4636f1d"
+    },
+    {
+      "path": "sol-luna-final/制作记录/原始素材/sol-atlas-generated.png",
+      "bytes": 3484846,
+      "sha256": "2641a3e3656bde72dcd5ef3407d39aba7cbc5e1d7179099f502943fa32a01bd9"
+    },
+    {
+      "path": "sol-luna-final/制作记录/原始素材/failed.png",
+      "bytes": 2779981,
+      "sha256": "e6205b755b5d4ef0de94841ecddea012f18939c9ef2effc67940e216d8644c9c"
+    },
+    {
+      "path": "sol-luna-final/制作记录/原始素材/idle.png",
+      "bytes": 2933918,
+      "sha256": "6165d7131efe079f1c4548fd4eca5d6ec00f324bc4ec953d0cc0b75face010e9"
+    },
+    {
+      "path": "sol-luna-final/制作记录/原始素材/flight.png",
+      "bytes": 3042662,
+      "sha256": "185013a45c4542e580f3f874116d2070fcfd60e1b8e79f72e7bd744bc82dc531"
+    },
+    {
+      "path": "sol-luna-final/制作记录/原始素材/luna-atlas-generated.png",
+      "bytes": 3553628,
+      "sha256": "3259d72e8ee998dbf33bf511b4a32609a4d85b5076244e498340b20a6e2801ba"
+    },
+    {
+      "path": "sol-luna-final/制作记录/原始素材/original-running-sol.webp",
+      "bytes": 386692,
+      "sha256": "ddd95e4ffa281bf7dc6b60e3f9c6a8e0e1ba3f003e0daffcf212435cf43a05d7"
+    },
+    {
+      "path": "sol-luna-final/制作记录/原始素材/waiting.png",
+      "bytes": 3157743,
+      "sha256": "fe9dbab530b59e36bddf0b279f64be57231f6c2c2b11dcffb09a17a310729c45"
+    },
+    {
+      "path": "sol-luna-final/制作记录/原始素材/gaze.png",
+      "bytes": 3126410,
+      "sha256": "c323bf88671713c6ab130b8d91aa582b00856a7f3df45c0d414327f60938d35c"
+    },
+    {
+      "path": "sol-luna-final/制作记录/原始素材/luna-atlas-final-generated.png",
+      "bytes": 3568604,
+      "sha256": "1049503c12534be69387d9061fbe7e403b8eaf357ae0cbdc688d3b0a72451075"
+    },
+    {
+      "path": "sol-luna-final/制作记录/原始素材/social.png",
+      "bytes": 2969938,
+      "sha256": "be2b0fa5aa74adf5a51e78ea55771013dccb8ca28e132453dac128c391acb22d"
+    },
+    {
+      "path": "sol-luna-final/制作记录/原始素材/original-running-luna.webp",
+      "bytes": 360166,
+      "sha256": "6abf4cb452a8df984a1fcee05c19cc712805b1560d49ef0b9f99eb1bdd25059c"
+    },
+    {
+      "path": "sol-luna-final/制作记录/旧版-v1/制作说明.md",
+      "bytes": 2009,
+      "sha256": "5be347cc32792361388fb89fe3480a9d48b74d6fcee3ace6d607ba487a32c8c6"
+    },
+    {
+      "path": "sol-luna-final/制作记录/旧版-v1/native-loader-validation.json",
+      "bytes": 510,
+      "sha256": "8b53ce68f034af0ba541a6626adc8802307dd84d01e14d7538b7c993d4f966be"
+    },
+    {
+      "path": "sol-luna-final/制作记录/旧版-v1/validation.json",
+      "bytes": 73745,
+      "sha256": "9e8fad625192bc291e7b6bbacf7def9656f092747292a6fa54cc4c926dfc68c6"
+    },
+    {
+      "path": "sol-luna-final/制作记录/旧版-v1/build_pets.py",
+      "bytes": 10648,
+      "sha256": "fe295af3be7ba96a11914eb25423c038040a713dbcad63c2a9b6d732c62bd593"
+    },
+    {
+      "path": "sol-luna-final/制作记录/旧版-v1/desktop-format.json",
+      "bytes": 1537,
+      "sha256": "8a0798068d7a95d271092606237ef58c03928e1104055f1d631f08672935184a"
+    },
+    {
+      "path": "sol-luna-final/制作记录/审阅概念图/02-thinking-work.png",
+      "bytes": 2410170,
+      "sha256": "39ce2b7b7539ead609b4f2b9f67bd3ed23c39947480cb64460351610da0c65d1"
+    },
+    {
+      "path": "sol-luna-final/制作记录/审阅概念图/01-idle-emotions.png",
+      "bytes": 2419197,
+      "sha256": "2e5144c62b79cf664bf8738df93e187fd6112bf74f60e3ac6bcd8fa88e852708"
+    },
+    {
+      "path": "sol-luna-final/制作记录/审阅概念图/03-gaze-brows.png",
+      "bytes": 2398735,
+      "sha256": "e1319807086af1c109355b2efbaabd8e34681a88d489153d08e56d593daeb5b9"
+    },
+    {
+      "path": "sol-luna-final/制作记录/审阅概念图/04-run-flight.png",
+      "bytes": 2049755,
+      "sha256": "2e8dd9d3b47fd8e6e89ed2f1a3b2d787f713d64fbef5b1441a96e4f3ec89ad74"
+    },
+    {
+      "path": "sol-luna-final/可直接安装/luna/spritesheet.webp",
+      "bytes": 1933534,
+      "sha256": "9a84db3e39ac13b7924b584a357ab1bbc345358d682cadc604f00f2d8c69005b"
+    },
+    {
+      "path": "sol-luna-final/可直接安装/luna/pet.json",
+      "bytes": 234,
+      "sha256": "d5caccad7c5e75ecc46de2d2d22f061b2772f0e4f9b14bcd709d40d4a1235d02"
+    },
+    {
+      "path": "sol-luna-final/可直接安装/sol/spritesheet.webp",
+      "bytes": 2006996,
+      "sha256": "2838fbf9955e611235380867a8e7aba33b16e0007226f3fe0228d3e9c6579512"
+    },
+    {
+      "path": "sol-luna-final/可直接安装/sol/pet.json",
+      "bytes": 228,
+      "sha256": "e9c4f981c72170129d4716d7c2aa8cdbacdf0d8622d77a6b71c4acdbb03e0324"
+    },
+    {
+      "path": "sol-luna-v2/Sol-Luna-安装包.zip",
+      "bytes": 3938919,
+      "sha256": "96a830d2864e96259cf2bb0926e53ab3908349899ed6e2700ae734f1ea64ef03"
+    },
+    {
+      "path": "sol-luna-v2/制作记录/preview-template.html",
+      "bytes": 18615,
+      "sha256": "0545590372b11914b5c4dd71335a44ded7124d0b88486fa5cd224d8089fa1346"
+    },
+    {
+      "path": "sol-luna-v2/制作记录/production-prompts.json",
+      "bytes": 20668,
+      "sha256": "d556a930b7a24eb24f0d42618ecd10d19b29d5099668687415e5205500c70b8d"
+    },
+    {
+      "path": "sol-luna-v2/制作记录/validation.json",
+      "bytes": 127352,
+      "sha256": "ada8b904ef92fafa931a06fad90ccbe728bf4e44605138158f18763e806e69a5"
+    },
+    {
+      "path": "sol-luna-v2/制作记录/build_pets_v2.py",
+      "bytes": 14402,
+      "sha256": "9dbbc33f93213ca661ee040be30491281c7dce307e1bd3ee90ca985a4e499ff9"
+    },
+    {
+      "path": "sol-luna-v2/预览/luna-thinking.webp",
+      "bytes": 155132,
+      "sha256": "e3c99453bc6a5aef678f0d91a0aee6301c8aceb44d7686ee040672b02d66070a"
+    },
+    {
+      "path": "sol-luna-v2/预览/luna-jumping.webp",
+      "bytes": 154032,
+      "sha256": "a3dbf62a810c4852e56f74712d47c714f129b10098793c9297e7c65279a62d11"
+    },
+    {
+      "path": "sol-luna-v2/预览/luna-全帧检查.jpg",
+      "bytes": 1149242,
+      "sha256": "a07b6a60e9e554f3ca3fc99df32eff45ce9d484ea9a5edf834cd28ed941ab7a3"
+    },
+    {
+      "path": "sol-luna-v2/预览/luna-running.webp",
+      "bytes": 207408,
+      "sha256": "7dc6c9748e6713946fd096ac625c152de63f9c370f0aa9e5d4bac7df255cdd24"
+    },
+    {
+      "path": "sol-luna-v2/预览/sol-waving.webp",
+      "bytes": 138348,
+      "sha256": "705556dd79975ad06ab4718dcdaca9c00a6323dc02094194a48c77cb118fe01c"
+    },
+    {
+      "path": "sol-luna-v2/预览/luna-failed.webp",
+      "bytes": 240688,
+      "sha256": "99a6dcc4390203f36680f46c75f604c32a8cc632cffbc962bcb633595338763e"
+    },
+    {
+      "path": "sol-luna-v2/预览/sol-thinking.webp",
+      "bytes": 162196,
+      "sha256": "a68ddd27076abde8eac166e4fe5c9be65e9b1e5b6221b37bb765c28fac6e77f6"
+    },
+    {
+      "path": "sol-luna-v2/预览/sol-review.webp",
+      "bytes": 201394,
+      "sha256": "3c512a44752b77e7a27c195054ea53de0d87940db6ca0c1285ffd12c2dd6b01c"
+    },
+    {
+      "path": "sol-luna-v2/预览/sol-全帧检查.jpg",
+      "bytes": 1169553,
+      "sha256": "b200688e26a95218b726a32e24c820b4f26b4d6d8241d142716ac5481487a84c"
+    },
+    {
+      "path": "sol-luna-v2/预览/sol-failed.webp",
+      "bytes": 241352,
+      "sha256": "6116aa09c4ad8d91a3c61513936b92676ecc94024fd11960dc35ad10277f033d"
+    },
+    {
+      "path": "sol-luna-v2/预览/luna-waving.webp",
+      "bytes": 138182,
+      "sha256": "e73061fa9214f3cda7b6587f559bf7fa669baad67e305a0c0dc084b6bcd793ee"
+    },
+    {
+      "path": "sol-luna-v2/预览/sol-running-right.webp",
+      "bytes": 189698,
+      "sha256": "7b9ac082c6db80b4c1e8d4e492f37dcd5e2ab20c3a21ea907512655193f5fba5"
+    },
+    {
+      "path": "sol-luna-v2/预览/luna-review.webp",
+      "bytes": 193690,
+      "sha256": "62673c147da272c1c7c88e1ffe2e69da099b48aa3307b3ef844cfec3203fde76"
+    },
+    {
+      "path": "sol-luna-v2/预览/sol-running-left.webp",
+      "bytes": 193582,
+      "sha256": "a16d2cae698e55a3d2dea8146eccd3bb8667118d5b1562ef70685343007d918f"
+    },
+    {
+      "path": "sol-luna-v2/预览/sol-jumping.webp",
+      "bytes": 155652,
+      "sha256": "b9753bb5d32dda67777a54f6327bb2778a7d568e33b4752f47fe571015e59d0a"
+    },
+    {
+      "path": "sol-luna-v2/预览/sol-running.webp",
+      "bytes": 216056,
+      "sha256": "e53b39ee0606fdfd00b1cbb47c354e0a3aa463ea41fcf9511a41faa2df948f30"
+    },
+    {
+      "path": "sol-luna-v2/预览/luna-idle.png",
+      "bytes": 42025,
+      "sha256": "a9b29ae57cbf2e138c6c58cf0b7e76b8acf4eb087e6de5a167c5c7296c416f31"
+    },
+    {
+      "path": "sol-luna-v2/预览/luna-idle.webp",
+      "bytes": 188062,
+      "sha256": "8a38a0fda6a99633b371d983964502c9e705e5da21b3bc02d2cbbdfc7ab9d643"
+    },
+    {
+      "path": "sol-luna-v2/预览/luna-running-right.webp",
+      "bytes": 175330,
+      "sha256": "e883cd3e486976e862a333476c724a1fd72bf7a7b168276754bffc1e73623d75"
+    },
+    {
+      "path": "sol-luna-v2/预览/luna-waiting.webp",
+      "bytes": 215190,
+      "sha256": "31f2a58355fb9da3e76ed6674bbfe5a321e904969b0e6e3cbb4d808cd2d7f57c"
+    },
+    {
+      "path": "sol-luna-v2/预览/sol-idle.png",
+      "bytes": 42807,
+      "sha256": "84d5d5b07fbfe21550ba5a9ef74a77fbc27f92cee1ed38914f88a4180574b49e"
+    },
+    {
+      "path": "sol-luna-v2/预览/sol-waiting.webp",
+      "bytes": 215984,
+      "sha256": "42ea11cac5d0798744a28aed7a2110bec7e9183040797c1391d8ea729b8af858"
+    },
+    {
+      "path": "sol-luna-v2/预览/sol-idle.webp",
+      "bytes": 193074,
+      "sha256": "a236669c8fa0f6d313a58f1e0e6ec7e8d436f4ca7cbe826b436ba8ab41d52055"
+    },
+    {
+      "path": "sol-luna-v2/预览/luna-running-left.webp",
+      "bytes": 178264,
+      "sha256": "604e2f2819f37133eae7a51fa39e53ad16e0fdcb60f81987ce6f2081e317df6b"
+    },
+    {
+      "path": "sol-luna-v2/制作记录/原始素材/work.png",
+      "bytes": 3095614,
+      "sha256": "26393bc720a8dbbc8e86938a0bc12d87625eb24505065632748535f3b4636f1d"
+    },
+    {
+      "path": "sol-luna-v2/制作记录/原始素材/failed.png",
+      "bytes": 2779981,
+      "sha256": "e6205b755b5d4ef0de94841ecddea012f18939c9ef2effc67940e216d8644c9c"
+    },
+    {
+      "path": "sol-luna-v2/制作记录/原始素材/idle.png",
+      "bytes": 2933918,
+      "sha256": "6165d7131efe079f1c4548fd4eca5d6ec00f324bc4ec953d0cc0b75face010e9"
+    },
+    {
+      "path": "sol-luna-v2/制作记录/原始素材/flight.png",
+      "bytes": 3042662,
+      "sha256": "185013a45c4542e580f3f874116d2070fcfd60e1b8e79f72e7bd744bc82dc531"
+    },
+    {
+      "path": "sol-luna-v2/制作记录/原始素材/original-running-sol.webp",
+      "bytes": 386692,
+      "sha256": "ddd95e4ffa281bf7dc6b60e3f9c6a8e0e1ba3f003e0daffcf212435cf43a05d7"
+    },
+    {
+      "path": "sol-luna-v2/制作记录/原始素材/waiting.png",
+      "bytes": 3157743,
+      "sha256": "fe9dbab530b59e36bddf0b279f64be57231f6c2c2b11dcffb09a17a310729c45"
+    },
+    {
+      "path": "sol-luna-v2/制作记录/原始素材/gaze.png",
+      "bytes": 3126410,
+      "sha256": "c323bf88671713c6ab130b8d91aa582b00856a7f3df45c0d414327f60938d35c"
+    },
+    {
+      "path": "sol-luna-v2/制作记录/原始素材/social.png",
+      "bytes": 2969938,
+      "sha256": "be2b0fa5aa74adf5a51e78ea55771013dccb8ca28e132453dac128c391acb22d"
+    },
+    {
+      "path": "sol-luna-v2/制作记录/原始素材/original-running-luna.webp",
+      "bytes": 360166,
+      "sha256": "6abf4cb452a8df984a1fcee05c19cc712805b1560d49ef0b9f99eb1bdd25059c"
+    },
+    {
+      "path": "sol-luna-v2/可直接安装/luna/spritesheet.webp",
+      "bytes": 1933534,
+      "sha256": "9a84db3e39ac13b7924b584a357ab1bbc345358d682cadc604f00f2d8c69005b"
+    },
+    {
+      "path": "sol-luna-v2/可直接安装/luna/pet.json",
+      "bytes": 204,
+      "sha256": "6ae247ebe5b2758a3e5ea0a5ab51183b31da3f5c79a6346d2869ee953a232364"
+    },
+    {
+      "path": "sol-luna-v2/可直接安装/sol/spritesheet.webp",
+      "bytes": 2006996,
+      "sha256": "2838fbf9955e611235380867a8e7aba33b16e0007226f3fe0228d3e9c6579512"
+    },
+    {
+      "path": "sol-luna-v2/可直接安装/sol/pet.json",
+      "bytes": 202,
+      "sha256": "77bdf55730d65af0ee7a82c5ac7216148f67f2810788b692eef7ba90f62a0992"
+    },
+    {
+      "path": "sol-luna-review-v2/index.html",
+      "bytes": 16578,
+      "sha256": "db1a246980b290ea54633c9c9bbe7258ef3b68703b645ade20fc51bdd8906b98"
+    },
+    {
+      "path": "sol-luna-review-v2/README.md",
+      "bytes": 4144,
+      "sha256": "f77aff3e247438b306655aa2262314c7b497debb2a4a63b109a0f02f9c018e5a"
+    },
+    {
+      "path": "sol-luna-review-v2/制作记录/published-files-before.json",
+      "bytes": 5666,
+      "sha256": "27eaed6233de3e8b37162ec0813fce2db8494c48b5d8d4e471afab1eba465f9d"
+    },
+    {
+      "path": "sol-luna-review-v2/制作记录/review-validation.json",
+      "bytes": 1462,
+      "sha256": "a00a88e65a31c5b8da5bc30c1b507773a0a707e774bd3c39033b47a3dfd312ea"
+    },
+    {
+      "path": "sol-luna-review-v2/制作记录/prompts.json",
+      "bytes": 13270,
+      "sha256": "51855d4e6695fb5af7a56bbd5f4bb553fb254643ded4ec036448f5d43987b2a2"
+    },
+    {
+      "path": "sol-luna-review-v2/制作记录/corrections.json",
+      "bytes": 3520,
+      "sha256": "5ea2e8e8264e0595aefdeed143de315d252a53f2fd3ebe7f0093282bdbf3ef4b"
+    },
+    {
+      "path": "sol-luna-review-v2/预览图/02-thinking-work.png",
+      "bytes": 2410170,
+      "sha256": "39ce2b7b7539ead609b4f2b9f67bd3ed23c39947480cb64460351610da0c65d1"
+    },
+    {
+      "path": "sol-luna-review-v2/预览图/01-idle-emotions.png",
+      "bytes": 2419197,
+      "sha256": "2e5144c62b79cf664bf8738df93e187fd6112bf74f60e3ac6bcd8fa88e852708"
+    },
+    {
+      "path": "sol-luna-review-v2/预览图/03-gaze-brows.png",
+      "bytes": 2398735,
+      "sha256": "e1319807086af1c109355b2efbaabd8e34681a88d489153d08e56d593daeb5b9"
+    },
+    {
+      "path": "sol-luna-review-v2/预览图/04-run-flight.png",
+      "bytes": 2049755,
+      "sha256": "2e8dd9d3b47fd8e6e89ed2f1a3b2d787f713d64fbef5b1441a96e4f3ec89ad74"
+    },
+    {
+      "path": "sol-luna-review-v3/review.css",
+      "bytes": 3457,
+      "sha256": "0c4e717a671a3a7f9560875dcb1020702f9e23f13c533bf5d6f8d4ad6806e37b"
+    },
+    {
+      "path": "sol-luna-review-v3/review.js",
+      "bytes": 5375,
+      "sha256": "9b3f15dd8c8794c00f7b033d1de59f8f24e033e664dffaf94fb2d47e4ab9b8ff"
+    },
+    {
+      "path": "sol-luna-review-v3/index.html",
+      "bytes": 12822,
+      "sha256": "62b5a89b71e807f0075aef4864a788c47c29365da7cbcb8d46182bf9d2ece96d"
+    },
+    {
+      "path": "sol-luna-review-v3/SHA256SUMS.txt",
+      "bytes": 14193,
+      "sha256": "23be7a23c652542fcd627f7f6103b8471ccfc8ff754f9283e8c3e0505dd57ba7"
+    },
+    {
+      "path": "sol-luna-review-v3/制作记录/published-before.json",
+      "bytes": 8923,
+      "sha256": "8d10bc07ff2338e01a4c3cc10f6b0834ddf9caf5b7ef6d468c83805c4816ca7b"
+    },
+    {
+      "path": "sol-luna-review-v3/制作记录/revision-data.json",
+      "bytes": 5821,
+      "sha256": "10dce3e1e126da64889bbd700a02be709644195a8f85c5d2e364cdf25a3643db"
+    },
+    {
+      "path": "sol-luna-review-v3/制作记录/build_motion_review.py",
+      "bytes": 3828,
+      "sha256": "44b78c455afcfc91d9525520f7de61c53701f03bb0107fd8aece64ca495bb796"
+    },
+    {
+      "path": "sol-luna-review-v3/制作记录/imagegen-prompts.json",
+      "bytes": 16398,
+      "sha256": "b05a53ac3fc203067cd6f5c3e8983c6874c23d2a4115effcfd215d4ca3d20d05"
+    },
+    {
+      "path": "sol-luna-review-v3/制作记录/motion-alignment.json",
+      "bytes": 11010,
+      "sha256": "bcc9968fa49b299f3cf87077d0aa536975493b5dcb41ab2db452d3db853a2934"
+    },
+    {
+      "path": "sol-luna-review-v3/制作记录/check_review.cjs",
+      "bytes": 3928,
+      "sha256": "7fc2a6b988a7e5372ceac1cefc73b2d59f675d8a62cf9b4f8bf912fc00c25525"
+    },
+    {
+      "path": "sol-luna-review-v3/制作记录/preview-data.json",
+      "bytes": 1111,
+      "sha256": "2b37b21da93c794ce598c3424068e600b54c6edf642a3f5275d96562798a7ed3"
+    },
+    {
+      "path": "sol-luna-review-v3/制作记录/revision-rig.json",
+      "bytes": 23638,
+      "sha256": "b53bd7958b339e6ed66e9930f76498f659790ac63389d0f11be1b98adf8f05f8"
+    },
+    {
+      "path": "sol-luna-review-v3/制作记录/build_revision.py",
+      "bytes": 13945,
+      "sha256": "e83539913ec653c670975964ba7c9a5bf2fe73f5c4e8a1ec476b2cb116d498c0"
+    },
+    {
+      "path": "sol-luna-review-v3/制作记录/validate_review.py",
+      "bytes": 3721,
+      "sha256": "ba793a414610a2477d90cd529105dbe392b7d0f2a61a2940466a74c54ae03579"
+    },
+    {
+      "path": "sol-luna-review-v3/制作记录/validation-review.json",
+      "bytes": 19002,
+      "sha256": "9b89bce25a6e74e5285b5393c49b92ee16682669241a22f83a857a707abde658"
+    },
+    {
+      "path": "sol-luna-review-v3/制作记录/revision-extraction.json",
+      "bytes": 33652,
+      "sha256": "d9b89eddad3fef4c9b3c974dd725a3fe3d8068f9e3fadf4473c8e16104492cc6"
+    },
+    {
+      "path": "sol-luna-review-v3/制作记录/progress.json",
+      "bytes": 946,
+      "sha256": "ca2b7d1c47430f7c278ed48a1c7a04fb562226f854a27e66e380d8a211b56e93"
+    },
+    {
+      "path": "sol-luna-review-v3/制作记录/review-script-checks.json",
+      "bytes": 411,
+      "sha256": "adf582597f674da0d546f0291a1132bf1fc262eae41248df49059f86b99a2880"
+    },
+    {
+      "path": "sol-luna-review-v3/制作记录/current-brief.json",
+      "bytes": 3271,
+      "sha256": "bb29f5e682481b26f228c1b8073605b2ebd459c6fe0506cc78a87c1b6c59721b"
+    },
+    {
+      "path": "sol-luna-review-v3/制作记录/REVIEW.md",
+      "bytes": 6029,
+      "sha256": "6472789eb4213185386f5dd4f191ad25ebc053a71f1d2b4488cc97e49b4e3587"
+    },
+    {
+      "path": "sol-luna-review-v3/制作记录/poster-revision-prompts.json",
+      "bytes": 21870,
+      "sha256": "6211adf2230a7eb9a54e6aeacc1f253df4c3c3ef89919e32fd55179755181a48"
+    },
+    {
+      "path": "sol-luna-review-v3/制作记录/revision-alignment.json",
+      "bytes": 32393,
+      "sha256": "c773aa2528f41c2f29bd191ddbe3b2c446555d16088d9a38344205ec6d2e5dd4"
+    },
+    {
+      "path": "sol-luna-review-v3/制作记录/extract.py",
+      "bytes": 1552,
+      "sha256": "0d39b06dfe21748a1c8c7e28f4e0fab1d262b19f7a8c4bdcd642b6e9eff68c99"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/luna-flight-contact.jpg",
+      "bytes": 129382,
+      "sha256": "efe2165dc7c06b29c24ca7b4cede2b651b874a00834c73853dddeab90dac1044"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/luna-flight-left-strip.webp",
+      "bytes": 159064,
+      "sha256": "bc93843ccabd9c8dd0bef1a9415dfc01c8df45865d8e2f9909074caa48f4e45f"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/sol-flight-left-strip.webp",
+      "bytes": 164254,
+      "sha256": "9a9717ab4fbefbc4f6504ec961ee7eb79ddaea304c27d8921c581609ae28a94b"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/sol-flight-right-strip.webp",
+      "bytes": 159224,
+      "sha256": "1a63c038ab1e021c3ac14eb77adeac31a15efdd78d26bfe7270bbd9c8b654d91"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/luna-flight-right.webp",
+      "bytes": 174288,
+      "sha256": "3f5a3b87781530038a4f95cf601b1e3ef7630333d836af14a0e35a8b89339b9a"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/sol-flight-left.webp",
+      "bytes": 182946,
+      "sha256": "67015c1477f3c90be9caf2dec795b1761008c58def498c3909041b0bfac15f03"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/sol-flight-right.webp",
+      "bytes": 174764,
+      "sha256": "7050714474d68f5bbffe2dc7d6982c3d617a948563579043511b9df8f1324b46"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/luna-flight-right-strip.webp",
+      "bytes": 159902,
+      "sha256": "63b401110c30c466243680a95e013c0cad7f7fd87a9c98b77402a84826e78b8a"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/luna-flight-left.webp",
+      "bytes": 174040,
+      "sha256": "2f039983fd871c63691549cad33d281a63f0a1640747b711ea0feb26f92e06a0"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/sol-flight-contact.jpg",
+      "bytes": 132520,
+      "sha256": "b7603acfc6591f5dd1619c1d59674b9b4c540fd1e753d75bcd5867f7cf20f148"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/flight-right.png",
+      "bytes": 2266676,
+      "sha256": "c7eafbc65f9c735ba89bb11193451c4ece7199b975dcde3bf40ac56d3ac8b3fc"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/flight-left.png",
+      "bytes": 2174782,
+      "sha256": "307daf101fd0c864fe32edfa1418b8160be562b598554346baceed607abe5265"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/authoritative-poster.png",
+      "bytes": 2221435,
+      "sha256": "293f55e97c85aba4ef6d5fd6e58fcc0b23bdc30550f1f337e6e8bdfc988d7e64"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/luna-flight-first.png",
+      "bytes": 2319293,
+      "sha256": "a203a3ca5352872abdf1371debeb467bb2d8d6715c71a32b94ae71c7cf11b2d0"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/sol-master-0.png",
+      "bytes": 306279,
+      "sha256": "443487e799296f6061c09ca711ee93d3b7835a06d1e09998774d6dfb27b6f4ac"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/sol-master-1.png",
+      "bytes": 289313,
+      "sha256": "aef9719d265a402f75e21c1358aea459750b67d3ca1e89b5c437c40846a4a74e"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/sol-master-2.png",
+      "bytes": 296362,
+      "sha256": "6f815a3c5618ef1f53d94e0461ec5f19ecb3bff5c8607f3c2a188db039a6e1bb"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/masters.png",
+      "bytes": 3203144,
+      "sha256": "61dc21d9cbe85573507d791ab2369ffe3acc4217949a0cba21d47d15cb911179"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/luna-master-1.png",
+      "bytes": 281762,
+      "sha256": "4b9b0a5a67446cdfbe023a224e006a7a21a11cd744901463eb120a3ff213b67d"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/luna-master-0.png",
+      "bytes": 298639,
+      "sha256": "65f14bb37aa3b93639d262a0a0dd5ff7811daceab6dc14fd6f5da47e71e5750e"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/luna-master-2.png",
+      "bytes": 290590,
+      "sha256": "6af556754c8f504c0388edeee966264dde9a4c7495f91ac8b1f4abab71085244"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/sol-flight-first.png",
+      "bytes": 2315362,
+      "sha256": "b399f752e8f7e937387fbbd19a51f8b2c2eb1d4b6a1687bba9bc9b01646f965c"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-flight-left-fixed.png",
+      "bytes": 50355,
+      "sha256": "b4bcd3bc118b053f2245dbd4364a67e10561201890ab5b03efb14403d81cf408"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-wings-right-first.png",
+      "bytes": 14847,
+      "sha256": "3299e8f324f95f81cc45e0fe13dc0856ff9a895586a11d884176c45babef769a"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-thinking.webp",
+      "bytes": 112946,
+      "sha256": "023da7b15bd7fb8d9e74cb87e5b60e3afd670feb9c608eb8d1b69edaf7c6dcf1"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-flight-left-strip.webp",
+      "bytes": 103750,
+      "sha256": "54c3cd6be90fd81db996c9b187ee22f2be7be42cf315061b5b926ec17c6beca7"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-flight-left-first.png",
+      "bytes": 59253,
+      "sha256": "798fab36c35857af84b1f9de9b8c47e27c26178a06658a0fcf5d34c83a0306fb"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-flight-left-front.png",
+      "bytes": 49806,
+      "sha256": "de73b894168469356b12b8ffba3d702eb180ab52eadecd5b33a985867e3951b5"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-contact.jpg",
+      "bytes": 769516,
+      "sha256": "bd2b896afa81b1773cf15ce67a7c731272d4304f36a2950926ca03e66f4c14c1"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/flight-light-dark.jpg",
+      "bytes": 600140,
+      "sha256": "4fcb082d46dd9d58410b320de0c996c394a72ce2ca96ff2ca1641e8e5c9c29f6"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-thinking-first.png",
+      "bytes": 46654,
+      "sha256": "e588d7c7be056bc79bb378700135bbd36d4f59e95479f8cbe50feab58e240373"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-wings-right.webp",
+      "bytes": 86852,
+      "sha256": "e4e8a83f17179cc89d214adad45f3fff18a151afb7ce9d6ef2827f10e803ed42"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-run-right.webp",
+      "bytes": 294672,
+      "sha256": "6febeb048349c9296c2df20a66956a7c782e559a3a8ac4a0892f7cd65073ab09"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-failed.webp",
+      "bytes": 317708,
+      "sha256": "741b5ce7f8aec0016de146be34617e8d558f5135a3bdb6788e0e4cc9dd966c8d"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-run-left-strip.webp",
+      "bytes": 282384,
+      "sha256": "a03eb46695122b1a3da3fa362ac6bf7394d1a11a93a5da668a05fde32b8bf3dd"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-thinking.webp",
+      "bytes": 126998,
+      "sha256": "e5be58d226756fbd2612d420d521ea63311c439ccccd07109286f28137a24f2a"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-run-left-first.png",
+      "bytes": 41284,
+      "sha256": "69eaed2201b39c036ade7e7da2c4404c31e154b38ce9c2a44c509885986370ee"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-flight-left-strip.webp",
+      "bytes": 106694,
+      "sha256": "773212ec10319ee970e331aaf19ca8882fb029fb40bd8b0cfc2dee2cee958d44"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-gaze.webp",
+      "bytes": 295140,
+      "sha256": "275abf07ecec6ca14a1c01229111a55b3af548da433ff7447d4e62e5537451a1"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-gaze.webp",
+      "bytes": 287668,
+      "sha256": "0ec61a8e0617087af0b0409cdf4d54ef9df69fc511a8e513bb9bc12a0c5ce3b6"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-failed.webp",
+      "bytes": 317702,
+      "sha256": "b5e0c66c4dcf9148b54d526cb20fbef12497ee53ee65dd9a73f9446b963dc681"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-flight-right-strip.webp",
+      "bytes": 100226,
+      "sha256": "56e68e1904d3f45fc614f94851670bed7e40e04ddebad66f3f92e159b8b98550"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-gaze-first.png",
+      "bytes": 46243,
+      "sha256": "74274e025040369ffd799b97faed7c9fa6a7d05d3be2c6f83889ac327fe1489d"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-wings-right.webp",
+      "bytes": 82060,
+      "sha256": "647d49f91608912eebd6b7226d39d59552b5fe89a62b3d32409d9ec04f18a406"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-run-right-first.png",
+      "bytes": 42081,
+      "sha256": "7ff2c3c61e055ff4fee5eaf7a777bedc2e7f2ab20e21fbfc02abb9804c9491b3"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-run-left.webp",
+      "bytes": 305730,
+      "sha256": "a1a880d0d3110d38d0f679597345451ac49eb21f571a363a24164c1b01d85413"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-flight-right.webp",
+      "bytes": 198874,
+      "sha256": "47e35cc78350b1569580bb8acc2423d22b4cde85a24d69f02383d007b05dd91b"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-run-right-strip.webp",
+      "bytes": 270744,
+      "sha256": "8647d6f77750345d512842f11ef27c8eb9f97e4bb98e3acb75c61d51c130f32c"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-wings-left.webp",
+      "bytes": 88878,
+      "sha256": "dadd32d7770ed9bb0cbf0af07a984ef9359bf0579780e4214b1aef8a99f88ee8"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-work-first.png",
+      "bytes": 46440,
+      "sha256": "359879eecec18f9504d7174269ae4d5f7ee678f524e6e1601089c4a3635a8cbe"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-wings-right-strip.webp",
+      "bytes": 51068,
+      "sha256": "7fd5e92026c8bba5eeac7131be573875a95dc072fe9f92c258ed5f9522bda78b"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-run-left.webp",
+      "bytes": 279746,
+      "sha256": "86e7521814bc0213d8389f87d232426199a62bac1e0a1b71ed34c9c69995f5ac"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-gaze-strip.webp",
+      "bytes": 221344,
+      "sha256": "80158273c90f78731f8d775420c884d803af5de4932fa583a37a1a14e2dfa8a1"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-wings-left-first.png",
+      "bytes": 14557,
+      "sha256": "b96edac6ff2f736e43ffc9d2fecf1fee487c599a06fb2e7543ff452a8fff692f"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-wings-right-strip.webp",
+      "bytes": 48338,
+      "sha256": "0aca190ad68e6f689603648d939a541d55fb03551618ea8275fea469fd25c70e"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-idle-first.png",
+      "bytes": 47491,
+      "sha256": "c0839ac6d4fde78d430966c3d1691567f485c3fdbad86e0b7a64a2d8e99d0b25"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-wings-left-strip.webp",
+      "bytes": 47630,
+      "sha256": "c856fee7472ad15be1c0cb799dca950be532bc152e6cd92c5c1356c66e2dcd6b"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-thinking-strip.webp",
+      "bytes": 70990,
+      "sha256": "fb68eaada48827016d0d2f51ab05c401cf00f3b836178eaccfc821b343576a87"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-idle-strip.webp",
+      "bytes": 176706,
+      "sha256": "08c04c1c0d631c31df5ce7bc95eccc66c8fc87fec3a216f8cd66ddaaa2fc8fa6"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-contact.jpg",
+      "bytes": 781995,
+      "sha256": "c10eed5b028fda38ac947b4e3d781645e72bd05c8c10757641f3dc178b0053c0"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-work-strip.webp",
+      "bytes": 233262,
+      "sha256": "b544a37118bc62a100cffb0ed8a6144e774687f4dbb16e977922b6672fbb1c52"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-failed-strip.webp",
+      "bytes": 256422,
+      "sha256": "47d5542e161a1839bf15b98c9fdfa8b4220cc90987beb23fcb74b7aa421a2868"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-wings-left-first.png",
+      "bytes": 15587,
+      "sha256": "44e0827df02d9b6d46c41f7de6ee7641053489acb4bc4a2da695d9104a1f6ff9"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-run-left-strip.webp",
+      "bytes": 257354,
+      "sha256": "a4d1c86372e3ebf66ba977f71d57c3ae2a136a64b6aa20d9e40804bc8f5012ef"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-work.webp",
+      "bytes": 226086,
+      "sha256": "00c785476f4631386a6cf9d47a5706a42b1c28674dd7d35bd599e0d6d8e0ce22"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-idle.webp",
+      "bytes": 227178,
+      "sha256": "abadb6ce1b81f7669e384123cea88951ec916a0680ff8d8a6f85b196d6a55e04"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-gaze-contact.jpg",
+      "bytes": 285007,
+      "sha256": "44667f1a20a726226605ee78d2f3789f9fd328646e41dcd92aaf1878f49519be"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-failed-first.png",
+      "bytes": 46348,
+      "sha256": "d4359128c50d1a305d0c01558e8115cc19c7723cc5497959b34e4bf696c0648c"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-flight-left-front.png",
+      "bytes": 49690,
+      "sha256": "02f054da1dc23fa76032f0f6e09aa9439ad7432a3f8228d34cc024aee52d42b3"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-flight-left-first.png",
+      "bytes": 58773,
+      "sha256": "79e7283a894a01f96959cf1aae112728a0ef8a4f585eca2795f2a8ea158ae880"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/data.js",
+      "bytes": 4164,
+      "sha256": "1347309f528f802b59636b9a7412831d82e03510d238173659e3bfedb509a5d4"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-wings-right-first.png",
+      "bytes": 15555,
+      "sha256": "c872bedac8c4553ef4212edf14cf373b0c97adf27a222408827cf8d1fff06307"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-flight-left-fixed.png",
+      "bytes": 50243,
+      "sha256": "c4d5ba49c92c2f30a04a2d017109a6aa38a6c46edbc447f1f9f4e54f08434c0f"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-run-right.webp",
+      "bytes": 278360,
+      "sha256": "1330a7de97e035dc5047fef74f082e6ef0c833f681c96c1d0b368fc4cf8e980a"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-flight-left.webp",
+      "bytes": 217864,
+      "sha256": "4ee7713e077c02f8024f784a52b333bc484389a81db32d2405ea47c2ddad62bc"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-run-right-strip.webp",
+      "bytes": 255730,
+      "sha256": "a48fa3319cb882f31d4080fe3aa171dde78c4d45faea8a5f10a684d5b570bfb7"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-flight-right-first.png",
+      "bytes": 59216,
+      "sha256": "53cacbac23f229395e38b3bf972ace302eab3048fc1517ae91cbc2a954833637"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-flight-right-front.png",
+      "bytes": 49325,
+      "sha256": "f71a6d8ff8025392df6e6c611c6fb7c93f412bb963ae8fd1fd2c7280e4e4b7f5"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-flight-right.webp",
+      "bytes": 211580,
+      "sha256": "ee4c601ed1b62508561d01d1b0c199a87e0f03d4d6f58239a049ccab6f1be762"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-wings-left-strip.webp",
+      "bytes": 52220,
+      "sha256": "e7653a1f6f5a0f1e97fc5c96710a1236287ea51ac5dd17a31adbb739561d64f3"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-flight-right-fixed.png",
+      "bytes": 49923,
+      "sha256": "c1b93ccf3bd6f31abdbeac47ee672c97d3805814a57f7e9b66082c0281112a9d"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-gaze-first.png",
+      "bytes": 47554,
+      "sha256": "27967e8e1ef87e489d289f2c16b3bdb8496515982e95a35d069d501d92d6bdcb"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-thinking-strip.webp",
+      "bytes": 81276,
+      "sha256": "41b4b7cb30771cfa899086ff47d67a7bf7b0841cb5750e74e329f58a89d03894"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-run-left-first.png",
+      "bytes": 45780,
+      "sha256": "d7c7038d81557d35389790c63ee739d4a66167adf85d5a8411505da6b3e89854"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-flight-right-strip.webp",
+      "bytes": 107046,
+      "sha256": "8f0b00c60ddfd50a7eadd3910e0fc91e4c4120528a1adb0dcb6cb502d6016e44"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-wings-left.webp",
+      "bytes": 80008,
+      "sha256": "61d5dadf3e770aa34085d3dd351c8a4118b6371aa09b64778aa7cf2f0b35f3ec"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-work-first.png",
+      "bytes": 50490,
+      "sha256": "f219c64185ff3c12e9b3298a70b6ac3700d864abd93d649b927ce90fe9cc991f"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-flight-left.webp",
+      "bytes": 193474,
+      "sha256": "9352719100dbde082adb409e1fed8807292810d47872f3d0e65ff057d78abfd2"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-gaze-strip.webp",
+      "bytes": 217958,
+      "sha256": "2862c89c39dc04a7609d86f5dbd0841cf708302526b330af4cf09124994f3bb5"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-idle-first.png",
+      "bytes": 46348,
+      "sha256": "d4359128c50d1a305d0c01558e8115cc19c7723cc5497959b34e4bf696c0648c"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/review-overview.jpg",
+      "bytes": 208997,
+      "sha256": "393e6e7d98848c820d18586d34381c7c920518f7f9fa26527c5c915ba3cb65a9"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-idle.webp",
+      "bytes": 232670,
+      "sha256": "0ff730970f1aaf927919c6ead5fb1787042ae9ceeb4715ee55d536808b26e503"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-work.webp",
+      "bytes": 254032,
+      "sha256": "5159ae4e472def3de3237a2e3cf71b609d572b1436b9b719b98ed275a0222793"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-failed-strip.webp",
+      "bytes": 255998,
+      "sha256": "c336f09ed0d92868f964a77b4d0d483abe982498b36d0bab80897291d17b8189"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-idle-strip.webp",
+      "bytes": 182084,
+      "sha256": "496da7af11b9c903d57f50b351bdf3114fcd3b5ac90323986638729ca3777e54"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-run-right-first.png",
+      "bytes": 44950,
+      "sha256": "cbbbecf45d7b98a7d49e1ae2a5f32661682c9acb7d388592e1967641c6c40405"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-flight-right-fixed.png",
+      "bytes": 49798,
+      "sha256": "fea76dd3d3a810440c4307ab657ecac2ca70bee19a6bc30f149c449e6a356c31"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-failed-first.png",
+      "bytes": 47491,
+      "sha256": "c0839ac6d4fde78d430966c3d1691567f485c3fdbad86e0b7a64a2d8e99d0b25"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-flight-right-front.png",
+      "bytes": 49208,
+      "sha256": "5652db7be8300270d959fc96b3b3209982a3bad639ad05c1edce7433274e6368"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-work-strip.webp",
+      "bytes": 203498,
+      "sha256": "a5b37378a3428d3066d5f5fd3b33365cffc2a86075eee5d6429f826c1999c2fa"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-flight-right-first.png",
+      "bytes": 58065,
+      "sha256": "953c2875c03301d477abaa723105e82b22facb71990341b4ba3ca17cbdecce53"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/sol-thinking-first.png",
+      "bytes": 50772,
+      "sha256": "ff8c743b238a1fdd184b448c4052307c5d91765e324d7fd81f442cef7d40fce1"
+    },
+    {
+      "path": "sol-luna-review-v3/预览/revision/luna-gaze-contact.jpg",
+      "bytes": 285656,
+      "sha256": "1151e0907718f66b6b093404ef75e4b87d363883cc63e9901dc42fbd2cff7849"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/poster-revision/sol-master.png",
+      "bytes": 664502,
+      "sha256": "aebff80586dd3fff65e5c6bfe4fdde23fa34388f00218c7208913a587482397a"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/poster-revision/sol-neutral.png",
+      "bytes": 150766,
+      "sha256": "f61e01e2a67e371dcb9e37f000aaaef353c0b223cb8cc7cc3f97583383ac1e99"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/poster-revision/sol-gaze.png",
+      "bytes": 2260305,
+      "sha256": "c1b6b1df965fc3c0dc54d197f8e74d40a0988839f03638afc271a631bd9668a7"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/poster-revision/luna-wing-layers.png",
+      "bytes": 1716862,
+      "sha256": "b7f8bf2e05367248b195a11f77371c702404082e616451a9691a66689eb5a590"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/poster-revision/luna-gaze.png",
+      "bytes": 2306503,
+      "sha256": "2c1c1c9a910936f0d09380ba2f06cd829b12eb6ac3e1c71fdbd79e2e5543c937"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/poster-revision/flight-bodies.png",
+      "bytes": 1887850,
+      "sha256": "d581e5ac3959d3d57ecba42c635a577d959f12a0294ebfa64376b13c17adf6c6"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/poster-revision/luna-run.png",
+      "bytes": 1998391,
+      "sha256": "1bf7429bf0567d45cc9a7d1fa3a16c97640148267ce71cc38abc4658ad59f031"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/poster-revision/luna-neutral.png",
+      "bytes": 148971,
+      "sha256": "9f2cf136afec62717feca2415985db0d89bd8184773f70ff33ee8dc2d9d70772"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/poster-revision/luna-master.png",
+      "bytes": 647564,
+      "sha256": "286827e5c0b199cde4be492355d5287425d2d0ef1e00067dabcd64d7291c9284"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/poster-revision/sol-wing-layers.png",
+      "bytes": 1715891,
+      "sha256": "3c74ef11265a000d2bf822651628210dca260605bce44617105c393e9be3ac52"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/poster-revision/masters.png",
+      "bytes": 1880326,
+      "sha256": "3587155f2fd18b69fb69766e9e34c133da7f6ea198558c3fe1b28df07954d6a8"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/poster-revision/setback.png",
+      "bytes": 2257526,
+      "sha256": "8bdaefb7794b39968e793b937622190a0649d9730432825d5c7a1942fdecd197"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/poster-revision/luna-idle-work.png",
+      "bytes": 2063875,
+      "sha256": "8e946433a3919d6f367557932fedcfd3ac524d67d85440eda951a3e2768990db"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/poster-revision/sol-run.png",
+      "bytes": 2126666,
+      "sha256": "5743441d9be2cd7e34b0f2b8d4af76c4b48d2443663665e2fe787e2610b7abc5"
+    },
+    {
+      "path": "sol-luna-review-v3/素材/poster-revision/sol-idle-work.png",
+      "bytes": 2155068,
+      "sha256": "0082a4b03a9d10c2aae999de5ac6d6099b67ac9f4e48313800d6ec4e46c230a5"
+    },
+    {
+      "path": "sol-luna-review-v4/review.css",
+      "bytes": 3457,
+      "sha256": "0c4e717a671a3a7f9560875dcb1020702f9e23f13c533bf5d6f8d4ad6806e37b"
+    },
+    {
+      "path": "sol-luna-review-v4/review.js",
+      "bytes": 5237,
+      "sha256": "48a11cfe29e55806794c6ae3996dc344bbb788ad16f66d5ccf9c0f47fc8729b6"
+    },
+    {
+      "path": "sol-luna-review-v4/index.html",
+      "bytes": 12488,
+      "sha256": "219f3c5034651e94a05573bc74eb6f761eceb828603fc6c7f632e8e8df811810"
+    },
+    {
+      "path": "sol-luna-review-v4/SHA256SUMS.txt",
+      "bytes": 10676,
+      "sha256": "13dc3bba7934e30fe8b26c3fa860266a482d614b3759df5a2ab4b810fd7940e5"
+    },
+    {
+      "path": "sol-luna-review-v4/制作记录/preview-script-checks.json",
+      "bytes": 430,
+      "sha256": "52f01a8dcfb09bdbb96964018ad4d83ff34229e92992f2aef6ab5f60e9ae1018"
+    },
+    {
+      "path": "sol-luna-review-v4/制作记录/imagegen-prompts.json",
+      "bytes": 13284,
+      "sha256": "fae4ad399d457943ed4d3a61a2809bad539ffa52cbf7b7dfff293e295ce8db66"
+    },
+    {
+      "path": "sol-luna-review-v4/制作记录/luna-candidates.jpg",
+      "bytes": 390300,
+      "sha256": "7b9029a84c26706abd1006b2419f7475032c23b6d7dbbb8898d4fc7cb1eb3c88"
+    },
+    {
+      "path": "sol-luna-review-v4/制作记录/compare_candidates.py",
+      "bytes": 3148,
+      "sha256": "22a81f3b8901525a89dd4b0cc38e2a53c15bb8f8a7e07a43f9dfae8c22ceaf8d"
+    },
+    {
+      "path": "sol-luna-review-v4/制作记录/alignment.json",
+      "bytes": 16987,
+      "sha256": "f67cf0063dfdc0ebae8e7351a18d18a4d2bf3342671b3270aebaf1a0de0b4cc3"
+    },
+    {
+      "path": "sol-luna-review-v4/制作记录/validate_v4.py",
+      "bytes": 4314,
+      "sha256": "780567cc07a9dc1a53dd184b4123294da35ee803bfb522bed0682f4a337f36f3"
+    },
+    {
+      "path": "sol-luna-review-v4/制作记录/check_preview.cjs",
+      "bytes": 4242,
+      "sha256": "a4776b71b0b888914964608f42279e6a69ab7b157e7f300aa12a80d7fbb8be4d"
+    },
+    {
+      "path": "sol-luna-review-v4/制作记录/preview-data.json",
+      "bytes": 3565,
+      "sha256": "270414ab0dcb6426ca25a2005a6240fe8534308af8759b8516b6eb87fe4b3c81"
+    },
+    {
+      "path": "sol-luna-review-v4/制作记录/gaze-edge-check.jpg",
+      "bytes": 520561,
+      "sha256": "c755f3c4951daf6209c04a0d324f777b6ffaeae043273cec4a0cb6c1b34e3f02"
+    },
+    {
+      "path": "sol-luna-review-v4/制作记录/v3-before.json",
+      "bytes": 15264,
+      "sha256": "4a101f016f247e2c7f4f61ba6f3f6ee75044c94620bbd2dac9b031cff003673b"
+    },
+    {
+      "path": "sol-luna-review-v4/制作记录/gaze-detail-final.png",
+      "bytes": 476917,
+      "sha256": "5775e49e034971606f7a44dfe70b5640bae96fb15ab067697c19c4b249f869c1"
+    },
+    {
+      "path": "sol-luna-review-v4/制作记录/validation.json",
+      "bytes": 12853,
+      "sha256": "92a6fd42271ae623202502092f387fd915fb43e5663ddb4ff67d624c6a801478"
+    },
+    {
+      "path": "sol-luna-review-v4/制作记录/build_v4.py",
+      "bytes": 4939,
+      "sha256": "9cbcf91d551bb5485ee4e25497587a9438072dbef308984d96877d558e464bee"
+    },
+    {
+      "path": "sol-luna-review-v4/制作记录/sol-candidates.jpg",
+      "bytes": 397787,
+      "sha256": "16ebf0f505d4ad40cc1d7c8d4699515fc8bff5420f2537b42bd4a9600629b39a"
+    },
+    {
+      "path": "sol-luna-review-v4/制作记录/progress.json",
+      "bytes": 876,
+      "sha256": "52f33616950cb24dbc7c664207e05e3fb58ca7cdd23491d94ee7e3a318c12843"
+    },
+    {
+      "path": "sol-luna-review-v4/制作记录/REVIEW.md",
+      "bytes": 6244,
+      "sha256": "f9084152a0bff981709e9837310bc17c059fd400c5e270cd13a68844383280d1"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/luna-thinking.webp",
+      "bytes": 112946,
+      "sha256": "023da7b15bd7fb8d9e74cb87e5b60e3afd670feb9c608eb8d1b69edaf7c6dcf1"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/luna-contact.jpg",
+      "bytes": 587874,
+      "sha256": "cdb33919864d1795189ed55f7d37768aa10d9bd50d612b6309c84c507aae1aa4"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/luna-thinking-first.png",
+      "bytes": 46654,
+      "sha256": "e588d7c7be056bc79bb378700135bbd36d4f59e95479f8cbe50feab58e240373"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/luna-run-right.webp",
+      "bytes": 333564,
+      "sha256": "02d6595e99d012f382c70577a0ed7fbd08c9eb2f3e2bccba4fd6b48af2e427ea"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/luna-failed.webp",
+      "bytes": 317708,
+      "sha256": "741b5ce7f8aec0016de146be34617e8d558f5135a3bdb6788e0e4cc9dd966c8d"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/luna-run-left-strip.webp",
+      "bytes": 323018,
+      "sha256": "592de43235847e9b308ec5846ee0aca49bf5b4e0eb017503beb1339e8aabd01a"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/sol-thinking.webp",
+      "bytes": 126998,
+      "sha256": "e5be58d226756fbd2612d420d521ea63311c439ccccd07109286f28137a24f2a"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/sol-run-left-first.png",
+      "bytes": 49832,
+      "sha256": "bf7f8b6f32a6393870ffc1d15887ea6456af742de3cfc07233d54c159302b104"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/sol-gaze.webp",
+      "bytes": 376126,
+      "sha256": "0fe74732adecf0b2a4424c359ef7a960042dd348fd6e81b2e3eccabfd7209520"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/luna-gaze.webp",
+      "bytes": 357738,
+      "sha256": "cd0215ca0ddf5dbcd6c047208f208c3464cfe239d4670600ed7de77dfc053b2a"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/sol-failed.webp",
+      "bytes": 317702,
+      "sha256": "b5e0c66c4dcf9148b54d526cb20fbef12497ee53ee65dd9a73f9446b963dc681"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/sol-gaze-first.png",
+      "bytes": 44681,
+      "sha256": "37b7e39adbc4d0d170c2cf7a3192a08648d2b316aac670cf09cff73068f8c7a5"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/sol-run-right-first.png",
+      "bytes": 49290,
+      "sha256": "0a92d6c8a2e3c6b332d8c66aa9d7d7757888b88deba831b8e19bce505d72b343"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/luna-run-left.webp",
+      "bytes": 350124,
+      "sha256": "c5e6b446668ba74a8a1fcbbef89f80b07981aa4edc34343b041bfc28755ae177"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/luna-run-right-strip.webp",
+      "bytes": 307422,
+      "sha256": "003eefc5bb9dcfcdf4a10536e8462494d3a0a240f32533722ce501aca8a09e28"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/luna-work-first.png",
+      "bytes": 46440,
+      "sha256": "359879eecec18f9504d7174269ae4d5f7ee678f524e6e1601089c4a3635a8cbe"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/sol-run-left.webp",
+      "bytes": 329436,
+      "sha256": "91936bf8d526f23e86beb1b0c321c971715b7e02c4ec8d9ce28c351cbe7709b5"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/sol-gaze-strip.webp",
+      "bytes": 322212,
+      "sha256": "6877100425ccadcdbe1b59190aa3639c9819403d3b6074bd97408ef32bc055eb"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/luna-idle-first.png",
+      "bytes": 47491,
+      "sha256": "c0839ac6d4fde78d430966c3d1691567f485c3fdbad86e0b7a64a2d8e99d0b25"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/luna-thinking-strip.webp",
+      "bytes": 70990,
+      "sha256": "fb68eaada48827016d0d2f51ab05c401cf00f3b836178eaccfc821b343576a87"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/luna-idle-strip.webp",
+      "bytes": 143450,
+      "sha256": "c2bd8f4d7c5cf781500f039713eb86d482d09e0537b03c60a70ee4ff4047d4a9"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/sol-contact.jpg",
+      "bytes": 593124,
+      "sha256": "2e984017f00d736e7d16a759bcabab6959a26a59ee335fd25435992f0e0fde79"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/sol-work-strip.webp",
+      "bytes": 199810,
+      "sha256": "ca10114aae6c044292e952469d373bd867e8376338506efd8bc04299217c875c"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/luna-failed-strip.webp",
+      "bytes": 256422,
+      "sha256": "47d5542e161a1839bf15b98c9fdfa8b4220cc90987beb23fcb74b7aa421a2868"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/luna-gaze-body.png",
+      "bytes": 23242,
+      "sha256": "bab2677852cda84ea4982d173b4a151658118d4d0eaa78ab6b4443ff64d62eff"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/sol-run-left-strip.webp",
+      "bytes": 302544,
+      "sha256": "62043edb91a51960d2fb5320cee912c11a9fd8cf4bac1537e2e1333a73a429f1"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/luna-work.webp",
+      "bytes": 227160,
+      "sha256": "ba689c3ae7015b30431f3c1ff0afe5bd5d1a5e281acd6cbd1a9e5eab47344b34"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/luna-idle.webp",
+      "bytes": 229590,
+      "sha256": "758b448ff34f7d1ed8f3bf9afd539b57057cc1047daca74a8b80f7fe5e8c971f"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/sol-gaze-contact.jpg",
+      "bytes": 305589,
+      "sha256": "9a4b7d437681768d82f884b21fc1871f3003d15eaa4f750d8ae8dc2e57370d1b"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/sol-failed-first.png",
+      "bytes": 46348,
+      "sha256": "d4359128c50d1a305d0c01558e8115cc19c7723cc5497959b34e4bf696c0648c"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/data.js",
+      "bytes": 2370,
+      "sha256": "178c6c5f54e11ed211f8c932aca8ef9bd97b48d6e5d49e7466bec28324e394e6"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/sol-run-right.webp",
+      "bytes": 324928,
+      "sha256": "173f708ece2d4f4ef7838460074f3b3c6652ffc7fa1ba3f96af842877ae3af53"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/sol-gaze-body.png",
+      "bytes": 22944,
+      "sha256": "b2b35308317fc3a140f53571914773886c6ec0cfb553778326887c00858080ba"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/sol-run-right-strip.webp",
+      "bytes": 295518,
+      "sha256": "5b8dbbd43b64740cfafef12c14ee3975b4a5783feb4226bbea606f734c112abb"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/luna-gaze-first.png",
+      "bytes": 44544,
+      "sha256": "dee06a511b410fb0a199efd55627efbf0e4162f612cbd08893b9bb1da82f4ab7"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/sol-thinking-strip.webp",
+      "bytes": 81276,
+      "sha256": "41b4b7cb30771cfa899086ff47d67a7bf7b0841cb5750e74e329f58a89d03894"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/luna-run-left-first.png",
+      "bytes": 54028,
+      "sha256": "b9ec08a4058cd6004a544e6751e2f87bd1d2a5755b8232e266325baa5eda99f6"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/sol-work-first.png",
+      "bytes": 50490,
+      "sha256": "f219c64185ff3c12e9b3298a70b6ac3700d864abd93d649b927ce90fe9cc991f"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/luna-gaze-strip.webp",
+      "bytes": 301656,
+      "sha256": "4484dd4c23f3239e3611143572ff26cd4bd5b05a55f93278a693a12de207bd7c"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/sol-idle-first.png",
+      "bytes": 46348,
+      "sha256": "d4359128c50d1a305d0c01558e8115cc19c7723cc5497959b34e4bf696c0648c"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/review-overview.jpg",
+      "bytes": 201594,
+      "sha256": "83e4fc1c10ddf3cb837a0b1cc644bec1a304c62e1eef88431daf7ca53eb0d857"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/sol-idle.webp",
+      "bytes": 232670,
+      "sha256": "0ff730970f1aaf927919c6ead5fb1787042ae9ceeb4715ee55d536808b26e503"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/sol-work.webp",
+      "bytes": 255178,
+      "sha256": "3c284587a7f9800d9183d90d2c08c707d9863ba4aba03fc10b376b13daea858c"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/sol-failed-strip.webp",
+      "bytes": 255998,
+      "sha256": "c336f09ed0d92868f964a77b4d0d483abe982498b36d0bab80897291d17b8189"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/sol-idle-strip.webp",
+      "bytes": 182084,
+      "sha256": "496da7af11b9c903d57f50b351bdf3114fcd3b5ac90323986638729ca3777e54"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/luna-run-right-first.png",
+      "bytes": 50432,
+      "sha256": "14a905a55dfd4c4e0e885f6b0ed94d460e3e0000982713e944377505e2a87724"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/luna-failed-first.png",
+      "bytes": 47491,
+      "sha256": "c0839ac6d4fde78d430966c3d1691567f485c3fdbad86e0b7a64a2d8e99d0b25"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/luna-work-strip.webp",
+      "bytes": 174274,
+      "sha256": "0c94fc3d4cf187b3af90ce36573cb0af05279d5cb1ecbfd5365d7678f3d28379"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/sol-thinking-first.png",
+      "bytes": 50772,
+      "sha256": "ff8c743b238a1fdd184b448c4052307c5d91765e324d7fd81f442cef7d40fce1"
+    },
+    {
+      "path": "sol-luna-review-v4/预览/luna-gaze-contact.jpg",
+      "bytes": 295845,
+      "sha256": "46c991d894c7ff5f43c7ba1270e137433f38d665b863c9288e5ec947c8e679bd"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/luna-thinking.webp",
+      "bytes": 112946,
+      "sha256": "023da7b15bd7fb8d9e74cb87e5b60e3afd670feb9c608eb8d1b69edaf7c6dcf1"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/luna-thinking-first.png",
+      "bytes": 46654,
+      "sha256": "e588d7c7be056bc79bb378700135bbd36d4f59e95479f8cbe50feab58e240373"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/luna-run-right.webp",
+      "bytes": 294672,
+      "sha256": "6febeb048349c9296c2df20a66956a7c782e559a3a8ac4a0892f7cd65073ab09"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/luna-failed.webp",
+      "bytes": 317708,
+      "sha256": "741b5ce7f8aec0016de146be34617e8d558f5135a3bdb6788e0e4cc9dd966c8d"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/luna-run-left-strip.webp",
+      "bytes": 282384,
+      "sha256": "a03eb46695122b1a3da3fa362ac6bf7394d1a11a93a5da668a05fde32b8bf3dd"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/luna-run-fixed-proportion.png",
+      "bytes": 2251492,
+      "sha256": "f1e144bc9e18de90a3082e364152706315c69e8cc4fbdb0f1d5bc3e9afa36c38"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/sol-thinking.webp",
+      "bytes": 126998,
+      "sha256": "e5be58d226756fbd2612d420d521ea63311c439ccccd07109286f28137a24f2a"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/sol-run-left-first.png",
+      "bytes": 41284,
+      "sha256": "69eaed2201b39c036ade7e7da2c4404c31e154b38ce9c2a44c509885986370ee"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/luna-run-upright.png",
+      "bytes": 1956000,
+      "sha256": "18fad36382cee6671cd71e870ccb0d313165b833fddb357ab5568a6b9db52771"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/sol-whole-head-gaze.png",
+      "bytes": 2108726,
+      "sha256": "faeb5c55c459ad75155b2fe74d6d84443ef33f0218a0d49dacbfb31c609acb23"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/sol-failed.webp",
+      "bytes": 317702,
+      "sha256": "b5e0c66c4dcf9148b54d526cb20fbef12497ee53ee65dd9a73f9446b963dc681"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/sol-run-right-first.png",
+      "bytes": 42081,
+      "sha256": "7ff2c3c61e055ff4fee5eaf7a777bedc2e7f2ab20e21fbfc02abb9804c9491b3"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/luna-run-left.webp",
+      "bytes": 305730,
+      "sha256": "a1a880d0d3110d38d0f679597345451ac49eb21f571a363a24164c1b01d85413"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/luna-run-right-strip.webp",
+      "bytes": 270744,
+      "sha256": "8647d6f77750345d512842f11ef27c8eb9f97e4bb98e3acb75c61d51c130f32c"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/luna-work-first.png",
+      "bytes": 46440,
+      "sha256": "359879eecec18f9504d7174269ae4d5f7ee678f524e6e1601089c4a3635a8cbe"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/sol-run-left.webp",
+      "bytes": 279746,
+      "sha256": "86e7521814bc0213d8389f87d232426199a62bac1e0a1b71ed34c9c69995f5ac"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/luna-idle-first.png",
+      "bytes": 47491,
+      "sha256": "c0839ac6d4fde78d430966c3d1691567f485c3fdbad86e0b7a64a2d8e99d0b25"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/luna-thinking-strip.webp",
+      "bytes": 70990,
+      "sha256": "fb68eaada48827016d0d2f51ab05c401cf00f3b836178eaccfc821b343576a87"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/luna-idle-strip.webp",
+      "bytes": 176706,
+      "sha256": "08c04c1c0d631c31df5ce7bc95eccc66c8fc87fec3a216f8cd66ddaaa2fc8fa6"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/sol-work-strip.webp",
+      "bytes": 233262,
+      "sha256": "b544a37118bc62a100cffb0ed8a6144e774687f4dbb16e977922b6672fbb1c52"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/luna-failed-strip.webp",
+      "bytes": 256422,
+      "sha256": "47d5542e161a1839bf15b98c9fdfa8b4220cc90987beb23fcb74b7aa421a2868"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/sol-run-fixed-proportion.png",
+      "bytes": 2204621,
+      "sha256": "c1ea92c3114451a24b386786ab873e94102e46b45e5c87a38d9e6519eaca1ef5"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/sol-run-left-strip.webp",
+      "bytes": 257354,
+      "sha256": "a4d1c86372e3ebf66ba977f71d57c3ae2a136a64b6aa20d9e40804bc8f5012ef"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/luna-work.webp",
+      "bytes": 226086,
+      "sha256": "00c785476f4631386a6cf9d47a5706a42b1c28674dd7d35bd599e0d6d8e0ce22"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/luna-idle.webp",
+      "bytes": 227178,
+      "sha256": "abadb6ce1b81f7669e384123cea88951ec916a0680ff8d8a6f85b196d6a55e04"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/sol-failed-first.png",
+      "bytes": 46348,
+      "sha256": "d4359128c50d1a305d0c01558e8115cc19c7723cc5497959b34e4bf696c0648c"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/sol-run-right.webp",
+      "bytes": 278360,
+      "sha256": "1330a7de97e035dc5047fef74f082e6ef0c833f681c96c1d0b368fc4cf8e980a"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/sol-run-right-strip.webp",
+      "bytes": 255730,
+      "sha256": "a48fa3319cb882f31d4080fe3aa171dde78c4d45faea8a5f10a684d5b570bfb7"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/sol-run-upright.png",
+      "bytes": 1941987,
+      "sha256": "3295fd213a85d1d84d7c30b2d52f997c9fe52d066367b2e6111f4229ab88b34f"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/sol-approved-reference.png",
+      "bytes": 150178,
+      "sha256": "890209971d7820b6140760f485d7a6da98bcdd0e319d2e3718d2370489223a80"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/sol-thinking-strip.webp",
+      "bytes": 81276,
+      "sha256": "41b4b7cb30771cfa899086ff47d67a7bf7b0841cb5750e74e329f58a89d03894"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/approved-models.png",
+      "bytes": 260465,
+      "sha256": "b7a71325ab7a7ddf57b002a573af49b8ae1b84402c476b829da45f2ab33924f9"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/luna-run-left-first.png",
+      "bytes": 45780,
+      "sha256": "d7c7038d81557d35389790c63ee739d4a66167adf85d5a8411505da6b3e89854"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/sol-work-first.png",
+      "bytes": 50490,
+      "sha256": "f219c64185ff3c12e9b3298a70b6ac3700d864abd93d649b927ce90fe9cc991f"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/sol-idle-first.png",
+      "bytes": 46348,
+      "sha256": "d4359128c50d1a305d0c01558e8115cc19c7723cc5497959b34e4bf696c0648c"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/luna-whole-head-gaze.png",
+      "bytes": 2301042,
+      "sha256": "a97851d3ea6e9c86742541e0ecb9761537a2a027af999267aa00724c18bcc28e"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/sol-idle.webp",
+      "bytes": 232670,
+      "sha256": "0ff730970f1aaf927919c6ead5fb1787042ae9ceeb4715ee55d536808b26e503"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/sol-work.webp",
+      "bytes": 254032,
+      "sha256": "5159ae4e472def3de3237a2e3cf71b609d572b1436b9b719b98ed275a0222793"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/sol-failed-strip.webp",
+      "bytes": 255998,
+      "sha256": "c336f09ed0d92868f964a77b4d0d483abe982498b36d0bab80897291d17b8189"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/sol-idle-strip.webp",
+      "bytes": 182084,
+      "sha256": "496da7af11b9c903d57f50b351bdf3114fcd3b5ac90323986638729ca3777e54"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/luna-run-right-first.png",
+      "bytes": 44950,
+      "sha256": "cbbbecf45d7b98a7d49e1ae2a5f32661682c9acb7d388592e1967641c6c40405"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/luna-failed-first.png",
+      "bytes": 47491,
+      "sha256": "c0839ac6d4fde78d430966c3d1691567f485c3fdbad86e0b7a64a2d8e99d0b25"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/luna-approved-reference.png",
+      "bytes": 148396,
+      "sha256": "5b23a397553b34f64fc07f7cb10ea98963ecff1048e4a2991a1a6c55e2882d8a"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/luna-work-strip.webp",
+      "bytes": 203498,
+      "sha256": "a5b37378a3428d3066d5f5fd3b33365cffc2a86075eee5d6429f826c1999c2fa"
+    },
+    {
+      "path": "sol-luna-review-v4/素材/sol-thinking-first.png",
+      "bytes": 50772,
+      "sha256": "ff8c743b238a1fdd184b448c4052307c5d91765e324d7fd81f442cef7d40fce1"
+    },
+    {
+      "path": "sol-luna-review-v5/review.css",
+      "bytes": 3457,
+      "sha256": "0c4e717a671a3a7f9560875dcb1020702f9e23f13c533bf5d6f8d4ad6806e37b"
+    },
+    {
+      "path": "sol-luna-review-v5/review.js",
+      "bytes": 5277,
+      "sha256": "bb0ffa349cfe011b5e008a78f7b58e3d934de1ffba83918097d601dd4ae62dca"
+    },
+    {
+      "path": "sol-luna-review-v5/index.html",
+      "bytes": 13239,
+      "sha256": "60b2544346b77edf58874ef2aedfaf9f4bf08391dadac4f337b07286b7a896ba"
+    },
+    {
+      "path": "sol-luna-review-v5/SHA256SUMS.txt",
+      "bytes": 9229,
+      "sha256": "3062a9ee3e3119f95ba5dd804cecf941771be2555bcd53392b03fd4dbeb7f39c"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/preview-script-checks.json",
+      "bytes": 430,
+      "sha256": "52f01a8dcfb09bdbb96964018ad4d83ff34229e92992f2aef6ab5f60e9ae1018"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/check_alignment.py",
+      "bytes": 2367,
+      "sha256": "cad2932fbf30581a72c9e87a93a87a5453fe849f0c9fadd14a33b298fbd0f2eb"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/imagegen-prompts.json",
+      "bytes": 19238,
+      "sha256": "146451757645eec1425389a3073301cc25d28c1bb26607486a50bd6e719ae324"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/sol-gaze-first-check.jpg",
+      "bytes": 123749,
+      "sha256": "5245909d59cb3eddb0614cd9e3330ba8a37697b91bb33dcdce12ebd2b7850fe6"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/luna-failed-calibration.jpg",
+      "bytes": 149271,
+      "sha256": "8cef01bd1f95ca745d6c7b76824ef573bc064c7a97ce6df50fdff46bdc6e2485"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/alignment.json",
+      "bytes": 40040,
+      "sha256": "c74d1f172f5c7570c823196aa0f053761a112e80969ba57d284d544043c29992"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/palette-check.json",
+      "bytes": 6458,
+      "sha256": "34778ba935bb933ea7b906baae37bf1d61782a2cfc6aec8df12fe84834904042"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/validate_v5.py",
+      "bytes": 4617,
+      "sha256": "615eb773829aa67fe53d6b45f497861706971f1c0e197330c627156c7817f013"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/neck-scale-final.jpg",
+      "bytes": 339865,
+      "sha256": "f0411e20ae3905924bf200393d17483ae6e72b404c413a5e3e6095bfa515f73c"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/check_preview.cjs",
+      "bytes": 4242,
+      "sha256": "a4776b71b0b888914964608f42279e6a69ab7b157e7f300aa12a80d7fbb8be4d"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/preview-data.json",
+      "bytes": 3577,
+      "sha256": "a0c511bc18e75bf98bc06d9e0682c7b42e5cfbb539a2955ec62ad5fe599a0ab5"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/v4-before.json",
+      "bytes": 12326,
+      "sha256": "46da889e19e532075e292bc13cf7b780abc914bc862ace6f18bd33d38a6968ab"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/luna-idle-first-check.jpg",
+      "bytes": 24372,
+      "sha256": "0e62af22cfc04cb2ed30bdd40976daee46f267295184a48b295806ef01225d45"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/sol-failed-calibration.jpg",
+      "bytes": 148537,
+      "sha256": "e8babfd4b45e6a803937ee67ca237ba3d8a335e81901efc6cfb018d5190daf16"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/palette_check.py",
+      "bytes": 3856,
+      "sha256": "100373a71dc7efe3a4272b9b0a4d70df25e369701e9b3bd7d48331e5a6862782"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/sol-idle-first-check.jpg",
+      "bytes": 25605,
+      "sha256": "f261313a749564ce7822ca5ed2ac5c05fd8b43c1ce7dcd3356049028af5c6671"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/build_v5.py",
+      "bytes": 7919,
+      "sha256": "b369c0ea8bb6289e4532c385a216ed2756861bcec23d2023621612e11cf182e8"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/validation.json",
+      "bytes": 14406,
+      "sha256": "47247531f0f5cb848bd7e2d3f2a66cb838e2aaca48584cbeec2f3b6ba085555e"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/update_page.py",
+      "bytes": 6389,
+      "sha256": "700edc58ffcb02a32563f4b64442d39ad8de2f8980f0c5541a865b94912392ef"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/progress.json",
+      "bytes": 185,
+      "sha256": "5f32b72173424ac8ec685496aa658b56644881a75e82cf63c2ea61d10117c2c3"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/luna-failed-final-check.jpg",
+      "bytes": 100868,
+      "sha256": "b92adeaca5567a19845a9bca34ccb91164608dc51c94e0b3f120c7f794cbb5b8"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/luna-gaze-first-check.jpg",
+      "bytes": 119402,
+      "sha256": "52d5500ce7cc5e34d4378b2607fa976f3cdf837fc90b50c08b72076fa9391c8a"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/REVIEW.md",
+      "bytes": 6923,
+      "sha256": "a6d3a843ba90aa1445638dfd07521a046e323875af96afb2b6b2603e879d4565"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/art_utils.py",
+      "bytes": 2631,
+      "sha256": "df5ce1a96bddf3881d99d21631a06ba633975312f75ccc13ee10831b383bfd7f"
+    },
+    {
+      "path": "sol-luna-review-v5/制作记录/sol-failed-final-check.jpg",
+      "bytes": 100107,
+      "sha256": "b36dfeac73c6f32ea21785a71229ae134ae519a8912918a34d555af12b0c9a7f"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/luna-thinking.webp",
+      "bytes": 112946,
+      "sha256": "023da7b15bd7fb8d9e74cb87e5b60e3afd670feb9c608eb8d1b69edaf7c6dcf1"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/luna-contact.jpg",
+      "bytes": 533201,
+      "sha256": "8a9e2c3ba688fbfa596c079656d96b8f93446f64073c48bb286255c30329557e"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/luna-thinking-first.png",
+      "bytes": 46654,
+      "sha256": "e588d7c7be056bc79bb378700135bbd36d4f59e95479f8cbe50feab58e240373"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/luna-run-right.webp",
+      "bytes": 290156,
+      "sha256": "7d5e5b9286e6dd8b1c0cc9f8ec5be37b845312653f3a56979bc2a536b1502a18"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/luna-failed.webp",
+      "bytes": 320220,
+      "sha256": "f5431d8ac0e4b3cabcd3583f650f49e76cde1818642c64c7072fecfc30331971"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/luna-run-left-strip.webp",
+      "bytes": 264472,
+      "sha256": "8cede989b5c3e4b218e30c074fccfaac73897403fd16573b29f6eebd488d8a1a"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/sol-thinking.webp",
+      "bytes": 126998,
+      "sha256": "e5be58d226756fbd2612d420d521ea63311c439ccccd07109286f28137a24f2a"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/sol-run-left-first.png",
+      "bytes": 43366,
+      "sha256": "6aed3f393a1acb76c84bd8035ce86297bacf73bee5c49da766f75ada786f00f1"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/sol-gaze.webp",
+      "bytes": 614584,
+      "sha256": "6687d675891fd94ed3909efdcb2592da2992b1b34a30c36fff587ac3cf8a534c"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/luna-gaze.webp",
+      "bytes": 641340,
+      "sha256": "efcc302b4c7e00a2432de20dcc0f7a21ef2a05cc470545a82248b6aeb6e9557e"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/sol-failed.webp",
+      "bytes": 315510,
+      "sha256": "d776e8f2442cc56019c5614102ed3a49cc28566c1e30acab3edbc939e44b79f9"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/sol-gaze-first.png",
+      "bytes": 46728,
+      "sha256": "08de5166c2a1a281b8ebdaa2f2237c390cbc53a97af1571121ecd30836296f2f"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/sol-run-right-first.png",
+      "bytes": 44065,
+      "sha256": "ebcfa65e85e22426e9a0a3e027caf0cd617e3e73b27365587b7b7d9cf072842e"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/luna-run-left.webp",
+      "bytes": 284752,
+      "sha256": "97dac4006aa2a2a0b2f349123be589a445d1fb4942890ae7ea5111d4ee79bd94"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/luna-run-right-strip.webp",
+      "bytes": 267896,
+      "sha256": "94ba9f10c2e12e4870277c9be0a73543ff351eacdadcb0402734d708913dc742"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/luna-work-first.png",
+      "bytes": 46440,
+      "sha256": "359879eecec18f9504d7174269ae4d5f7ee678f524e6e1601089c4a3635a8cbe"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/sol-run-left.webp",
+      "bytes": 294270,
+      "sha256": "f516d75f5f4e1293291e4fa30dd002d403a3ebee0a1ef2b6f366f2bbf9268aab"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/sol-gaze-strip.webp",
+      "bytes": 559310,
+      "sha256": "4c1807feb8b0542c1926d78258a0159d5a65a14db030219303d0edd81781518b"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/luna-idle-first.png",
+      "bytes": 47491,
+      "sha256": "c0839ac6d4fde78d430966c3d1691567f485c3fdbad86e0b7a64a2d8e99d0b25"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/luna-thinking-strip.webp",
+      "bytes": 70990,
+      "sha256": "fb68eaada48827016d0d2f51ab05c401cf00f3b836178eaccfc821b343576a87"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/luna-idle-strip.webp",
+      "bytes": 177994,
+      "sha256": "24242bec4d66c68dea17ab8b4c719473572dcddabb6a4dd0c29df54ba54f08a3"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/sol-contact.jpg",
+      "bytes": 563935,
+      "sha256": "327e1cffebee4bb3083bc7efb0919a664241bd3998a1273d910e7dea6c7f42c2"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/sol-work-strip.webp",
+      "bytes": 199810,
+      "sha256": "ca10114aae6c044292e952469d373bd867e8376338506efd8bc04299217c875c"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/luna-failed-strip.webp",
+      "bytes": 262336,
+      "sha256": "f4cf66d39f9de1aa9003667a0dd3536a524a5ff49637d46c6d041822a669907c"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/sol-run-left-strip.webp",
+      "bytes": 269896,
+      "sha256": "4405f56b8c9790a489885006913729d3facc115295012b12539f7a037d4b22fe"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/luna-work.webp",
+      "bytes": 227160,
+      "sha256": "ba689c3ae7015b30431f3c1ff0afe5bd5d1a5e281acd6cbd1a9e5eab47344b34"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/luna-idle.webp",
+      "bytes": 228272,
+      "sha256": "53f43caa33cf2bb1ceb8321788ed14b8b9e2881308eaf333aa9ccc9cc0605e51"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/sol-gaze-contact.jpg",
+      "bytes": 305644,
+      "sha256": "c3554aaf4880eafe567b68dd5cf4db265b1210965b59204f75efbc86fbf868ca"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/sol-failed-first.png",
+      "bytes": 46348,
+      "sha256": "d4359128c50d1a305d0c01558e8115cc19c7723cc5497959b34e4bf696c0648c"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/data.js",
+      "bytes": 2360,
+      "sha256": "da353382068e93eba8eda26448a9fc99aef2e7f44d6c4e18e457c28920d08065"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/sol-run-right.webp",
+      "bytes": 297674,
+      "sha256": "043b0515de4e5917762b1de631ca340fa8cc4f1e26b132e242617e452ead7638"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/sol-run-right-strip.webp",
+      "bytes": 270884,
+      "sha256": "e3cf73981f58def09b1c22129c5b0aead745dd96a94602960b1ceecd68fd8228"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/luna-gaze-first.png",
+      "bytes": 49177,
+      "sha256": "8e18a391e547e494d5f9414722f0dbe52f2e3591a6aec95584c1003d253a9ca1"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/sol-thinking-strip.webp",
+      "bytes": 81276,
+      "sha256": "41b4b7cb30771cfa899086ff47d67a7bf7b0841cb5750e74e329f58a89d03894"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/luna-run-left-first.png",
+      "bytes": 43721,
+      "sha256": "5054c0f457173ddb7cd58adb80ee9734972b45022e3ec54134d58379c2106c91"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/sol-work-first.png",
+      "bytes": 50490,
+      "sha256": "f219c64185ff3c12e9b3298a70b6ac3700d864abd93d649b927ce90fe9cc991f"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/luna-gaze-strip.webp",
+      "bytes": 589136,
+      "sha256": "330808991b6179825fd2a5c805a571817088b6c0a202d274ee6b6ae828bcfb03"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/sol-idle-first.png",
+      "bytes": 46348,
+      "sha256": "d4359128c50d1a305d0c01558e8115cc19c7723cc5497959b34e4bf696c0648c"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/review-overview.jpg",
+      "bytes": 253176,
+      "sha256": "17eae607250fe216bde6bdb2d4ae4bde2720106f809ee854419708e248db9318"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/sol-idle.webp",
+      "bytes": 233062,
+      "sha256": "c3e85c0cd17ea48485678be11e26c3025c1850bab865a475d33398f5828df8fe"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/sol-work.webp",
+      "bytes": 255178,
+      "sha256": "3c284587a7f9800d9183d90d2c08c707d9863ba4aba03fc10b376b13daea858c"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/sol-failed-strip.webp",
+      "bytes": 252858,
+      "sha256": "365c1f5c967ed134b151c397caaf35e1bb9b68a4a1d4ac8b2e3219a2ad214f25"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/sol-idle-strip.webp",
+      "bytes": 215062,
+      "sha256": "b2bbddddd5b5cc33811a6d2e866a55572c3c64330fdf050fbc7edc51d160ac99"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/luna-run-right-first.png",
+      "bytes": 45508,
+      "sha256": "742c98b74c3ddf0b5ffb7609d4ff453dea922348fd0a9d8cecd733bea5f11a85"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/luna-failed-first.png",
+      "bytes": 47491,
+      "sha256": "c0839ac6d4fde78d430966c3d1691567f485c3fdbad86e0b7a64a2d8e99d0b25"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/luna-work-strip.webp",
+      "bytes": 174274,
+      "sha256": "0c94fc3d4cf187b3af90ce36573cb0af05279d5cb1ecbfd5365d7678f3d28379"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/sol-thinking-first.png",
+      "bytes": 50772,
+      "sha256": "ff8c743b238a1fdd184b448c4052307c5d91765e324d7fd81f442cef7d40fce1"
+    },
+    {
+      "path": "sol-luna-review-v5/预览/luna-gaze-contact.jpg",
+      "bytes": 313815,
+      "sha256": "c1c2c3fc72fa73e514895f47df2a53c49834bd21dda13c80148566ffb5e7d205"
+    },
+    {
+      "path": "sol-luna-review-v5/素材/sol-gaze-full.png",
+      "bytes": 2172735,
+      "sha256": "1af18f240a48b5354de9f7e0e7045cb55c8d3f758607e2b40a37c1313303907b"
+    },
+    {
+      "path": "sol-luna-review-v5/素材/luna-gaze-full.png",
+      "bytes": 2332075,
+      "sha256": "b57a89e84d28f57b6e104ad0208aba21c311ce15fbc3a493a050b4b824c95df9"
+    },
+    {
+      "path": "sol-luna-review-v5/素材/luna-failed-reference.webp",
+      "bytes": 256422,
+      "sha256": "47d5542e161a1839bf15b98c9fdfa8b4220cc90987beb23fcb74b7aa421a2868"
+    },
+    {
+      "path": "sol-luna-review-v5/素材/sol-run-three-quarter.png",
+      "bytes": 2120209,
+      "sha256": "6f53054270df9d446ffea40f22dccfe3991bf7d0b2db60ea0ddc13279ec12445"
+    },
+    {
+      "path": "sol-luna-review-v5/素材/sol-idle-original-1.png",
+      "bytes": 150178,
+      "sha256": "890209971d7820b6140760f485d7a6da98bcdd0e319d2e3718d2370489223a80"
+    },
+    {
+      "path": "sol-luna-review-v5/素材/luna-idle-inbetween.png",
+      "bytes": 1487488,
+      "sha256": "88f6010a64b741863ea59e3951873494c4e06267b007a06c08c2397f95610007"
+    },
+    {
+      "path": "sol-luna-review-v5/素材/sol-idle-original-4.png",
+      "bytes": 151070,
+      "sha256": "3e918c5fa89bcdd4a5d2dbff7073cfd908c298b02f827669dcafa69a5bf28260"
+    },
+    {
+      "path": "sol-luna-review-v5/素材/sol-idle-original-5.png",
+      "bytes": 152220,
+      "sha256": "4782df11fe51b67402dc30d3de7568bb80385626433412a02359f9fc6ca9d3d4"
+    },
+    {
+      "path": "sol-luna-review-v5/素材/luna-idle-transition-reference.png",
+      "bytes": 136497,
+      "sha256": "190f345afaff816aa27d302fa52cbbb0fc24d273f4c1c375b802fc387916cbbc"
+    },
+    {
+      "path": "sol-luna-review-v5/素材/luna-failed-candidate.png",
+      "bytes": 2484930,
+      "sha256": "a360ceb2ca11cf898674c7a96c1d650857182c0d6ac5afc271d830d2332362d7"
+    },
+    {
+      "path": "sol-luna-review-v5/素材/sol-idle-transition-reference.png",
+      "bytes": 137682,
+      "sha256": "8e7c45e9c627a7bd86dc8ec9bfa3b65f837821a8324fbc7edb531fb9fbc7d652"
+    },
+    {
+      "path": "sol-luna-review-v5/素材/sol-failed-reference.webp",
+      "bytes": 255998,
+      "sha256": "c336f09ed0d92868f964a77b4d0d483abe982498b36d0bab80897291d17b8189"
+    },
+    {
+      "path": "sol-luna-review-v5/素材/sol-failed-candidate.png",
+      "bytes": 1913494,
+      "sha256": "fba902819c8d2513b8bed7d5c2f40f797eceb0a009fd1a22e2e49340f85d35c8"
+    },
+    {
+      "path": "sol-luna-review-v5/素材/luna-run-three-quarter.png",
+      "bytes": 2098319,
+      "sha256": "7194c1b8542643aedb1aa43924d245cf359fb49ceda9884eba52841fc279c6d3"
+    },
+    {
+      "path": "sol-luna-review-v5/素材/sol-idle-inbetween.png",
+      "bytes": 1748900,
+      "sha256": "36bc2091b0a283f7504e3c1d175864d805ec94c289f59dffcbc3f86b3e621fe5"
+    },
+    {
+      "path": "sol-luna-review-v5/素材/sol-approved-reference.png",
+      "bytes": 150178,
+      "sha256": "890209971d7820b6140760f485d7a6da98bcdd0e319d2e3718d2370489223a80"
+    },
+    {
+      "path": "sol-luna-review-v5/素材/luna-idle-original-4.png",
+      "bytes": 141156,
+      "sha256": "2c78ebde6f5004ec994977fe384aeb6a2f644c173072a2daad2153eedf5fad8e"
+    },
+    {
+      "path": "sol-luna-review-v5/素材/luna-idle-original-5.png",
+      "bytes": 143640,
+      "sha256": "c16098f710998304bfa770e56bba0b3f3b677ce3d3afc6540544b3fa5a8eba7f"
+    },
+    {
+      "path": "sol-luna-review-v5/素材/approved-models.png",
+      "bytes": 260465,
+      "sha256": "b7a71325ab7a7ddf57b002a573af49b8ae1b84402c476b829da45f2ab33924f9"
+    },
+    {
+      "path": "sol-luna-review-v5/素材/luna-idle-original-1.png",
+      "bytes": 148396,
+      "sha256": "5b23a397553b34f64fc07f7cb10ea98963ecff1048e4a2991a1a6c55e2882d8a"
+    },
+    {
+      "path": "sol-luna-review-v5/素材/luna-approved-reference.png",
+      "bytes": 148396,
+      "sha256": "5b23a397553b34f64fc07f7cb10ea98963ecff1048e4a2991a1a6c55e2882d8a"
+    },
+    {
+      "path": "sol-luna-review-v6/review.css",
+      "bytes": 3457,
+      "sha256": "0c4e717a671a3a7f9560875dcb1020702f9e23f13c533bf5d6f8d4ad6806e37b"
+    },
+    {
+      "path": "sol-luna-review-v6/review.js",
+      "bytes": 5277,
+      "sha256": "bb0ffa349cfe011b5e008a78f7b58e3d934de1ffba83918097d601dd4ae62dca"
+    },
+    {
+      "path": "sol-luna-review-v6/index.html",
+      "bytes": 14207,
+      "sha256": "fb6c62b8e428b19092da442fe0d70a0d117098cd7d6df7a93f5a8e9764244d82"
+    },
+    {
+      "path": "sol-luna-review-v6/README.md",
+      "bytes": 1170,
+      "sha256": "3e8d7337a2247ecf4b56805c9342d775012059a20dd0d5870ac15c3434f4f718"
+    },
+    {
+      "path": "sol-luna-review-v6/SHA256SUMS.txt",
+      "bytes": 12659,
+      "sha256": "b2ec9d5e3f08752a907fa545dbcc2125cf8ec757470af1dba7972a49e92a9dae"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/luna-left-2-trial.png",
+      "bytes": 87960,
+      "sha256": "4c47e1ed870402809775b2487baeccf859426f4112dd87928dfedbf220940244"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/luna-right-2-trial.png",
+      "bytes": 87802,
+      "sha256": "cecaee15bb192f89fd20d43479903907c0e31ffe22dbecaf6e7b3d7b21653c6a"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/sol-left-5-trial.png",
+      "bytes": 83604,
+      "sha256": "bfab2cd317cd9d0f6f63f8600d671db6334122f4c3f58265c85b1983ec37daea"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/luna-before-detail.png",
+      "bytes": 587221,
+      "sha256": "bcdd001494b2725824cea06b4a14e3921610207aa2f074343b5ec431f374ef80"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/preview-script-checks.json",
+      "bytes": 430,
+      "sha256": "52f01a8dcfb09bdbb96964018ad4d83ff34229e92992f2aef6ab5f60e9ae1018"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/sol-right-0-trial.png",
+      "bytes": 87012,
+      "sha256": "8d641a0c000426a8e3997be15accabe2f16b2161798c8d04bf99b2a39cd3a2fe"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/feet_rig.py",
+      "bytes": 5896,
+      "sha256": "22b8b3c90526b36397610553222214698875e8e2bd1ff51b26e889d705d12aa0"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/imagegen-prompts.json",
+      "bytes": 4099,
+      "sha256": "fe1fa6753ed90ff4759b8b100ee644d0dcfc6001efb6b5145cc0ad746c7d2312"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/luna-right-4-trial.png",
+      "bytes": 87344,
+      "sha256": "8507ed798ce2532d820c893de52c026cb27ac1d5daf3833792b6cc6312bdf069"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/luna-left-4-trial.png",
+      "bytes": 87648,
+      "sha256": "511f311bf8255c78e05389c0643908a19ad3cbf362973d8c1db2c1670bf33672"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/sol-left-3-trial.png",
+      "bytes": 84695,
+      "sha256": "6073811b0f6f963bfcd740f162ecff0c59fc299e79a107c74d7c900b5db40432"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/sol-feet-before.png",
+      "bytes": 404579,
+      "sha256": "32be6ba169b3089cdf6431f2d977f01bbb559a5b46f0829be82cfd8a6c44802a"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/sol-right-6-trial.png",
+      "bytes": 85535,
+      "sha256": "34dcdf656f1e9f5ff154133c726ec2db5ab256623c4df27fdf00133d584174b0"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/luna-gaze-corrected.png",
+      "bytes": 44860,
+      "sha256": "7f4781cc72b2de9dcf3782ca256bd0e226a11b4f431a3458819f17827dbe5117"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/sol-left-4-trial.png",
+      "bytes": 84591,
+      "sha256": "eee836d4922900ec012d576a7eb0ed227344dbebb32273b3973993580d3c9b8d"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/luna-right-3-trial.png",
+      "bytes": 88182,
+      "sha256": "5a7cb379ca6e38cc3d9547b0c4e6a3b6b6dec69dbe6d9dbb71dfbdc9d3a4f91f"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/sol-gait-trial.png",
+      "bytes": 1085538,
+      "sha256": "65b037bf9728e90148dfc06a1b5c29ef2d688a47dbfcc5f94d18160d37a41f74"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/luna-left-3-trial.png",
+      "bytes": 92449,
+      "sha256": "066104b098024cc595b9eae68e8f06ee8e4120a460cb1ba99b1aad8549cae30e"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/alignment.json",
+      "bytes": 72106,
+      "sha256": "c1ad57de221c8e82fc9f75508504e635f2c869f000b8cce08f2ce6722ff68a2e"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/landmarks.py",
+      "bytes": 2261,
+      "sha256": "71bf4958e7253631aec15e61395e184d849e8d6137beeaa2ddfdaff5af5facbe"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/sol-right-1-trial.png",
+      "bytes": 85980,
+      "sha256": "6271819360c6e70cc45a94ba35909d9dce0139d138bdd9de9acfc3644050d09b"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/luna-feet-coordinates.png",
+      "bytes": 238475,
+      "sha256": "7677270002c88889f637d5b9f6ff984e2f3fbff597f6c9cd72d5de970ac4e3a3"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/luna-head-correction-check.png",
+      "bytes": 338673,
+      "sha256": "d48f717aa2546f9235b7e2674b3b859b1e63ab15d158c9e9aa897b7f3b79d5c2"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/sol-left-2-trial.png",
+      "bytes": 89489,
+      "sha256": "8fa8ef63779aece5456218b9ba10910401d009346a00cf31ad1293f6365bdb00"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/luna-left-5-trial.png",
+      "bytes": 82891,
+      "sha256": "5a21f4fc01607b537477c680050f9dd2a913588716df3607205a919bea365a62"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/check_preview.cjs",
+      "bytes": 4242,
+      "sha256": "a4776b71b0b888914964608f42279e6a69ab7b157e7f300aa12a80d7fbb8be4d"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/luna-right-5-trial.png",
+      "bytes": 88304,
+      "sha256": "16cdc8d84a2bfff6e9fdbb02a329f1df174c2d0828af890310b50ed74896555d"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/luna-run-right-corrected.png",
+      "bytes": 47189,
+      "sha256": "76bbf57e37fa447a53124daa317701361e0153d96dc05f52a2094eb76653663d"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/sol-right-7-trial.png",
+      "bytes": 85691,
+      "sha256": "494cd18939c59c068cec202cffec7fe173b1ea039be254bb32762d2d16e401db"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/preview-data.json",
+      "bytes": 3923,
+      "sha256": "9d731a2845e3e7988dcd5a50d6ce859646f609572511a0f9d8f1c3809edacd91"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/build_v6.py",
+      "bytes": 3500,
+      "sha256": "b97e546f8b0a591318d362daf293227303fe866747ac58ea495b1acc84b9fb17"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/head_correction.py",
+      "bytes": 3298,
+      "sha256": "a7af3c870b092f3e0e5b1fc236bbc38c09bcfd539279285fd26cb0698b3cbeaf"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/sol-feet-coordinates.png",
+      "bytes": 246973,
+      "sha256": "7c65f137eae7a78766d923dae9f4f340f099750a6802f83deb15e72b6e5d7ccb"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/sol-head-correction-check.png",
+      "bytes": 332411,
+      "sha256": "d2fe47c3a821e231155d7ae398ce5cf382fdd8b368775db18dc570e84948eec1"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/luna-left-0-trial.png",
+      "bytes": 86403,
+      "sha256": "2ca56d186a8283a3cdad3c0ee2677bc28696e5d38556dcd1110fb3f0a893577c"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/validate_v6.py",
+      "bytes": 5464,
+      "sha256": "adc48eeae6f3fc8a2a01861e2a49583a99209b09e42a63a4898008653f84e5b8"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/luna-right-0-trial.png",
+      "bytes": 90965,
+      "sha256": "d05595c1e33e2a9a601794e3608b90fa1ff5d03c6a0a7800e37845cd48614a15"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/rejected-head-trials.json",
+      "bytes": 4067,
+      "sha256": "941e0ef4bdea1bc8a7a4497efa860139f6488c36f92999179bf5d8cb2604bf91"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/sol-left-7-trial.png",
+      "bytes": 86588,
+      "sha256": "e53f17b5119e9ec35d4cba840e9ad0e878a3b637979ac974c107ac2a4a320247"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/sol-right-2-trial.png",
+      "bytes": 85141,
+      "sha256": "57ce0ba3bfc380ace65f9cd5f6a4a313dd319aed1c5e054ea90b32b1950e451e"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/sol-before-detail.png",
+      "bytes": 571591,
+      "sha256": "ed153674590047b86675f88dc6a74283bbc282b32b0250d5803d6a262661dff4"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/luna-right-6-trial.png",
+      "bytes": 89330,
+      "sha256": "ec4699a1fe223ebb70ba2299f2af7f65cf828513a0584e136033943681ad22cc"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/luna-left-6-trial.png",
+      "bytes": 84593,
+      "sha256": "6faf8babeb933cd79ba32c917e9eef9eb0f5837c4cbf199d628fea344503f3ad"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/sol-left-1-trial.png",
+      "bytes": 85915,
+      "sha256": "879d4980c95c9f201f1396409833520121c00e76661d9874d2b7bfaba7d8aec4"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/validation.json",
+      "bytes": 11221,
+      "sha256": "674df59a12f61c327d8ec5026c73313e2100f3894cd898c89113442bab86da10"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/luna-feet-before.png",
+      "bytes": 382875,
+      "sha256": "490cb6c8ee55fc28f280ab7cb507d47de035d8857b464d855dfcabaa58f3aa36"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/update_page.py",
+      "bytes": 6565,
+      "sha256": "105fb0a8d313e4d178fe6e076793cc46ed16fdef46a6cdedb5c86375f2994d84"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/sol-right-4-trial.png",
+      "bytes": 86411,
+      "sha256": "dc9b48d5b26be7d10789575c4946e314613c27f159012031c511dcbeefc3ab91"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/luna-gait-trial.png",
+      "bytes": 1086436,
+      "sha256": "a87885b29ad23bfcba8075dc89c35f08f34ba801fbeb2fc03cd9095d5a7fa832"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/sol-left-6-trial.png",
+      "bytes": 85775,
+      "sha256": "dbb3ace43aa0c2bd9cea8db47f8a3fb9d84795805e64a36dfe66a4f0589e08bf"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/head-trial.json",
+      "bytes": 4443,
+      "sha256": "fe53c9ab755888b99ed1fc67875fa63e18f40122593354921be7c04e1a5025a1"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/v5-before.json",
+      "bytes": 10712,
+      "sha256": "278be9d0ea83d1332a0509773a8567b4cc42ee9dfda4e71f287c524205765a99"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/luna-right-1-trial.png",
+      "bytes": 88255,
+      "sha256": "6c7d313d7774dcba3ccdfe79fa3824729f7f01b6421055884a313fad4eb752ac"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/luna-left-1-trial.png",
+      "bytes": 81349,
+      "sha256": "227e80d43a95b8e33a35859a5a5153224738c729cdc7dc2a94da8c2b553c192c"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/sol-run-left-corrected.png",
+      "bytes": 43965,
+      "sha256": "4ceb4a3f8a4a7148b88739c8a14bc09a713a2d0d4d51396330b960ea4714a157"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/REVIEW.md",
+      "bytes": 5808,
+      "sha256": "fe85ad01002d7a9065efebd2e53a1d414eafd8cd000b9f937fa1ff0bc3188a08"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/sol-right-3-trial.png",
+      "bytes": 86344,
+      "sha256": "932eeb6af205bf2a350c39689d69f16e6c7a62b671a38c199b7478a1c8953d75"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/sol-gaze-corrected.png",
+      "bytes": 44766,
+      "sha256": "2121023c69534ce8237c82a254ccbe1aef88a8aa3ec0d6348386a9cc66ee63b8"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/sol-left-0-trial.png",
+      "bytes": 86031,
+      "sha256": "7a724cfa725826702f9010960dcad5e6202f1de7bab0f0c6a9901ef265edd05c"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/luna-left-7-trial.png",
+      "bytes": 87345,
+      "sha256": "f8d9f045b26e7fa4eb35761a9bdaab2fc684fb5d0122872c02d35e070e763d0f"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/luna-right-7-trial.png",
+      "bytes": 88713,
+      "sha256": "f53d6539b8f1dfe949c34f2b04941c1bb1edf892028748c1e1c85d998921fd95"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/luna-run-left-corrected.png",
+      "bytes": 44816,
+      "sha256": "0a72614a1f605bce94324f8bc672dc05410facf3d6fc8be79dc49613a35f7f44"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/sol-run-right-corrected.png",
+      "bytes": 44637,
+      "sha256": "0790d44187eee9610336250153ca6dacc52bd7e44e1035d86f9ea960c425a679"
+    },
+    {
+      "path": "sol-luna-review-v6/制作记录/sol-right-5-trial.png",
+      "bytes": 87644,
+      "sha256": "f43b238de761ad9794c0e40d78070d2dacd0c9cd4a7423507d5a2d56ac673615"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/luna-thinking.webp",
+      "bytes": 112946,
+      "sha256": "023da7b15bd7fb8d9e74cb87e5b60e3afd670feb9c608eb8d1b69edaf7c6dcf1"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/sol-v5-v6-comparison.png",
+      "bytes": 387725,
+      "sha256": "6a1e191ff9eb1b12972b46f3d5bb43711ad161a001a4d64414bfab84bb97698c"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/v6-native-size-check.png",
+      "bytes": 509777,
+      "sha256": "e39c1ec64221603fd9cc17a25976e23044f7ddea77ad4077aeab4541e4a4dc72"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/luna-contact.jpg",
+      "bytes": 530812,
+      "sha256": "db5d88369cc4490709012b479a1cce6348274c4c775c6690297d33623754c3a1"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/luna-thinking-first.png",
+      "bytes": 46654,
+      "sha256": "e588d7c7be056bc79bb378700135bbd36d4f59e95479f8cbe50feab58e240373"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/luna-run-right.webp",
+      "bytes": 299894,
+      "sha256": "bede152dc2a41c07eb8c55847da31b3cf9dabca6ef50912497404336f2831124"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/luna-failed.webp",
+      "bytes": 320220,
+      "sha256": "f5431d8ac0e4b3cabcd3583f650f49e76cde1818642c64c7072fecfc30331971"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/luna-run-left-strip.webp",
+      "bytes": 266580,
+      "sha256": "e61de7c29e1589005e8571a5227ccef34a688a000350f7a051edd750af1ac4f6"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/sol-thinking.webp",
+      "bytes": 126998,
+      "sha256": "e5be58d226756fbd2612d420d521ea63311c439ccccd07109286f28137a24f2a"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/sol-run-left-first.png",
+      "bytes": 43445,
+      "sha256": "de599e02b68850f897e5e766e73cc7eb7307f5262f4d3d7413ca22bfd183f147"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/sol-gaze.webp",
+      "bytes": 610574,
+      "sha256": "8e1458c6909bc17545c1bfa24ecf4087b414b4f6285c5bf7fc930c825bc5aa08"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/luna-gaze.webp",
+      "bytes": 625200,
+      "sha256": "2856e6173138d7519369b2fed84cbd1f79cd09a8b515a646fc117e3c85a7b401"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/sol-failed.webp",
+      "bytes": 315510,
+      "sha256": "d776e8f2442cc56019c5614102ed3a49cc28566c1e30acab3edbc939e44b79f9"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/sol-gaze-first.png",
+      "bytes": 46728,
+      "sha256": "08de5166c2a1a281b8ebdaa2f2237c390cbc53a97af1571121ecd30836296f2f"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/sol-run-right-first.png",
+      "bytes": 43886,
+      "sha256": "bd1e57dbe166bd5f9c8dfc119937436fc1b51e73aa1d7265319d35c58dd003b8"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/luna-run-left.webp",
+      "bytes": 289112,
+      "sha256": "24d31084386a13f0a0755d3891ad6bbbf2fe25fba94a13df3576793e7a3cf60a"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/luna-run-right-strip.webp",
+      "bytes": 273818,
+      "sha256": "4ed9adabdeaf4c5c02e3117cf120db0fe55869145eb99f3868c90d5f53f68be0"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/luna-work-first.png",
+      "bytes": 46440,
+      "sha256": "359879eecec18f9504d7174269ae4d5f7ee678f524e6e1601089c4a3635a8cbe"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/sol-run-left.webp",
+      "bytes": 294092,
+      "sha256": "74731d1ab8464f685e33d4cc3fe50a647a3c063831923efa9134cf5a68a4605a"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/sol-gaze-strip.webp",
+      "bytes": 553022,
+      "sha256": "67b04a705fe7315a36277767662956f1d230e1921656d7f3588a676a9660aa2c"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/luna-idle-first.png",
+      "bytes": 47491,
+      "sha256": "c0839ac6d4fde78d430966c3d1691567f485c3fdbad86e0b7a64a2d8e99d0b25"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/luna-thinking-strip.webp",
+      "bytes": 70990,
+      "sha256": "fb68eaada48827016d0d2f51ab05c401cf00f3b836178eaccfc821b343576a87"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/luna-idle-strip.webp",
+      "bytes": 177994,
+      "sha256": "24242bec4d66c68dea17ab8b4c719473572dcddabb6a4dd0c29df54ba54f08a3"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/sol-contact.jpg",
+      "bytes": 556389,
+      "sha256": "21eba1f59c940dffae687bd5b1e263377a0537cc4903aee0ba135bc298c7527a"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/sol-work-strip.webp",
+      "bytes": 199810,
+      "sha256": "ca10114aae6c044292e952469d373bd867e8376338506efd8bc04299217c875c"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/luna-failed-strip.webp",
+      "bytes": 262336,
+      "sha256": "f4cf66d39f9de1aa9003667a0dd3536a524a5ff49637d46c6d041822a669907c"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/sol-run-left-strip.webp",
+      "bytes": 268712,
+      "sha256": "d5fb5d1c6761ade20e1db90f12393f1cfb252e1deba93633519204be602712ce"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/luna-work.webp",
+      "bytes": 227160,
+      "sha256": "ba689c3ae7015b30431f3c1ff0afe5bd5d1a5e281acd6cbd1a9e5eab47344b34"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/luna-idle.webp",
+      "bytes": 228272,
+      "sha256": "53f43caa33cf2bb1ceb8321788ed14b8b9e2881308eaf333aa9ccc9cc0605e51"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/sol-gaze-contact.jpg",
+      "bytes": 302414,
+      "sha256": "98cbef8f0aaac8a4c4cfcecc04da8eddd518dd834324bde3200e3aeaf1bcf3db"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/sol-failed-first.png",
+      "bytes": 46348,
+      "sha256": "d4359128c50d1a305d0c01558e8115cc19c7723cc5497959b34e4bf696c0648c"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/data.js",
+      "bytes": 2650,
+      "sha256": "27945891fd959a6fd6cb01dbc150689cd6b9cd8ec6b9045fe13b1d775e8e14c7"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/sol-run-right.webp",
+      "bytes": 295882,
+      "sha256": "dd084a702a555e0a043e958b5f84760fb3f9727a61d58f32fcbaa950646e322b"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/sol-run-right-strip.webp",
+      "bytes": 269928,
+      "sha256": "2b3e4b27735dedfa93412cd1788d819dcd66742440a1f5d6c9d22ba429678a3d"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/luna-gaze-first.png",
+      "bytes": 49177,
+      "sha256": "8e18a391e547e494d5f9414722f0dbe52f2e3591a6aec95584c1003d253a9ca1"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/sol-thinking-strip.webp",
+      "bytes": 81276,
+      "sha256": "41b4b7cb30771cfa899086ff47d67a7bf7b0841cb5750e74e329f58a89d03894"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/luna-run-left-first.png",
+      "bytes": 43779,
+      "sha256": "c281f301524b05a494ee1eaade820148a96b1fe1feda5048dbe3325a9ff12799"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/sol-work-first.png",
+      "bytes": 50490,
+      "sha256": "f219c64185ff3c12e9b3298a70b6ac3700d864abd93d649b927ce90fe9cc991f"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/luna-gaze-strip.webp",
+      "bytes": 572254,
+      "sha256": "5bc077ddaf0a0cf750976cfb33edf8e1884f6f25cd55c4f16b845322a4ea653d"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/sol-idle-first.png",
+      "bytes": 46348,
+      "sha256": "d4359128c50d1a305d0c01558e8115cc19c7723cc5497959b34e4bf696c0648c"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/sol-idle.webp",
+      "bytes": 233062,
+      "sha256": "c3e85c0cd17ea48485678be11e26c3025c1850bab865a475d33398f5828df8fe"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/sol-work.webp",
+      "bytes": 255178,
+      "sha256": "3c284587a7f9800d9183d90d2c08c707d9863ba4aba03fc10b376b13daea858c"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/luna-v5-v6-comparison.png",
+      "bytes": 393837,
+      "sha256": "4948c37074dd066c127fc042a2e7162418008f9c69b503c52172a5806dcb8072"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/sol-failed-strip.webp",
+      "bytes": 252858,
+      "sha256": "365c1f5c967ed134b151c397caaf35e1bb9b68a4a1d4ac8b2e3219a2ad214f25"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/sol-idle-strip.webp",
+      "bytes": 215062,
+      "sha256": "b2bbddddd5b5cc33811a6d2e866a55572c3c64330fdf050fbc7edc51d160ac99"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/luna-run-right-first.png",
+      "bytes": 46269,
+      "sha256": "96fcc40179a22ff66f9a5a3990aa8b317e95391cdf011a0b8e395d4f21e644e6"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/luna-failed-first.png",
+      "bytes": 47491,
+      "sha256": "c0839ac6d4fde78d430966c3d1691567f485c3fdbad86e0b7a64a2d8e99d0b25"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/luna-work-strip.webp",
+      "bytes": 174274,
+      "sha256": "0c94fc3d4cf187b3af90ce36573cb0af05279d5cb1ecbfd5365d7678f3d28379"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/sol-thinking-first.png",
+      "bytes": 50772,
+      "sha256": "ff8c743b238a1fdd184b448c4052307c5d91765e324d7fd81f442cef7d40fce1"
+    },
+    {
+      "path": "sol-luna-review-v6/预览/luna-gaze-contact.jpg",
+      "bytes": 306223,
+      "sha256": "db372e110b6274f111f848c67f5ac4db473c4d5b902f72e8b8d7564521e94230"
+    },
+    {
+      "path": "sol-luna-review-v6/素材/luna-run-right-reference.png",
+      "bytes": 114333,
+      "sha256": "536b30d9c7c41487475c900bf6f9501951cfd33a71986bd21e67dcb4db860dbe"
+    },
+    {
+      "path": "sol-luna-review-v6/素材/luna-foot-parts.png",
+      "bytes": 618016,
+      "sha256": "db33149d609c9d9bde01930bf0adb47974943d0dc85bff16e0b726013933899c"
+    },
+    {
+      "path": "sol-luna-review-v6/素材/luna-down-exact-v5.png",
+      "bytes": 490566,
+      "sha256": "e443464ce76f238c5443e88edc8f4a89005334ef87624fdef52df276bfdd00fa"
+    },
+    {
+      "path": "sol-luna-review-v6/素材/sol-idle-exact-v5.png",
+      "bytes": 470313,
+      "sha256": "09504eddcb8f9f382b89a12a1a32444f6b94401f4567d4c63ce9530008ebe1f5"
+    },
+    {
+      "path": "sol-luna-review-v6/素材/luna-run-left-reference.png",
+      "bytes": 101027,
+      "sha256": "c7bc9ce557dffe6bc3048b25e521018dfbd76ecab29c27b9fe16adcf701aab10"
+    },
+    {
+      "path": "sol-luna-review-v6/素材/sol-foot-parts.png",
+      "bytes": 638108,
+      "sha256": "859d037939390d4416ceec7ad50b3b403ec35ba127ae3b65de33a3f781c160ae"
+    },
+    {
+      "path": "sol-luna-review-v6/素材/sol-run-right-reference.png",
+      "bytes": 118369,
+      "sha256": "683d5b35c515c594a47a7004109831e02d8d6f3e127245ddd9aaf551110eb1fa"
+    },
+    {
+      "path": "sol-luna-review-v6/素材/sol-run-left-reference.png",
+      "bytes": 124328,
+      "sha256": "ca980934d396240eb5fe8debec291646b1e27a2ac0ce74a369ddc28704ae5e34"
+    },
+    {
+      "path": "sol-luna-review-v6/素材/sol-approved-reference.png",
+      "bytes": 150178,
+      "sha256": "890209971d7820b6140760f485d7a6da98bcdd0e319d2e3718d2370489223a80"
+    },
+    {
+      "path": "sol-luna-review-v6/素材/approved-models.png",
+      "bytes": 260465,
+      "sha256": "b7a71325ab7a7ddf57b002a573af49b8ae1b84402c476b829da45f2ab33924f9"
+    },
+    {
+      "path": "sol-luna-review-v6/素材/sol-down-exact-v5.png",
+      "bytes": 467805,
+      "sha256": "3e59d586039c30b2f498772a8536fa99aedbf64676358dc712db41462805953f"
+    },
+    {
+      "path": "sol-luna-review-v6/素材/luna-idle-exact-v5.png",
+      "bytes": 471869,
+      "sha256": "2f87184a677e13bd258970e6994b8588f073bdae3d8c3e0f01f425b0daf04f1d"
+    },
+    {
+      "path": "sol-luna-review-v6/素材/luna-approved-reference.png",
+      "bytes": 148396,
+      "sha256": "5b23a397553b34f64fc07f7cb10ea98963ecff1048e4a2991a1a6c55e2882d8a"
+    },
+    {
+      "path": "sol-luna-review-v7/review.css",
+      "bytes": 3457,
+      "sha256": "0c4e717a671a3a7f9560875dcb1020702f9e23f13c533bf5d6f8d4ad6806e37b"
+    },
+    {
+      "path": "sol-luna-review-v7/review.js",
+      "bytes": 5520,
+      "sha256": "588888cc43cb2cfcdac746a50364386edb3542f40aab103654b07c5c1b842896"
+    },
+    {
+      "path": "sol-luna-review-v7/index.html",
+      "bytes": 13918,
+      "sha256": "70ed0a0569a9e322b38c5187b4e3a0b120fcfd4489bde106f617c774d04a76e7"
+    },
+    {
+      "path": "sol-luna-review-v7/README.md",
+      "bytes": 1103,
+      "sha256": "04eb99582c8936f1de51918fc00fa9f1056803b05897ac2deeeba14c1ef68f09"
+    },
+    {
+      "path": "sol-luna-review-v7/SHA256SUMS.txt",
+      "bytes": 9214,
+      "sha256": "05df05c8f0a5498487a0261e9842ff2d1890e91afcd5c44bcbfa10a890e8b362"
+    },
+    {
+      "path": "sol-luna-review-v7/制作记录/sol-work-grid.png",
+      "bytes": 384343,
+      "sha256": "90bb6b5648f06d0d41157f1331fde0f1ef5a5f54b25cb3b771c87033ac9448d0"
+    },
+    {
+      "path": "sol-luna-review-v7/制作记录/luna-laptop-protection.png",
+      "bytes": 411,
+      "sha256": "e41a5e542699c58d60afb37d77edb6314d36889548a30cb9c491d1911a6766ea"
+    },
+    {
+      "path": "sol-luna-review-v7/制作记录/rig-parameters.json",
+      "bytes": 14665,
+      "sha256": "240569d10ca18f1ff96b9f656ee04e20c1ec804afdde11a79839b7a9e80eaf2d"
+    },
+    {
+      "path": "sol-luna-review-v7/制作记录/preview-script-checks.json",
+      "bytes": 430,
+      "sha256": "52f01a8dcfb09bdbb96964018ad4d83ff34229e92992f2aef6ab5f60e9ae1018"
+    },
+    {
+      "path": "sol-luna-review-v7/制作记录/luna-work-grid.png",
+      "bytes": 338396,
+      "sha256": "83d6110969887c1d39c18c21dcc0216a89f730c2ec27c7f21a559de352c17e40"
+    },
+    {
+      "path": "sol-luna-review-v7/制作记录/build_v7.py",
+      "bytes": 6988,
+      "sha256": "29bb7fd9f48180cea1de1aaf08110a53f7bac3a28738f778a8f2ed48f43f73a2"
+    },
+    {
+      "path": "sol-luna-review-v7/制作记录/sol-work-before.png",
+      "bytes": 337847,
+      "sha256": "782626e24cca1759d19bf794973e077e35345a221177f6789e066ed9de0118cc"
+    },
+    {
+      "path": "sol-luna-review-v7/制作记录/check_preview.cjs",
+      "bytes": 4443,
+      "sha256": "a4c5df0e7d71a60c3396956c95b96f070591bb1ceddfd65c08740938b81cffca"
+    },
+    {
+      "path": "sol-luna-review-v7/制作记录/preview-data.json",
+      "bytes": 3447,
+      "sha256": "c4c8976b3a9cce37d4cde65fd9c54db486f1a995317f25c941e5bc34befbf904"
+    },
+    {
+      "path": "sol-luna-review-v7/制作记录/sol-laptop-protection.png",
+      "bytes": 412,
+      "sha256": "e073383fbf77ae7eae7d63db9c778f346170b7dcf5cfd43dd9cc87b47ff49327"
+    },
+    {
+      "path": "sol-luna-review-v7/制作记录/validation.json",
+      "bytes": 12194,
+      "sha256": "18e3514ef168a7e6487b174bbd5fd21bcf812e0bfd164ce80092af6c6a7c9304"
+    },
+    {
+      "path": "sol-luna-review-v7/制作记录/v6-before.json",
+      "bytes": 13666,
+      "sha256": "98a753a91b6daf6bac0abcc23374d1a158915379845bbd292e94ff0a74b45823"
+    },
+    {
+      "path": "sol-luna-review-v7/制作记录/update_page.py",
+      "bytes": 7948,
+      "sha256": "99ecfe4f05b30c1e0bcad30058ad2bcf57389c73a97d917e92bd77e7054a3748"
+    },
+    {
+      "path": "sol-luna-review-v7/制作记录/validate_v7.py",
+      "bytes": 4946,
+      "sha256": "4fa263b8e4dc9eefa581efd91691a09d5e5bb27a081f70bfd193880b5288a77e"
+    },
+    {
+      "path": "sol-luna-review-v7/制作记录/luna-work-before.png",
+      "bytes": 306169,
+      "sha256": "d6eadd7895754b4e364b0f90359fbb301b1a8e2cdc63ad7fecfe92ddc5937dc0"
+    },
+    {
+      "path": "sol-luna-review-v7/制作记录/REVIEW.md",
+      "bytes": 5515,
+      "sha256": "6fddc0d92c16502b10a16691d22c6842b30c1346ee9afa2c0a7ec8551e62e9c2"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/luna-contact.jpg",
+      "bytes": 420349,
+      "sha256": "8867315ae59fc6fd5e03c6d75674795f3a0ba86b252845670d3e201ea9031572"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/luna-run-right.webp",
+      "bytes": 299894,
+      "sha256": "bede152dc2a41c07eb8c55847da31b3cf9dabca6ef50912497404336f2831124"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/luna-failed.webp",
+      "bytes": 320220,
+      "sha256": "f5431d8ac0e4b3cabcd3583f650f49e76cde1818642c64c7072fecfc30331971"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/luna-run-left-strip.webp",
+      "bytes": 266580,
+      "sha256": "e61de7c29e1589005e8571a5227ccef34a688a000350f7a051edd750af1ac4f6"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/sol-run-left-first.png",
+      "bytes": 43445,
+      "sha256": "de599e02b68850f897e5e766e73cc7eb7307f5262f4d3d7413ca22bfd183f147"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/sol-gaze.webp",
+      "bytes": 405850,
+      "sha256": "d521fb3e80e015477cfa0fa89f173a2315e5b8f6e7d80d7c80a31e65f598d06e"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/luna-gaze.webp",
+      "bytes": 408832,
+      "sha256": "dcbfa3eb43283bfca4bcd09ca6484287939a6be6b5e4efc0ff6f5b55cf0ffd54"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/luna-typing-contact.png",
+      "bytes": 141481,
+      "sha256": "052a2a480b0c8bd7d01a7e205893046b845eb81233d3bff12adb0e7b214c08a5"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/sol-failed.webp",
+      "bytes": 315510,
+      "sha256": "d776e8f2442cc56019c5614102ed3a49cc28566c1e30acab3edbc939e44b79f9"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/sol-gaze-first.png",
+      "bytes": 46443,
+      "sha256": "f19dd977a7e739dbd00fc6f2fca2ca0e5871d8e915049eeac3034c7a29e73deb"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/sol-run-right-first.png",
+      "bytes": 43886,
+      "sha256": "bd1e57dbe166bd5f9c8dfc119937436fc1b51e73aa1d7265319d35c58dd003b8"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/luna-run-left.webp",
+      "bytes": 289112,
+      "sha256": "24d31084386a13f0a0755d3891ad6bbbf2fe25fba94a13df3576793e7a3cf60a"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/luna-run-right-strip.webp",
+      "bytes": 273818,
+      "sha256": "4ed9adabdeaf4c5c02e3117cf120db0fe55869145eb99f3868c90d5f53f68be0"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/luna-work-first.png",
+      "bytes": 46440,
+      "sha256": "359879eecec18f9504d7174269ae4d5f7ee678f524e6e1601089c4a3635a8cbe"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/sol-run-left.webp",
+      "bytes": 294092,
+      "sha256": "74731d1ab8464f685e33d4cc3fe50a647a3c063831923efa9134cf5a68a4605a"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/sol-gaze-strip.webp",
+      "bytes": 364274,
+      "sha256": "463d805656d958f0e8b940d2fd6cfed3916020cf9c422228cdd30dd0494d9f94"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/luna-idle-first.png",
+      "bytes": 47491,
+      "sha256": "c0839ac6d4fde78d430966c3d1691567f485c3fdbad86e0b7a64a2d8e99d0b25"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/sol-face-consistency.png",
+      "bytes": 354423,
+      "sha256": "4b1f635c7bcbbf6b9da6df597a4d4b97a1813d6cd2a8dee9668c922fe4ca2e16"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/luna-idle-strip.webp",
+      "bytes": 177994,
+      "sha256": "24242bec4d66c68dea17ab8b4c719473572dcddabb6a4dd0c29df54ba54f08a3"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/sol-contact.jpg",
+      "bytes": 443094,
+      "sha256": "0fd25379cc7278adf9e8fbe3ea5d77df231ee276a906913e0ce05ff48f66d6bc"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/sol-work-strip.webp",
+      "bytes": 154046,
+      "sha256": "eb6bf36222c5d7a209012236d8d5412ca7cf1689fb30aabc33b009bdecf839c9"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/luna-failed-strip.webp",
+      "bytes": 262336,
+      "sha256": "f4cf66d39f9de1aa9003667a0dd3536a524a5ff49637d46c6d041822a669907c"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/luna-face-consistency.png",
+      "bytes": 358102,
+      "sha256": "b845d6232d5c040739d86b505a61c084ac22d1a29bafb30046c6acff365d7342"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/sol-run-left-strip.webp",
+      "bytes": 268712,
+      "sha256": "d5fb5d1c6761ade20e1db90f12393f1cfb252e1deba93633519204be602712ce"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/luna-work.webp",
+      "bytes": 199396,
+      "sha256": "b5777f081588724af3a82999e10219a9ba447a0e87167808030196bfe5f3755f"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/luna-idle.webp",
+      "bytes": 228272,
+      "sha256": "53f43caa33cf2bb1ceb8321788ed14b8b9e2881308eaf333aa9ccc9cc0605e51"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/sol-gaze-contact.jpg",
+      "bytes": 314129,
+      "sha256": "690dc03031c838b709b5f0a5fa36a0ea53cdea670c95d8752158a55d2c84be6b"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/sol-failed-first.png",
+      "bytes": 46348,
+      "sha256": "d4359128c50d1a305d0c01558e8115cc19c7723cc5497959b34e4bf696c0648c"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/sol-typing-contact.png",
+      "bytes": 154295,
+      "sha256": "4b9f39471493766650de68834ceebfefb26cf03bae6741fc5a7391438d022150"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/data.js",
+      "bytes": 2278,
+      "sha256": "5e65562e1338fdd94187d147fc578821cd2f737cb1030ab2e2e4241093bde8b9"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/sol-run-right.webp",
+      "bytes": 295882,
+      "sha256": "dd084a702a555e0a043e958b5f84760fb3f9727a61d58f32fcbaa950646e322b"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/sol-run-right-strip.webp",
+      "bytes": 269928,
+      "sha256": "2b3e4b27735dedfa93412cd1788d819dcd66742440a1f5d6c9d22ba429678a3d"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/native-size-review.png",
+      "bytes": 151098,
+      "sha256": "e81a2557436200a5941e8c29ebad5ef8ea2116ca73d3c3a8f4e13270909e172d"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/luna-gaze-first.png",
+      "bytes": 47549,
+      "sha256": "c8c520fc94d2b7d760d75e51c5320daac92f843cb26d68a2a8da8a0d5bc45e30"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/luna-run-left-first.png",
+      "bytes": 43779,
+      "sha256": "c281f301524b05a494ee1eaade820148a96b1fe1feda5048dbe3325a9ff12799"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/sol-work-first.png",
+      "bytes": 50490,
+      "sha256": "f219c64185ff3c12e9b3298a70b6ac3700d864abd93d649b927ce90fe9cc991f"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/luna-gaze-strip.webp",
+      "bytes": 360418,
+      "sha256": "b4bc147c2ad0bafc075a95767a748e43a7ff95fff743973ed101e33246533e33"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/sol-idle-first.png",
+      "bytes": 46348,
+      "sha256": "d4359128c50d1a305d0c01558e8115cc19c7723cc5497959b34e4bf696c0648c"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/sol-idle.webp",
+      "bytes": 233062,
+      "sha256": "c3e85c0cd17ea48485678be11e26c3025c1850bab865a475d33398f5828df8fe"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/sol-work.webp",
+      "bytes": 213788,
+      "sha256": "85c4ab2e100b61518821a90a053ad846a99cc7243b41380cd2b5ef8076d67746"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/sol-failed-strip.webp",
+      "bytes": 252858,
+      "sha256": "365c1f5c967ed134b151c397caaf35e1bb9b68a4a1d4ac8b2e3219a2ad214f25"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/sol-idle-strip.webp",
+      "bytes": 215062,
+      "sha256": "b2bbddddd5b5cc33811a6d2e866a55572c3c64330fdf050fbc7edc51d160ac99"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/luna-run-right-first.png",
+      "bytes": 46269,
+      "sha256": "96fcc40179a22ff66f9a5a3990aa8b317e95391cdf011a0b8e395d4f21e644e6"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/luna-failed-first.png",
+      "bytes": 47491,
+      "sha256": "c0839ac6d4fde78d430966c3d1691567f485c3fdbad86e0b7a64a2d8e99d0b25"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/luna-work-strip.webp",
+      "bytes": 131250,
+      "sha256": "b3e441d31ccbcce32611310849c736187143229abaece8134df9a6a8d8b1451e"
+    },
+    {
+      "path": "sol-luna-review-v7/预览/luna-gaze-contact.jpg",
+      "bytes": 313096,
+      "sha256": "8c1a8e04bf8bb21b1bfa3fa3d25005a814224c7a680e2167aad688ec53e740ba"
+    },
+    {
+      "path": "sol-luna-review-v7/素材/luna-work-4.png",
+      "bytes": 74281,
+      "sha256": "f46a5eef80dc1bfae5721724089d447fd03bf35c155562b6da810f96739ad0dd"
+    },
+    {
+      "path": "sol-luna-review-v7/素材/luna-work-5.png",
+      "bytes": 74572,
+      "sha256": "22f5f66a808244269880aed0664c30e4576c497ffaef16ad3e570b56ba1ad673"
+    },
+    {
+      "path": "sol-luna-review-v7/素材/luna-work-1.png",
+      "bytes": 74824,
+      "sha256": "36dcc9b04c6e440244fcecc511004aa50e74d9abc16c86186bf5cfbde6f9e14a"
+    },
+    {
+      "path": "sol-luna-review-v7/素材/luna-work-0.png",
+      "bytes": 74572,
+      "sha256": "22f5f66a808244269880aed0664c30e4576c497ffaef16ad3e570b56ba1ad673"
+    },
+    {
+      "path": "sol-luna-review-v7/素材/luna-work-2.png",
+      "bytes": 73577,
+      "sha256": "2701a5adba4f2b747a8a643914a67ffd0bfa2056f9155f139a35a9d9ab9ebdcd"
+    },
+    {
+      "path": "sol-luna-review-v7/素材/luna-work-3.png",
+      "bytes": 74102,
+      "sha256": "b6d663f08081612e715821a73f641b63726042b7263b8dc4d4e47baac0768aee"
+    },
+    {
+      "path": "sol-luna-review-v7/素材/sol-work-1.png",
+      "bytes": 81824,
+      "sha256": "16d652d3934d2bb0913cbb20979a96c6c385196fa9eec861315dec986c6bad4e"
+    },
+    {
+      "path": "sol-luna-review-v7/素材/sol-work-0.png",
+      "bytes": 81479,
+      "sha256": "29a92c632798c89eaa63ea1a7ecde348092adcd18cc76de1fdb7d9aaa1abe854"
+    },
+    {
+      "path": "sol-luna-review-v7/素材/sol-work-2.png",
+      "bytes": 83539,
+      "sha256": "2161b0743126fa2059f2b90f48a17f860d5825bbe41d2530b8788a8d951d4916"
+    },
+    {
+      "path": "sol-luna-review-v7/素材/sol-work-3.png",
+      "bytes": 79900,
+      "sha256": "bd00f3c9b11a861a5e22d17e5d4de2a12857fa59002a9f3d7f188685a52cdf0a"
+    },
+    {
+      "path": "sol-luna-review-v7/素材/sol-work-4.png",
+      "bytes": 80243,
+      "sha256": "033a9bfda36585b75c9cf43cf53ff2786431c7735c245c016bd0aa80eff86fe6"
+    },
+    {
+      "path": "sol-luna-review-v7/素材/sol-work-5.png",
+      "bytes": 81479,
+      "sha256": "29a92c632798c89eaa63ea1a7ecde348092adcd18cc76de1fdb7d9aaa1abe854"
+    },
+    {
+      "path": "sol-luna-review-v7/素材/sol-approved-reference.png",
+      "bytes": 150178,
+      "sha256": "890209971d7820b6140760f485d7a6da98bcdd0e319d2e3718d2370489223a80"
+    },
+    {
+      "path": "sol-luna-review-v7/素材/approved-models.png",
+      "bytes": 260465,
+      "sha256": "b7a71325ab7a7ddf57b002a573af49b8ae1b84402c476b829da45f2ab33924f9"
+    },
+    {
+      "path": "sol-luna-review-v7/素材/luna-approved-reference.png",
+      "bytes": 148396,
+      "sha256": "5b23a397553b34f64fc07f7cb10ea98963ecff1048e4a2991a1a6c55e2882d8a"
+    },
+    {
+      "path": "sol-luna-review-v7/drafts/thinking-to-typing-v6/luna-thinking.webp",
+      "bytes": 112946,
+      "sha256": "023da7b15bd7fb8d9e74cb87e5b60e3afd670feb9c608eb8d1b69edaf7c6dcf1"
+    },
+    {
+      "path": "sol-luna-review-v7/drafts/thinking-to-typing-v6/archive.json",
+      "bytes": 1307,
+      "sha256": "ac1955866e8f422c580b0185171f32724a9cccf8dbc077bc8a4cf6875dc07cd4"
+    },
+    {
+      "path": "sol-luna-review-v7/drafts/thinking-to-typing-v6/luna-thinking-first.png",
+      "bytes": 46654,
+      "sha256": "e588d7c7be056bc79bb378700135bbd36d4f59e95479f8cbe50feab58e240373"
+    },
+    {
+      "path": "sol-luna-review-v7/drafts/thinking-to-typing-v6/sol-thinking.webp",
+      "bytes": 126998,
+      "sha256": "e5be58d226756fbd2612d420d521ea63311c439ccccd07109286f28137a24f2a"
+    },
+    {
+      "path": "sol-luna-review-v7/drafts/thinking-to-typing-v6/luna-work-first.png",
+      "bytes": 46440,
+      "sha256": "359879eecec18f9504d7174269ae4d5f7ee678f524e6e1601089c4a3635a8cbe"
+    },
+    {
+      "path": "sol-luna-review-v7/drafts/thinking-to-typing-v6/luna-thinking-strip.webp",
+      "bytes": 70990,
+      "sha256": "fb68eaada48827016d0d2f51ab05c401cf00f3b836178eaccfc821b343576a87"
+    },
+    {
+      "path": "sol-luna-review-v7/drafts/thinking-to-typing-v6/preview-data.json",
+      "bytes": 1267,
+      "sha256": "f59c2d444fa0811599e8da78b67fe00e8eb35f657c67e6fa5a30c47fc2c45f91"
+    },
+    {
+      "path": "sol-luna-review-v7/drafts/thinking-to-typing-v6/sol-work-strip.webp",
+      "bytes": 199810,
+      "sha256": "ca10114aae6c044292e952469d373bd867e8376338506efd8bc04299217c875c"
+    },
+    {
+      "path": "sol-luna-review-v7/drafts/thinking-to-typing-v6/README.md",
+      "bytes": 359,
+      "sha256": "ea2344b4e1047d7804cde34eabd31ebe683881f8fddb445064dd85c0cc4dc30a"
+    },
+    {
+      "path": "sol-luna-review-v7/drafts/thinking-to-typing-v6/luna-work.webp",
+      "bytes": 227160,
+      "sha256": "ba689c3ae7015b30431f3c1ff0afe5bd5d1a5e281acd6cbd1a9e5eab47344b34"
+    },
+    {
+      "path": "sol-luna-review-v7/drafts/thinking-to-typing-v6/sol-thinking-strip.webp",
+      "bytes": 81276,
+      "sha256": "41b4b7cb30771cfa899086ff47d67a7bf7b0841cb5750e74e329f58a89d03894"
+    },
+    {
+      "path": "sol-luna-review-v7/drafts/thinking-to-typing-v6/sol-work-first.png",
+      "bytes": 50490,
+      "sha256": "f219c64185ff3c12e9b3298a70b6ac3700d864abd93d649b927ce90fe9cc991f"
+    },
+    {
+      "path": "sol-luna-review-v7/drafts/thinking-to-typing-v6/sol-work.webp",
+      "bytes": 255178,
+      "sha256": "3c284587a7f9800d9183d90d2c08c707d9863ba4aba03fc10b376b13daea858c"
+    },
+    {
+      "path": "sol-luna-review-v7/drafts/thinking-to-typing-v6/luna-work-strip.webp",
+      "bytes": 174274,
+      "sha256": "0c94fc3d4cf187b3af90ce36573cb0af05279d5cb1ecbfd5365d7678f3d28379"
+    },
+    {
+      "path": "sol-luna-review-v7/drafts/thinking-to-typing-v6/sol-thinking-first.png",
+      "bytes": 50772,
+      "sha256": "ff8c743b238a1fdd184b448c4052307c5d91765e324d7fd81f442cef7d40fce1"
+    },
+    {
+      "path": "sol-luna-review-v8/review.css",
+      "bytes": 3457,
+      "sha256": "0c4e717a671a3a7f9560875dcb1020702f9e23f13c533bf5d6f8d4ad6806e37b"
+    },
+    {
+      "path": "sol-luna-review-v8/review.js",
+      "bytes": 5548,
+      "sha256": "224b488ab2b0f22d675f78c3b07cfffb7d67ce25d066d69f5a25218c806cd1c9"
+    },
+    {
+      "path": "sol-luna-review-v8/index.html",
+      "bytes": 14049,
+      "sha256": "c0add5d5f30deb037efb8b87da48131c43b8f49cf1fe7c28f9e8776906e59c77"
+    },
+    {
+      "path": "sol-luna-review-v8/README.md",
+      "bytes": 2374,
+      "sha256": "6414f2aa542fd40d19d24560de25328424026d79133755f98b2f5c970ea117a5"
+    },
+    {
+      "path": "sol-luna-review-v8/SHA256SUMS.txt",
+      "bytes": 7648,
+      "sha256": "b07a8dc833d579170730aa0691607ad7137907942e967cf0d07851c10769285c"
+    },
+    {
+      "path": "sol-luna-review-v8/制作记录/rig-parameters.json",
+      "bytes": 25713,
+      "sha256": "b4021d0ea36c4483f1cdb69635efe2142a37328d869cb8bde642c2e09a44b73e"
+    },
+    {
+      "path": "sol-luna-review-v8/制作记录/preview-script-checks.json",
+      "bytes": 430,
+      "sha256": "52f01a8dcfb09bdbb96964018ad4d83ff34229e92992f2aef6ab5f60e9ae1018"
+    },
+    {
+      "path": "sol-luna-review-v8/制作记录/build_v8.py",
+      "bytes": 7124,
+      "sha256": "86bfaef938806dfb88e88501520e02aa830208b67766838228704855de35c023"
+    },
+    {
+      "path": "sol-luna-review-v8/制作记录/sol-eye-anchor-check.png",
+      "bytes": 413016,
+      "sha256": "2477b4539652f460ccb21b2263ac5c130c74e5522a8dfb86b88282d14686ba3a"
+    },
+    {
+      "path": "sol-luna-review-v8/制作记录/check_preview.cjs",
+      "bytes": 4671,
+      "sha256": "b10a4531f767201fcb6449766263bd8400c47a9a738a8bb0e5ea5dea38302c7b"
+    },
+    {
+      "path": "sol-luna-review-v8/制作记录/preview-data.json",
+      "bytes": 3367,
+      "sha256": "029f610bad5b019b1ec82e78ccd2adc9b2935a1f7445f821348e4dfe1a24ad1f"
+    },
+    {
+      "path": "sol-luna-review-v8/制作记录/validation.json",
+      "bytes": 18778,
+      "sha256": "5155dcc050fe576158af753afc9096d26e0c34a58b4341c99506fb96c850c4dd"
+    },
+    {
+      "path": "sol-luna-review-v8/制作记录/v6-before.json",
+      "bytes": 14812,
+      "sha256": "784485a89f6a7a6191db32bdc97ff7d30c9b439caf085ab000144085ae537938"
+    },
+    {
+      "path": "sol-luna-review-v8/制作记录/luna-eye-anchor-check.png",
+      "bytes": 426307,
+      "sha256": "83ba8471dd4c86f872a5aefb3e12af6084b418e5c19b4c9e911040da9c7aeb9f"
+    },
+    {
+      "path": "sol-luna-review-v8/制作记录/update_page.py",
+      "bytes": 4754,
+      "sha256": "eb55d94802f06e9bef9dfc8ac2f910bbc942fc8a81b093f44034c6d356fda54b"
+    },
+    {
+      "path": "sol-luna-review-v8/制作记录/REVIEW.md",
+      "bytes": 3441,
+      "sha256": "5f9a5e3122eb8d2c3a3ebbe317d37e0b1519d0921d6efa9605e1ad640dc78fd6"
+    },
+    {
+      "path": "sol-luna-review-v8/制作记录/validate_v8.py",
+      "bytes": 5116,
+      "sha256": "7eeede8135d8a4187154ec4c5f8bcc3ca7c08fe0a26c538226d4fbc707d02e0d"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/luna-contact.jpg",
+      "bytes": 417465,
+      "sha256": "5d139445508e65de091394044e22401854c1a8bf624af8a8cdabcc36ee4a3a70"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/luna-run-right.webp",
+      "bytes": 299894,
+      "sha256": "bede152dc2a41c07eb8c55847da31b3cf9dabca6ef50912497404336f2831124"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/luna-failed.webp",
+      "bytes": 320220,
+      "sha256": "f5431d8ac0e4b3cabcd3583f650f49e76cde1818642c64c7072fecfc30331971"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/luna-run-left-strip.webp",
+      "bytes": 266580,
+      "sha256": "e61de7c29e1589005e8571a5227ccef34a688a000350f7a051edd750af1ac4f6"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/sol-run-left-first.png",
+      "bytes": 43445,
+      "sha256": "de599e02b68850f897e5e766e73cc7eb7307f5262f4d3d7413ca22bfd183f147"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/sol-gaze.webp",
+      "bytes": 579592,
+      "sha256": "571fa86135f9fdd68c087f88cf1cf79db7c1cc011eef6f07790ad5d90a6b29cc"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/luna-gaze.webp",
+      "bytes": 593468,
+      "sha256": "2c924880597f21e6d6a7725ee12b9e84b8be1ffb1a7508e23e9d766f8244bfb9"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/luna-typing-contact.png",
+      "bytes": 152613,
+      "sha256": "dc3ec53bd4fb5bcfeb6977b09f82ccc4db00180a2ffdebc703cf13e2f2808651"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/sol-failed.webp",
+      "bytes": 315510,
+      "sha256": "d776e8f2442cc56019c5614102ed3a49cc28566c1e30acab3edbc939e44b79f9"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/sol-gaze-first.png",
+      "bytes": 46766,
+      "sha256": "70a2331669575653e098f76d30e07dfeae9dac57c9f7f95520ecd54c08b2075a"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/luna-v6-v8-gaze.png",
+      "bytes": 1249014,
+      "sha256": "380015b6d77a287881c409acca69fb5e6042242d8e1b4f0950da7744b187735d"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/sol-run-right-first.png",
+      "bytes": 43886,
+      "sha256": "bd1e57dbe166bd5f9c8dfc119937436fc1b51e73aa1d7265319d35c58dd003b8"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/luna-run-left.webp",
+      "bytes": 289112,
+      "sha256": "24d31084386a13f0a0755d3891ad6bbbf2fe25fba94a13df3576793e7a3cf60a"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/luna-run-right-strip.webp",
+      "bytes": 273818,
+      "sha256": "4ed9adabdeaf4c5c02e3117cf120db0fe55869145eb99f3868c90d5f53f68be0"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/luna-work-first.png",
+      "bytes": 46440,
+      "sha256": "359879eecec18f9504d7174269ae4d5f7ee678f524e6e1601089c4a3635a8cbe"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/sol-run-left.webp",
+      "bytes": 294092,
+      "sha256": "74731d1ab8464f685e33d4cc3fe50a647a3c063831923efa9134cf5a68a4605a"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/sol-gaze-strip.webp",
+      "bytes": 529486,
+      "sha256": "a7f8a3a7ef6c7cb04a3219781207410d0508e781d0d2d0658f3ec9b5389f0663"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/luna-idle-first.png",
+      "bytes": 47491,
+      "sha256": "c0839ac6d4fde78d430966c3d1691567f485c3fdbad86e0b7a64a2d8e99d0b25"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/luna-idle-strip.webp",
+      "bytes": 177994,
+      "sha256": "24242bec4d66c68dea17ab8b4c719473572dcddabb6a4dd0c29df54ba54f08a3"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/sol-contact.jpg",
+      "bytes": 441218,
+      "sha256": "3ddd982bfa160fe38243a7b214f5cbee37443e144a2d2dbfd45816eed63c8891"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/sol-work-strip.webp",
+      "bytes": 164264,
+      "sha256": "5ec79fed5a606802856f6d567796aa878f7f4dc84deb68e9bd813e2381c95e6b"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/luna-failed-strip.webp",
+      "bytes": 262336,
+      "sha256": "f4cf66d39f9de1aa9003667a0dd3536a524a5ff49637d46c6d041822a669907c"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/sol-run-left-strip.webp",
+      "bytes": 268712,
+      "sha256": "d5fb5d1c6761ade20e1db90f12393f1cfb252e1deba93633519204be602712ce"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/luna-work.webp",
+      "bytes": 199694,
+      "sha256": "c9b36e69103ec90a268b93b93d90cafe967421dca70e3ae6358c51918a75a690"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/luna-idle.webp",
+      "bytes": 228272,
+      "sha256": "53f43caa33cf2bb1ceb8321788ed14b8b9e2881308eaf333aa9ccc9cc0605e51"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/sol-gaze-contact.jpg",
+      "bytes": 302091,
+      "sha256": "3250af6d9c492c3ab35ce60c3822cc8480d261422f9d1c40771dcbefec723a2b"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/sol-failed-first.png",
+      "bytes": 46348,
+      "sha256": "d4359128c50d1a305d0c01558e8115cc19c7723cc5497959b34e4bf696c0648c"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/sol-typing-contact.png",
+      "bytes": 166827,
+      "sha256": "c64f837f39b8464c0538a11aa7c6591cb15f173ff6739d2e87d7542fc1eb2c1d"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/data.js",
+      "bytes": 2274,
+      "sha256": "51dfd0ce8161ef2b0efce6707e007b6069f6196dfa21732e3755dc8e6bb4b1ac"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/sol-run-right.webp",
+      "bytes": 295882,
+      "sha256": "dd084a702a555e0a043e958b5f84760fb3f9727a61d58f32fcbaa950646e322b"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/sol-run-right-strip.webp",
+      "bytes": 269928,
+      "sha256": "2b3e4b27735dedfa93412cd1788d819dcd66742440a1f5d6c9d22ba429678a3d"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/luna-gaze-first.png",
+      "bytes": 49188,
+      "sha256": "2e8c1cfabdfbca14178bcbc5a3e15c3e4b880719814784ca103de56ca77a5f1d"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/luna-run-left-first.png",
+      "bytes": 43779,
+      "sha256": "c281f301524b05a494ee1eaade820148a96b1fe1feda5048dbe3325a9ff12799"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/sol-v6-v8-gaze.png",
+      "bytes": 1201788,
+      "sha256": "48dfc817d8b12c6126b935825c760ff8cd35958815014db89e94f2ab98de00b0"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/sol-work-first.png",
+      "bytes": 50490,
+      "sha256": "f219c64185ff3c12e9b3298a70b6ac3700d864abd93d649b927ce90fe9cc991f"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/luna-gaze-strip.webp",
+      "bytes": 550278,
+      "sha256": "dc28b41a894c726a53cc9d38615faccce1ccc11ab544394d221adaff044a4116"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/sol-idle-first.png",
+      "bytes": 46348,
+      "sha256": "d4359128c50d1a305d0c01558e8115cc19c7723cc5497959b34e4bf696c0648c"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/sol-idle.webp",
+      "bytes": 233062,
+      "sha256": "c3e85c0cd17ea48485678be11e26c3025c1850bab865a475d33398f5828df8fe"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/sol-work.webp",
+      "bytes": 217292,
+      "sha256": "6094db45a70155d1aa67e55b5dc32c187ea812e30b872d2468b8a33aeedbeee5"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/sol-failed-strip.webp",
+      "bytes": 252858,
+      "sha256": "365c1f5c967ed134b151c397caaf35e1bb9b68a4a1d4ac8b2e3219a2ad214f25"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/sol-idle-strip.webp",
+      "bytes": 215062,
+      "sha256": "b2bbddddd5b5cc33811a6d2e866a55572c3c64330fdf050fbc7edc51d160ac99"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/luna-run-right-first.png",
+      "bytes": 46269,
+      "sha256": "96fcc40179a22ff66f9a5a3990aa8b317e95391cdf011a0b8e395d4f21e644e6"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/luna-failed-first.png",
+      "bytes": 47491,
+      "sha256": "c0839ac6d4fde78d430966c3d1691567f485c3fdbad86e0b7a64a2d8e99d0b25"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/luna-work-strip.webp",
+      "bytes": 147886,
+      "sha256": "ee3ab5b2d89eb80f2150095964a690aea9cbfcd1c23a4d26be439d1f3db201e5"
+    },
+    {
+      "path": "sol-luna-review-v8/预览/luna-gaze-contact.jpg",
+      "bytes": 306047,
+      "sha256": "fd74e4c4155a4520be631b82e54ffe92b30b67abda87cbd9badd3ab74848bec4"
+    },
+    {
+      "path": "sol-luna-review-v8/素材/sol-approved-reference.png",
+      "bytes": 150178,
+      "sha256": "890209971d7820b6140760f485d7a6da98bcdd0e319d2e3718d2370489223a80"
+    },
+    {
+      "path": "sol-luna-review-v8/素材/approved-models.png",
+      "bytes": 260465,
+      "sha256": "b7a71325ab7a7ddf57b002a573af49b8ae1b84402c476b829da45f2ab33924f9"
+    },
+    {
+      "path": "sol-luna-review-v8/素材/luna-approved-reference.png",
+      "bytes": 148396,
+      "sha256": "5b23a397553b34f64fc07f7cb10ea98963ecff1048e4a2991a1a6c55e2882d8a"
+    },
+    {
+      "path": "sol-luna-review-v8/drafts/thinking-to-typing-v6/luna-thinking.webp",
+      "bytes": 112946,
+      "sha256": "023da7b15bd7fb8d9e74cb87e5b60e3afd670feb9c608eb8d1b69edaf7c6dcf1"
+    },
+    {
+      "path": "sol-luna-review-v8/drafts/thinking-to-typing-v6/archive.json",
+      "bytes": 1307,
+      "sha256": "ac1955866e8f422c580b0185171f32724a9cccf8dbc077bc8a4cf6875dc07cd4"
+    },
+    {
+      "path": "sol-luna-review-v8/drafts/thinking-to-typing-v6/luna-thinking-first.png",
+      "bytes": 46654,
+      "sha256": "e588d7c7be056bc79bb378700135bbd36d4f59e95479f8cbe50feab58e240373"
+    },
+    {
+      "path": "sol-luna-review-v8/drafts/thinking-to-typing-v6/sol-thinking.webp",
+      "bytes": 126998,
+      "sha256": "e5be58d226756fbd2612d420d521ea63311c439ccccd07109286f28137a24f2a"
+    },
+    {
+      "path": "sol-luna-review-v8/drafts/thinking-to-typing-v6/luna-work-first.png",
+      "bytes": 46440,
+      "sha256": "359879eecec18f9504d7174269ae4d5f7ee678f524e6e1601089c4a3635a8cbe"
+    },
+    {
+      "path": "sol-luna-review-v8/drafts/thinking-to-typing-v6/luna-thinking-strip.webp",
+      "bytes": 70990,
+      "sha256": "fb68eaada48827016d0d2f51ab05c401cf00f3b836178eaccfc821b343576a87"
+    },
+    {
+      "path": "sol-luna-review-v8/drafts/thinking-to-typing-v6/preview-data.json",
+      "bytes": 1267,
+      "sha256": "f59c2d444fa0811599e8da78b67fe00e8eb35f657c67e6fa5a30c47fc2c45f91"
+    },
+    {
+      "path": "sol-luna-review-v8/drafts/thinking-to-typing-v6/sol-work-strip.webp",
+      "bytes": 199810,
+      "sha256": "ca10114aae6c044292e952469d373bd867e8376338506efd8bc04299217c875c"
+    },
+    {
+      "path": "sol-luna-review-v8/drafts/thinking-to-typing-v6/README.md",
+      "bytes": 359,
+      "sha256": "ea2344b4e1047d7804cde34eabd31ebe683881f8fddb445064dd85c0cc4dc30a"
+    },
+    {
+      "path": "sol-luna-review-v8/drafts/thinking-to-typing-v6/luna-work.webp",
+      "bytes": 227160,
+      "sha256": "ba689c3ae7015b30431f3c1ff0afe5bd5d1a5e281acd6cbd1a9e5eab47344b34"
+    },
+    {
+      "path": "sol-luna-review-v8/drafts/thinking-to-typing-v6/sol-thinking-strip.webp",
+      "bytes": 81276,
+      "sha256": "41b4b7cb30771cfa899086ff47d67a7bf7b0841cb5750e74e329f58a89d03894"
+    },
+    {
+      "path": "sol-luna-review-v8/drafts/thinking-to-typing-v6/sol-work-first.png",
+      "bytes": 50490,
+      "sha256": "f219c64185ff3c12e9b3298a70b6ac3700d864abd93d649b927ce90fe9cc991f"
+    },
+    {
+      "path": "sol-luna-review-v8/drafts/thinking-to-typing-v6/sol-work.webp",
+      "bytes": 255178,
+      "sha256": "3c284587a7f9800d9183d90d2c08c707d9863ba4aba03fc10b376b13daea858c"
+    },
+    {
+      "path": "sol-luna-review-v8/drafts/thinking-to-typing-v6/luna-work-strip.webp",
+      "bytes": 174274,
+      "sha256": "0c94fc3d4cf187b3af90ce36573cb0af05279d5cb1ecbfd5365d7678f3d28379"
+    },
+    {
+      "path": "sol-luna-review-v8/drafts/thinking-to-typing-v6/sol-thinking-first.png",
+      "bytes": 50772,
+      "sha256": "ff8c743b238a1fdd184b448c4052307c5d91765e324d7fd81f442cef7d40fce1"
+    },
+    {
+      "path": "sol-luna-review-v9/review.css",
+      "bytes": 3457,
+      "sha256": "0c4e717a671a3a7f9560875dcb1020702f9e23f13c533bf5d6f8d4ad6806e37b"
+    },
+    {
+      "path": "sol-luna-review-v9/review.js",
+      "bytes": 5277,
+      "sha256": "bb0ffa349cfe011b5e008a78f7b58e3d934de1ffba83918097d601dd4ae62dca"
+    },
+    {
+      "path": "sol-luna-review-v9/index.html",
+      "bytes": 15198,
+      "sha256": "939e637eb1365fbf60a5100c234cb7d86114f5495f9ad77ec0daeef242d5b3a3"
+    },
+    {
+      "path": "sol-luna-review-v9/README.md",
+      "bytes": 1645,
+      "sha256": "9d22b6f936e0eefa68f230226a1ccd0314d1afce67901f63cb7d8989b19cee52"
+    },
+    {
+      "path": "sol-luna-review-v9/SHA256SUMS.txt",
+      "bytes": 7341,
+      "sha256": "5c5b04ff34f60a17957ea3a37bf8389471a1fe94025038ff68dad7bc27599409"
+    },
+    {
+      "path": "sol-luna-review-v9/制作记录/preview-script-checks.json",
+      "bytes": 430,
+      "sha256": "52f01a8dcfb09bdbb96964018ad4d83ff34229e92992f2aef6ab5f60e9ae1018"
+    },
+    {
+      "path": "sol-luna-review-v9/制作记录/build_v9.py",
+      "bytes": 5047,
+      "sha256": "bbed3ee0ff12f9dd859757806a7e14118dc1583cb450c6647cdbed293b5cfeee"
+    },
+    {
+      "path": "sol-luna-review-v9/制作记录/luna-generated-v1-bg.jpg",
+      "bytes": 617375,
+      "sha256": "870a1c05f85d2afc625bfa265ccb1171cb0001ba1612e2ba3dbd045cf41f2376"
+    },
+    {
+      "path": "sol-luna-review-v9/制作记录/version-decision.json",
+      "bytes": 448,
+      "sha256": "35793a18bccac0d74a8cdc9d42a74830eab4187919dfd4c157d536a9ac149bba"
+    },
+    {
+      "path": "sol-luna-review-v9/制作记录/check_preview.cjs",
+      "bytes": 4242,
+      "sha256": "a4776b71b0b888914964608f42279e6a69ab7b157e7f300aa12a80d7fbb8be4d"
+    },
+    {
+      "path": "sol-luna-review-v9/制作记录/preview-data.json",
+      "bytes": 4565,
+      "sha256": "ca2da743abf0a374ee1d7f1bdb87ea0a352b8c22939921023031cc8b4f751df5"
+    },
+    {
+      "path": "sol-luna-review-v9/制作记录/sol-generated-v1-bg.jpg",
+      "bytes": 589552,
+      "sha256": "3e354b58b1aee9e288b64c9485844981ea746f3f1bf6d847c269bee58836eb14"
+    },
+    {
+      "path": "sol-luna-review-v9/制作记录/validation.json",
+      "bytes": 2800,
+      "sha256": "b5755dc83c0e2da5a04032f218d3c713ecac4e23fccbe373c09d528455ecad45"
+    },
+    {
+      "path": "sol-luna-review-v9/制作记录/v6-before.json",
+      "bytes": 14813,
+      "sha256": "a42a81d2296a0777c80b12534a4eed2d178accc8ccf31d8f24a67fb947d55b66"
+    },
+    {
+      "path": "sol-luna-review-v9/制作记录/update_page.py",
+      "bytes": 5332,
+      "sha256": "c711b1212ebfa87a6e719bf54cca176b338aa1e470c1d03209f3074f761c02f2"
+    },
+    {
+      "path": "sol-luna-review-v9/制作记录/extraction.json",
+      "bytes": 23911,
+      "sha256": "3efc4a17aa43892638925c598c65e3483f8e5eec276753b37a6eeadb28a8a176"
+    },
+    {
+      "path": "sol-luna-review-v9/制作记录/REVIEW.md",
+      "bytes": 4019,
+      "sha256": "0467a13c881f2f64ddd4d4fb5656959289dce4ba0be747da08852142e7523838"
+    },
+    {
+      "path": "sol-luna-review-v9/制作记录/validate_v9.py",
+      "bytes": 3129,
+      "sha256": "498dde86ea7bc60ca8cb758276e7118668e929d8646841b46a01f98a9289a9ac"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/luna-thinking.webp",
+      "bytes": 112946,
+      "sha256": "023da7b15bd7fb8d9e74cb87e5b60e3afd670feb9c608eb8d1b69edaf7c6dcf1"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/v6-native-size-check.png",
+      "bytes": 509777,
+      "sha256": "e39c1ec64221603fd9cc17a25976e23044f7ddea77ad4077aeab4541e4a4dc72"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/luna-contact.jpg",
+      "bytes": 530812,
+      "sha256": "db5d88369cc4490709012b479a1cce6348274c4c775c6690297d33623754c3a1"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/luna-thinking-first.png",
+      "bytes": 46654,
+      "sha256": "e588d7c7be056bc79bb378700135bbd36d4f59e95479f8cbe50feab58e240373"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/luna-run-right.webp",
+      "bytes": 299894,
+      "sha256": "bede152dc2a41c07eb8c55847da31b3cf9dabca6ef50912497404336f2831124"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/luna-failed.webp",
+      "bytes": 320220,
+      "sha256": "f5431d8ac0e4b3cabcd3583f650f49e76cde1818642c64c7072fecfc30331971"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/luna-run-left-strip.webp",
+      "bytes": 266580,
+      "sha256": "e61de7c29e1589005e8571a5227ccef34a688a000350f7a051edd750af1ac4f6"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/sol-thinking.webp",
+      "bytes": 126998,
+      "sha256": "e5be58d226756fbd2612d420d521ea63311c439ccccd07109286f28137a24f2a"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/sol-run-left-first.png",
+      "bytes": 43445,
+      "sha256": "de599e02b68850f897e5e766e73cc7eb7307f5262f4d3d7413ca22bfd183f147"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/sol-gaze.webp",
+      "bytes": 645134,
+      "sha256": "e6ffba14672761382422949153a8c606ce3701f5cb42231185b456b70afffad3"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/luna-gaze.webp",
+      "bytes": 655396,
+      "sha256": "3a55bc6c4b5fa9b717f93de137e6214edc4c2c154595297a57945e6e312591dc"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/sol-failed.webp",
+      "bytes": 315510,
+      "sha256": "d776e8f2442cc56019c5614102ed3a49cc28566c1e30acab3edbc939e44b79f9"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/sol-gaze-first.png",
+      "bytes": 50366,
+      "sha256": "994af24e0294a7a0b2079d1f9246eb84d612792adc62f9b527260a3b5b685f13"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/luna-v6-v9-gaze.png",
+      "bytes": 380826,
+      "sha256": "c3eec03113196cb4867ae49526a2fcdb52b07894710457fff95a5d084f765e86"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/sol-run-right-first.png",
+      "bytes": 43886,
+      "sha256": "bd1e57dbe166bd5f9c8dfc119937436fc1b51e73aa1d7265319d35c58dd003b8"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/luna-run-left.webp",
+      "bytes": 289112,
+      "sha256": "24d31084386a13f0a0755d3891ad6bbbf2fe25fba94a13df3576793e7a3cf60a"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/luna-run-right-strip.webp",
+      "bytes": 273818,
+      "sha256": "4ed9adabdeaf4c5c02e3117cf120db0fe55869145eb99f3868c90d5f53f68be0"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/luna-work-first.png",
+      "bytes": 46440,
+      "sha256": "359879eecec18f9504d7174269ae4d5f7ee678f524e6e1601089c4a3635a8cbe"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/sol-run-left.webp",
+      "bytes": 294092,
+      "sha256": "74731d1ab8464f685e33d4cc3fe50a647a3c063831923efa9134cf5a68a4605a"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/sol-gaze-strip.webp",
+      "bytes": 580530,
+      "sha256": "1cd36e5ff8e2cf7358089cb89b99aa2e22c8a9cea5db9c941aaf097756a722c0"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/luna-idle-first.png",
+      "bytes": 47491,
+      "sha256": "c0839ac6d4fde78d430966c3d1691567f485c3fdbad86e0b7a64a2d8e99d0b25"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/luna-thinking-strip.webp",
+      "bytes": 70990,
+      "sha256": "fb68eaada48827016d0d2f51ab05c401cf00f3b836178eaccfc821b343576a87"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/luna-idle-strip.webp",
+      "bytes": 177994,
+      "sha256": "24242bec4d66c68dea17ab8b4c719473572dcddabb6a4dd0c29df54ba54f08a3"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/sol-contact.jpg",
+      "bytes": 556389,
+      "sha256": "21eba1f59c940dffae687bd5b1e263377a0537cc4903aee0ba135bc298c7527a"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/sol-work-strip.webp",
+      "bytes": 199810,
+      "sha256": "ca10114aae6c044292e952469d373bd867e8376338506efd8bc04299217c875c"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/luna-failed-strip.webp",
+      "bytes": 262336,
+      "sha256": "f4cf66d39f9de1aa9003667a0dd3536a524a5ff49637d46c6d041822a669907c"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/sol-run-left-strip.webp",
+      "bytes": 268712,
+      "sha256": "d5fb5d1c6761ade20e1db90f12393f1cfb252e1deba93633519204be602712ce"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/luna-work.webp",
+      "bytes": 227160,
+      "sha256": "ba689c3ae7015b30431f3c1ff0afe5bd5d1a5e281acd6cbd1a9e5eab47344b34"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/luna-idle.webp",
+      "bytes": 228272,
+      "sha256": "53f43caa33cf2bb1ceb8321788ed14b8b9e2881308eaf333aa9ccc9cc0605e51"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/sol-gaze-contact.jpg",
+      "bytes": 320269,
+      "sha256": "398cf4634d729b4d751f9a66e0ccc851430a0257bf20d35b8b986aa6f355a36b"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/sol-failed-first.png",
+      "bytes": 46348,
+      "sha256": "d4359128c50d1a305d0c01558e8115cc19c7723cc5497959b34e4bf696c0648c"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/data.js",
+      "bytes": 3228,
+      "sha256": "fe2476bc05d79530e79259fc8badae9f6d0c7587e11f792a67a08a89718b5833"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/sol-run-right.webp",
+      "bytes": 295882,
+      "sha256": "dd084a702a555e0a043e958b5f84760fb3f9727a61d58f32fcbaa950646e322b"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/sol-run-right-strip.webp",
+      "bytes": 269928,
+      "sha256": "2b3e4b27735dedfa93412cd1788d819dcd66742440a1f5d6c9d22ba429678a3d"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/luna-gaze-first.png",
+      "bytes": 52668,
+      "sha256": "a9cf5d8c4a0795923025ddc8d857de74a8be287c3e789ac6ce65f0dc9ef4a55c"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/sol-thinking-strip.webp",
+      "bytes": 81276,
+      "sha256": "41b4b7cb30771cfa899086ff47d67a7bf7b0841cb5750e74e329f58a89d03894"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/luna-run-left-first.png",
+      "bytes": 43779,
+      "sha256": "c281f301524b05a494ee1eaade820148a96b1fe1feda5048dbe3325a9ff12799"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/sol-v6-v9-gaze.png",
+      "bytes": 380947,
+      "sha256": "316c702da9dc36528de0f2e7fb1044f7847b8173872a5de3435845a55d896d12"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/sol-work-first.png",
+      "bytes": 50490,
+      "sha256": "f219c64185ff3c12e9b3298a70b6ac3700d864abd93d649b927ce90fe9cc991f"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/luna-gaze-strip.webp",
+      "bytes": 596538,
+      "sha256": "b7c7ac7ce9e11618823be3e2cbd357ad0ce0f9f23bf634fe8a38f35a347c1470"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/sol-idle-first.png",
+      "bytes": 46348,
+      "sha256": "d4359128c50d1a305d0c01558e8115cc19c7723cc5497959b34e4bf696c0648c"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/sol-idle.webp",
+      "bytes": 233062,
+      "sha256": "c3e85c0cd17ea48485678be11e26c3025c1850bab865a475d33398f5828df8fe"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/sol-work.webp",
+      "bytes": 255178,
+      "sha256": "3c284587a7f9800d9183d90d2c08c707d9863ba4aba03fc10b376b13daea858c"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/sol-failed-strip.webp",
+      "bytes": 252858,
+      "sha256": "365c1f5c967ed134b151c397caaf35e1bb9b68a4a1d4ac8b2e3219a2ad214f25"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/sol-idle-strip.webp",
+      "bytes": 215062,
+      "sha256": "b2bbddddd5b5cc33811a6d2e866a55572c3c64330fdf050fbc7edc51d160ac99"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/luna-run-right-first.png",
+      "bytes": 46269,
+      "sha256": "96fcc40179a22ff66f9a5a3990aa8b317e95391cdf011a0b8e395d4f21e644e6"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/luna-failed-first.png",
+      "bytes": 47491,
+      "sha256": "c0839ac6d4fde78d430966c3d1691567f485c3fdbad86e0b7a64a2d8e99d0b25"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/luna-work-strip.webp",
+      "bytes": 174274,
+      "sha256": "0c94fc3d4cf187b3af90ce36573cb0af05279d5cb1ecbfd5365d7678f3d28379"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/sol-thinking-first.png",
+      "bytes": 50772,
+      "sha256": "ff8c743b238a1fdd184b448c4052307c5d91765e324d7fd81f442cef7d40fce1"
+    },
+    {
+      "path": "sol-luna-review-v9/预览/luna-gaze-contact.jpg",
+      "bytes": 326847,
+      "sha256": "bb08f595c9577f5329a894c0f9a9146f5d08cce4a396948ce009e89e9122be12"
+    },
+    {
+      "path": "sol-luna-review-v9/素材/sol-gaze-generated-v1.png",
+      "bytes": 2108518,
+      "sha256": "a962b13cb8176a236afb178895ea58e23a326a4775e4f0e0b1b6212dfe135446"
+    },
+    {
+      "path": "sol-luna-review-v9/素材/luna-gaze-generated-lower.png",
+      "bytes": 1926310,
+      "sha256": "6573741cb93e5fa52264f96d0c187cf0e076cd973f07d08e454f2c91a8e4058a"
+    },
+    {
+      "path": "sol-luna-review-v9/素材/sol-gaze-generated-lower.png",
+      "bytes": 1790733,
+      "sha256": "02331e7f47205440acd11f3422776ab9980e4b2114e31affdcbb7ff3757bc59b"
+    },
+    {
+      "path": "sol-luna-review-v9/素材/luna-gaze-generated-v1.png",
+      "bytes": 2271513,
+      "sha256": "da9b8ee5907a0a713ac4f4056135fa2104b4d61b817ed74fa2f7a64517fb4be2"
+    },
+    {
+      "path": "sol-luna-review-v9/素材/sol-approved-reference.png",
+      "bytes": 150178,
+      "sha256": "890209971d7820b6140760f485d7a6da98bcdd0e319d2e3718d2370489223a80"
+    },
+    {
+      "path": "sol-luna-review-v9/素材/approved-models.png",
+      "bytes": 260465,
+      "sha256": "b7a71325ab7a7ddf57b002a573af49b8ae1b84402c476b829da45f2ab33924f9"
+    },
+    {
+      "path": "sol-luna-review-v9/素材/luna-approved-reference.png",
+      "bytes": 148396,
+      "sha256": "5b23a397553b34f64fc07f7cb10ea98963ecff1048e4a2991a1a6c55e2882d8a"
+    },
+    {
+      "path": "sol-luna-review-v9/制作记录/prompts/sol-lower-refinement.txt",
+      "bytes": 2906,
+      "sha256": "81c8dcbc2ec9b3d4f839391e3d4700c2d2a63b6c66da5ea1b865b3fd19577ef2"
+    },
+    {
+      "path": "sol-luna-review-v9/制作记录/prompts/sol-gaze.txt",
+      "bytes": 4005,
+      "sha256": "6a2e112b50fd4d13228978a7ee4cf5c2ed0b099faa43b72ce0bdbb34a3f54b11"
+    },
+    {
+      "path": "sol-luna-review-v9/制作记录/prompts/luna-gaze.txt",
+      "bytes": 4014,
+      "sha256": "d2f28bcb542a2f22036c420e9a6e9c44157e08f86fc418bb6552bc971a24b4fb"
+    },
+    {
+      "path": "sol-luna-review-v9/制作记录/prompts/luna-lower-refinement.txt",
+      "bytes": 2957,
+      "sha256": "ea09e8ee5385af3d7ef906fd9d59bf5076f0c685466fedfd397421e709cd6be7"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5-good-baseline.zip",
+      "bytes": 30044111,
+      "sha256": "9f3dfb12e150239ebea4c546e5d78c5526899dc4a8585c8d9940b88fe684a312"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/snapshot.json",
+      "bytes": 10513,
+      "sha256": "73e51791297dd3d602e6317b4c3775e9a554e8f6afae5935761e187d086a6d5e"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/README.md",
+      "bytes": 673,
+      "sha256": "a22fd65e693366df1dc4b35c3832682ce514d61c5ff0c6f8ec10c9e506900678"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/SHA256SUMS.txt",
+      "bytes": 103,
+      "sha256": "701794a946452ba50b95398098fe60019790e8729e10c0c78e7daa3bc4b48c27"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/review.css",
+      "bytes": 3457,
+      "sha256": "0c4e717a671a3a7f9560875dcb1020702f9e23f13c533bf5d6f8d4ad6806e37b"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/review.js",
+      "bytes": 5277,
+      "sha256": "bb0ffa349cfe011b5e008a78f7b58e3d934de1ffba83918097d601dd4ae62dca"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/index.html",
+      "bytes": 13239,
+      "sha256": "60b2544346b77edf58874ef2aedfaf9f4bf08391dadac4f337b07286b7a896ba"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/SHA256SUMS.txt",
+      "bytes": 9229,
+      "sha256": "3062a9ee3e3119f95ba5dd804cecf941771be2555bcd53392b03fd4dbeb7f39c"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/preview-script-checks.json",
+      "bytes": 430,
+      "sha256": "52f01a8dcfb09bdbb96964018ad4d83ff34229e92992f2aef6ab5f60e9ae1018"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/check_alignment.py",
+      "bytes": 2367,
+      "sha256": "cad2932fbf30581a72c9e87a93a87a5453fe849f0c9fadd14a33b298fbd0f2eb"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/imagegen-prompts.json",
+      "bytes": 19238,
+      "sha256": "146451757645eec1425389a3073301cc25d28c1bb26607486a50bd6e719ae324"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/sol-gaze-first-check.jpg",
+      "bytes": 123749,
+      "sha256": "5245909d59cb3eddb0614cd9e3330ba8a37697b91bb33dcdce12ebd2b7850fe6"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/luna-failed-calibration.jpg",
+      "bytes": 149271,
+      "sha256": "8cef01bd1f95ca745d6c7b76824ef573bc064c7a97ce6df50fdff46bdc6e2485"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/alignment.json",
+      "bytes": 40040,
+      "sha256": "c74d1f172f5c7570c823196aa0f053761a112e80969ba57d284d544043c29992"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/palette-check.json",
+      "bytes": 6458,
+      "sha256": "34778ba935bb933ea7b906baae37bf1d61782a2cfc6aec8df12fe84834904042"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/validate_v5.py",
+      "bytes": 4617,
+      "sha256": "615eb773829aa67fe53d6b45f497861706971f1c0e197330c627156c7817f013"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/neck-scale-final.jpg",
+      "bytes": 339865,
+      "sha256": "f0411e20ae3905924bf200393d17483ae6e72b404c413a5e3e6095bfa515f73c"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/check_preview.cjs",
+      "bytes": 4242,
+      "sha256": "a4776b71b0b888914964608f42279e6a69ab7b157e7f300aa12a80d7fbb8be4d"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/preview-data.json",
+      "bytes": 3577,
+      "sha256": "a0c511bc18e75bf98bc06d9e0682c7b42e5cfbb539a2955ec62ad5fe599a0ab5"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/v4-before.json",
+      "bytes": 12326,
+      "sha256": "46da889e19e532075e292bc13cf7b780abc914bc862ace6f18bd33d38a6968ab"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/luna-idle-first-check.jpg",
+      "bytes": 24372,
+      "sha256": "0e62af22cfc04cb2ed30bdd40976daee46f267295184a48b295806ef01225d45"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/sol-failed-calibration.jpg",
+      "bytes": 148537,
+      "sha256": "e8babfd4b45e6a803937ee67ca237ba3d8a335e81901efc6cfb018d5190daf16"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/palette_check.py",
+      "bytes": 3856,
+      "sha256": "100373a71dc7efe3a4272b9b0a4d70df25e369701e9b3bd7d48331e5a6862782"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/sol-idle-first-check.jpg",
+      "bytes": 25605,
+      "sha256": "f261313a749564ce7822ca5ed2ac5c05fd8b43c1ce7dcd3356049028af5c6671"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/build_v5.py",
+      "bytes": 7919,
+      "sha256": "b369c0ea8bb6289e4532c385a216ed2756861bcec23d2023621612e11cf182e8"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/validation.json",
+      "bytes": 14406,
+      "sha256": "47247531f0f5cb848bd7e2d3f2a66cb838e2aaca48584cbeec2f3b6ba085555e"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/update_page.py",
+      "bytes": 6389,
+      "sha256": "700edc58ffcb02a32563f4b64442d39ad8de2f8980f0c5541a865b94912392ef"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/progress.json",
+      "bytes": 185,
+      "sha256": "5f32b72173424ac8ec685496aa658b56644881a75e82cf63c2ea61d10117c2c3"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/luna-failed-final-check.jpg",
+      "bytes": 100868,
+      "sha256": "b92adeaca5567a19845a9bca34ccb91164608dc51c94e0b3f120c7f794cbb5b8"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/luna-gaze-first-check.jpg",
+      "bytes": 119402,
+      "sha256": "52d5500ce7cc5e34d4378b2607fa976f3cdf837fc90b50c08b72076fa9391c8a"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/REVIEW.md",
+      "bytes": 6923,
+      "sha256": "a6d3a843ba90aa1445638dfd07521a046e323875af96afb2b6b2603e879d4565"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/art_utils.py",
+      "bytes": 2631,
+      "sha256": "df5ce1a96bddf3881d99d21631a06ba633975312f75ccc13ee10831b383bfd7f"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/制作记录/sol-failed-final-check.jpg",
+      "bytes": 100107,
+      "sha256": "b36dfeac73c6f32ea21785a71229ae134ae519a8912918a34d555af12b0c9a7f"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/luna-thinking.webp",
+      "bytes": 112946,
+      "sha256": "023da7b15bd7fb8d9e74cb87e5b60e3afd670feb9c608eb8d1b69edaf7c6dcf1"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/luna-contact.jpg",
+      "bytes": 533201,
+      "sha256": "8a9e2c3ba688fbfa596c079656d96b8f93446f64073c48bb286255c30329557e"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/luna-thinking-first.png",
+      "bytes": 46654,
+      "sha256": "e588d7c7be056bc79bb378700135bbd36d4f59e95479f8cbe50feab58e240373"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/luna-run-right.webp",
+      "bytes": 290156,
+      "sha256": "7d5e5b9286e6dd8b1c0cc9f8ec5be37b845312653f3a56979bc2a536b1502a18"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/luna-failed.webp",
+      "bytes": 320220,
+      "sha256": "f5431d8ac0e4b3cabcd3583f650f49e76cde1818642c64c7072fecfc30331971"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/luna-run-left-strip.webp",
+      "bytes": 264472,
+      "sha256": "8cede989b5c3e4b218e30c074fccfaac73897403fd16573b29f6eebd488d8a1a"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/sol-thinking.webp",
+      "bytes": 126998,
+      "sha256": "e5be58d226756fbd2612d420d521ea63311c439ccccd07109286f28137a24f2a"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/sol-run-left-first.png",
+      "bytes": 43366,
+      "sha256": "6aed3f393a1acb76c84bd8035ce86297bacf73bee5c49da766f75ada786f00f1"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/sol-gaze.webp",
+      "bytes": 614584,
+      "sha256": "6687d675891fd94ed3909efdcb2592da2992b1b34a30c36fff587ac3cf8a534c"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/luna-gaze.webp",
+      "bytes": 641340,
+      "sha256": "efcc302b4c7e00a2432de20dcc0f7a21ef2a05cc470545a82248b6aeb6e9557e"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/sol-failed.webp",
+      "bytes": 315510,
+      "sha256": "d776e8f2442cc56019c5614102ed3a49cc28566c1e30acab3edbc939e44b79f9"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/sol-gaze-first.png",
+      "bytes": 46728,
+      "sha256": "08de5166c2a1a281b8ebdaa2f2237c390cbc53a97af1571121ecd30836296f2f"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/sol-run-right-first.png",
+      "bytes": 44065,
+      "sha256": "ebcfa65e85e22426e9a0a3e027caf0cd617e3e73b27365587b7b7d9cf072842e"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/luna-run-left.webp",
+      "bytes": 284752,
+      "sha256": "97dac4006aa2a2a0b2f349123be589a445d1fb4942890ae7ea5111d4ee79bd94"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/luna-run-right-strip.webp",
+      "bytes": 267896,
+      "sha256": "94ba9f10c2e12e4870277c9be0a73543ff351eacdadcb0402734d708913dc742"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/luna-work-first.png",
+      "bytes": 46440,
+      "sha256": "359879eecec18f9504d7174269ae4d5f7ee678f524e6e1601089c4a3635a8cbe"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/sol-run-left.webp",
+      "bytes": 294270,
+      "sha256": "f516d75f5f4e1293291e4fa30dd002d403a3ebee0a1ef2b6f366f2bbf9268aab"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/sol-gaze-strip.webp",
+      "bytes": 559310,
+      "sha256": "4c1807feb8b0542c1926d78258a0159d5a65a14db030219303d0edd81781518b"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/luna-idle-first.png",
+      "bytes": 47491,
+      "sha256": "c0839ac6d4fde78d430966c3d1691567f485c3fdbad86e0b7a64a2d8e99d0b25"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/luna-thinking-strip.webp",
+      "bytes": 70990,
+      "sha256": "fb68eaada48827016d0d2f51ab05c401cf00f3b836178eaccfc821b343576a87"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/luna-idle-strip.webp",
+      "bytes": 177994,
+      "sha256": "24242bec4d66c68dea17ab8b4c719473572dcddabb6a4dd0c29df54ba54f08a3"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/sol-contact.jpg",
+      "bytes": 563935,
+      "sha256": "327e1cffebee4bb3083bc7efb0919a664241bd3998a1273d910e7dea6c7f42c2"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/sol-work-strip.webp",
+      "bytes": 199810,
+      "sha256": "ca10114aae6c044292e952469d373bd867e8376338506efd8bc04299217c875c"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/luna-failed-strip.webp",
+      "bytes": 262336,
+      "sha256": "f4cf66d39f9de1aa9003667a0dd3536a524a5ff49637d46c6d041822a669907c"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/sol-run-left-strip.webp",
+      "bytes": 269896,
+      "sha256": "4405f56b8c9790a489885006913729d3facc115295012b12539f7a037d4b22fe"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/luna-work.webp",
+      "bytes": 227160,
+      "sha256": "ba689c3ae7015b30431f3c1ff0afe5bd5d1a5e281acd6cbd1a9e5eab47344b34"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/luna-idle.webp",
+      "bytes": 228272,
+      "sha256": "53f43caa33cf2bb1ceb8321788ed14b8b9e2881308eaf333aa9ccc9cc0605e51"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/sol-gaze-contact.jpg",
+      "bytes": 305644,
+      "sha256": "c3554aaf4880eafe567b68dd5cf4db265b1210965b59204f75efbc86fbf868ca"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/sol-failed-first.png",
+      "bytes": 46348,
+      "sha256": "d4359128c50d1a305d0c01558e8115cc19c7723cc5497959b34e4bf696c0648c"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/data.js",
+      "bytes": 2360,
+      "sha256": "da353382068e93eba8eda26448a9fc99aef2e7f44d6c4e18e457c28920d08065"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/sol-run-right.webp",
+      "bytes": 297674,
+      "sha256": "043b0515de4e5917762b1de631ca340fa8cc4f1e26b132e242617e452ead7638"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/sol-run-right-strip.webp",
+      "bytes": 270884,
+      "sha256": "e3cf73981f58def09b1c22129c5b0aead745dd96a94602960b1ceecd68fd8228"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/luna-gaze-first.png",
+      "bytes": 49177,
+      "sha256": "8e18a391e547e494d5f9414722f0dbe52f2e3591a6aec95584c1003d253a9ca1"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/sol-thinking-strip.webp",
+      "bytes": 81276,
+      "sha256": "41b4b7cb30771cfa899086ff47d67a7bf7b0841cb5750e74e329f58a89d03894"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/luna-run-left-first.png",
+      "bytes": 43721,
+      "sha256": "5054c0f457173ddb7cd58adb80ee9734972b45022e3ec54134d58379c2106c91"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/sol-work-first.png",
+      "bytes": 50490,
+      "sha256": "f219c64185ff3c12e9b3298a70b6ac3700d864abd93d649b927ce90fe9cc991f"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/luna-gaze-strip.webp",
+      "bytes": 589136,
+      "sha256": "330808991b6179825fd2a5c805a571817088b6c0a202d274ee6b6ae828bcfb03"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/sol-idle-first.png",
+      "bytes": 46348,
+      "sha256": "d4359128c50d1a305d0c01558e8115cc19c7723cc5497959b34e4bf696c0648c"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/review-overview.jpg",
+      "bytes": 253176,
+      "sha256": "17eae607250fe216bde6bdb2d4ae4bde2720106f809ee854419708e248db9318"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/sol-idle.webp",
+      "bytes": 233062,
+      "sha256": "c3e85c0cd17ea48485678be11e26c3025c1850bab865a475d33398f5828df8fe"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/sol-work.webp",
+      "bytes": 255178,
+      "sha256": "3c284587a7f9800d9183d90d2c08c707d9863ba4aba03fc10b376b13daea858c"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/sol-failed-strip.webp",
+      "bytes": 252858,
+      "sha256": "365c1f5c967ed134b151c397caaf35e1bb9b68a4a1d4ac8b2e3219a2ad214f25"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/sol-idle-strip.webp",
+      "bytes": 215062,
+      "sha256": "b2bbddddd5b5cc33811a6d2e866a55572c3c64330fdf050fbc7edc51d160ac99"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/luna-run-right-first.png",
+      "bytes": 45508,
+      "sha256": "742c98b74c3ddf0b5ffb7609d4ff453dea922348fd0a9d8cecd733bea5f11a85"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/luna-failed-first.png",
+      "bytes": 47491,
+      "sha256": "c0839ac6d4fde78d430966c3d1691567f485c3fdbad86e0b7a64a2d8e99d0b25"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/luna-work-strip.webp",
+      "bytes": 174274,
+      "sha256": "0c94fc3d4cf187b3af90ce36573cb0af05279d5cb1ecbfd5365d7678f3d28379"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/sol-thinking-first.png",
+      "bytes": 50772,
+      "sha256": "ff8c743b238a1fdd184b448c4052307c5d91765e324d7fd81f442cef7d40fce1"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/预览/luna-gaze-contact.jpg",
+      "bytes": 313815,
+      "sha256": "c1c2c3fc72fa73e514895f47df2a53c49834bd21dda13c80148566ffb5e7d205"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/素材/sol-gaze-full.png",
+      "bytes": 2172735,
+      "sha256": "1af18f240a48b5354de9f7e0e7045cb55c8d3f758607e2b40a37c1313303907b"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/素材/luna-gaze-full.png",
+      "bytes": 2332075,
+      "sha256": "b57a89e84d28f57b6e104ad0208aba21c311ce15fbc3a493a050b4b824c95df9"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/素材/luna-failed-reference.webp",
+      "bytes": 256422,
+      "sha256": "47d5542e161a1839bf15b98c9fdfa8b4220cc90987beb23fcb74b7aa421a2868"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/素材/sol-run-three-quarter.png",
+      "bytes": 2120209,
+      "sha256": "6f53054270df9d446ffea40f22dccfe3991bf7d0b2db60ea0ddc13279ec12445"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/素材/sol-idle-original-1.png",
+      "bytes": 150178,
+      "sha256": "890209971d7820b6140760f485d7a6da98bcdd0e319d2e3718d2370489223a80"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/素材/luna-idle-inbetween.png",
+      "bytes": 1487488,
+      "sha256": "88f6010a64b741863ea59e3951873494c4e06267b007a06c08c2397f95610007"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/素材/sol-idle-original-4.png",
+      "bytes": 151070,
+      "sha256": "3e918c5fa89bcdd4a5d2dbff7073cfd908c298b02f827669dcafa69a5bf28260"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/素材/sol-idle-original-5.png",
+      "bytes": 152220,
+      "sha256": "4782df11fe51b67402dc30d3de7568bb80385626433412a02359f9fc6ca9d3d4"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/素材/luna-idle-transition-reference.png",
+      "bytes": 136497,
+      "sha256": "190f345afaff816aa27d302fa52cbbb0fc24d273f4c1c375b802fc387916cbbc"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/素材/luna-failed-candidate.png",
+      "bytes": 2484930,
+      "sha256": "a360ceb2ca11cf898674c7a96c1d650857182c0d6ac5afc271d830d2332362d7"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/素材/sol-idle-transition-reference.png",
+      "bytes": 137682,
+      "sha256": "8e7c45e9c627a7bd86dc8ec9bfa3b65f837821a8324fbc7edb531fb9fbc7d652"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/素材/sol-failed-reference.webp",
+      "bytes": 255998,
+      "sha256": "c336f09ed0d92868f964a77b4d0d483abe982498b36d0bab80897291d17b8189"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/素材/sol-failed-candidate.png",
+      "bytes": 1913494,
+      "sha256": "fba902819c8d2513b8bed7d5c2f40f797eceb0a009fd1a22e2e49340f85d35c8"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/素材/luna-run-three-quarter.png",
+      "bytes": 2098319,
+      "sha256": "7194c1b8542643aedb1aa43924d245cf359fb49ceda9884eba52841fc279c6d3"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/素材/sol-idle-inbetween.png",
+      "bytes": 1748900,
+      "sha256": "36bc2091b0a283f7504e3c1d175864d805ec94c289f59dffcbc3f86b3e621fe5"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/素材/sol-approved-reference.png",
+      "bytes": 150178,
+      "sha256": "890209971d7820b6140760f485d7a6da98bcdd0e319d2e3718d2370489223a80"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/素材/luna-idle-original-4.png",
+      "bytes": 141156,
+      "sha256": "2c78ebde6f5004ec994977fe384aeb6a2f644c173072a2daad2153eedf5fad8e"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/素材/luna-idle-original-5.png",
+      "bytes": 143640,
+      "sha256": "c16098f710998304bfa770e56bba0b3f3b677ce3d3afc6540544b3fa5a8eba7f"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/素材/approved-models.png",
+      "bytes": 260465,
+      "sha256": "b7a71325ab7a7ddf57b002a573af49b8ae1b84402c476b829da45f2ab33924f9"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/素材/luna-idle-original-1.png",
+      "bytes": 148396,
+      "sha256": "5b23a397553b34f64fc07f7cb10ea98963ecff1048e4a2991a1a6c55e2882d8a"
+    },
+    {
+      "path": "snapshots/2026-09-17-v5-good-baseline/sol-luna-review-v5/素材/luna-approved-reference.png",
+      "bytes": 148396,
+      "sha256": "5b23a397553b34f64fc07f7cb10ea98963ecff1048e4a2991a1a6c55e2882d8a"
+    },
+    {
+      "path": "releases/v1/Sol-Luna-安装包.zip",
+      "bytes": 3814874,
+      "sha256": "63eefda3a914d1cb49043a3d0b20059a559f1789a5a76c38516a886863d8de0f"
+    }
+  ],
+  "filesVerifiedAfterMove": 982,
+  "sourceMaterialsDeleted": false
+}

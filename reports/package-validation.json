@@ -1,0 +1,132 @@
+{
+  "status": "passed",
+  "version": "1.1.0",
+  "approved_source": "V1 gaze repair R4",
+  "atlas_dimensions": [
+    1536,
+    2288
+  ],
+  "lossless_webp": true,
+  "approved_files_byte_identical": true,
+  "native_animation_timelines_verified": true,
+  "install_zip_exactly_four_files": true,
+  "native_ui_triggers_retested": false,
+  "records": [
+    {
+      "pet": "sol",
+      "atlas_sha256": "f7e1f6fbf6773f299b8ac9ba16067b02d1dfef7f8296b143adeed2c70ffd2e3f",
+      "changed_cells_vs_r3": [
+        [
+          11,
+          2
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          11,
+          4
+        ],
+        [
+          11,
+          6
+        ],
+        [
+          11,
+          7
+        ]
+      ],
+      "changed_cells_vs_v1": [
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          11,
+          4
+        ],
+        [
+          11,
+          6
+        ],
+        [
+          11,
+          7
+        ]
+      ],
+      "all_72_v1_action_cells_unchanged": true,
+      "other_83_r3_cells_unchanged": true
+    },
+    {
+      "pet": "luna",
+      "atlas_sha256": "1e0952b2309ad3b3a64c164f22e72e6e1ab7396b2ddd554a9a698905e62140ba",
+      "changed_cells_vs_r3": [
+        [
+          11,
+          2
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          11,
+          4
+        ],
+        [
+          11,
+          6
+        ],
+        [
+          11,
+          7
+        ]
+      ],
+      "changed_cells_vs_v1": [
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          11,
+          4
+        ],
+        [
+          11,
+          6
+        ],
+        [
+          11,
+          7
+        ]
+      ],
+      "all_72_v1_action_cells_unchanged": true,
+      "other_83_r3_cells_unchanged": true
+    }
+  ]
+}
