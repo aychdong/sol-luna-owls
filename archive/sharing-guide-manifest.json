@@ -644,5 +644,6 @@
       "sha256": "7661f95ab58bb854903d0e53a954ddf4ab493bfcbed2882a194e3ab0b9e1442e"
     }
   ],
-  "zip_entries_verified": true
+  "zip_entries_verified": true,
+  "distribution": "local-only; source ZIP not uploaded; approved final images are public"
 }

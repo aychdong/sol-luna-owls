@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "pages_url": "https://aychdong.github.io/sol-luna-owls/",
+  "public_html_matches_local": true,
+  "public_pet_configs_match": true,
+  "public_resource_http_checks": [
+    "https://aychdong.github.io/sol-luna-owls/docs/../README.md",
+    "https://aychdong.github.io/sol-luna-owls/docs/INSTALL.md",
+    "https://aychdong.github.io/sol-luna-owls/media/sol-luna-character-poster.png",
+    "https://aychdong.github.io/sol-luna-owls/media/sol-luna-quick-guide.png",
+    "https://aychdong.github.io/sol-luna-owls/pets/luna/spritesheet.webp",
+    "https://aychdong.github.io/sol-luna-owls/pets/sol/spritesheet.webp",
+    "https://aychdong.github.io/sol-luna-owls/preview/luna-idle.webp",
+    "https://aychdong.github.io/sol-luna-owls/preview/luna-review.webp",
+    "https://aychdong.github.io/sol-luna-owls/preview/luna-running-right.webp",
+    "https://aychdong.github.io/sol-luna-owls/preview/sol-idle.webp",
+    "https://aychdong.github.io/sol-luna-owls/preview/sol-jumping.webp",
+    "https://aychdong.github.io/sol-luna-owls/preview/sol-running.webp"
+  ],
+  "original_release_attachments_verified_unchanged": [
+    "SHA256SUMS-v1.1.0.txt",
+    "Sol-Luna-R3-rollback.zip",
+    "Sol-Luna-V1-original-rollback.zip",
+    "Sol-Luna-v1.1.0-delivery.zip",
+    "Sol-Luna-v1.1.0-install.zip",
+    "Sol-Luna-v1.1.0-offline-preview.html",
+    "Sol-Luna-v1.1.0-source-history.zip"
+  ],
+  "additional_public_attachments": [
+    "SHA256SUMS-user-preview-2026-09-19.txt",
+    "Sol-Luna-v1.1.0-user-preview.html"
+  ],
+  "sharing_guide_source_zip": "local-only, not uploaded",
+  "native_pet_artwork_changed": false,
+  "browser_visual_check": "Not performed; local file navigation blocked by browser security policy. HTML controls, build, local paths and public HTTP resources checked separately."
+}

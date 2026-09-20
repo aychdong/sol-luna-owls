@@ -35,6 +35,10 @@ python3 development/scripts/package_downloads.py
 
 The artwork is copied from approved inputs, never regenerated. The build updates `pets/`, `preview/` and `index.html`; package outputs default to `dist/`. Keep published release assets immutable. No API key or local archive is required.
 
+海报完整源文件仅在本地保存，不能作为 Release 附件公开上传。历史归档脚本默认排除此目录；Git 备份也不进入公开归档。已验收的最终分享图可在 `media/` 中公开展示。
+
+Complete sharing-poster sources are local-only and excluded from shareable history archives. Local Git backups are also excluded. Only approved final poster images are published in `media/`.
+
 ## 历史与后续修改 / History & future edits
 
 - 当前正式素材为 **V1 + R4 / v1.1.0**，不混用后续弃稿。

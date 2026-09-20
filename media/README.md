@@ -5,4 +5,4 @@
 
 Original character concept art and the approved one-page sharing guide. Images are copied without changing their pixels. The actual installable artwork lives in `pets/` and its previews in `preview/`.
 
-可编辑源文件与前三版试排在本地 `archive/workbench/share-guide-v1.1.0/`，并保存在发布页的补充海报源文件 ZIP。字体文件和许可随源文件保留。
+可编辑源文件与前三版试排在本地 `archive/workbench/share-guide-v1.1.0/`，另存本地 `dist/Sol-Luna-sharing-guide-sources-2026-09-19.zip`。完整制作源文件不公开上传。字体文件和许可随源文件保留。

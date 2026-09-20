@@ -1,4 +1,4 @@
-"""Preserve owl-only history and workbench materials in a verified Release ZIP."""
+"""Preserve shareable owl history; exclude local-only poster sources and Git backups."""
 from pathlib import Path
 import zipfile,hashlib,json,argparse
 R=Path(__file__).resolve().parents[2];V=(R/'VERSION').read_text().strip()
@@ -8,6 +8,8 @@ D.parent.mkdir(parents=True,exist_ok=True)
 files=[]
 for relative in ['archive/history','archive/snapshots','archive/workbench','archive/legacy']:
  for p in (R/relative).rglob('*'):
+  if p.is_relative_to(R/'archive/workbench/share-guide-v1.1.0'):
+   continue  # User requested local-only retention of complete poster sources.
   if p.is_file() and p.name!='.DS_Store' and '__pycache__' not in p.parts:
    assert not p.is_symlink(),p
    files.append(p)
