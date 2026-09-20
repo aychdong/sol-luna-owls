@@ -16,6 +16,12 @@ A pair of owl companions for Codex — a little sunshine, a little moonlight, an
 | 暖灰羽毛，太阳徽章，金色月桂纹 | 冷色羽毛，月亮饰件，点点星纹 |
 | Warm gray feathers · sun medallion · golden laurels | Cool feathers · crescent clasp · embroidered stars |
 
+## 为什么选择猫头鹰？
+
+在希腊神话中，小猫头鹰——纵纹腹小鸮（*Athene noctua*）——与智慧女神雅典娜密切相伴，也与罗马神话中对应的女神密涅瓦联系在一起。因此，它常被称为“雅典娜的猫头鹰”或“密涅瓦的猫头鹰”，并在西方文化中成为知识、智慧、敏锐与博学的象征。
+
+我想把这份寓意带到桌面上：让 Sol 和 Luna 成为陪伴思考、学习与创造的小伙伴。
+
 ## 开始使用
 
 适用于支持自定义宠物的 **Codex macOS 桌面版**。安装后，它会浮在桌面上；你可以任选一只、拖到喜欢的位置。
@@ -59,6 +65,12 @@ A pair of owl companions for Codex — a little sunshine, a little moonlight, an
 ## English
 
 **Sol** wears warm gray feathers, a sun medallion and golden laurels. **Luna** wears cool feathers, a crescent clasp and embroidered stars. Choose one to float beside your work in the **Codex macOS desktop app with custom-pet support**.
+
+### Why owls?
+
+In Greek mythology, the little owl (*Athene noctua*) is traditionally associated with Athena, the goddess of wisdom, and with her Roman counterpart, Minerva. Often called the “owl of Athena” or the “owl of Minerva,” it has become a symbol of knowledge, wisdom, keen perception and learning in Western culture.
+
+I wanted to bring that symbolism to the desktop: Sol and Luna as little companions for thinking, learning and creating.
 
 ### Install in three steps
 
